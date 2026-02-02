@@ -32,12 +32,11 @@ ext_modules = [
 setup(
     name="balltree-setaxis",
     version="0.1.0",
-    description="Fast parallel ball tree with global PCA alignment for rotation-invariant construction",
+    description="Ball tree with global PCA alignment for rotation-equivariant construction (based on balltree by Maksim Zhdanov)",
     long_description=open("README.md").read() if os.path.exists("README.md") else "",
     long_description_content_type="text/markdown",
-    author="Maksim Zhdanov",
-    author_email="maxxxzdn@pm.me",
-    url="https://github.com/maxxxzdn/balltree",
+    author="Coen van den Elsen",
+    url="https://github.com/CoenvdE/balltree_setaxis",
     packages=find_packages(),
     ext_modules=cythonize(ext_modules),
     install_requires=[

@@ -1,8 +1,10 @@
 """
-Fast parallel ball tree construction for machine learning.
+Ball tree with global PCA alignment for rotation-equivariant construction.
 
-This package provides efficient ball tree construction algorithms optimized for
-batch processing and parallel execution using OpenMP.
+Like balltree by Maksim Zhdanov, but each batch is PCA-aligned before building
+the tree, so the result is rotation equivariant (except in degenerate cases:
+colinear points, symmetric configurations, or splits exactly on a point/line).
+Cython + OpenMP for fast parallel construction.
 """
 
 __version__ = "0.1.0"
@@ -22,7 +24,7 @@ except ImportError as e:
     raise ImportError(
         "Could not import compiled Cython modules. "
         "Please ensure the package was properly installed with: "
-        "pip install balltree"
+        "pip install balltree-setaxis"
     ) from e
 
 __all__ = [

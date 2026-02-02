@@ -1,9 +1,9 @@
 include README.md
 include LICENSE
-include balltree/*.h
-include balltree/*.pyx
-include balltree/*.pxd
-recursive-include balltree *.h *.pyx *.pxd
+include balltree_setaxis/*.h
+include balltree_setaxis/*.pyx
+include balltree_setaxis/*.pxd
+recursive-include balltree_setaxis *.h *.pyx *.pxd
 global-exclude *.pyc
 global-exclude *.pyo
 global-exclude *.pyd

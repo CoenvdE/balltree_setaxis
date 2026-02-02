@@ -1,116 +1,97 @@
-# Ball Tree
+# balltree_setaxis
 
-A fast, parallel ball tree implementation with PyTorch integration, built using Cython and OpenMP.
+Like [balltree](https://github.com/maxxxzdn/balltree) by Maksim Zhdanov (maxxxzdn), but with **global PCA alignment first**, so construction is **rotation equivariant**—the same tree structure (up to permutation) is produced regardless of how the point cloud is rotated. Equivariance holds in typical cases; degenerate cases (e.g. colinear points, symmetric configurations, or splits exactly on a hyperplane through the data) can break uniqueness.
+
+Fast, parallel ball tree implementation with PyTorch integration, built with Cython and OpenMP.
 
 ## Features
 
-- **High Performance**: Optimized C++ implementation with OpenMP parallelization
-- **PyTorch Integration**: Native support for PyTorch tensors
-- **Flexible API**: Multiple interfaces for different use cases
-- **Memory Efficient**: Efficient memory usage and management
+- **Rotation equivariant**: PCA-align each batch before building the tree so the result is invariant to global rotation (modulo degeneracies).
+- **High performance**: C++ with OpenMP parallelization.
+- **PyTorch integration**: Works with PyTorch tensors.
+- **Flexible API**: Batch builds, offsets, rotations, and level partitioning.
 
 ## Installation
 
-### From PyPI
+### From Git
 
 ```bash
-pip install balltree-erwin
+pip install "git+https://github.com/CoenvdE/balltree_setaxis.git"
 ```
 
-### From Source
+### From source
 
 ```bash
-git clone https://github.com/maxxxzdn/balltree.git
-cd balltree
+git clone https://github.com/CoenvdE/balltree_setaxis.git
+cd balltree_setaxis
 pip install -e .
 ```
 
 ### Requirements
 
 - Python >= 3.8
-- NumPy
-- PyTorcn
-- Cython >= 0.29.0 (for building from source)
+- NumPy, PyTorch
+- Cython (for building from source)
 
-### System Dependencies
+### System dependencies
 
-#### macOS
+**macOS**
+
 ```bash
 brew install libomp
 ```
 
-## Quick Start
+**Linux**  
+OpenMP is usually provided by GCC (`libgomp`). If needed: `sudo apt install libomp-dev` (or equivalent).
+
+### OpenMP and PyTorch
+
+If OpenMP from this package and PyTorch conflict (e.g. crashes or wrong behaviour when using both), force the process to use PyTorch’s OpenMP. In a virtualenv on macOS:
+
+```bash
+export TORCH_OMP_DIR="$VIRTUAL_ENV/lib/python3.11/site-packages/torch/lib"
+export DYLD_LIBRARY_PATH="$TORCH_OMP_DIR${DYLD_LIBRARY_PATH:+:$DYLD_LIBRARY_PATH}"
+```
+
+Use your venv’s Python version in place of `3.11` if it differs. You can add these to your shell profile or run them before starting Python.
+
+## Quick start
 
 ```python
 import torch
-import balltree
+import balltree_setaxis
 
-# Create some sample data
-data = torch.randn(1000, 3)  # 1000 points in 3D
-batch_idx = torch.zeros(1000, dtype=torch.long)  # Single batch
+# Data: (num_samples, num_features)
+data = torch.randn(1000, 3)
+batch_idx = torch.zeros(1000, dtype=torch.long)  # single batch
 
-# Build a ball tree
-tree_indices, tree_mask = balltree.build_balltree(data, batch_idx)
+# Build ball trees with PCA alignment (rotation equivariant)
+tree_indices, tree_mask, rotation_matrices = balltree_setaxis.build_balltree_with_offsets(
+    data.numpy(), 
+    torch.tensor([0, 1000]).numpy()  # batch boundaries
+)
 
-# Build with rotations for cross-ball interactions
-tree_idx, tree_mask, rot_indices = balltree.build_balltree_with_rotations(
-    data, batch_idx, 
-    strides=[2, 2], 
-    ball_sizes=[64, 32, 16],
-    angle=45.0
+# Or use batch indices
+tree_indices, tree_mask, rotation_matrices = balltree_setaxis.build_balltree(data.numpy(), batch_idx.numpy())
+
+# With rotations for cross-ball interactions
+tree_idx, tree_mask, rot_indices = balltree_setaxis.build_balltree_with_rotations(
+    data.numpy(), batch_idx.numpy(),
+    strides=[2, 2], ball_sizes=[64, 32, 16], angle=45.0
 )
 ```
 
-## API Reference
+## API overview
 
-### Core Functions
+- **`build_balltree_with_offsets(data, batch_offsets)`** — Build trees for contiguous batches with PCA alignment. Returns `(tree_indices, tree_mask, rotation_matrices)`.
+- **`partition_balltree_with_offsets(data, batch_offsets, target_level)`** — Partition to a given level.
+- **`build_balltree(data, batch_idx)`** / **`partition_balltree(...)`** — Same idea with batch indices.
+- **`build_balltree_with_rotations(data, batch_idx, strides, ball_sizes, angle)`** — Build with rotational variants.
 
-#### `build_balltree(data, batch_idx)`
-Build ball trees for batched data.
-
-**Parameters:**
-- `data`: torch.Tensor of shape (num_samples, num_features)
-- `batch_idx`: torch.Tensor of shape (num_samples,) - batch assignment
-
-**Returns:**
-- `tree_indices`: Indices of tree nodes
-- `tree_mask`: Boolean mask for tree structure
-
-#### `partition_balltree(data, batch_idx, target_level)`
-Partition ball trees to a specific level.
-
-**Parameters:**
-- `data`: torch.Tensor of shape (num_samples, num_features)  
-- `batch_idx`: torch.Tensor of shape (num_samples,)
-- `target_level`: int - target partitioning level
-
-**Returns:**
-- `partitioned_indices`: Partitioned tree indices
-
-#### `build_balltree_with_rotations(data, batch_idx, strides, ball_sizes, angle=45.0)`
-Build ball trees with rotational variants for enhanced modeling.
-
-**Parameters:**
-- `data`: torch.Tensor of shape (num_samples, num_features)
-- `batch_idx`: torch.Tensor of shape (num_samples,)  
-- `strides`: list of int - pooling strides
-- `ball_sizes`: list of int - ball sizes for each layer
-- `angle`: float - rotation angle in degrees
-
-**Returns:**
-- `tree_idx`: Original tree indices
-- `tree_mask`: Tree structure mask
-- `rot_tree_indices`: List of rotated tree indices
-
-## Use Cases
-
-This library is designed for applications requiring efficient spatial data structures:
-
-- **Machine Learning**: Spatial attention mechanisms, geometric deep learning
-- **Computer Graphics**: Collision detection, ray tracing acceleration
-- **Robotics**: Path planning, nearest neighbor queries
-- **Scientific Computing**: N-body simulations, clustering algorithms
+See docstrings in `balltree_setaxis` for full parameters and return values.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT — see [LICENSE](LICENSE).
+
+

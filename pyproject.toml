@@ -5,11 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "balltree-setaxis"
 version = "0.1.0"
-description = "Fast parallel ball tree with global PCA alignment for rotation-invariant construction"
+description = "Ball tree with global PCA alignment for rotation-equivariant construction (based on balltree by Maksim Zhdanov)"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Maksim Zhdanov", email = "maxxxzdn@pm.me"}
+    {name = "Coen van den Elsen"}
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -32,9 +32,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/maxxxzdn/balltree"
-Repository = "https://github.com/maxxxzdn/balltree"
-Issues = "https://github.com/maxxxzdn/balltree/issues"
+Homepage = "https://github.com/CoenvdE/balltree_setaxis"
+Repository = "https://github.com/CoenvdE/balltree_setaxis"
+Issues = "https://github.com/CoenvdE/balltree_setaxis/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
