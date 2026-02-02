@@ -1,0 +1,19 @@
+# Build / install
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+*.pyc
+__pycache__/
+
+# Cython generated
+*.c
+*.cpp
+!balltree_setaxis/balltree.cpp
+!balltree_setaxis/balltree.h
+
+# IDE / OS
+.DS_Store
+.venv/
+venv/

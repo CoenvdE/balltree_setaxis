@@ -20,8 +20,8 @@ else:
 
 ext_modules = [
     Extension(
-        "balltree.balltree",
-        ["balltree/balltree.pyx"],
+        "balltree_setaxis.balltree",
+        ["balltree_setaxis/balltree.pyx"],
         include_dirs=[numpy.get_include()],
         extra_compile_args=extra_compile_args,
         extra_link_args=extra_link_args,
@@ -30,9 +30,9 @@ ext_modules = [
 ]
 
 setup(
-    name="balltree-erwin",
+    name="balltree-setaxis",
     version="0.1.0",
-    description="Fast parallel ball tree construction for machine learning",
+    description="Fast parallel ball tree with global PCA alignment for rotation-invariant construction",
     long_description=open("README.md").read() if os.path.exists("README.md") else "",
     long_description_content_type="text/markdown",
     author="Maksim Zhdanov",

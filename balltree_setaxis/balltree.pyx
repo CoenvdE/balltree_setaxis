@@ -45,6 +45,22 @@ cdef extern from "balltree.h" nogil:
         intp_t current_level,       # number of partitions applied
         intp_t target_level,        # number of partitions to apply
     )
+    
+    # Global PCA alignment functions
+    void compute_alignment_rotation(
+        const float64_t* data,
+        intp_t num_points,
+        intp_t num_features,
+        float64_t* rotation_matrix
+    )
+    
+    void apply_alignment(
+        const float64_t* data,
+        intp_t num_points,
+        intp_t num_features,
+        const float64_t* rotation_matrix,
+        float64_t* aligned_data
+    )
 
 cdef struct BatchMetadata:
     intp_t start                    # Start index in original data array
@@ -62,11 +78,14 @@ cdef int build_batch_trees(
     BatchMetadata batch,            # Batch metadata
     intp_t* output,                 # Output array for tree structure
     bool* mask,                     # Output array for mask
+    float64_t* rotation_matrices,   # Output array for rotation matrices (per batch)
+    intp_t batch_index,             # Index of this batch (for rotation matrix offset)
     intp_t num_features             # Dimensionality of data
 ) nogil:
     """Process a single array of points to build a ball tree on.
     
     Thread-safe function that builds a complete binary tree for a subset of points.
+    First computes global PCA alignment, then builds tree on aligned data.
     
     Parameters
     ----------
@@ -76,6 +95,12 @@ cdef int build_batch_trees(
         Metadata for the current batch
     output : intp_t*
         Pointer to the output array
+    mask : bool*
+        Pointer to the mask array
+    rotation_matrices : float64_t*
+        Pointer to array storing rotation matrices for all batches
+    batch_index : intp_t
+        Index of this batch (for computing rotation matrix offset)
     num_features : intp_t
         Number of features in the data
         
@@ -86,19 +111,44 @@ cdef int build_batch_trees(
     """
     cdef intp_t batch_size = batch.end - batch.start
     cdef intp_t max_level = compute_tree_depth(batch_size)
+    cdef intp_t rot_offset = batch_index * num_features * num_features
+    
+    # Compute alignment rotation for this batch
+    compute_alignment_rotation(
+        data + batch.start * num_features,
+        batch_size,
+        num_features,
+        rotation_matrices + rot_offset
+    )
+    
+    # Allocate aligned data array
+    cdef float64_t* aligned_data = <float64_t*>malloc(batch_size * num_features * sizeof(float64_t))
+    if aligned_data == NULL:
+        return -1
+    
+    # Apply alignment to transform data
+    apply_alignment(
+        data + batch.start * num_features,
+        batch_size,
+        num_features,
+        rotation_matrices + rot_offset,
+        aligned_data
+    )
     
     # Allocate an intermediate array for indices
     cdef intp_t* idx_array = <intp_t*>malloc(batch_size * sizeof(intp_t))
     if idx_array == NULL:
+        free(aligned_data)
         return -1
         
-    # Initialize indices contiguouslly
+    # Initialize indices contiguously
     cdef intp_t i
     for i in range(batch_size):
         idx_array[i] = i
         
+    # Build tree on aligned data
     build_tree(
-        data + batch.start * num_features,  # Point to batch's data
+        aligned_data,                       # Use aligned data
         idx_array,                          # Temporary working array
         output + batch.tree_offset,         # Point to batch's output location
         mask + batch.tree_offset,           # Point to batch's mask location
@@ -116,6 +166,7 @@ cdef int build_batch_trees(
         if i < batch.tree_size:
             output[batch.tree_offset + i] += batch.start
     
+    free(aligned_data)
     free(idx_array)
     return 0
 
@@ -181,10 +232,11 @@ cdef int partition_batch_trees(
     return 0
 
 def build_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray):
-    """Build ball trees for multiple subarrays in parallel.
+    """Build ball trees for multiple subarrays in parallel with global PCA alignment.
     
-    For each subarray defined by batch_offsets, constructs a complete binary tree
-    where each leaf node contains 2 points. Trees are built in parallel using OpenMP.
+    For each subarray defined by batch_offsets, first computes PCA alignment to
+    rotate data into a canonical frame (principal axis aligned with x-axis), then
+    constructs a complete binary tree on the aligned data.
     
     Parameters
     ----------
@@ -196,16 +248,19 @@ def build_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray):
         
     Returns
     -------
-    ndarray
-        Flattened array containing all ball trees. Each leaf node occupies 2 slots,
-        either containing two point indices or duplicating a single point index.
-        Tree structure can be inferred from batch sizes.
+    tuple
+        (tree_indices, tree_mask, rotation_matrices)
+        - tree_indices: Flattened array containing all ball trees
+        - tree_mask: Boolean mask for tree structure
+        - rotation_matrices: Array of shape (num_batches, num_features, num_features)
+          containing the alignment rotation matrix for each batch
         
     Notes
     -----
     - Input arrays must be contiguous
     - Builds complete binary trees with fixed depth based on subarray size
     - Thread-safe and GIL-free during tree construction
+    - Each batch is aligned independently using PCA
     
     Raises
     ------
@@ -238,7 +293,7 @@ def build_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray):
     cdef intp_t num_batches = len(batch_offsets) - 1
     cdef intp_t num_features = data.shape[1]
     
-    # Prepare meradata for each subarray
+    # Prepare metadata for each subarray
     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[
         ('start', np.intp),
         ('end', np.intp),
@@ -275,6 +330,11 @@ def build_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray):
     cdef intp_t[::1] output = np.empty(total_size, dtype=np.intp)
     cdef bool[::1] mask = np.empty(total_size, dtype=np.bool_)
     
+    # Allocate memory for rotation matrices (num_batches x num_features x num_features)
+    cdef float64_t[:, :, ::1] rotation_matrices = np.empty(
+        (num_batches, num_features, num_features), dtype=np.float64
+    )
+    
     # Configure parallel processing of batches, equal chunks of compute per batch element
     cdef int num_threads = omp_get_max_threads()
     cdef int chunk_size = max(1, num_batches // num_threads)
@@ -289,13 +349,15 @@ def build_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray):
                 batch_metadata[i],
                 &output[0],
                 &mask[0],
+                &rotation_matrices[0,0,0],
+                i,
                 num_features
             )
             if ret != 0:
                 with gil:
                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
     
-    return np.asarray(output), np.asarray(mask)
+    return np.asarray(output), np.asarray(mask), np.asarray(rotation_matrices)
 
 def partition_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray, target_level: int):
     """Partition ball trees for multiple subarrays in parallel.
@@ -521,7 +583,17 @@ def partition_balltree_with_idx(data: np.ndarray, batch_idx: np.ndarray, target_
     return partition_balltree_with_offsets(data, batch_offsets, target_level)
 
 def build_balltree(data: torch.Tensor, batch_idx: torch.Tensor):
-    """ Wrapper around 'build_balltree_with_idx' that handles torch Tensors. """
+    """ Wrapper around 'build_balltree_with_idx' that handles torch Tensors.
+    
+    Returns
+    -------
+    tuple
+        (tree_idx, tree_mask, alignment_rotations)
+        - tree_idx: Tree indices tensor
+        - tree_mask: Tree mask tensor  
+        - alignment_rotations: Tensor of shape (num_batches, dim, dim) containing
+          the PCA alignment rotation matrix for each batch
+    """
 
     if not isinstance(data, torch.Tensor) or not isinstance(batch_idx, torch.Tensor):
         raise ValueError("Inputs must be PyTorch tensors")
@@ -544,7 +616,8 @@ def build_balltree(data: torch.Tensor, batch_idx: torch.Tensor):
     
     return (
         torch.from_numpy(result[0]).to(device),
-        torch.from_numpy(result[1]).to(device)
+        torch.from_numpy(result[1]).to(device),
+        torch.from_numpy(result[2]).to(device)
     )
 
 def partition_balltree(data: torch.Tensor, batch_idx: torch.Tensor, target_level: int):
@@ -595,13 +668,13 @@ def generate_rotation_matrix(angle: float, dim: int, device: torch.device):
 
 @torch.compiler.disable(recursive=False)
 def build_balltree_with_rotations(data: torch.Tensor, batch_idx: torch.Tensor, strides: list, ball_sizes: list, angle: float = 45.):
-    """ Builds the computational backbone of Erwin Transformer's layers.
+    """ Builds the computational backbone of Erwin Transformer's layers with global PCA alignment.
     
-        1) the main ball tree is built (used in attention and pooling/unpooling);
-        2) its leaves are rotated to change partitions and enable cross-ball interaction;
-        3) on top of those leaves, a tree is built up to leaf size of given ball size for the layer;
-          - the tree is not built until leaf size 2 as the main one to save compute.
-        4) leaves are coarsened according to the stride via mean pooling (as in the model).
+        1) Global PCA alignment is computed per batch to create rotation-invariant tree indices
+        2) The main ball tree is built on aligned data (used in attention and pooling/unpooling)
+        3) For shifted windows: aligned leaves are rotated to change partitions
+        4) Trees are built on rotated leaves up to the required ball size
+        5) Leaves are coarsened according to stride via mean pooling
 
     Parameters
     ----------
@@ -614,34 +687,70 @@ def build_balltree_with_rotations(data: torch.Tensor, batch_idx: torch.Tensor, s
     ball_sizes : list of int
         Ball sizes for each layer.
     angle : float, optional
-        Rotation angle in degrees.
+        Rotation angle in degrees for shifted windows.
         
     Returns
     -------
     tuple
-        (tree_idx, tree_mask, [rot_tree_idx_1, rot_tree_idx_2, ...])
-        where tree_idx and tree_mask are the original tree indices and mask,
-        and rot_tree_idx_i are the rotated tree indices for each layer.
+        (tree_idx, tree_mask, rot_tree_indices, alignment_rotations)
+        - tree_idx: Main tree indices
+        - tree_mask: Tree mask
+        - rot_tree_indices: List of rotated tree indices for each layer
+        - alignment_rotations: Tensor of shape (num_batches, dim, dim) containing
+          the PCA alignment rotation matrix for each batch
     """    
     assert len(strides) == len(ball_sizes) - 1, "Strides must be one less than ball sizes"
     dim = data.shape[1]
     num_layers = len(ball_sizes)
     
-    # Build original tree
-    tree_idx, tree_mask = build_balltree(data, batch_idx)
+    # Build original tree (now returns alignment rotations)
+    tree_idx, tree_mask, alignment_rotations = build_balltree(data, batch_idx)
 
     if angle <= 0:
         rot_tree_indices = [None] * num_layers
     else:
-        # Get leaves of the original tree
+        # Get leaves of the original tree (original coordinates)
         leaves = data[tree_idx]
         current_batch_idx = batch_idx[tree_idx]
         
-        # Number of partitions to do such that leaf balls contain necessary number of points
-        target_partitions = [max(0, int(math.log2(leaves.shape[0] / bs))) for bs in ball_sizes]
+        # Apply alignment to leaves (transform to canonical frame)
+        # Each batch has its own alignment rotation
+        num_batches = alignment_rotations.shape[0]
+        aligned_leaves = leaves.clone()
         
+        # Determine batch boundaries in tree_idx
+        n = len(batch_idx)
+        change_points = torch.where(batch_idx[1:n] != batch_idx[0:n-1])[0] + 1
+        batch_offsets = torch.zeros(num_batches + 1, dtype=torch.long, device=data.device)
+        batch_offsets[1:num_batches] = change_points
+        batch_offsets[num_batches] = n
+        
+        # Compute tree leaf offsets per batch
+        tree_leaves_per_batch = []
+        for b in range(num_batches):
+            batch_size = batch_offsets[b+1] - batch_offsets[b]
+            depth = int(math.ceil(math.log2(batch_size))) - 1
+            num_leaves = 1 << depth
+            tree_leaves_per_batch.append(num_leaves * 2)
+        
+        tree_leaf_offsets = torch.zeros(num_batches + 1, dtype=torch.long, device=data.device)
+        for b in range(num_batches):
+            tree_leaf_offsets[b+1] = tree_leaf_offsets[b] + tree_leaves_per_batch[b]
+        
+        # Apply alignment rotation to leaves for each batch
+        for b in range(num_batches):
+            start = tree_leaf_offsets[b].item()
+            end = tree_leaf_offsets[b+1].item()
+            R = alignment_rotations[b].float()  # (dim, dim)
+            # aligned_leaves[start:end] = leaves[start:end] @ R.T
+            aligned_leaves[start:end] = torch.matmul(leaves[start:end], R.T)
+        
+        # Number of partitions to do such that leaf balls contain necessary number of points
+        target_partitions = [max(0, int(math.log2(aligned_leaves.shape[0] / bs))) for bs in ball_sizes]
+        
+        # Apply Swin-like rotation for shifted windows (on aligned data)
         rotation_matrix = generate_rotation_matrix(angle, dim, data.device)
-        rotated_leaves = torch.matmul(leaves, rotation_matrix)
+        rotated_leaves = torch.matmul(aligned_leaves, rotation_matrix)
         
         rot_tree_indices = []
         for i in range(num_layers):
@@ -657,4 +766,4 @@ def build_balltree_with_rotations(data: torch.Tensor, batch_idx: torch.Tensor, s
                 rotated_leaves = rotated_leaves.view(-1, strides[i], dim).mean(axis=1)
                 current_batch_idx = current_batch_idx[::strides[i]]
 
-    return tree_idx, tree_mask, rot_tree_indices
+    return tree_idx, tree_mask, rot_tree_indices, alignment_rotations

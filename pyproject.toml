@@ -3,9 +3,9 @@ requires = ["setuptools", "wheel", "cython", "numpy"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "balltree-erwin"
+name = "balltree-setaxis"
 version = "0.1.0"
-description = "Fast parallel ball tree construction for machine learning"
+description = "Fast parallel ball tree with global PCA alignment for rotation-invariant construction"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
@@ -38,5 +38,5 @@ Issues = "https://github.com/maxxxzdn/balltree/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["balltree*"]
+include = ["balltree_setaxis*"]
 exclude = ["tests*"]
