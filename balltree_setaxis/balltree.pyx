@@ -15,6 +15,9 @@ from libc.stdlib cimport malloc, free
 from cython.parallel cimport parallel, prange
 from openmp cimport omp_get_max_threads, omp_set_num_threads
 
+import platform
+_USE_OPENMP = platform.system() != 'Darwin'
+
 cnp.import_array()
 
 ctypedef cnp.intp_t intp_t
@@ -336,9 +339,14 @@ def build_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray):
     )
     
     # Configure parallel processing of batches, equal chunks of compute per batch element
-    cdef int num_threads = omp_get_max_threads()
+    cdef int num_threads
+    if _USE_OPENMP:
+        num_threads = omp_get_max_threads()
+        omp_set_num_threads(num_threads)
+    else:
+        num_threads = 1
+
     cdef int chunk_size = max(1, num_batches // num_threads)
-    omp_set_num_threads(num_threads)
 
     cdef int ret
     
@@ -460,9 +468,14 @@ def partition_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray,
     cdef intp_t[::1] output = np.empty(total_size, dtype=np.intp)
     
     # Configure parallel processing of batches, equal chunks of compute per batch element
-    cdef int num_threads = omp_get_max_threads()
+    cdef int num_threads
+    if _USE_OPENMP:
+        num_threads = omp_get_max_threads()
+        omp_set_num_threads(num_threads)
+    else:
+        num_threads = 1
+
     cdef int chunk_size = max(1, num_batches // num_threads)
-    omp_set_num_threads(num_threads)
 
     cdef int ret
     

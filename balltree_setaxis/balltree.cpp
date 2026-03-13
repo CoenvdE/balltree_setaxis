@@ -4,11 +4,11 @@
 {
     "distutils": {
         "depends": [
-            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/_core/include/numpy/arrayobject.h",
-            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/_core/include/numpy/arrayscalars.h",
-            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarrayobject.h",
-            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarraytypes.h",
-            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/_core/include/numpy/ufuncobject.h",
+            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/_core/include/numpy/arrayobject.h",
+            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/_core/include/numpy/arrayscalars.h",
+            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarrayobject.h",
+            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/_core/include/numpy/ndarraytypes.h",
+            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/_core/include/numpy/ufuncobject.h",
             "balltree_setaxis/balltree.h"
         ],
         "extra_compile_args": [
@@ -24,7 +24,7 @@
         ],
         "include_dirs": [
             "balltree_setaxis",
-            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/_core/include"
+            "/Users/coenvandenelsen/.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/_core/include"
         ],
         "language": "c++",
         "name": "balltree_setaxis.balltree",
@@ -1420,7 +1420,7 @@ static const char *__pyx_filename;
 static const char* const __pyx_f[] = {
   "balltree_setaxis/balltree.pyx",
   "<stringsource>",
-  "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd",
+  "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd",
   "cpython/type.pxd",
 };
 /* #### Code section: utility_code_proto_before_types ### */
@@ -1673,7 +1673,7 @@ typedef struct {
 
 /* #### Code section: numeric_typedefs ### */
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":744
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":744
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1682,7 +1682,7 @@ typedef struct {
 */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":745
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":745
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1691,7 +1691,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
 */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":746
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":746
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1700,7 +1700,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
 */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":747
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":747
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1709,7 +1709,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
 */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":749
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":749
  * ctypedef npy_int64      int64_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1718,7 +1718,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
 */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":750
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":750
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1727,7 +1727,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":751
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":751
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1736,7 +1736,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":752
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":752
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1745,7 +1745,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":754
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":754
  * ctypedef npy_uint64     uint64_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1754,7 +1754,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":755
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":755
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1763,7 +1763,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
 */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":762
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":762
  * ctypedef double complex complex128_t
  * 
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1772,7 +1772,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
 */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":763
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":763
  * 
  * ctypedef npy_longlong   longlong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1781,7 +1781,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
 */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":765
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":765
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1790,7 +1790,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":766
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":766
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1799,7 +1799,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
 */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":768
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":768
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1808,7 +1808,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
 */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":769
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":769
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1817,7 +1817,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
 */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":770
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":770
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1826,7 +1826,7 @@ typedef npy_double __pyx_t_5numpy_double_t;
 */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 
-/* "balltree_setaxis/balltree.pyx":20
+/* "balltree_setaxis/balltree.pyx":23
  * cnp.import_array()
  * 
  * ctypedef cnp.intp_t intp_t             # <<<<<<<<<<<<<<
@@ -1835,7 +1835,7 @@ typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
 */
 typedef __pyx_t_5numpy_intp_t __pyx_t_16balltree_setaxis_8balltree_intp_t;
 
-/* "balltree_setaxis/balltree.pyx":21
+/* "balltree_setaxis/balltree.pyx":24
  * 
  * ctypedef cnp.intp_t intp_t
  * ctypedef cnp.float64_t float64_t             # <<<<<<<<<<<<<<
@@ -1889,7 +1889,7 @@ struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata;
 
-/* "balltree_setaxis/balltree.pyx":65
+/* "balltree_setaxis/balltree.pyx":68
  *     )
  * 
  * cdef struct BatchMetadata:             # <<<<<<<<<<<<<<
@@ -3671,7 +3671,7 @@ typedef struct {
   PyObject *__pyx_slice[1];
   PyObject *__pyx_tuple[1];
   PyObject *__pyx_codeobj_tab[8];
-  PyObject *__pyx_string_tab[248];
+  PyObject *__pyx_string_tab[252];
   PyObject *__pyx_number_tab[6];
 /* #### Code section: module_state_contents ### */
 /* CommonTypesMetaclass.module_state_decls */
@@ -3786,181 +3786,185 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #define __pyx_kp_u_unable_to_allocate_array_data __pyx_string_tab[70]
 #define __pyx_kp_u_unable_to_allocate_shape_and_str __pyx_string_tab[71]
 #define __pyx_n_u_ASCII __pyx_string_tab[72]
-#define __pyx_n_u_Ellipsis __pyx_string_tab[73]
-#define __pyx_n_u_Pyx_PyDict_NextRef __pyx_string_tab[74]
-#define __pyx_n_u_R __pyx_string_tab[75]
-#define __pyx_n_u_Sequence __pyx_string_tab[76]
-#define __pyx_n_u_T __pyx_string_tab[77]
-#define __pyx_n_u_Tensor __pyx_string_tab[78]
-#define __pyx_n_u_View_MemoryView __pyx_string_tab[79]
-#define __pyx_n_u_abc __pyx_string_tab[80]
-#define __pyx_n_u_aligned_leaves __pyx_string_tab[81]
-#define __pyx_n_u_alignment_rotations __pyx_string_tab[82]
-#define __pyx_n_u_allocate_buffer __pyx_string_tab[83]
-#define __pyx_n_u_angle __pyx_string_tab[84]
-#define __pyx_n_u_asarray __pyx_string_tab[85]
-#define __pyx_n_u_asyncio_coroutines __pyx_string_tab[86]
-#define __pyx_n_u_axis __pyx_string_tab[87]
-#define __pyx_n_u_b __pyx_string_tab[88]
-#define __pyx_n_u_ball_sizes __pyx_string_tab[89]
-#define __pyx_n_u_balltree_setaxis_balltree __pyx_string_tab[90]
-#define __pyx_n_u_base __pyx_string_tab[91]
-#define __pyx_n_u_batch_idx __pyx_string_tab[92]
-#define __pyx_n_u_batch_idx_np __pyx_string_tab[93]
-#define __pyx_n_u_batch_metadata __pyx_string_tab[94]
-#define __pyx_n_u_batch_offsets __pyx_string_tab[95]
-#define __pyx_n_u_batch_offsets_arr __pyx_string_tab[96]
-#define __pyx_n_u_batch_size __pyx_string_tab[97]
-#define __pyx_n_u_bool __pyx_string_tab[98]
-#define __pyx_n_u_bs __pyx_string_tab[99]
-#define __pyx_n_u_build_balltree __pyx_string_tab[100]
-#define __pyx_n_u_build_balltree_with_idx __pyx_string_tab[101]
-#define __pyx_n_u_build_balltree_with_offsets __pyx_string_tab[102]
-#define __pyx_n_u_build_balltree_with_rotations __pyx_string_tab[103]
-#define __pyx_n_u_c __pyx_string_tab[104]
-#define __pyx_n_u_ceil __pyx_string_tab[105]
-#define __pyx_n_u_change_points __pyx_string_tab[106]
-#define __pyx_n_u_chunk_size __pyx_string_tab[107]
-#define __pyx_n_u_class __pyx_string_tab[108]
-#define __pyx_n_u_class_getitem __pyx_string_tab[109]
-#define __pyx_n_u_cline_in_traceback __pyx_string_tab[110]
-#define __pyx_n_u_clone __pyx_string_tab[111]
-#define __pyx_n_u_compiler __pyx_string_tab[112]
-#define __pyx_n_u_cos __pyx_string_tab[113]
-#define __pyx_n_u_count __pyx_string_tab[114]
-#define __pyx_n_u_cpu __pyx_string_tab[115]
-#define __pyx_n_u_current_batch_idx __pyx_string_tab[116]
-#define __pyx_n_u_data __pyx_string_tab[117]
-#define __pyx_n_u_data_arr __pyx_string_tab[118]
-#define __pyx_n_u_data_np __pyx_string_tab[119]
-#define __pyx_n_u_depth __pyx_string_tab[120]
-#define __pyx_n_u_detach __pyx_string_tab[121]
-#define __pyx_n_u_device __pyx_string_tab[122]
-#define __pyx_n_u_dict __pyx_string_tab[123]
-#define __pyx_n_u_dim __pyx_string_tab[124]
-#define __pyx_n_u_disable __pyx_string_tab[125]
-#define __pyx_n_u_double __pyx_string_tab[126]
-#define __pyx_n_u_dtype __pyx_string_tab[127]
-#define __pyx_n_u_dtype_is_object __pyx_string_tab[128]
-#define __pyx_n_u_empty __pyx_string_tab[129]
-#define __pyx_n_u_encode __pyx_string_tab[130]
-#define __pyx_n_u_end __pyx_string_tab[131]
-#define __pyx_n_u_enumerate __pyx_string_tab[132]
-#define __pyx_n_u_error __pyx_string_tab[133]
-#define __pyx_n_u_flags __pyx_string_tab[134]
-#define __pyx_n_u_float __pyx_string_tab[135]
-#define __pyx_n_u_float64 __pyx_string_tab[136]
-#define __pyx_n_u_format __pyx_string_tab[137]
-#define __pyx_n_u_fortran __pyx_string_tab[138]
-#define __pyx_n_u_from_numpy __pyx_string_tab[139]
-#define __pyx_n_u_func __pyx_string_tab[140]
-#define __pyx_n_u_generate_rotation_matrix __pyx_string_tab[141]
-#define __pyx_n_u_getstate __pyx_string_tab[142]
-#define __pyx_n_u_i __pyx_string_tab[143]
-#define __pyx_n_u_id __pyx_string_tab[144]
-#define __pyx_n_u_import __pyx_string_tab[145]
-#define __pyx_n_u_index __pyx_string_tab[146]
-#define __pyx_n_u_int __pyx_string_tab[147]
-#define __pyx_n_u_intp __pyx_string_tab[148]
-#define __pyx_n_u_is_coroutine __pyx_string_tab[149]
-#define __pyx_n_u_item __pyx_string_tab[150]
-#define __pyx_n_u_items __pyx_string_tab[151]
-#define __pyx_n_u_itemsize __pyx_string_tab[152]
-#define __pyx_n_u_leaves __pyx_string_tab[153]
-#define __pyx_n_u_list __pyx_string_tab[154]
-#define __pyx_n_u_log2 __pyx_string_tab[155]
-#define __pyx_n_u_long __pyx_string_tab[156]
-#define __pyx_n_u_main __pyx_string_tab[157]
-#define __pyx_n_u_mask __pyx_string_tab[158]
-#define __pyx_n_u_math __pyx_string_tab[159]
-#define __pyx_n_u_matmul __pyx_string_tab[160]
-#define __pyx_n_u_mean __pyx_string_tab[161]
-#define __pyx_n_u_memview __pyx_string_tab[162]
-#define __pyx_n_u_metadata __pyx_string_tab[163]
-#define __pyx_n_u_mode __pyx_string_tab[164]
-#define __pyx_n_u_module __pyx_string_tab[165]
-#define __pyx_n_u_n __pyx_string_tab[166]
-#define __pyx_n_u_name __pyx_string_tab[167]
-#define __pyx_n_u_name_2 __pyx_string_tab[168]
-#define __pyx_n_u_ndarray __pyx_string_tab[169]
-#define __pyx_n_u_ndim __pyx_string_tab[170]
-#define __pyx_n_u_new __pyx_string_tab[171]
-#define __pyx_n_u_np __pyx_string_tab[172]
-#define __pyx_n_u_num_batches __pyx_string_tab[173]
-#define __pyx_n_u_num_features __pyx_string_tab[174]
-#define __pyx_n_u_num_layers __pyx_string_tab[175]
-#define __pyx_n_u_num_leaves __pyx_string_tab[176]
-#define __pyx_n_u_num_points __pyx_string_tab[177]
-#define __pyx_n_u_num_threads __pyx_string_tab[178]
-#define __pyx_n_u_numpy __pyx_string_tab[179]
-#define __pyx_n_u_obj __pyx_string_tab[180]
-#define __pyx_n_u_output __pyx_string_tab[181]
-#define __pyx_n_u_pack __pyx_string_tab[182]
-#define __pyx_n_u_partition_balltree __pyx_string_tab[183]
-#define __pyx_n_u_partition_balltree_with_idx __pyx_string_tab[184]
-#define __pyx_n_u_partition_balltree_with_offsets __pyx_string_tab[185]
-#define __pyx_n_u_pop __pyx_string_tab[186]
-#define __pyx_n_u_pyx_checksum __pyx_string_tab[187]
-#define __pyx_n_u_pyx_state __pyx_string_tab[188]
-#define __pyx_n_u_pyx_type __pyx_string_tab[189]
-#define __pyx_n_u_pyx_unpickle_Enum __pyx_string_tab[190]
-#define __pyx_n_u_pyx_vtable __pyx_string_tab[191]
-#define __pyx_n_u_qualname __pyx_string_tab[192]
-#define __pyx_n_u_radians __pyx_string_tab[193]
-#define __pyx_n_u_recursive __pyx_string_tab[194]
-#define __pyx_n_u_reduce __pyx_string_tab[195]
-#define __pyx_n_u_reduce_cython __pyx_string_tab[196]
-#define __pyx_n_u_reduce_ex __pyx_string_tab[197]
-#define __pyx_n_u_register __pyx_string_tab[198]
-#define __pyx_n_u_result __pyx_string_tab[199]
-#define __pyx_n_u_ret __pyx_string_tab[200]
-#define __pyx_n_u_rot_tree_indices __pyx_string_tab[201]
-#define __pyx_n_u_rotated_leaves __pyx_string_tab[202]
-#define __pyx_n_u_rotation_matrices __pyx_string_tab[203]
-#define __pyx_n_u_rotation_matrix __pyx_string_tab[204]
-#define __pyx_n_u_s __pyx_string_tab[205]
-#define __pyx_n_u_set_name __pyx_string_tab[206]
-#define __pyx_n_u_setdefault __pyx_string_tab[207]
-#define __pyx_n_u_setstate __pyx_string_tab[208]
-#define __pyx_n_u_setstate_cython __pyx_string_tab[209]
-#define __pyx_n_u_shape __pyx_string_tab[210]
-#define __pyx_n_u_sin __pyx_string_tab[211]
-#define __pyx_n_u_size __pyx_string_tab[212]
-#define __pyx_n_u_start __pyx_string_tab[213]
-#define __pyx_n_u_step __pyx_string_tab[214]
-#define __pyx_n_u_stop __pyx_string_tab[215]
-#define __pyx_n_u_strides __pyx_string_tab[216]
-#define __pyx_n_u_struct __pyx_string_tab[217]
-#define __pyx_n_u_target_level __pyx_string_tab[218]
-#define __pyx_n_u_target_level_val __pyx_string_tab[219]
-#define __pyx_n_u_target_partitions __pyx_string_tab[220]
-#define __pyx_n_u_tensor __pyx_string_tab[221]
-#define __pyx_n_u_test __pyx_string_tab[222]
-#define __pyx_n_u_to __pyx_string_tab[223]
-#define __pyx_n_u_torch __pyx_string_tab[224]
-#define __pyx_n_u_total_size __pyx_string_tab[225]
-#define __pyx_n_u_tree_idx __pyx_string_tab[226]
-#define __pyx_n_u_tree_leaf_offsets __pyx_string_tab[227]
-#define __pyx_n_u_tree_leaves_per_batch __pyx_string_tab[228]
-#define __pyx_n_u_tree_mask __pyx_string_tab[229]
-#define __pyx_n_u_tree_offset __pyx_string_tab[230]
-#define __pyx_n_u_tree_size __pyx_string_tab[231]
-#define __pyx_n_u_unpack __pyx_string_tab[232]
-#define __pyx_n_u_update __pyx_string_tab[233]
-#define __pyx_n_u_values __pyx_string_tab[234]
-#define __pyx_n_u_view __pyx_string_tab[235]
-#define __pyx_n_u_where __pyx_string_tab[236]
-#define __pyx_n_u_x __pyx_string_tab[237]
-#define __pyx_n_u_zeros __pyx_string_tab[238]
-#define __pyx_kp_b_iso88591_2_t_QfE_T_1KuA_j_t4s_Q_j_Qe1D_y __pyx_string_tab[239]
-#define __pyx_kp_b_iso88591_66RRS_t_QfE_T_1KuA_j_t4s_Q_j_Qe __pyx_string_tab[240]
-#define __pyx_kp_b_iso88591_9_t_Qk_1_j_y_c_j_A_1_y_as_T_q_j __pyx_string_tab[241]
-#define __pyx_kp_b_iso88591_AAXXjjppwwx_3ay_3a_2S_fAQ_AQ_k __pyx_string_tab[242]
-#define __pyx_kp_b_iso88591_A_L_t_QfBj_4z_1_j_t6_A_j_Q_F_Q __pyx_string_tab[243]
-#define __pyx_kp_b_iso88591_EE___H_t_QfBj_4z_1_j_t6_A_j_Q_F __pyx_string_tab[244]
-#define __pyx_kp_b_iso88591_L_Q_D_t4t1HD_AQ_t3a_uG1A_S_T_S __pyx_string_tab[245]
-#define __pyx_kp_b_iso88591_WWX_t_Qk_1_j_y_c_j_A_1_y_as_T_q __pyx_string_tab[246]
-#define __pyx_n_b_O __pyx_string_tab[247]
+#define __pyx_n_u_Darwin __pyx_string_tab[73]
+#define __pyx_n_u_Ellipsis __pyx_string_tab[74]
+#define __pyx_n_u_Pyx_PyDict_NextRef __pyx_string_tab[75]
+#define __pyx_n_u_R __pyx_string_tab[76]
+#define __pyx_n_u_Sequence __pyx_string_tab[77]
+#define __pyx_n_u_T __pyx_string_tab[78]
+#define __pyx_n_u_Tensor __pyx_string_tab[79]
+#define __pyx_n_u_USE_OPENMP __pyx_string_tab[80]
+#define __pyx_n_u_View_MemoryView __pyx_string_tab[81]
+#define __pyx_n_u_abc __pyx_string_tab[82]
+#define __pyx_n_u_aligned_leaves __pyx_string_tab[83]
+#define __pyx_n_u_alignment_rotations __pyx_string_tab[84]
+#define __pyx_n_u_allocate_buffer __pyx_string_tab[85]
+#define __pyx_n_u_angle __pyx_string_tab[86]
+#define __pyx_n_u_asarray __pyx_string_tab[87]
+#define __pyx_n_u_asyncio_coroutines __pyx_string_tab[88]
+#define __pyx_n_u_axis __pyx_string_tab[89]
+#define __pyx_n_u_b __pyx_string_tab[90]
+#define __pyx_n_u_ball_sizes __pyx_string_tab[91]
+#define __pyx_n_u_balltree_setaxis_balltree __pyx_string_tab[92]
+#define __pyx_n_u_base __pyx_string_tab[93]
+#define __pyx_n_u_batch_idx __pyx_string_tab[94]
+#define __pyx_n_u_batch_idx_np __pyx_string_tab[95]
+#define __pyx_n_u_batch_metadata __pyx_string_tab[96]
+#define __pyx_n_u_batch_offsets __pyx_string_tab[97]
+#define __pyx_n_u_batch_offsets_arr __pyx_string_tab[98]
+#define __pyx_n_u_batch_size __pyx_string_tab[99]
+#define __pyx_n_u_bool __pyx_string_tab[100]
+#define __pyx_n_u_bs __pyx_string_tab[101]
+#define __pyx_n_u_build_balltree __pyx_string_tab[102]
+#define __pyx_n_u_build_balltree_with_idx __pyx_string_tab[103]
+#define __pyx_n_u_build_balltree_with_offsets __pyx_string_tab[104]
+#define __pyx_n_u_build_balltree_with_rotations __pyx_string_tab[105]
+#define __pyx_n_u_c __pyx_string_tab[106]
+#define __pyx_n_u_ceil __pyx_string_tab[107]
+#define __pyx_n_u_change_points __pyx_string_tab[108]
+#define __pyx_n_u_chunk_size __pyx_string_tab[109]
+#define __pyx_n_u_class __pyx_string_tab[110]
+#define __pyx_n_u_class_getitem __pyx_string_tab[111]
+#define __pyx_n_u_cline_in_traceback __pyx_string_tab[112]
+#define __pyx_n_u_clone __pyx_string_tab[113]
+#define __pyx_n_u_compiler __pyx_string_tab[114]
+#define __pyx_n_u_cos __pyx_string_tab[115]
+#define __pyx_n_u_count __pyx_string_tab[116]
+#define __pyx_n_u_cpu __pyx_string_tab[117]
+#define __pyx_n_u_current_batch_idx __pyx_string_tab[118]
+#define __pyx_n_u_data __pyx_string_tab[119]
+#define __pyx_n_u_data_arr __pyx_string_tab[120]
+#define __pyx_n_u_data_np __pyx_string_tab[121]
+#define __pyx_n_u_depth __pyx_string_tab[122]
+#define __pyx_n_u_detach __pyx_string_tab[123]
+#define __pyx_n_u_device __pyx_string_tab[124]
+#define __pyx_n_u_dict __pyx_string_tab[125]
+#define __pyx_n_u_dim __pyx_string_tab[126]
+#define __pyx_n_u_disable __pyx_string_tab[127]
+#define __pyx_n_u_double __pyx_string_tab[128]
+#define __pyx_n_u_dtype __pyx_string_tab[129]
+#define __pyx_n_u_dtype_is_object __pyx_string_tab[130]
+#define __pyx_n_u_empty __pyx_string_tab[131]
+#define __pyx_n_u_encode __pyx_string_tab[132]
+#define __pyx_n_u_end __pyx_string_tab[133]
+#define __pyx_n_u_enumerate __pyx_string_tab[134]
+#define __pyx_n_u_error __pyx_string_tab[135]
+#define __pyx_n_u_flags __pyx_string_tab[136]
+#define __pyx_n_u_float __pyx_string_tab[137]
+#define __pyx_n_u_float64 __pyx_string_tab[138]
+#define __pyx_n_u_format __pyx_string_tab[139]
+#define __pyx_n_u_fortran __pyx_string_tab[140]
+#define __pyx_n_u_from_numpy __pyx_string_tab[141]
+#define __pyx_n_u_func __pyx_string_tab[142]
+#define __pyx_n_u_generate_rotation_matrix __pyx_string_tab[143]
+#define __pyx_n_u_getstate __pyx_string_tab[144]
+#define __pyx_n_u_i __pyx_string_tab[145]
+#define __pyx_n_u_id __pyx_string_tab[146]
+#define __pyx_n_u_import __pyx_string_tab[147]
+#define __pyx_n_u_index __pyx_string_tab[148]
+#define __pyx_n_u_int __pyx_string_tab[149]
+#define __pyx_n_u_intp __pyx_string_tab[150]
+#define __pyx_n_u_is_coroutine __pyx_string_tab[151]
+#define __pyx_n_u_item __pyx_string_tab[152]
+#define __pyx_n_u_items __pyx_string_tab[153]
+#define __pyx_n_u_itemsize __pyx_string_tab[154]
+#define __pyx_n_u_leaves __pyx_string_tab[155]
+#define __pyx_n_u_list __pyx_string_tab[156]
+#define __pyx_n_u_log2 __pyx_string_tab[157]
+#define __pyx_n_u_long __pyx_string_tab[158]
+#define __pyx_n_u_main __pyx_string_tab[159]
+#define __pyx_n_u_mask __pyx_string_tab[160]
+#define __pyx_n_u_math __pyx_string_tab[161]
+#define __pyx_n_u_matmul __pyx_string_tab[162]
+#define __pyx_n_u_mean __pyx_string_tab[163]
+#define __pyx_n_u_memview __pyx_string_tab[164]
+#define __pyx_n_u_metadata __pyx_string_tab[165]
+#define __pyx_n_u_mode __pyx_string_tab[166]
+#define __pyx_n_u_module __pyx_string_tab[167]
+#define __pyx_n_u_n __pyx_string_tab[168]
+#define __pyx_n_u_name __pyx_string_tab[169]
+#define __pyx_n_u_name_2 __pyx_string_tab[170]
+#define __pyx_n_u_ndarray __pyx_string_tab[171]
+#define __pyx_n_u_ndim __pyx_string_tab[172]
+#define __pyx_n_u_new __pyx_string_tab[173]
+#define __pyx_n_u_np __pyx_string_tab[174]
+#define __pyx_n_u_num_batches __pyx_string_tab[175]
+#define __pyx_n_u_num_features __pyx_string_tab[176]
+#define __pyx_n_u_num_layers __pyx_string_tab[177]
+#define __pyx_n_u_num_leaves __pyx_string_tab[178]
+#define __pyx_n_u_num_points __pyx_string_tab[179]
+#define __pyx_n_u_num_threads __pyx_string_tab[180]
+#define __pyx_n_u_numpy __pyx_string_tab[181]
+#define __pyx_n_u_obj __pyx_string_tab[182]
+#define __pyx_n_u_output __pyx_string_tab[183]
+#define __pyx_n_u_pack __pyx_string_tab[184]
+#define __pyx_n_u_partition_balltree __pyx_string_tab[185]
+#define __pyx_n_u_partition_balltree_with_idx __pyx_string_tab[186]
+#define __pyx_n_u_partition_balltree_with_offsets __pyx_string_tab[187]
+#define __pyx_n_u_platform __pyx_string_tab[188]
+#define __pyx_n_u_pop __pyx_string_tab[189]
+#define __pyx_n_u_pyx_checksum __pyx_string_tab[190]
+#define __pyx_n_u_pyx_state __pyx_string_tab[191]
+#define __pyx_n_u_pyx_type __pyx_string_tab[192]
+#define __pyx_n_u_pyx_unpickle_Enum __pyx_string_tab[193]
+#define __pyx_n_u_pyx_vtable __pyx_string_tab[194]
+#define __pyx_n_u_qualname __pyx_string_tab[195]
+#define __pyx_n_u_radians __pyx_string_tab[196]
+#define __pyx_n_u_recursive __pyx_string_tab[197]
+#define __pyx_n_u_reduce __pyx_string_tab[198]
+#define __pyx_n_u_reduce_cython __pyx_string_tab[199]
+#define __pyx_n_u_reduce_ex __pyx_string_tab[200]
+#define __pyx_n_u_register __pyx_string_tab[201]
+#define __pyx_n_u_result __pyx_string_tab[202]
+#define __pyx_n_u_ret __pyx_string_tab[203]
+#define __pyx_n_u_rot_tree_indices __pyx_string_tab[204]
+#define __pyx_n_u_rotated_leaves __pyx_string_tab[205]
+#define __pyx_n_u_rotation_matrices __pyx_string_tab[206]
+#define __pyx_n_u_rotation_matrix __pyx_string_tab[207]
+#define __pyx_n_u_s __pyx_string_tab[208]
+#define __pyx_n_u_set_name __pyx_string_tab[209]
+#define __pyx_n_u_setdefault __pyx_string_tab[210]
+#define __pyx_n_u_setstate __pyx_string_tab[211]
+#define __pyx_n_u_setstate_cython __pyx_string_tab[212]
+#define __pyx_n_u_shape __pyx_string_tab[213]
+#define __pyx_n_u_sin __pyx_string_tab[214]
+#define __pyx_n_u_size __pyx_string_tab[215]
+#define __pyx_n_u_start __pyx_string_tab[216]
+#define __pyx_n_u_step __pyx_string_tab[217]
+#define __pyx_n_u_stop __pyx_string_tab[218]
+#define __pyx_n_u_strides __pyx_string_tab[219]
+#define __pyx_n_u_struct __pyx_string_tab[220]
+#define __pyx_n_u_system __pyx_string_tab[221]
+#define __pyx_n_u_target_level __pyx_string_tab[222]
+#define __pyx_n_u_target_level_val __pyx_string_tab[223]
+#define __pyx_n_u_target_partitions __pyx_string_tab[224]
+#define __pyx_n_u_tensor __pyx_string_tab[225]
+#define __pyx_n_u_test __pyx_string_tab[226]
+#define __pyx_n_u_to __pyx_string_tab[227]
+#define __pyx_n_u_torch __pyx_string_tab[228]
+#define __pyx_n_u_total_size __pyx_string_tab[229]
+#define __pyx_n_u_tree_idx __pyx_string_tab[230]
+#define __pyx_n_u_tree_leaf_offsets __pyx_string_tab[231]
+#define __pyx_n_u_tree_leaves_per_batch __pyx_string_tab[232]
+#define __pyx_n_u_tree_mask __pyx_string_tab[233]
+#define __pyx_n_u_tree_offset __pyx_string_tab[234]
+#define __pyx_n_u_tree_size __pyx_string_tab[235]
+#define __pyx_n_u_unpack __pyx_string_tab[236]
+#define __pyx_n_u_update __pyx_string_tab[237]
+#define __pyx_n_u_values __pyx_string_tab[238]
+#define __pyx_n_u_view __pyx_string_tab[239]
+#define __pyx_n_u_where __pyx_string_tab[240]
+#define __pyx_n_u_x __pyx_string_tab[241]
+#define __pyx_n_u_zeros __pyx_string_tab[242]
+#define __pyx_kp_b_iso88591_2_t_QfE_T_1KuA_j_t4s_Q_j_Qe1D_y __pyx_string_tab[243]
+#define __pyx_kp_b_iso88591_66RRS_t_QfE_T_1KuA_j_t4s_Q_j_Qe __pyx_string_tab[244]
+#define __pyx_kp_b_iso88591_9_t_Qk_1_j_y_c_j_A_1_y_as_T_q_j __pyx_string_tab[245]
+#define __pyx_kp_b_iso88591_AAXXjjppwwx_3ay_3a_2S_fAQ_AQ_k __pyx_string_tab[246]
+#define __pyx_kp_b_iso88591_A_L_t_QfBj_4z_1_j_t6_A_j_Q_F_Q __pyx_string_tab[247]
+#define __pyx_kp_b_iso88591_EE___H_t_QfBj_4z_1_j_t6_A_j_Q_F __pyx_string_tab[248]
+#define __pyx_kp_b_iso88591_L_Q_D_t4t1HD_AQ_t3a_uG1A_S_T_S __pyx_string_tab[249]
+#define __pyx_kp_b_iso88591_WWX_t_Qk_1_j_y_c_j_A_1_y_as_T_q __pyx_string_tab[250]
+#define __pyx_n_b_O __pyx_string_tab[251]
 #define __pyx_int_0 __pyx_number_tab[0]
 #define __pyx_int_neg_1 __pyx_number_tab[1]
 #define __pyx_int_1 __pyx_number_tab[2]
@@ -4008,7 +4012,7 @@ static CYTHON_SMALL_CODE int __pyx_m_clear(PyObject *m) {
   for (int i=0; i<1; ++i) { Py_CLEAR(clear_module_state->__pyx_slice[i]); }
   for (int i=0; i<1; ++i) { Py_CLEAR(clear_module_state->__pyx_tuple[i]); }
   for (int i=0; i<8; ++i) { Py_CLEAR(clear_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<248; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<252; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<6; ++i) { Py_CLEAR(clear_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_clear_contents ### */
 /* CommonTypesMetaclass.module_state_clear */
@@ -4059,7 +4063,7 @@ static CYTHON_SMALL_CODE int __pyx_m_traverse(PyObject *m, visitproc visit, void
   for (int i=0; i<1; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_slice[i]); }
   for (int i=0; i<1; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_tuple[i]); }
   for (int i=0; i<8; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<248; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<252; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<6; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_traverse_contents ### */
 /* CommonTypesMetaclass.module_state_traverse */
@@ -17341,7 +17345,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":243
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":243
  *         cdef int type_num
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17352,7 +17356,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_Descr *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":245
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":245
  *         @property
  *         cdef inline npy_intp itemsize(self) noexcept nogil:
  *             return PyDataType_ELSIZE(self)             # <<<<<<<<<<<<<<
@@ -17362,7 +17366,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_D
   __pyx_r = PyDataType_ELSIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":243
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":243
  *         cdef int type_num
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17375,7 +17379,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_D
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":247
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":247
  *             return PyDataType_ELSIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17386,7 +17390,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize_itemsize(PyArray_D
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment_alignment(PyArray_Descr *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":249
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":249
  *         @property
  *         cdef inline npy_intp alignment(self) noexcept nogil:
  *             return PyDataType_ALIGNMENT(self)             # <<<<<<<<<<<<<<
@@ -17396,7 +17400,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment_alignment(PyArray
   __pyx_r = PyDataType_ALIGNMENT(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":247
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":247
  *             return PyDataType_ELSIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17409,7 +17413,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment_alignment(PyArray
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":253
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":253
  *         # Use fields/names with care as they may be NULL.  You must check
  *         # for this using PyDataType_HASFIELDS.
  *         @property             # <<<<<<<<<<<<<<
@@ -17423,7 +17427,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields_fields(PyArray_Desc
   PyObject *__pyx_t_1;
   __Pyx_RefNannySetupContext("fields", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":255
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":255
  *         @property
  *         cdef inline object fields(self):
  *             return <object>PyDataType_FIELDS(self)             # <<<<<<<<<<<<<<
@@ -17436,7 +17440,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields_fields(PyArray_Desc
   __pyx_r = ((PyObject *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":253
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":253
  *         # Use fields/names with care as they may be NULL.  You must check
  *         # for this using PyDataType_HASFIELDS.
  *         @property             # <<<<<<<<<<<<<<
@@ -17451,7 +17455,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields_fields(PyArray_Desc
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":257
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":257
  *             return <object>PyDataType_FIELDS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17465,7 +17469,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
   PyObject *__pyx_t_1;
   __Pyx_RefNannySetupContext("names", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":259
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":259
  *         @property
  *         cdef inline tuple names(self):
  *             return <tuple>PyDataType_NAMES(self)             # <<<<<<<<<<<<<<
@@ -17478,7 +17482,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
   __pyx_r = ((PyObject*)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":257
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":257
  *             return <object>PyDataType_FIELDS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17493,7 +17497,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":264
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":264
  *         # valid (the pointer can be NULL). Most users should access
  *         # this field via the inline helper method PyDataType_SHAPE.
  *         @property             # <<<<<<<<<<<<<<
@@ -17504,7 +17508,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names_names(PyArray_Descr 
 static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarray(PyArray_Descr *__pyx_v_self) {
   PyArray_ArrayDescr *__pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":266
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":266
  *         @property
  *         cdef inline PyArray_ArrayDescr* subarray(self) noexcept nogil:
  *             return PyDataType_SUBARRAY(self)             # <<<<<<<<<<<<<<
@@ -17514,7 +17518,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarra
   __pyx_r = PyDataType_SUBARRAY(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":264
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":264
  *         # valid (the pointer can be NULL). Most users should access
  *         # this field via the inline helper method PyDataType_SHAPE.
  *         @property             # <<<<<<<<<<<<<<
@@ -17527,7 +17531,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarra
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":268
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":268
  *             return PyDataType_SUBARRAY(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17538,7 +17542,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray_subarra
 static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr *__pyx_v_self) {
   npy_uint64 __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":271
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":271
  *         cdef inline npy_uint64 flags(self) noexcept nogil:
  *             """The data types flags."""
  *             return PyDataType_FLAGS(self)             # <<<<<<<<<<<<<<
@@ -17548,7 +17552,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr
   __pyx_r = PyDataType_FLAGS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":268
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":268
  *             return PyDataType_SUBARRAY(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17561,7 +17565,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":280
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":280
  *     ctypedef class numpy.broadcast [object PyArrayMultiIterObject, check_size ignore]:
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17572,7 +17576,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags_flags(PyArray_Descr
 static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMultiIterObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":283
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":283
  *         cdef inline int numiter(self) noexcept nogil:
  *             """The number of arrays that need to be broadcast to the same shape."""
  *             return PyArray_MultiIter_NUMITER(self)             # <<<<<<<<<<<<<<
@@ -17582,7 +17586,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMulti
   __pyx_r = PyArray_MultiIter_NUMITER(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":280
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":280
  *     ctypedef class numpy.broadcast [object PyArrayMultiIterObject, check_size ignore]:
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17595,7 +17599,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMulti
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":285
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":285
  *             return PyArray_MultiIter_NUMITER(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17606,7 +17610,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter_numiter(PyArrayMulti
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":288
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":288
  *         cdef inline npy_intp size(self) noexcept nogil:
  *             """The total broadcasted size."""
  *             return PyArray_MultiIter_SIZE(self)             # <<<<<<<<<<<<<<
@@ -17616,7 +17620,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiI
   __pyx_r = PyArray_MultiIter_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":285
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":285
  *             return PyArray_MultiIter_NUMITER(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17629,7 +17633,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiI
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":290
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":290
  *             return PyArray_MultiIter_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17640,7 +17644,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size_size(PyArrayMultiI
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":293
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":293
  *         cdef inline npy_intp index(self) noexcept nogil:
  *             """The current (1-d) index into the broadcasted result."""
  *             return PyArray_MultiIter_INDEX(self)             # <<<<<<<<<<<<<<
@@ -17650,7 +17654,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMult
   __pyx_r = PyArray_MultiIter_INDEX(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":290
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":290
  *             return PyArray_MultiIter_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17663,7 +17667,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMult
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":295
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":295
  *             return PyArray_MultiIter_INDEX(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17674,7 +17678,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index_index(PyArrayMult
 static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":298
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":298
  *         cdef inline int nd(self) noexcept nogil:
  *             """The number of dimensions in the broadcasted result."""
  *             return PyArray_MultiIter_NDIM(self)             # <<<<<<<<<<<<<<
@@ -17684,7 +17688,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject
   __pyx_r = PyArray_MultiIter_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":295
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":295
  *             return PyArray_MultiIter_INDEX(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17697,7 +17701,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":300
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":300
  *             return PyArray_MultiIter_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17708,7 +17712,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd_nd(PyArrayMultiIterObject
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":303
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":303
  *         cdef inline npy_intp* dimensions(self) noexcept nogil:
  *             """The shape of the broadcasted result."""
  *             return PyArray_MultiIter_DIMS(self)             # <<<<<<<<<<<<<<
@@ -17718,7 +17722,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions
   __pyx_r = PyArray_MultiIter_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":300
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":300
  *             return PyArray_MultiIter_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17731,7 +17735,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":305
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":305
  *             return PyArray_MultiIter_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17742,7 +17746,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions_dimensions
 static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiIterObject *__pyx_v_self) {
   void **__pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":309
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":309
  *             """An array of iterator objects that holds the iterators for the arrays to be broadcast together.
  *             On return, the iterators are adjusted for broadcasting."""
  *             return PyArray_MultiIter_ITERS(self)             # <<<<<<<<<<<<<<
@@ -17752,7 +17756,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiI
   __pyx_r = PyArray_MultiIter_ITERS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":305
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":305
  *             return PyArray_MultiIter_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17765,7 +17769,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiI
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":323
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":323
  *         # Instead, we use properties that map to the corresponding C-API functions.
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17776,7 +17780,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters_iters(PyArrayMultiI
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":327
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":327
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
@@ -17786,7 +17790,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   __pyx_r = PyArray_BASE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":323
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":323
  *         # Instead, we use properties that map to the corresponding C-API functions.
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17799,7 +17803,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base_base(PyArrayObject 
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":329
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":329
  *             return PyArray_BASE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17813,7 +17817,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   PyArray_Descr *__pyx_t_1;
   __Pyx_RefNannySetupContext("descr", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":333
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":333
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -17826,7 +17830,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   __pyx_r = ((PyArray_Descr *)__pyx_t_1);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":329
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":329
  *             return PyArray_BASE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17841,7 +17845,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":335
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":335
  *             return <dtype>PyArray_DESCR(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17852,7 +17856,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr_descr(PyArray
 static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":339
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":339
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -17862,7 +17866,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   __pyx_r = PyArray_NDIM(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":335
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":335
  *             return <dtype>PyArray_DESCR(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17875,7 +17879,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":341
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":341
  *             return PyArray_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17886,7 +17890,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim_ndim(PyArrayObject *__pyx
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":347
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":347
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -17896,7 +17900,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   __pyx_r = PyArray_DIMS(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":341
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":341
  *             return PyArray_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17909,7 +17913,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":349
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":349
  *             return PyArray_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17920,7 +17924,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape_shape(PyArrayObjec
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":354
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":354
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -17930,7 +17934,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   __pyx_r = PyArray_STRIDES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":349
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":349
  *             return PyArray_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17943,7 +17947,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":356
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":356
  *             return PyArray_STRIDES(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17954,7 +17958,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides_strides(PyArrayO
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":360
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":360
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
@@ -17964,7 +17968,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   __pyx_r = PyArray_SIZE(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":356
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":356
  *             return PyArray_STRIDES(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17977,7 +17981,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":362
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":362
  *             return PyArray_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -17988,7 +17992,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size_size(PyArrayObject *
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__pyx_v_self) {
   char *__pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":369
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":369
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
@@ -17998,7 +18002,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   __pyx_r = PyArray_BYTES(__pyx_v_self);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":362
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":362
  *             return PyArray_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -18011,7 +18015,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data_data(PyArrayObject *__p
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":777
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":777
  * ctypedef long double complex clongdouble_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -18028,7 +18032,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":778
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":778
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -18042,7 +18046,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":777
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":777
  * ctypedef long double complex clongdouble_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -18061,7 +18065,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":780
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":780
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -18078,7 +18082,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":781
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":781
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -18092,7 +18096,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":780
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":780
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -18111,7 +18115,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":783
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":783
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -18128,7 +18132,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":784
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":784
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -18142,7 +18146,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":783
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":783
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -18161,7 +18165,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":786
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":786
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -18178,7 +18182,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":787
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":787
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -18192,7 +18196,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":786
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":786
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -18211,7 +18215,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":789
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":789
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -18228,7 +18232,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":790
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":790
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -18242,7 +18246,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":789
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":789
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -18261,7 +18265,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":792
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":792
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -18276,7 +18280,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   PyObject *__pyx_t_2;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":793
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":793
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -18286,7 +18290,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = PyDataType_HASSUBARRAY(__pyx_v_d);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":794
+    /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":794
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -18299,7 +18303,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_t_2);
     goto __pyx_L0;
 
-    /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":793
+    /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":793
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -18308,7 +18312,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
 */
   }
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":796
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":796
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -18322,7 +18326,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":792
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":792
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -18337,7 +18341,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":995
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":995
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:             # <<<<<<<<<<<<<<
@@ -18351,7 +18355,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":996
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":996
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -18360,7 +18364,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
 */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":997
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":997
  * cdef inline void set_array_base(ndarray arr, object base) except *:
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -18369,7 +18373,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
 */
   __pyx_t_1 = PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(2, 997, __pyx_L1_error)
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":995
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":995
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:             # <<<<<<<<<<<<<<
@@ -18384,7 +18388,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_L0:;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":999
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":999
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -18399,7 +18403,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1000
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1000
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -18408,7 +18412,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1001
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1001
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -18418,7 +18422,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = (__pyx_v_base == NULL);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1002
+    /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1002
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -18429,7 +18433,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1001
+    /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1001
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -18438,7 +18442,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 */
   }
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1003
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1003
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -18450,7 +18454,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":999
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":999
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -18465,7 +18469,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1007
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1007
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -18491,7 +18495,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1008
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1008
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -18507,7 +18511,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1009
+      /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1009
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
@@ -18516,7 +18520,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
 */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1009, __pyx_L3_error)
 
-      /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1008
+      /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1008
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -18530,7 +18534,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1010
+    /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1010
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -18545,7 +18549,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1011
+      /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1011
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy._core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -18567,7 +18571,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1008
+    /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1008
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -18583,7 +18587,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1007
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1007
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -18607,7 +18611,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1013
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1013
  *         raise ImportError("numpy._core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -18633,7 +18637,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1014
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -18649,7 +18653,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1015
+      /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1015
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -18658,7 +18662,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
 */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1015, __pyx_L3_error)
 
-      /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1014
+      /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -18672,7 +18676,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1016
+    /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1016
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -18687,7 +18691,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1017
+      /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1017
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy._core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -18709,7 +18713,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1014
+    /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1014
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -18725,7 +18729,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1013
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1013
  *         raise ImportError("numpy._core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -18749,7 +18753,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1019
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1019
  *         raise ImportError("numpy._core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -18775,7 +18779,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1020
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1020
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -18791,7 +18795,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1021
+      /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1021
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -18800,7 +18804,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1021, __pyx_L3_error)
 
-      /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1020
+      /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1020
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -18814,7 +18818,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1022
+    /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1022
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -18829,7 +18833,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1023
+      /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1023
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy._core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -18851,7 +18855,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1020
+    /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1020
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -18867,7 +18871,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1019
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1019
  *         raise ImportError("numpy._core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -18891,7 +18895,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1026
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1026
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -18902,7 +18906,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1038
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1038
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -18912,7 +18916,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyTimedeltaArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1026
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1026
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -18925,7 +18929,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1041
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1041
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -18936,7 +18940,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1053
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1053
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -18946,7 +18950,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   __pyx_r = PyObject_TypeCheck(__pyx_v_obj, (&PyDatetimeArrType_Type));
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1041
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1041
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -18959,7 +18963,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1056
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1056
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -18970,7 +18974,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1063
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1063
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return (<PyDatetimeScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -18980,7 +18984,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   __pyx_r = ((PyDatetimeScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1056
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1056
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -18993,7 +18997,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1066
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1066
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -19004,7 +19008,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1070
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1070
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return (<PyTimedeltaScalarObject*>obj).obval             # <<<<<<<<<<<<<<
@@ -19014,7 +19018,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   __pyx_r = ((PyTimedeltaScalarObject *)__pyx_v_obj)->obval;
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1066
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1066
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -19027,7 +19031,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1073
+/* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1073
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -19038,7 +19042,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1077
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1077
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return <NPY_DATETIMEUNIT>(<PyDatetimeScalarObject*>obj).obmeta.base             # <<<<<<<<<<<<<<
@@ -19048,7 +19052,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   __pyx_r = ((NPY_DATETIMEUNIT)((PyDatetimeScalarObject *)__pyx_v_obj)->obmeta.base);
   goto __pyx_L0;
 
-  /* "../../../../../../../.cache/uv/builds-v0/.tmpMD5uBT/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1073
+  /* "../../../../.cache/uv/builds-v0/.tmpVSUsBp/lib/python3.11/site-packages/numpy/__init__.cython-30.pxd":1073
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -19061,7 +19065,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   return __pyx_r;
 }
 
-/* "balltree_setaxis/balltree.pyx":72
+/* "balltree_setaxis/balltree.pyx":75
  *     intp_t num_leaves               # Number of leaves in the tree
  * 
  * cdef intp_t compute_tree_depth(intp_t num_points) nogil:             # <<<<<<<<<<<<<<
@@ -19072,7 +19076,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
 static __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_f_16balltree_setaxis_8balltree_compute_tree_depth(__pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_num_points) {
   __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_r;
 
-  /* "balltree_setaxis/balltree.pyx":74
+  /* "balltree_setaxis/balltree.pyx":77
  * cdef intp_t compute_tree_depth(intp_t num_points) nogil:
  *     """Compute the depth needed for a complete binary tree. """
  *     return <intp_t>ceil(log2(num_points)) - 1             # <<<<<<<<<<<<<<
@@ -19082,7 +19086,7 @@ static __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_f_16balltree_setaxis_8b
   __pyx_r = (((__pyx_t_16balltree_setaxis_8balltree_intp_t)ceil(log2(__pyx_v_num_points))) - 1);
   goto __pyx_L0;
 
-  /* "balltree_setaxis/balltree.pyx":72
+  /* "balltree_setaxis/balltree.pyx":75
  *     intp_t num_leaves               # Number of leaves in the tree
  * 
  * cdef intp_t compute_tree_depth(intp_t num_points) nogil:             # <<<<<<<<<<<<<<
@@ -19095,7 +19099,7 @@ static __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_f_16balltree_setaxis_8b
   return __pyx_r;
 }
 
-/* "balltree_setaxis/balltree.pyx":76
+/* "balltree_setaxis/balltree.pyx":79
  *     return <intp_t>ceil(log2(num_points)) - 1
  * 
  * cdef int build_batch_trees(             # <<<<<<<<<<<<<<
@@ -19122,7 +19126,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
   int __pyx_clineno = 0;
   PyGILState_STATE __pyx_gilstate_save;
 
-  /* "balltree_setaxis/balltree.pyx":112
+  /* "balltree_setaxis/balltree.pyx":115
  *         0 on success, negative values on error
  *     """
  *     cdef intp_t batch_size = batch.end - batch.start             # <<<<<<<<<<<<<<
@@ -19131,17 +19135,17 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   __pyx_v_batch_size = (__pyx_v_batch.end - __pyx_v_batch.start);
 
-  /* "balltree_setaxis/balltree.pyx":113
+  /* "balltree_setaxis/balltree.pyx":116
  *     """
  *     cdef intp_t batch_size = batch.end - batch.start
  *     cdef intp_t max_level = compute_tree_depth(batch_size)             # <<<<<<<<<<<<<<
  *     cdef intp_t rot_offset = batch_index * num_features * num_features
  * 
 */
-  __pyx_t_1 = __pyx_f_16balltree_setaxis_8balltree_compute_tree_depth(__pyx_v_batch_size); if (unlikely(__pyx_t_1 == ((__pyx_t_16balltree_setaxis_8balltree_intp_t)-1L) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 113, __pyx_L1_error)
+  __pyx_t_1 = __pyx_f_16balltree_setaxis_8balltree_compute_tree_depth(__pyx_v_batch_size); if (unlikely(__pyx_t_1 == ((__pyx_t_16balltree_setaxis_8balltree_intp_t)-1L) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 116, __pyx_L1_error)
   __pyx_v_max_level = __pyx_t_1;
 
-  /* "balltree_setaxis/balltree.pyx":114
+  /* "balltree_setaxis/balltree.pyx":117
  *     cdef intp_t batch_size = batch.end - batch.start
  *     cdef intp_t max_level = compute_tree_depth(batch_size)
  *     cdef intp_t rot_offset = batch_index * num_features * num_features             # <<<<<<<<<<<<<<
@@ -19150,7 +19154,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   __pyx_v_rot_offset = ((__pyx_v_batch_index * __pyx_v_num_features) * __pyx_v_num_features);
 
-  /* "balltree_setaxis/balltree.pyx":117
+  /* "balltree_setaxis/balltree.pyx":120
  * 
  *     # Compute alignment rotation for this batch
  *     compute_alignment_rotation(             # <<<<<<<<<<<<<<
@@ -19159,7 +19163,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   compute_alignment_rotation((__pyx_v_data + (__pyx_v_batch.start * __pyx_v_num_features)), __pyx_v_batch_size, __pyx_v_num_features, (__pyx_v_rotation_matrices + __pyx_v_rot_offset));
 
-  /* "balltree_setaxis/balltree.pyx":125
+  /* "balltree_setaxis/balltree.pyx":128
  * 
  *     # Allocate aligned data array
  *     cdef float64_t* aligned_data = <float64_t*>malloc(batch_size * num_features * sizeof(float64_t))             # <<<<<<<<<<<<<<
@@ -19168,7 +19172,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   __pyx_v_aligned_data = ((__pyx_t_16balltree_setaxis_8balltree_float64_t *)malloc(((__pyx_v_batch_size * __pyx_v_num_features) * (sizeof(__pyx_t_16balltree_setaxis_8balltree_float64_t)))));
 
-  /* "balltree_setaxis/balltree.pyx":126
+  /* "balltree_setaxis/balltree.pyx":129
  *     # Allocate aligned data array
  *     cdef float64_t* aligned_data = <float64_t*>malloc(batch_size * num_features * sizeof(float64_t))
  *     if aligned_data == NULL:             # <<<<<<<<<<<<<<
@@ -19178,7 +19182,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
   __pyx_t_2 = (__pyx_v_aligned_data == NULL);
   if (__pyx_t_2) {
 
-    /* "balltree_setaxis/balltree.pyx":127
+    /* "balltree_setaxis/balltree.pyx":130
  *     cdef float64_t* aligned_data = <float64_t*>malloc(batch_size * num_features * sizeof(float64_t))
  *     if aligned_data == NULL:
  *         return -1             # <<<<<<<<<<<<<<
@@ -19188,7 +19192,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
     __pyx_r = -1;
     goto __pyx_L0;
 
-    /* "balltree_setaxis/balltree.pyx":126
+    /* "balltree_setaxis/balltree.pyx":129
  *     # Allocate aligned data array
  *     cdef float64_t* aligned_data = <float64_t*>malloc(batch_size * num_features * sizeof(float64_t))
  *     if aligned_data == NULL:             # <<<<<<<<<<<<<<
@@ -19197,7 +19201,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":130
+  /* "balltree_setaxis/balltree.pyx":133
  * 
  *     # Apply alignment to transform data
  *     apply_alignment(             # <<<<<<<<<<<<<<
@@ -19206,7 +19210,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   apply_alignment((__pyx_v_data + (__pyx_v_batch.start * __pyx_v_num_features)), __pyx_v_batch_size, __pyx_v_num_features, (__pyx_v_rotation_matrices + __pyx_v_rot_offset), __pyx_v_aligned_data);
 
-  /* "balltree_setaxis/balltree.pyx":139
+  /* "balltree_setaxis/balltree.pyx":142
  * 
  *     # Allocate an intermediate array for indices
  *     cdef intp_t* idx_array = <intp_t*>malloc(batch_size * sizeof(intp_t))             # <<<<<<<<<<<<<<
@@ -19215,7 +19219,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   __pyx_v_idx_array = ((__pyx_t_16balltree_setaxis_8balltree_intp_t *)malloc((__pyx_v_batch_size * (sizeof(__pyx_t_16balltree_setaxis_8balltree_intp_t)))));
 
-  /* "balltree_setaxis/balltree.pyx":140
+  /* "balltree_setaxis/balltree.pyx":143
  *     # Allocate an intermediate array for indices
  *     cdef intp_t* idx_array = <intp_t*>malloc(batch_size * sizeof(intp_t))
  *     if idx_array == NULL:             # <<<<<<<<<<<<<<
@@ -19225,7 +19229,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
   __pyx_t_2 = (__pyx_v_idx_array == NULL);
   if (__pyx_t_2) {
 
-    /* "balltree_setaxis/balltree.pyx":141
+    /* "balltree_setaxis/balltree.pyx":144
  *     cdef intp_t* idx_array = <intp_t*>malloc(batch_size * sizeof(intp_t))
  *     if idx_array == NULL:
  *         free(aligned_data)             # <<<<<<<<<<<<<<
@@ -19234,7 +19238,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
     free(__pyx_v_aligned_data);
 
-    /* "balltree_setaxis/balltree.pyx":142
+    /* "balltree_setaxis/balltree.pyx":145
  *     if idx_array == NULL:
  *         free(aligned_data)
  *         return -1             # <<<<<<<<<<<<<<
@@ -19244,7 +19248,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
     __pyx_r = -1;
     goto __pyx_L0;
 
-    /* "balltree_setaxis/balltree.pyx":140
+    /* "balltree_setaxis/balltree.pyx":143
  *     # Allocate an intermediate array for indices
  *     cdef intp_t* idx_array = <intp_t*>malloc(batch_size * sizeof(intp_t))
  *     if idx_array == NULL:             # <<<<<<<<<<<<<<
@@ -19253,7 +19257,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":146
+  /* "balltree_setaxis/balltree.pyx":149
  *     # Initialize indices contiguously
  *     cdef intp_t i
  *     for i in range(batch_size):             # <<<<<<<<<<<<<<
@@ -19265,7 +19269,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "balltree_setaxis/balltree.pyx":147
+    /* "balltree_setaxis/balltree.pyx":150
  *     cdef intp_t i
  *     for i in range(batch_size):
  *         idx_array[i] = i             # <<<<<<<<<<<<<<
@@ -19275,7 +19279,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
     (__pyx_v_idx_array[__pyx_v_i]) = __pyx_v_i;
   }
 
-  /* "balltree_setaxis/balltree.pyx":150
+  /* "balltree_setaxis/balltree.pyx":153
  * 
  *     # Build tree on aligned data
  *     build_tree(             # <<<<<<<<<<<<<<
@@ -19284,7 +19288,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   build_tree(__pyx_v_aligned_data, __pyx_v_idx_array, (__pyx_v_output + __pyx_v_batch.tree_offset), (__pyx_v_mask + __pyx_v_batch.tree_offset), 0, __pyx_v_batch_size, 0, __pyx_v_num_features, 0, __pyx_v_max_level);
 
-  /* "balltree_setaxis/balltree.pyx":164
+  /* "balltree_setaxis/balltree.pyx":167
  * 
  *     # Adjust indices to account for batch offset
  *     cdef intp_t num_leaves = 1 << max_level             # <<<<<<<<<<<<<<
@@ -19293,7 +19297,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   __pyx_v_num_leaves = (1 << __pyx_v_max_level);
 
-  /* "balltree_setaxis/balltree.pyx":165
+  /* "balltree_setaxis/balltree.pyx":168
  *     # Adjust indices to account for batch offset
  *     cdef intp_t num_leaves = 1 << max_level
  *     for i in range(num_leaves * 2):             # <<<<<<<<<<<<<<
@@ -19305,7 +19309,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "balltree_setaxis/balltree.pyx":166
+    /* "balltree_setaxis/balltree.pyx":169
  *     cdef intp_t num_leaves = 1 << max_level
  *     for i in range(num_leaves * 2):
  *         if i < batch.tree_size:             # <<<<<<<<<<<<<<
@@ -19315,7 +19319,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
     __pyx_t_2 = (__pyx_v_i < __pyx_v_batch.tree_size);
     if (__pyx_t_2) {
 
-      /* "balltree_setaxis/balltree.pyx":167
+      /* "balltree_setaxis/balltree.pyx":170
  *     for i in range(num_leaves * 2):
  *         if i < batch.tree_size:
  *             output[batch.tree_offset + i] += batch.start             # <<<<<<<<<<<<<<
@@ -19325,7 +19329,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
       __pyx_t_5 = (__pyx_v_batch.tree_offset + __pyx_v_i);
       (__pyx_v_output[__pyx_t_5]) = ((__pyx_v_output[__pyx_t_5]) + __pyx_v_batch.start);
 
-      /* "balltree_setaxis/balltree.pyx":166
+      /* "balltree_setaxis/balltree.pyx":169
  *     cdef intp_t num_leaves = 1 << max_level
  *     for i in range(num_leaves * 2):
  *         if i < batch.tree_size:             # <<<<<<<<<<<<<<
@@ -19335,7 +19339,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
     }
   }
 
-  /* "balltree_setaxis/balltree.pyx":169
+  /* "balltree_setaxis/balltree.pyx":172
  *             output[batch.tree_offset + i] += batch.start
  * 
  *     free(aligned_data)             # <<<<<<<<<<<<<<
@@ -19344,7 +19348,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   free(__pyx_v_aligned_data);
 
-  /* "balltree_setaxis/balltree.pyx":170
+  /* "balltree_setaxis/balltree.pyx":173
  * 
  *     free(aligned_data)
  *     free(idx_array)             # <<<<<<<<<<<<<<
@@ -19353,7 +19357,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
 */
   free(__pyx_v_idx_array);
 
-  /* "balltree_setaxis/balltree.pyx":171
+  /* "balltree_setaxis/balltree.pyx":174
  *     free(aligned_data)
  *     free(idx_array)
  *     return 0             # <<<<<<<<<<<<<<
@@ -19363,7 +19367,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
   __pyx_r = 0;
   goto __pyx_L0;
 
-  /* "balltree_setaxis/balltree.pyx":76
+  /* "balltree_setaxis/balltree.pyx":79
  *     return <intp_t>ceil(log2(num_points)) - 1
  * 
  * cdef int build_batch_trees(             # <<<<<<<<<<<<<<
@@ -19381,7 +19385,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_build_batch_trees(__pyx_t_16ball
   return __pyx_r;
 }
 
-/* "balltree_setaxis/balltree.pyx":173
+/* "balltree_setaxis/balltree.pyx":176
  *     return 0
  * 
  * cdef int partition_batch_trees(             # <<<<<<<<<<<<<<
@@ -19400,7 +19404,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
   __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_t_4;
   __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_t_5;
 
-  /* "balltree_setaxis/balltree.pyx":203
+  /* "balltree_setaxis/balltree.pyx":206
  *         0 on success, negative values on error
  *     """
  *     cdef intp_t batch_size = batch.end - batch.start             # <<<<<<<<<<<<<<
@@ -19409,7 +19413,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
 */
   __pyx_v_batch_size = (__pyx_v_batch.end - __pyx_v_batch.start);
 
-  /* "balltree_setaxis/balltree.pyx":206
+  /* "balltree_setaxis/balltree.pyx":209
  * 
  *     # Allocate an intermediate array for indices
  *     cdef intp_t* idx_array = <intp_t*>malloc(batch_size * sizeof(intp_t))             # <<<<<<<<<<<<<<
@@ -19418,7 +19422,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
 */
   __pyx_v_idx_array = ((__pyx_t_16balltree_setaxis_8balltree_intp_t *)malloc((__pyx_v_batch_size * (sizeof(__pyx_t_16balltree_setaxis_8balltree_intp_t)))));
 
-  /* "balltree_setaxis/balltree.pyx":207
+  /* "balltree_setaxis/balltree.pyx":210
  *     # Allocate an intermediate array for indices
  *     cdef intp_t* idx_array = <intp_t*>malloc(batch_size * sizeof(intp_t))
  *     if idx_array == NULL:             # <<<<<<<<<<<<<<
@@ -19428,7 +19432,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
   __pyx_t_1 = (__pyx_v_idx_array == NULL);
   if (__pyx_t_1) {
 
-    /* "balltree_setaxis/balltree.pyx":208
+    /* "balltree_setaxis/balltree.pyx":211
  *     cdef intp_t* idx_array = <intp_t*>malloc(batch_size * sizeof(intp_t))
  *     if idx_array == NULL:
  *         return -1             # <<<<<<<<<<<<<<
@@ -19438,7 +19442,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
     __pyx_r = -1;
     goto __pyx_L0;
 
-    /* "balltree_setaxis/balltree.pyx":207
+    /* "balltree_setaxis/balltree.pyx":210
  *     # Allocate an intermediate array for indices
  *     cdef intp_t* idx_array = <intp_t*>malloc(batch_size * sizeof(intp_t))
  *     if idx_array == NULL:             # <<<<<<<<<<<<<<
@@ -19447,7 +19451,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":212
+  /* "balltree_setaxis/balltree.pyx":215
  *     # Initialize indices contiguously
  *     cdef intp_t i
  *     for i in range(batch_size):             # <<<<<<<<<<<<<<
@@ -19459,7 +19463,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "balltree_setaxis/balltree.pyx":213
+    /* "balltree_setaxis/balltree.pyx":216
  *     cdef intp_t i
  *     for i in range(batch_size):
  *         idx_array[i] = i             # <<<<<<<<<<<<<<
@@ -19469,7 +19473,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
     (__pyx_v_idx_array[__pyx_v_i]) = __pyx_v_i;
   }
 
-  /* "balltree_setaxis/balltree.pyx":215
+  /* "balltree_setaxis/balltree.pyx":218
  *         idx_array[i] = i
  * 
  *     partition_ball_tree(             # <<<<<<<<<<<<<<
@@ -19478,7 +19482,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
 */
   partition_ball_tree((__pyx_v_data + (__pyx_v_batch.start * __pyx_v_num_features)), __pyx_v_idx_array, (__pyx_v_output + __pyx_v_batch.tree_offset), 0, __pyx_v_batch_size, 0, __pyx_v_num_features, 0, __pyx_v_target_level);
 
-  /* "balltree_setaxis/balltree.pyx":228
+  /* "balltree_setaxis/balltree.pyx":231
  * 
  *     # Adjust indices to account for batch offset
  *     for i in range(batch_size):             # <<<<<<<<<<<<<<
@@ -19490,7 +19494,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "balltree_setaxis/balltree.pyx":229
+    /* "balltree_setaxis/balltree.pyx":232
  *     # Adjust indices to account for batch offset
  *     for i in range(batch_size):
  *         output[batch.tree_offset + i] += batch.start             # <<<<<<<<<<<<<<
@@ -19501,7 +19505,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
     (__pyx_v_output[__pyx_t_5]) = ((__pyx_v_output[__pyx_t_5]) + __pyx_v_batch.start);
   }
 
-  /* "balltree_setaxis/balltree.pyx":231
+  /* "balltree_setaxis/balltree.pyx":234
  *         output[batch.tree_offset + i] += batch.start
  * 
  *     free(idx_array)             # <<<<<<<<<<<<<<
@@ -19510,7 +19514,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
 */
   free(__pyx_v_idx_array);
 
-  /* "balltree_setaxis/balltree.pyx":232
+  /* "balltree_setaxis/balltree.pyx":235
  * 
  *     free(idx_array)
  *     return 0             # <<<<<<<<<<<<<<
@@ -19520,7 +19524,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
   __pyx_r = 0;
   goto __pyx_L0;
 
-  /* "balltree_setaxis/balltree.pyx":173
+  /* "balltree_setaxis/balltree.pyx":176
  *     return 0
  * 
  * cdef int partition_batch_trees(             # <<<<<<<<<<<<<<
@@ -19533,7 +19537,7 @@ static int __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees(__pyx_t_16
   return __pyx_r;
 }
 
-/* "balltree_setaxis/balltree.pyx":234
+/* "balltree_setaxis/balltree.pyx":237
  *     return 0
  * 
  * def build_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray):             # <<<<<<<<<<<<<<
@@ -19582,39 +19586,39 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_data,&__pyx_mstate_global->__pyx_n_u_batch_offsets,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 234, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 237, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 234, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 237, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 234, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 237, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "build_balltree_with_offsets", 0) < (0)) __PYX_ERR(0, 234, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "build_balltree_with_offsets", 0) < (0)) __PYX_ERR(0, 237, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 2; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("build_balltree_with_offsets", 1, 2, 2, i); __PYX_ERR(0, 234, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("build_balltree_with_offsets", 1, 2, 2, i); __PYX_ERR(0, 237, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 2)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 234, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 237, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 234, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 237, __pyx_L3_error)
     }
     __pyx_v_data = values[0];
     __pyx_v_batch_offsets = values[1];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("build_balltree_with_offsets", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 234, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("build_balltree_with_offsets", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 237, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -19695,19 +19699,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("build_balltree_with_offsets", 0);
 
-  /* "balltree_setaxis/balltree.pyx":272
+  /* "balltree_setaxis/balltree.pyx":275
  *         If tree construction fails
  *     """
  *     if not isinstance(data, np.ndarray) or not isinstance(batch_offsets, np.ndarray):             # <<<<<<<<<<<<<<
  *         raise ValueError("Both data and batch_offsets must be numpy arrays")
  * 
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 272, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 275, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 272, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 275, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_4 = PyObject_IsInstance(__pyx_v_data, __pyx_t_3); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(0, 272, __pyx_L1_error)
+  __pyx_t_4 = PyObject_IsInstance(__pyx_v_data, __pyx_t_3); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(0, 275, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = (!__pyx_t_4);
   if (!__pyx_t_5) {
@@ -19715,19 +19719,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
     __pyx_t_1 = __pyx_t_5;
     goto __pyx_L4_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 272, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 275, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 272, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 275, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_5 = PyObject_IsInstance(__pyx_v_batch_offsets, __pyx_t_2); if (unlikely(__pyx_t_5 == ((int)-1))) __PYX_ERR(0, 272, __pyx_L1_error)
+  __pyx_t_5 = PyObject_IsInstance(__pyx_v_batch_offsets, __pyx_t_2); if (unlikely(__pyx_t_5 == ((int)-1))) __PYX_ERR(0, 275, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_4 = (!__pyx_t_5);
   __pyx_t_1 = __pyx_t_4;
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_1)) {
 
-    /* "balltree_setaxis/balltree.pyx":273
+    /* "balltree_setaxis/balltree.pyx":276
  *     """
  *     if not isinstance(data, np.ndarray) or not isinstance(batch_offsets, np.ndarray):
  *         raise ValueError("Both data and batch_offsets must be numpy arrays")             # <<<<<<<<<<<<<<
@@ -19740,73 +19744,6 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
       PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_kp_u_Both_data_and_batch_offsets_must};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 273, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-    }
-    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 273, __pyx_L1_error)
-
-    /* "balltree_setaxis/balltree.pyx":272
- *         If tree construction fails
- *     """
- *     if not isinstance(data, np.ndarray) or not isinstance(batch_offsets, np.ndarray):             # <<<<<<<<<<<<<<
- *         raise ValueError("Both data and batch_offsets must be numpy arrays")
- * 
-*/
-  }
-
-  /* "balltree_setaxis/balltree.pyx":275
- *         raise ValueError("Both data and batch_offsets must be numpy arrays")
- * 
- *     if data.ndim != 2:             # <<<<<<<<<<<<<<
- *         raise ValueError(
- *             f"Data must be 2D array of shape (num_samples, num_features), "
-*/
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 275, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_2, 2, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 275, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(__pyx_t_1)) {
-
-    /* "balltree_setaxis/balltree.pyx":276
- * 
- *     if data.ndim != 2:
- *         raise ValueError(             # <<<<<<<<<<<<<<
- *             f"Data must be 2D array of shape (num_samples, num_features), "
- *             f"got shape {data.shape}"
-*/
-    __pyx_t_3 = NULL;
-
-    /* "balltree_setaxis/balltree.pyx":278
- *         raise ValueError(
- *             f"Data must be 2D array of shape (num_samples, num_features), "
- *             f"got shape {data.shape}"             # <<<<<<<<<<<<<<
- *         )
- * 
-*/
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 278, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 278, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_8);
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-
-    /* "balltree_setaxis/balltree.pyx":277
- *     if data.ndim != 2:
- *         raise ValueError(
- *             f"Data must be 2D array of shape (num_samples, num_features), "             # <<<<<<<<<<<<<<
- *             f"got shape {data.shape}"
- *         )
-*/
-    __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Data_must_be_2D_array_of_shape_n, __pyx_t_8); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 277, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_6 = 1;
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_7};
-      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 276, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
@@ -19815,6 +19752,73 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
     __PYX_ERR(0, 276, __pyx_L1_error)
 
     /* "balltree_setaxis/balltree.pyx":275
+ *         If tree construction fails
+ *     """
+ *     if not isinstance(data, np.ndarray) or not isinstance(batch_offsets, np.ndarray):             # <<<<<<<<<<<<<<
+ *         raise ValueError("Both data and batch_offsets must be numpy arrays")
+ * 
+*/
+  }
+
+  /* "balltree_setaxis/balltree.pyx":278
+ *         raise ValueError("Both data and batch_offsets must be numpy arrays")
+ * 
+ *     if data.ndim != 2:             # <<<<<<<<<<<<<<
+ *         raise ValueError(
+ *             f"Data must be 2D array of shape (num_samples, num_features), "
+*/
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 278, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_2, 2, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 278, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (unlikely(__pyx_t_1)) {
+
+    /* "balltree_setaxis/balltree.pyx":279
+ * 
+ *     if data.ndim != 2:
+ *         raise ValueError(             # <<<<<<<<<<<<<<
+ *             f"Data must be 2D array of shape (num_samples, num_features), "
+ *             f"got shape {data.shape}"
+*/
+    __pyx_t_3 = NULL;
+
+    /* "balltree_setaxis/balltree.pyx":281
+ *         raise ValueError(
+ *             f"Data must be 2D array of shape (num_samples, num_features), "
+ *             f"got shape {data.shape}"             # <<<<<<<<<<<<<<
+ *         )
+ * 
+*/
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 281, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+
+    /* "balltree_setaxis/balltree.pyx":280
+ *     if data.ndim != 2:
+ *         raise ValueError(
+ *             f"Data must be 2D array of shape (num_samples, num_features), "             # <<<<<<<<<<<<<<
+ *             f"got shape {data.shape}"
+ *         )
+*/
+    __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Data_must_be_2D_array_of_shape_n, __pyx_t_8); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 280, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __pyx_t_6 = 1;
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_7};
+      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 279, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+    }
+    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __PYX_ERR(0, 279, __pyx_L1_error)
+
+    /* "balltree_setaxis/balltree.pyx":278
  *         raise ValueError("Both data and batch_offsets must be numpy arrays")
  * 
  *     if data.ndim != 2:             # <<<<<<<<<<<<<<
@@ -19823,20 +19827,20 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":281
+  /* "balltree_setaxis/balltree.pyx":284
  *         )
  * 
  *     if batch_offsets.ndim != 1:             # <<<<<<<<<<<<<<
  *         raise ValueError(
  *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_offsets, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 281, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_offsets, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 284, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 281, __pyx_L1_error)
+  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 284, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_1)) {
 
-    /* "balltree_setaxis/balltree.pyx":282
+    /* "balltree_setaxis/balltree.pyx":285
  * 
  *     if batch_offsets.ndim != 1:
  *         raise ValueError(             # <<<<<<<<<<<<<<
@@ -19845,27 +19849,27 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
     __pyx_t_7 = NULL;
 
-    /* "balltree_setaxis/balltree.pyx":284
+    /* "balltree_setaxis/balltree.pyx":287
  *         raise ValueError(
  *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "
  *             f"got shape {batch_offsets.shape}"             # <<<<<<<<<<<<<<
  *         )
  * 
 */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_offsets, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 284, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_offsets, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 287, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 284, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 287, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":283
+    /* "balltree_setaxis/balltree.pyx":286
  *     if batch_offsets.ndim != 1:
  *         raise ValueError(
  *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "             # <<<<<<<<<<<<<<
  *             f"got shape {batch_offsets.shape}"
  *         )
 */
-    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Batch_offsets_must_be_1D_array_o, __pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 283, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Batch_offsets_must_be_1D_array_o, __pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 286, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __pyx_t_6 = 1;
@@ -19874,14 +19878,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 282, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 285, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 282, __pyx_L1_error)
+    __PYX_ERR(0, 285, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":281
+    /* "balltree_setaxis/balltree.pyx":284
  *         )
  * 
  *     if batch_offsets.ndim != 1:             # <<<<<<<<<<<<<<
@@ -19890,18 +19894,18 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":287
+  /* "balltree_setaxis/balltree.pyx":290
  *         )
  * 
  *     if len(batch_offsets) < 2:             # <<<<<<<<<<<<<<
  *         raise ValueError("Batch offsets must contain at least 2 elements")
  * 
 */
-  __pyx_t_9 = PyObject_Length(__pyx_v_batch_offsets); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 287, __pyx_L1_error)
+  __pyx_t_9 = PyObject_Length(__pyx_v_batch_offsets); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 290, __pyx_L1_error)
   __pyx_t_1 = (__pyx_t_9 < 2);
   if (unlikely(__pyx_t_1)) {
 
-    /* "balltree_setaxis/balltree.pyx":288
+    /* "balltree_setaxis/balltree.pyx":291
  * 
  *     if len(batch_offsets) < 2:
  *         raise ValueError("Batch offsets must contain at least 2 elements")             # <<<<<<<<<<<<<<
@@ -19914,14 +19918,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
       PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_kp_u_Batch_offsets_must_contain_at_le};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 288, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 291, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 288, __pyx_L1_error)
+    __PYX_ERR(0, 291, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":287
+    /* "balltree_setaxis/balltree.pyx":290
  *         )
  * 
  *     if len(batch_offsets) < 2:             # <<<<<<<<<<<<<<
@@ -19930,7 +19934,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":290
+  /* "balltree_setaxis/balltree.pyx":293
  *         raise ValueError("Batch offsets must contain at least 2 elements")
  * 
  *     cdef float64_t[:, ::1] data_arr = np.asarray(data, dtype=np.float64)             # <<<<<<<<<<<<<<
@@ -19938,14 +19942,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
  * 
 */
   __pyx_t_3 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 290, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 293, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 290, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 293, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 290, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 293, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_float64); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 290, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_float64); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 293, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_t_6 = 1;
@@ -19962,24 +19966,24 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
   #endif
   {
     PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_3, __pyx_v_data};
-    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 290, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 293, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_10, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 290, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_10, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 293, __pyx_L1_error)
     __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_8, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_7);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 290, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 293, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  __pyx_t_11 = __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_16balltree_setaxis_8balltree_float64_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_11.memview)) __PYX_ERR(0, 290, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_16balltree_setaxis_8balltree_float64_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_11.memview)) __PYX_ERR(0, 293, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_data_arr = __pyx_t_11;
   __pyx_t_11.memview = NULL;
   __pyx_t_11.data = NULL;
 
-  /* "balltree_setaxis/balltree.pyx":291
+  /* "balltree_setaxis/balltree.pyx":294
  * 
  *     cdef float64_t[:, ::1] data_arr = np.asarray(data, dtype=np.float64)
  *     cdef intp_t[::1] batch_offsets_arr = np.asarray(batch_offsets, dtype=np.intp)             # <<<<<<<<<<<<<<
@@ -19987,14 +19991,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
  *     cdef intp_t num_batches = len(batch_offsets) - 1
 */
   __pyx_t_8 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 294, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 294, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 294, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 294, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_t_6 = 1;
@@ -20011,50 +20015,50 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
   #endif
   {
     PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_8, __pyx_v_batch_offsets};
-    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 291, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 294, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_3, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 291, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_3, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 294, __pyx_L1_error)
     __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_7);
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 291, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 294, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn___pyx_t_16balltree_setaxis_8balltree_intp_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 291, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn___pyx_t_16balltree_setaxis_8balltree_intp_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 294, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_batch_offsets_arr = __pyx_t_12;
   __pyx_t_12.memview = NULL;
   __pyx_t_12.data = NULL;
 
-  /* "balltree_setaxis/balltree.pyx":293
+  /* "balltree_setaxis/balltree.pyx":296
  *     cdef intp_t[::1] batch_offsets_arr = np.asarray(batch_offsets, dtype=np.intp)
  * 
  *     cdef intp_t num_batches = len(batch_offsets) - 1             # <<<<<<<<<<<<<<
  *     cdef intp_t num_features = data.shape[1]
  * 
 */
-  __pyx_t_9 = PyObject_Length(__pyx_v_batch_offsets); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 293, __pyx_L1_error)
+  __pyx_t_9 = PyObject_Length(__pyx_v_batch_offsets); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 296, __pyx_L1_error)
   __pyx_v_num_batches = (__pyx_t_9 - 1);
 
-  /* "balltree_setaxis/balltree.pyx":294
+  /* "balltree_setaxis/balltree.pyx":297
  * 
  *     cdef intp_t num_batches = len(batch_offsets) - 1
  *     cdef intp_t num_features = data.shape[1]             # <<<<<<<<<<<<<<
  * 
  *     # Prepare metadata for each subarray
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 294, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 297, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_10 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 294, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 297, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_13 = __Pyx_PyLong_As_npy_intp(__pyx_t_10); if (unlikely((__pyx_t_13 == ((npy_intp)-1)) && PyErr_Occurred())) __PYX_ERR(0, 294, __pyx_L1_error)
+  __pyx_t_13 = __Pyx_PyLong_As_npy_intp(__pyx_t_10); if (unlikely((__pyx_t_13 == ((npy_intp)-1)) && PyErr_Occurred())) __PYX_ERR(0, 297, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __pyx_v_num_features = __pyx_t_13;
 
-  /* "balltree_setaxis/balltree.pyx":297
+  /* "balltree_setaxis/balltree.pyx":300
  * 
  *     # Prepare metadata for each subarray
  *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[             # <<<<<<<<<<<<<<
@@ -20062,138 +20066,138 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
  *         ('end', np.intp),
 */
   __pyx_t_2 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 297, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 300, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 297, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 300, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyLong_From_npy_intp(__pyx_v_num_batches); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 297, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyLong_From_npy_intp(__pyx_v_num_batches); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 300, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
 
-  /* "balltree_setaxis/balltree.pyx":298
+  /* "balltree_setaxis/balltree.pyx":301
  *     # Prepare metadata for each subarray
  *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[
  *         ('start', np.intp),             # <<<<<<<<<<<<<<
  *         ('end', np.intp),
  *         ('tree_offset', np.intp),
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 298, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 301, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 298, __pyx_L1_error)
+  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 301, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 298, __pyx_L1_error)
+  __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 301, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_start);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_start);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_mstate_global->__pyx_n_u_start) != (0)) __PYX_ERR(0, 298, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_mstate_global->__pyx_n_u_start) != (0)) __PYX_ERR(0, 301, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_14);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_t_14) != (0)) __PYX_ERR(0, 298, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_t_14) != (0)) __PYX_ERR(0, 301, __pyx_L1_error);
   __pyx_t_14 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":299
+  /* "balltree_setaxis/balltree.pyx":302
  *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[
  *         ('start', np.intp),
  *         ('end', np.intp),             # <<<<<<<<<<<<<<
  *         ('tree_offset', np.intp),
  *         ('tree_size', np.intp),
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 299, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 302, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
-  __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 299, __pyx_L1_error)
+  __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 302, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_15);
   __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-  __pyx_t_14 = PyTuple_New(2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 299, __pyx_L1_error)
+  __pyx_t_14 = PyTuple_New(2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 302, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_14);
   __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_end);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_end);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_mstate_global->__pyx_n_u_end) != (0)) __PYX_ERR(0, 299, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_mstate_global->__pyx_n_u_end) != (0)) __PYX_ERR(0, 302, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_15);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_14, 1, __pyx_t_15) != (0)) __PYX_ERR(0, 299, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_14, 1, __pyx_t_15) != (0)) __PYX_ERR(0, 302, __pyx_L1_error);
   __pyx_t_15 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":300
+  /* "balltree_setaxis/balltree.pyx":303
  *         ('start', np.intp),
  *         ('end', np.intp),
  *         ('tree_offset', np.intp),             # <<<<<<<<<<<<<<
  *         ('tree_size', np.intp),
  *         ('num_leaves', np.intp)
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_15, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 300, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_15, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 303, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_15);
-  __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_15, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 300, __pyx_L1_error)
+  __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_15, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 303, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_16);
   __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-  __pyx_t_15 = PyTuple_New(2); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 300, __pyx_L1_error)
+  __pyx_t_15 = PyTuple_New(2); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 303, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_15);
   __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_tree_offset);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_tree_offset);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_15, 0, __pyx_mstate_global->__pyx_n_u_tree_offset) != (0)) __PYX_ERR(0, 300, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_15, 0, __pyx_mstate_global->__pyx_n_u_tree_offset) != (0)) __PYX_ERR(0, 303, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_16);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_15, 1, __pyx_t_16) != (0)) __PYX_ERR(0, 300, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_15, 1, __pyx_t_16) != (0)) __PYX_ERR(0, 303, __pyx_L1_error);
   __pyx_t_16 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":301
+  /* "balltree_setaxis/balltree.pyx":304
  *         ('end', np.intp),
  *         ('tree_offset', np.intp),
  *         ('tree_size', np.intp),             # <<<<<<<<<<<<<<
  *         ('num_leaves', np.intp)
  *     ])
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 301, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 304, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_16);
-  __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 301, __pyx_L1_error)
+  __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 304, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_17);
   __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-  __pyx_t_16 = PyTuple_New(2); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 301, __pyx_L1_error)
+  __pyx_t_16 = PyTuple_New(2); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 304, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_16);
   __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_tree_size);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_tree_size);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 0, __pyx_mstate_global->__pyx_n_u_tree_size) != (0)) __PYX_ERR(0, 301, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 0, __pyx_mstate_global->__pyx_n_u_tree_size) != (0)) __PYX_ERR(0, 304, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_17);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 1, __pyx_t_17) != (0)) __PYX_ERR(0, 301, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 1, __pyx_t_17) != (0)) __PYX_ERR(0, 304, __pyx_L1_error);
   __pyx_t_17 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":302
+  /* "balltree_setaxis/balltree.pyx":305
  *         ('tree_offset', np.intp),
  *         ('tree_size', np.intp),
  *         ('num_leaves', np.intp)             # <<<<<<<<<<<<<<
  *     ])
  * 
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 302, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 305, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_17);
-  __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 302, __pyx_L1_error)
+  __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 305, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_18);
   __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-  __pyx_t_17 = PyTuple_New(2); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 302, __pyx_L1_error)
+  __pyx_t_17 = PyTuple_New(2); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 305, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_17);
   __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_num_leaves);
   __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_num_leaves);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_17, 0, __pyx_mstate_global->__pyx_n_u_num_leaves) != (0)) __PYX_ERR(0, 302, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_17, 0, __pyx_mstate_global->__pyx_n_u_num_leaves) != (0)) __PYX_ERR(0, 305, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_18);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_17, 1, __pyx_t_18) != (0)) __PYX_ERR(0, 302, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_17, 1, __pyx_t_18) != (0)) __PYX_ERR(0, 305, __pyx_L1_error);
   __pyx_t_18 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":297
+  /* "balltree_setaxis/balltree.pyx":300
  * 
  *     # Prepare metadata for each subarray
  *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[             # <<<<<<<<<<<<<<
  *         ('start', np.intp),
  *         ('end', np.intp),
 */
-  __pyx_t_18 = PyList_New(5); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 297, __pyx_L1_error)
+  __pyx_t_18 = PyList_New(5); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 300, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_18);
   __Pyx_GIVEREF(__pyx_t_8);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 0, __pyx_t_8) != (0)) __PYX_ERR(0, 297, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 0, __pyx_t_8) != (0)) __PYX_ERR(0, 300, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_14);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 1, __pyx_t_14) != (0)) __PYX_ERR(0, 297, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 1, __pyx_t_14) != (0)) __PYX_ERR(0, 300, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_15);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 2, __pyx_t_15) != (0)) __PYX_ERR(0, 297, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 2, __pyx_t_15) != (0)) __PYX_ERR(0, 300, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_16);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 3, __pyx_t_16) != (0)) __PYX_ERR(0, 297, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 3, __pyx_t_16) != (0)) __PYX_ERR(0, 300, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_17);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 4, __pyx_t_17) != (0)) __PYX_ERR(0, 297, __pyx_L1_error);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 4, __pyx_t_17) != (0)) __PYX_ERR(0, 300, __pyx_L1_error);
   __pyx_t_8 = 0;
   __pyx_t_14 = 0;
   __pyx_t_15 = 0;
@@ -20213,25 +20217,25 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
   #endif
   {
     PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_2, __pyx_t_7};
-    __pyx_t_17 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 297, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 300, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_18, __pyx_t_17, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 297, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_18, __pyx_t_17, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 300, __pyx_L1_error)
     __pyx_t_10 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_3, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_17);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 297, __pyx_L1_error)
+    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 300, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
   }
-  __pyx_t_19 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_struct____pyx_t_16balltree_setaxis_8balltree_BatchMetadata(__pyx_t_10, PyBUF_WRITABLE); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 297, __pyx_L1_error)
+  __pyx_t_19 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_struct____pyx_t_16balltree_setaxis_8balltree_BatchMetadata(__pyx_t_10, PyBUF_WRITABLE); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 300, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __pyx_v_batch_metadata = __pyx_t_19;
   __pyx_t_19.memview = NULL;
   __pyx_t_19.data = NULL;
 
-  /* "balltree_setaxis/balltree.pyx":305
+  /* "balltree_setaxis/balltree.pyx":308
  *     ])
  * 
  *     cdef intp_t total_size = 0             # <<<<<<<<<<<<<<
@@ -20240,7 +20244,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
   __pyx_v_total_size = 0;
 
-  /* "balltree_setaxis/balltree.pyx":309
+  /* "balltree_setaxis/balltree.pyx":312
  *     cdef BatchMetadata* metadata
  * 
  *     for i in range(num_batches):             # <<<<<<<<<<<<<<
@@ -20252,7 +20256,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
   for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_20; __pyx_t_21+=1) {
     __pyx_v_i = __pyx_t_21;
 
-    /* "balltree_setaxis/balltree.pyx":311
+    /* "balltree_setaxis/balltree.pyx":314
  *     for i in range(num_batches):
  *         # Get pointer to current batch metadata
  *         metadata = &batch_metadata[i]             # <<<<<<<<<<<<<<
@@ -20262,7 +20266,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
     __pyx_t_22 = __pyx_v_i;
     __pyx_v_metadata = (&(*((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) ( /* dim=0 */ ((char *) (((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) __pyx_v_batch_metadata.data) + __pyx_t_22)) ))));
 
-    /* "balltree_setaxis/balltree.pyx":313
+    /* "balltree_setaxis/balltree.pyx":316
  *         metadata = &batch_metadata[i]
  * 
  *         metadata.start = batch_offsets_arr[i]             # <<<<<<<<<<<<<<
@@ -20272,7 +20276,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
     __pyx_t_22 = __pyx_v_i;
     __pyx_v_metadata->start = (*((__pyx_t_16balltree_setaxis_8balltree_intp_t *) ( /* dim=0 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_intp_t *) __pyx_v_batch_offsets_arr.data) + __pyx_t_22)) )));
 
-    /* "balltree_setaxis/balltree.pyx":314
+    /* "balltree_setaxis/balltree.pyx":317
  * 
  *         metadata.start = batch_offsets_arr[i]
  *         metadata.end = batch_offsets_arr[i + 1]             # <<<<<<<<<<<<<<
@@ -20282,7 +20286,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
     __pyx_t_22 = (__pyx_v_i + 1);
     __pyx_v_metadata->end = (*((__pyx_t_16balltree_setaxis_8balltree_intp_t *) ( /* dim=0 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_intp_t *) __pyx_v_batch_offsets_arr.data) + __pyx_t_22)) )));
 
-    /* "balltree_setaxis/balltree.pyx":316
+    /* "balltree_setaxis/balltree.pyx":319
  *         metadata.end = batch_offsets_arr[i + 1]
  * 
  *         if metadata.start >= metadata.end:             # <<<<<<<<<<<<<<
@@ -20292,7 +20296,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
     __pyx_t_1 = (__pyx_v_metadata->start >= __pyx_v_metadata->end);
     if (unlikely(__pyx_t_1)) {
 
-      /* "balltree_setaxis/balltree.pyx":317
+      /* "balltree_setaxis/balltree.pyx":320
  * 
  *         if metadata.start >= metadata.end:
  *             raise ValueError(f"Invalid batch offsets at index {i}")             # <<<<<<<<<<<<<<
@@ -20300,9 +20304,9 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
  *             raise ValueError(f"Batch offset {i} out of bounds")
 */
       __pyx_t_3 = NULL;
-      __pyx_t_17 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 317, __pyx_L1_error)
+      __pyx_t_17 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 320, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
-      __pyx_t_18 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Invalid_batch_offsets_at_index, __pyx_t_17); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 317, __pyx_L1_error)
+      __pyx_t_18 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Invalid_batch_offsets_at_index, __pyx_t_17); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 320, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
       __pyx_t_6 = 1;
@@ -20311,14 +20315,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
         __pyx_t_10 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 317, __pyx_L1_error)
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 320, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_10);
       }
       __Pyx_Raise(__pyx_t_10, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __PYX_ERR(0, 317, __pyx_L1_error)
+      __PYX_ERR(0, 320, __pyx_L1_error)
 
-      /* "balltree_setaxis/balltree.pyx":316
+      /* "balltree_setaxis/balltree.pyx":319
  *         metadata.end = batch_offsets_arr[i + 1]
  * 
  *         if metadata.start >= metadata.end:             # <<<<<<<<<<<<<<
@@ -20327,7 +20331,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
     }
 
-    /* "balltree_setaxis/balltree.pyx":318
+    /* "balltree_setaxis/balltree.pyx":321
  *         if metadata.start >= metadata.end:
  *             raise ValueError(f"Invalid batch offsets at index {i}")
  *         if metadata.start < 0 or metadata.end > data.shape[0]:             # <<<<<<<<<<<<<<
@@ -20340,23 +20344,23 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
       __pyx_t_1 = __pyx_t_4;
       goto __pyx_L13_bool_binop_done;
     }
-    __pyx_t_10 = __Pyx_PyLong_From_npy_intp(__pyx_v_metadata->end); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 318, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyLong_From_npy_intp(__pyx_v_metadata->end); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 321, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 318, __pyx_L1_error)
+    __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 321, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_18, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 318, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_18, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 321, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __pyx_t_18 = PyObject_RichCompare(__pyx_t_10, __pyx_t_3, Py_GT); __Pyx_XGOTREF(__pyx_t_18); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 318, __pyx_L1_error)
+    __pyx_t_18 = PyObject_RichCompare(__pyx_t_10, __pyx_t_3, Py_GT); __Pyx_XGOTREF(__pyx_t_18); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 321, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_18); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 318, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_18); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 321, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     __pyx_t_1 = __pyx_t_4;
     __pyx_L13_bool_binop_done:;
     if (unlikely(__pyx_t_1)) {
 
-      /* "balltree_setaxis/balltree.pyx":319
+      /* "balltree_setaxis/balltree.pyx":322
  *             raise ValueError(f"Invalid batch offsets at index {i}")
  *         if metadata.start < 0 or metadata.end > data.shape[0]:
  *             raise ValueError(f"Batch offset {i} out of bounds")             # <<<<<<<<<<<<<<
@@ -20364,13 +20368,13 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
  *         # Calculate tree structure
 */
       __pyx_t_3 = NULL;
-      __pyx_t_10 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 319, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 322, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __pyx_t_23[0] = __pyx_mstate_global->__pyx_kp_u_Batch_offset;
       __pyx_t_23[1] = __pyx_t_10;
       __pyx_t_23[2] = __pyx_mstate_global->__pyx_kp_u_out_of_bounds;
       __pyx_t_17 = __Pyx_PyUnicode_Join(__pyx_t_23, 3, 13 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_10) + 14, 127);
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 319, __pyx_L1_error)
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 322, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __pyx_t_6 = 1;
@@ -20379,14 +20383,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
         __pyx_t_18 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-        if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 319, __pyx_L1_error)
+        if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 322, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_18);
       }
       __Pyx_Raise(__pyx_t_18, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-      __PYX_ERR(0, 319, __pyx_L1_error)
+      __PYX_ERR(0, 322, __pyx_L1_error)
 
-      /* "balltree_setaxis/balltree.pyx":318
+      /* "balltree_setaxis/balltree.pyx":321
  *         if metadata.start >= metadata.end:
  *             raise ValueError(f"Invalid batch offsets at index {i}")
  *         if metadata.start < 0 or metadata.end > data.shape[0]:             # <<<<<<<<<<<<<<
@@ -20395,7 +20399,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
     }
 
-    /* "balltree_setaxis/balltree.pyx":322
+    /* "balltree_setaxis/balltree.pyx":325
  * 
  *         # Calculate tree structure
  *         num_points = metadata.end - metadata.start             # <<<<<<<<<<<<<<
@@ -20404,17 +20408,17 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
     __pyx_v_num_points = (__pyx_v_metadata->end - __pyx_v_metadata->start);
 
-    /* "balltree_setaxis/balltree.pyx":323
+    /* "balltree_setaxis/balltree.pyx":326
  *         # Calculate tree structure
  *         num_points = metadata.end - metadata.start
  *         metadata.num_leaves = 1 << compute_tree_depth(num_points)  # 2^depth             # <<<<<<<<<<<<<<
  *         metadata.tree_size = metadata.num_leaves * 2  # Each leaf gets 2 slots
  *         metadata.tree_offset = total_size
 */
-    __pyx_t_24 = __pyx_f_16balltree_setaxis_8balltree_compute_tree_depth(__pyx_v_num_points); if (unlikely(__pyx_t_24 == ((__pyx_t_16balltree_setaxis_8balltree_intp_t)-1L) && PyErr_Occurred())) __PYX_ERR(0, 323, __pyx_L1_error)
+    __pyx_t_24 = __pyx_f_16balltree_setaxis_8balltree_compute_tree_depth(__pyx_v_num_points); if (unlikely(__pyx_t_24 == ((__pyx_t_16balltree_setaxis_8balltree_intp_t)-1L) && PyErr_Occurred())) __PYX_ERR(0, 326, __pyx_L1_error)
     __pyx_v_metadata->num_leaves = (1 << __pyx_t_24);
 
-    /* "balltree_setaxis/balltree.pyx":324
+    /* "balltree_setaxis/balltree.pyx":327
  *         num_points = metadata.end - metadata.start
  *         metadata.num_leaves = 1 << compute_tree_depth(num_points)  # 2^depth
  *         metadata.tree_size = metadata.num_leaves * 2  # Each leaf gets 2 slots             # <<<<<<<<<<<<<<
@@ -20423,7 +20427,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
     __pyx_v_metadata->tree_size = (__pyx_v_metadata->num_leaves * 2);
 
-    /* "balltree_setaxis/balltree.pyx":325
+    /* "balltree_setaxis/balltree.pyx":328
  *         metadata.num_leaves = 1 << compute_tree_depth(num_points)  # 2^depth
  *         metadata.tree_size = metadata.num_leaves * 2  # Each leaf gets 2 slots
  *         metadata.tree_offset = total_size             # <<<<<<<<<<<<<<
@@ -20432,7 +20436,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
     __pyx_v_metadata->tree_offset = __pyx_v_total_size;
 
-    /* "balltree_setaxis/balltree.pyx":327
+    /* "balltree_setaxis/balltree.pyx":330
  *         metadata.tree_offset = total_size
  * 
  *         total_size += metadata.tree_size             # <<<<<<<<<<<<<<
@@ -20442,7 +20446,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
     __pyx_v_total_size = (__pyx_v_total_size + __pyx_v_metadata->tree_size);
   }
 
-  /* "balltree_setaxis/balltree.pyx":330
+  /* "balltree_setaxis/balltree.pyx":333
  * 
  *     # Allocate memory for the output arrays
  *     cdef intp_t[::1] output = np.empty(total_size, dtype=np.intp)             # <<<<<<<<<<<<<<
@@ -20450,16 +20454,16 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
  * 
 */
   __pyx_t_17 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 333, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_empty); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_empty); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 333, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyLong_From_npy_intp(__pyx_v_total_size); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyLong_From_npy_intp(__pyx_v_total_size); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 333, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 333, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 333, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_t_6 = 1;
@@ -20476,25 +20480,25 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
   #endif
   {
     PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_17, __pyx_t_3};
-    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 330, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 333, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_2, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 330, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_2, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 333, __pyx_L1_error)
     __pyx_t_18 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_7);
     __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 330, __pyx_L1_error)
+    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 333, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
   }
-  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn___pyx_t_16balltree_setaxis_8balltree_intp_t(__pyx_t_18, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 330, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn___pyx_t_16balltree_setaxis_8balltree_intp_t(__pyx_t_18, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 333, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
   __pyx_v_output = __pyx_t_12;
   __pyx_t_12.memview = NULL;
   __pyx_t_12.data = NULL;
 
-  /* "balltree_setaxis/balltree.pyx":331
+  /* "balltree_setaxis/balltree.pyx":334
  *     # Allocate memory for the output arrays
  *     cdef intp_t[::1] output = np.empty(total_size, dtype=np.intp)
  *     cdef bool[::1] mask = np.empty(total_size, dtype=np.bool_)             # <<<<<<<<<<<<<<
@@ -20502,16 +20506,16 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
  *     # Allocate memory for rotation matrices (num_batches x num_features x num_features)
 */
   __pyx_t_10 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 331, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 334, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_empty); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 331, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_empty); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 334, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyLong_From_npy_intp(__pyx_v_total_size); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 331, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyLong_From_npy_intp(__pyx_v_total_size); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 334, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 331, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 334, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_bool); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 331, __pyx_L1_error)
+  __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_bool); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 334, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_17);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_6 = 1;
@@ -20528,25 +20532,25 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
   #endif
   {
     PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_10, __pyx_t_7};
-    __pyx_t_3 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 331, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 334, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_17, __pyx_t_3, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 331, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_17, __pyx_t_3, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 334, __pyx_L1_error)
     __pyx_t_18 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_2, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_3);
     __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 331, __pyx_L1_error)
+    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 334, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
   }
-  __pyx_t_25 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_bool(__pyx_t_18, PyBUF_WRITABLE); if (unlikely(!__pyx_t_25.memview)) __PYX_ERR(0, 331, __pyx_L1_error)
+  __pyx_t_25 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_bool(__pyx_t_18, PyBUF_WRITABLE); if (unlikely(!__pyx_t_25.memview)) __PYX_ERR(0, 334, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
   __pyx_v_mask = __pyx_t_25;
   __pyx_t_25.memview = NULL;
   __pyx_t_25.data = NULL;
 
-  /* "balltree_setaxis/balltree.pyx":334
+  /* "balltree_setaxis/balltree.pyx":337
  * 
  *     # Allocate memory for rotation matrices (num_batches x num_features x num_features)
  *     cdef float64_t[:, :, ::1] rotation_matrices = np.empty(             # <<<<<<<<<<<<<<
@@ -20554,39 +20558,39 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
  *     )
 */
   __pyx_t_2 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 334, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 337, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_empty); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 334, __pyx_L1_error)
+  __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_empty); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 337, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_17);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":335
+  /* "balltree_setaxis/balltree.pyx":338
  *     # Allocate memory for rotation matrices (num_batches x num_features x num_features)
  *     cdef float64_t[:, :, ::1] rotation_matrices = np.empty(
  *         (num_batches, num_features, num_features), dtype=np.float64             # <<<<<<<<<<<<<<
  *     )
  * 
 */
-  __pyx_t_3 = __Pyx_PyLong_From_npy_intp(__pyx_v_num_batches); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 335, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyLong_From_npy_intp(__pyx_v_num_batches); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 338, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_7 = __Pyx_PyLong_From_npy_intp(__pyx_v_num_features); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 335, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyLong_From_npy_intp(__pyx_v_num_features); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 338, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_10 = __Pyx_PyLong_From_npy_intp(__pyx_v_num_features); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 335, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyLong_From_npy_intp(__pyx_v_num_features); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 338, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
-  __pyx_t_16 = PyTuple_New(3); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 335, __pyx_L1_error)
+  __pyx_t_16 = PyTuple_New(3); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 338, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_16);
   __Pyx_GIVEREF(__pyx_t_3);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 0, __pyx_t_3) != (0)) __PYX_ERR(0, 335, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 0, __pyx_t_3) != (0)) __PYX_ERR(0, 338, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_7);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 1, __pyx_t_7) != (0)) __PYX_ERR(0, 335, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 1, __pyx_t_7) != (0)) __PYX_ERR(0, 338, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_10);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 2, __pyx_t_10) != (0)) __PYX_ERR(0, 335, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 2, __pyx_t_10) != (0)) __PYX_ERR(0, 338, __pyx_L1_error);
   __pyx_t_3 = 0;
   __pyx_t_7 = 0;
   __pyx_t_10 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 335, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 338, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_float64); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 335, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_float64); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 338, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
   __pyx_t_6 = 1;
@@ -20603,55 +20607,99 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
   #endif
   {
     PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_2, __pyx_t_16};
-    __pyx_t_10 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 334, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 337, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_7, __pyx_t_10, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 334, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_7, __pyx_t_10, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 337, __pyx_L1_error)
     __pyx_t_18 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_17, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_10);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 334, __pyx_L1_error)
+    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 337, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
   }
 
-  /* "balltree_setaxis/balltree.pyx":334
+  /* "balltree_setaxis/balltree.pyx":337
  * 
  *     # Allocate memory for rotation matrices (num_batches x num_features x num_features)
  *     cdef float64_t[:, :, ::1] rotation_matrices = np.empty(             # <<<<<<<<<<<<<<
  *         (num_batches, num_features, num_features), dtype=np.float64
  *     )
 */
-  __pyx_t_26 = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_nn___pyx_t_16balltree_setaxis_8balltree_float64_t(__pyx_t_18, PyBUF_WRITABLE); if (unlikely(!__pyx_t_26.memview)) __PYX_ERR(0, 334, __pyx_L1_error)
+  __pyx_t_26 = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_nn___pyx_t_16balltree_setaxis_8balltree_float64_t(__pyx_t_18, PyBUF_WRITABLE); if (unlikely(!__pyx_t_26.memview)) __PYX_ERR(0, 337, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
   __pyx_v_rotation_matrices = __pyx_t_26;
   __pyx_t_26.memview = NULL;
   __pyx_t_26.data = NULL;
 
-  /* "balltree_setaxis/balltree.pyx":339
- * 
+  /* "balltree_setaxis/balltree.pyx":343
  *     # Configure parallel processing of batches, equal chunks of compute per batch element
- *     cdef int num_threads = omp_get_max_threads()             # <<<<<<<<<<<<<<
- *     cdef int chunk_size = max(1, num_batches // num_threads)
- *     omp_set_num_threads(num_threads)
+ *     cdef int num_threads
+ *     if _USE_OPENMP:             # <<<<<<<<<<<<<<
+ *         num_threads = omp_get_max_threads()
+ *         omp_set_num_threads(num_threads)
 */
-  __pyx_v_num_threads = omp_get_max_threads();
+  __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_USE_OPENMP); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 343, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_18);
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_18); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 343, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+  if (__pyx_t_1) {
 
-  /* "balltree_setaxis/balltree.pyx":340
+    /* "balltree_setaxis/balltree.pyx":344
+ *     cdef int num_threads
+ *     if _USE_OPENMP:
+ *         num_threads = omp_get_max_threads()             # <<<<<<<<<<<<<<
+ *         omp_set_num_threads(num_threads)
+ *     else:
+*/
+    __pyx_v_num_threads = omp_get_max_threads();
+
+    /* "balltree_setaxis/balltree.pyx":345
+ *     if _USE_OPENMP:
+ *         num_threads = omp_get_max_threads()
+ *         omp_set_num_threads(num_threads)             # <<<<<<<<<<<<<<
+ *     else:
+ *         num_threads = 1
+*/
+    omp_set_num_threads(__pyx_v_num_threads);
+
+    /* "balltree_setaxis/balltree.pyx":343
  *     # Configure parallel processing of batches, equal chunks of compute per batch element
- *     cdef int num_threads = omp_get_max_threads()
- *     cdef int chunk_size = max(1, num_batches // num_threads)             # <<<<<<<<<<<<<<
- *     omp_set_num_threads(num_threads)
+ *     cdef int num_threads
+ *     if _USE_OPENMP:             # <<<<<<<<<<<<<<
+ *         num_threads = omp_get_max_threads()
+ *         omp_set_num_threads(num_threads)
+*/
+    goto __pyx_L15;
+  }
+
+  /* "balltree_setaxis/balltree.pyx":347
+ *         omp_set_num_threads(num_threads)
+ *     else:
+ *         num_threads = 1             # <<<<<<<<<<<<<<
  * 
+ *     cdef int chunk_size = max(1, num_batches // num_threads)
+*/
+  /*else*/ {
+    __pyx_v_num_threads = 1;
+  }
+  __pyx_L15:;
+
+  /* "balltree_setaxis/balltree.pyx":349
+ *         num_threads = 1
+ * 
+ *     cdef int chunk_size = max(1, num_batches // num_threads)             # <<<<<<<<<<<<<<
+ * 
+ *     cdef int ret
 */
   if (unlikely(__pyx_v_num_threads == 0)) {
     PyErr_SetString(PyExc_ZeroDivisionError, "integer division or modulo by zero");
-    __PYX_ERR(0, 340, __pyx_L1_error)
+    __PYX_ERR(0, 349, __pyx_L1_error)
   }
   else if (sizeof(__pyx_t_16balltree_setaxis_8balltree_intp_t) == sizeof(long) && (!(((int)-1) > 0)) && unlikely(__pyx_v_num_threads == (int)-1)  && unlikely(__Pyx_UNARY_NEG_WOULD_OVERFLOW(__pyx_v_num_batches))) {
     PyErr_SetString(PyExc_OverflowError, "value too large to perform division");
-    __PYX_ERR(0, 340, __pyx_L1_error)
+    __PYX_ERR(0, 349, __pyx_L1_error)
   }
   __pyx_t_13 = __Pyx_div___pyx_t_16balltree_setaxis_8balltree_intp_t(__pyx_v_num_batches, __pyx_v_num_threads, 0);
   __pyx_t_27 = 1;
@@ -20663,16 +20711,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
   }
   __pyx_v_chunk_size = __pyx_t_20;
 
-  /* "balltree_setaxis/balltree.pyx":341
- *     cdef int num_threads = omp_get_max_threads()
- *     cdef int chunk_size = max(1, num_batches // num_threads)
- *     omp_set_num_threads(num_threads)             # <<<<<<<<<<<<<<
- * 
- *     cdef int ret
-*/
-  omp_set_num_threads(__pyx_v_num_threads);
-
-  /* "balltree_setaxis/balltree.pyx":345
+  /* "balltree_setaxis/balltree.pyx":353
  *     cdef int ret
  * 
  *     with nogil, parallel(num_threads=num_threads):             # <<<<<<<<<<<<<<
@@ -20707,7 +20746,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
                 Py_BEGIN_ALLOW_THREADS
                 #endif /* _OPENMP */
 
-                /* "balltree_setaxis/balltree.pyx":346
+                /* "balltree_setaxis/balltree.pyx":354
  * 
  *     with nogil, parallel(num_threads=num_threads):
  *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):             # <<<<<<<<<<<<<<
@@ -20735,7 +20774,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
                             {
                                 __pyx_v_i = (__pyx_t_16balltree_setaxis_8balltree_intp_t)(0 + 1 * __pyx_t_13);
 
-                                /* "balltree_setaxis/balltree.pyx":348
+                                /* "balltree_setaxis/balltree.pyx":356
  *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):
  *             ret = build_batch_trees(
  *                 &data_arr[0,0],             # <<<<<<<<<<<<<<
@@ -20745,7 +20784,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
                                 __pyx_t_22 = 0;
                                 __pyx_t_29 = 0;
 
-                                /* "balltree_setaxis/balltree.pyx":349
+                                /* "balltree_setaxis/balltree.pyx":357
  *             ret = build_batch_trees(
  *                 &data_arr[0,0],
  *                 batch_metadata[i],             # <<<<<<<<<<<<<<
@@ -20754,7 +20793,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
                                 __pyx_t_30 = __pyx_v_i;
 
-                                /* "balltree_setaxis/balltree.pyx":350
+                                /* "balltree_setaxis/balltree.pyx":358
  *                 &data_arr[0,0],
  *                 batch_metadata[i],
  *                 &output[0],             # <<<<<<<<<<<<<<
@@ -20763,7 +20802,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
                                 __pyx_t_31 = 0;
 
-                                /* "balltree_setaxis/balltree.pyx":351
+                                /* "balltree_setaxis/balltree.pyx":359
  *                 batch_metadata[i],
  *                 &output[0],
  *                 &mask[0],             # <<<<<<<<<<<<<<
@@ -20772,7 +20811,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
 */
                                 __pyx_t_32 = 0;
 
-                                /* "balltree_setaxis/balltree.pyx":352
+                                /* "balltree_setaxis/balltree.pyx":360
  *                 &output[0],
  *                 &mask[0],
  *                 &rotation_matrices[0,0,0],             # <<<<<<<<<<<<<<
@@ -20783,17 +20822,17 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
                                 __pyx_t_34 = 0;
                                 __pyx_t_35 = 0;
 
-                                /* "balltree_setaxis/balltree.pyx":347
+                                /* "balltree_setaxis/balltree.pyx":355
  *     with nogil, parallel(num_threads=num_threads):
  *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):
  *             ret = build_batch_trees(             # <<<<<<<<<<<<<<
  *                 &data_arr[0,0],
  *                 batch_metadata[i],
 */
-                                __pyx_t_36 = __pyx_f_16balltree_setaxis_8balltree_build_batch_trees((&(*((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=1 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=0 */ (__pyx_v_data_arr.data + __pyx_t_22 * __pyx_v_data_arr.strides[0]) )) + __pyx_t_29)) )))), (*((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) ( /* dim=0 */ ((char *) (((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) __pyx_v_batch_metadata.data) + __pyx_t_30)) ))), (&(*((__pyx_t_16balltree_setaxis_8balltree_intp_t *) ( /* dim=0 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_intp_t *) __pyx_v_output.data) + __pyx_t_31)) )))), (&(*((bool *) ( /* dim=0 */ ((char *) (((bool *) __pyx_v_mask.data) + __pyx_t_32)) )))), (&(*((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=2 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_rotation_matrices.data + __pyx_t_33 * __pyx_v_rotation_matrices.strides[0]) ) + __pyx_t_34 * __pyx_v_rotation_matrices.strides[1]) )) + __pyx_t_35)) )))), __pyx_v_i, __pyx_v_num_features); if (unlikely(__pyx_t_36 == ((int)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 347, __pyx_L24_error)
+                                __pyx_t_36 = __pyx_f_16balltree_setaxis_8balltree_build_batch_trees((&(*((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=1 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=0 */ (__pyx_v_data_arr.data + __pyx_t_22 * __pyx_v_data_arr.strides[0]) )) + __pyx_t_29)) )))), (*((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) ( /* dim=0 */ ((char *) (((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) __pyx_v_batch_metadata.data) + __pyx_t_30)) ))), (&(*((__pyx_t_16balltree_setaxis_8balltree_intp_t *) ( /* dim=0 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_intp_t *) __pyx_v_output.data) + __pyx_t_31)) )))), (&(*((bool *) ( /* dim=0 */ ((char *) (((bool *) __pyx_v_mask.data) + __pyx_t_32)) )))), (&(*((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=2 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_rotation_matrices.data + __pyx_t_33 * __pyx_v_rotation_matrices.strides[0]) ) + __pyx_t_34 * __pyx_v_rotation_matrices.strides[1]) )) + __pyx_t_35)) )))), __pyx_v_i, __pyx_v_num_features); if (unlikely(__pyx_t_36 == ((int)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 355, __pyx_L25_error)
                                 __pyx_v_ret = __pyx_t_36;
 
-                                /* "balltree_setaxis/balltree.pyx":356
+                                /* "balltree_setaxis/balltree.pyx":364
  *                 num_features
  *             )
  *             if ret != 0:             # <<<<<<<<<<<<<<
@@ -20803,7 +20842,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
                                 __pyx_t_1 = (__pyx_v_ret != 0);
                                 if (unlikely(__pyx_t_1)) {
 
-                                  /* "balltree_setaxis/balltree.pyx":357
+                                  /* "balltree_setaxis/balltree.pyx":365
  *             )
  *             if ret != 0:
  *                 with gil:             # <<<<<<<<<<<<<<
@@ -20814,7 +20853,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
                                       PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                                       /*try:*/ {
 
-                                        /* "balltree_setaxis/balltree.pyx":358
+                                        /* "balltree_setaxis/balltree.pyx":366
  *             if ret != 0:
  *                 with gil:
  *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")             # <<<<<<<<<<<<<<
@@ -20822,16 +20861,16 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
  *     return np.asarray(output), np.asarray(mask), np.asarray(rotation_matrices)
 */
                                         __pyx_t_17 = NULL;
-                                        __pyx_t_10 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 358, __pyx_L30_error)
+                                        __pyx_t_10 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 366, __pyx_L31_error)
                                         __Pyx_GOTREF(__pyx_t_10);
-                                        __pyx_t_7 = __Pyx_PyUnicode_From_int(__pyx_v_ret, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 358, __pyx_L30_error)
+                                        __pyx_t_7 = __Pyx_PyUnicode_From_int(__pyx_v_ret, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 366, __pyx_L31_error)
                                         __Pyx_GOTREF(__pyx_t_7);
                                         __pyx_t_37[0] = __pyx_mstate_global->__pyx_kp_u_Error_processing_batch;
                                         __pyx_t_37[1] = __pyx_t_10;
                                         __pyx_t_37[2] = __pyx_mstate_global->__pyx_kp_u_error_code;
                                         __pyx_t_37[3] = __pyx_t_7;
                                         __pyx_t_16 = __Pyx_PyUnicode_Join(__pyx_t_37, 4, 23 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_10) + 13 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7), 127);
-                                        if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 358, __pyx_L30_error)
+                                        if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 366, __pyx_L31_error)
                                         __Pyx_GOTREF(__pyx_t_16);
                                         __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
                                         __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
@@ -20841,1556 +20880,15 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_build_balltree_with_offse
                                           __pyx_t_18 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_RuntimeError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
                                           __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
                                           __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-                                          if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 358, __pyx_L30_error)
+                                          if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 366, __pyx_L31_error)
                                           __Pyx_GOTREF(__pyx_t_18);
                                         }
                                         __Pyx_Raise(__pyx_t_18, 0, 0, 0);
                                         __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-                                        __PYX_ERR(0, 358, __pyx_L30_error)
+                                        __PYX_ERR(0, 366, __pyx_L31_error)
                                       }
 
-                                      /* "balltree_setaxis/balltree.pyx":357
- *             )
- *             if ret != 0:
- *                 with gil:             # <<<<<<<<<<<<<<
- *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
- * 
-*/
-                                      /*finally:*/ {
-                                        __pyx_L30_error: {
-                                          __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                          goto __pyx_L24_error;
-                                        }
-                                      }
-                                  }
-
-                                  /* "balltree_setaxis/balltree.pyx":356
- *                 num_features
- *             )
- *             if ret != 0:             # <<<<<<<<<<<<<<
- *                 with gil:
- *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
-*/
-                                }
-                                goto __pyx_L33;
-                                __pyx_L24_error:;
-                                {
-                                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                                    PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
-                                    #endif
-                                    #ifdef _OPENMP
-                                    #pragma omp flush(__pyx_parallel_exc_type)
-                                    #endif /* _OPENMP */
-                                    if (!__pyx_parallel_exc_type) {
-                                      __Pyx_ErrFetchWithState(&__pyx_parallel_exc_type, &__pyx_parallel_exc_value, &__pyx_parallel_exc_tb);
-                                      __pyx_parallel_filename = __pyx_filename; __pyx_parallel_lineno = __pyx_lineno; __pyx_parallel_clineno = __pyx_clineno;
-                                      __Pyx_GOTREF(__pyx_parallel_exc_type);
-                                    }
-                                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                                    PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
-                                    #endif
-                                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                                }
-                                __pyx_parallel_why = 4;
-                                goto __pyx_L33;
-                                __pyx_L33:;
-                                #ifdef _OPENMP
-                                #pragma omp flush(__pyx_parallel_why)
-                                #endif /* _OPENMP */
-                            }
-                        }
-                    }
-                    if (__pyx_parallel_exc_type) {
-                      /* This may have been overridden by a continue, break or return in another thread. Prefer the error. */
-                      __pyx_parallel_why = 4;
-                    }
-                    if (__pyx_parallel_why) {
-                      switch (__pyx_parallel_why) {
-                            case 4:
-                        {
-                            PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                            #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                            PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
-                            #endif
-                            __Pyx_GIVEREF(__pyx_parallel_exc_type);
-                            __Pyx_ErrRestoreWithState(__pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb);
-                            __pyx_filename = __pyx_parallel_filename; __pyx_lineno = __pyx_parallel_lineno; __pyx_clineno = __pyx_parallel_clineno;
-                            #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                            PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
-                            #endif
-                            __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                        }
-                        goto __pyx_L20_error;
-                      }
-                    }
-                }
-                goto __pyx_L35;
-                __pyx_L20_error:;
-                {
-                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                    PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
-                    #endif
-                    #ifdef _OPENMP
-                    #pragma omp flush(__pyx_parallel_exc_type)
-                    #endif /* _OPENMP */
-                    if (!__pyx_parallel_exc_type) {
-                      __Pyx_ErrFetchWithState(&__pyx_parallel_exc_type, &__pyx_parallel_exc_value, &__pyx_parallel_exc_tb);
-                      __pyx_parallel_filename = __pyx_filename; __pyx_parallel_lineno = __pyx_lineno; __pyx_parallel_clineno = __pyx_clineno;
-                      __Pyx_GOTREF(__pyx_parallel_exc_type);
-                    }
-                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                    PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
-                    #endif
-                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                }
-                __pyx_parallel_why = 4;
-                goto __pyx_L35;
-                __pyx_L35:;
-                #ifdef _OPENMP
-                Py_END_ALLOW_THREADS
-                #else
-{
-PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                #endif /* _OPENMP */
-                /* Clean up any temporaries */
-                __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
-                __Pyx_XDECREF(__pyx_t_16); __pyx_t_16 = 0;
-                __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
-                __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
-                __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-                __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                #ifndef _OPENMP
-}
-#endif /* _OPENMP */
-            }
-            if (__pyx_parallel_exc_type) {
-              /* This may have been overridden by a continue, break or return in another thread. Prefer the error. */
-              __pyx_parallel_why = 4;
-            }
-            if (__pyx_parallel_why) {
-              switch (__pyx_parallel_why) {
-                    case 4:
-                {
-                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                    PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
-                    #endif
-                    __Pyx_GIVEREF(__pyx_parallel_exc_type);
-                    __Pyx_ErrRestoreWithState(__pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb);
-                    __pyx_filename = __pyx_parallel_filename; __pyx_lineno = __pyx_parallel_lineno; __pyx_clineno = __pyx_parallel_clineno;
-                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                    PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
-                    #endif
-                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
-                }
-                goto __pyx_L16_error;
-              }
-            }
-        }
-        #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
-            #undef likely
-            #undef unlikely
-            #define likely(x)   __builtin_expect(!!(x), 1)
-            #define unlikely(x) __builtin_expect(!!(x), 0)
-        #endif
-      }
-
-      /* "balltree_setaxis/balltree.pyx":345
- *     cdef int ret
- * 
- *     with nogil, parallel(num_threads=num_threads):             # <<<<<<<<<<<<<<
- *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):
- *             ret = build_batch_trees(
-*/
-      /*finally:*/ {
-        /*normal exit:*/{
-          __Pyx_FastGIL_Forget();
-          PyEval_RestoreThread(_save);
-          goto __pyx_L17;
-        }
-        __pyx_L16_error: {
-          __Pyx_FastGIL_Forget();
-          PyEval_RestoreThread(_save);
-          goto __pyx_L1_error;
-        }
-        __pyx_L17:;
-      }
-  }
-
-  /* "balltree_setaxis/balltree.pyx":360
- *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
- * 
- *     return np.asarray(output), np.asarray(mask), np.asarray(rotation_matrices)             # <<<<<<<<<<<<<<
- * 
- * def partition_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray, target_level: int):
-*/
-  __Pyx_XDECREF(__pyx_r);
-  __pyx_t_16 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_17);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-  __pyx_t_17 = __pyx_memoryview_fromslice(__pyx_v_output, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_16balltree_setaxis_8balltree_intp_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_16balltree_setaxis_8balltree_intp_t, 0);; if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_17);
-  __pyx_t_6 = 1;
-  #if CYTHON_UNPACK_METHODS
-  if (unlikely(PyMethod_Check(__pyx_t_7))) {
-    __pyx_t_16 = PyMethod_GET_SELF(__pyx_t_7);
-    assert(__pyx_t_16);
-    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_7);
-    __Pyx_INCREF(__pyx_t_16);
-    __Pyx_INCREF(__pyx__function);
-    __Pyx_DECREF_SET(__pyx_t_7, __pyx__function);
-    __pyx_t_6 = 0;
-  }
-  #endif
-  {
-    PyObject *__pyx_callargs[2] = {__pyx_t_16, __pyx_t_17};
-    __pyx_t_18 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-    __Pyx_XDECREF(__pyx_t_16); __pyx_t_16 = 0;
-    __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 360, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_18);
-  }
-  __pyx_t_17 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_16);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_10);
-  __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-  __pyx_t_16 = __pyx_memoryview_fromslice(__pyx_v_mask, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_bool, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_bool, 0);; if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_16);
-  __pyx_t_6 = 1;
-  #if CYTHON_UNPACK_METHODS
-  if (unlikely(PyMethod_Check(__pyx_t_10))) {
-    __pyx_t_17 = PyMethod_GET_SELF(__pyx_t_10);
-    assert(__pyx_t_17);
-    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_10);
-    __Pyx_INCREF(__pyx_t_17);
-    __Pyx_INCREF(__pyx__function);
-    __Pyx_DECREF_SET(__pyx_t_10, __pyx__function);
-    __pyx_t_6 = 0;
-  }
-  #endif
-  {
-    PyObject *__pyx_callargs[2] = {__pyx_t_17, __pyx_t_16};
-    __pyx_t_7 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-    __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
-    __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 360, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-  }
-  __pyx_t_16 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_17);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-  __pyx_t_17 = __pyx_memoryview_fromslice(__pyx_v_rotation_matrices, 3, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_16balltree_setaxis_8balltree_float64_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_16balltree_setaxis_8balltree_float64_t, 0);; if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_17);
-  __pyx_t_6 = 1;
-  #if CYTHON_UNPACK_METHODS
-  if (unlikely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_16 = PyMethod_GET_SELF(__pyx_t_2);
-    assert(__pyx_t_16);
-    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_2);
-    __Pyx_INCREF(__pyx_t_16);
-    __Pyx_INCREF(__pyx__function);
-    __Pyx_DECREF_SET(__pyx_t_2, __pyx__function);
-    __pyx_t_6 = 0;
-  }
-  #endif
-  {
-    PyObject *__pyx_callargs[2] = {__pyx_t_16, __pyx_t_17};
-    __pyx_t_10 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_2, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-    __Pyx_XDECREF(__pyx_t_16); __pyx_t_16 = 0;
-    __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 360, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_10);
-  }
-  __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 360, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_GIVEREF(__pyx_t_18);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_18) != (0)) __PYX_ERR(0, 360, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_7);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_7) != (0)) __PYX_ERR(0, 360, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_10);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 2, __pyx_t_10) != (0)) __PYX_ERR(0, 360, __pyx_L1_error);
-  __pyx_t_18 = 0;
-  __pyx_t_7 = 0;
-  __pyx_t_10 = 0;
-  __pyx_r = __pyx_t_2;
-  __pyx_t_2 = 0;
-  goto __pyx_L0;
-
-  /* "balltree_setaxis/balltree.pyx":234
- *     return 0
- * 
- * def build_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray):             # <<<<<<<<<<<<<<
- *     """Build ball trees for multiple subarrays in parallel with global PCA alignment.
- * 
-*/
-
-  /* function exit code */
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_XDECREF(__pyx_t_10);
-  __PYX_XCLEAR_MEMVIEW(&__pyx_t_11, 1);
-  __PYX_XCLEAR_MEMVIEW(&__pyx_t_12, 1);
-  __Pyx_XDECREF(__pyx_t_14);
-  __Pyx_XDECREF(__pyx_t_15);
-  __Pyx_XDECREF(__pyx_t_16);
-  __Pyx_XDECREF(__pyx_t_17);
-  __Pyx_XDECREF(__pyx_t_18);
-  __PYX_XCLEAR_MEMVIEW(&__pyx_t_19, 1);
-  __PYX_XCLEAR_MEMVIEW(&__pyx_t_25, 1);
-  __PYX_XCLEAR_MEMVIEW(&__pyx_t_26, 1);
-  __Pyx_AddTraceback("balltree_setaxis.balltree.build_balltree_with_offsets", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __PYX_XCLEAR_MEMVIEW(&__pyx_v_data_arr, 1);
-  __PYX_XCLEAR_MEMVIEW(&__pyx_v_batch_offsets_arr, 1);
-  __PYX_XCLEAR_MEMVIEW(&__pyx_v_batch_metadata, 1);
-  __PYX_XCLEAR_MEMVIEW(&__pyx_v_output, 1);
-  __PYX_XCLEAR_MEMVIEW(&__pyx_v_mask, 1);
-  __PYX_XCLEAR_MEMVIEW(&__pyx_v_rotation_matrices, 1);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "balltree_setaxis/balltree.pyx":362
- *     return np.asarray(output), np.asarray(mask), np.asarray(rotation_matrices)
- * 
- * def partition_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray, target_level: int):             # <<<<<<<<<<<<<<
- *     """Partition ball trees for multiple subarrays in parallel.
- * 
-*/
-
-/* Python wrapper */
-static PyObject *__pyx_pw_16balltree_setaxis_8balltree_3partition_balltree_with_offsets(PyObject *__pyx_self, 
-#if CYTHON_METH_FASTCALL
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-#else
-PyObject *__pyx_args, PyObject *__pyx_kwds
-#endif
-); /*proto*/
-PyDoc_STRVAR(__pyx_doc_16balltree_setaxis_8balltree_2partition_balltree_with_offsets, "Partition ball trees for multiple subarrays in parallel.\n    \n    For each subarray defined by batch_offsets, partitions the points\n    up to the specified target level.\n    \n    Parameters\n    ----------\n    data : ndarray of shape (num_samples, num_features)\n        Input data points. Must be contiguous and float64.\n        Each subarray has length 2^k as it is a complete binary tree.\n    batch_offsets : ndarray of shape (num_batches + 1,)\n        Indices that define the boundaries of subarrays in data.\n        Each subarray i contains points from batch_offsets[i] to batch_offsets[i+1].\n    target_level : int\n        Number of partitioning steps to apply.\n        \n    Returns\n    -------\n    ndarray\n        Flattened array containing partitioned indices for all trees.\n        \n    Notes\n    -----\n    - Input arrays must be contiguous\n    - Each subarray is a complete binary tree\n    - Partitioning stops at the specified target level\n    - Thread-safe and GIL-free during partitioning\n    \n    Raises\n    ------\n    ValueError\n        If input arrays have incorrect shapes or invalid batch offsets\n    RuntimeError\n        If partitioning fails\n    ");
-static PyMethodDef __pyx_mdef_16balltree_setaxis_8balltree_3partition_balltree_with_offsets = {"partition_balltree_with_offsets", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_16balltree_setaxis_8balltree_3partition_balltree_with_offsets, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_16balltree_setaxis_8balltree_2partition_balltree_with_offsets};
-static PyObject *__pyx_pw_16balltree_setaxis_8balltree_3partition_balltree_with_offsets(PyObject *__pyx_self, 
-#if CYTHON_METH_FASTCALL
-PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
-#else
-PyObject *__pyx_args, PyObject *__pyx_kwds
-#endif
-) {
-  PyObject *__pyx_v_data = 0;
-  PyObject *__pyx_v_batch_offsets = 0;
-  PyObject *__pyx_v_target_level = 0;
-  #if !CYTHON_METH_FASTCALL
-  CYTHON_UNUSED Py_ssize_t __pyx_nargs;
-  #endif
-  CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
-  PyObject* values[3] = {0,0,0};
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("partition_balltree_with_offsets (wrapper)", 0);
-  #if !CYTHON_METH_FASTCALL
-  #if CYTHON_ASSUME_SAFE_SIZE
-  __pyx_nargs = PyTuple_GET_SIZE(__pyx_args);
-  #else
-  __pyx_nargs = PyTuple_Size(__pyx_args); if (unlikely(__pyx_nargs < 0)) return NULL;
-  #endif
-  #endif
-  __pyx_kwvalues = __Pyx_KwValues_FASTCALL(__pyx_args, __pyx_nargs);
-  {
-    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_data,&__pyx_mstate_global->__pyx_n_u_batch_offsets,&__pyx_mstate_global->__pyx_n_u_target_level,0};
-    const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 362, __pyx_L3_error)
-    if (__pyx_kwds_len > 0) {
-      switch (__pyx_nargs) {
-        case  3:
-        values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 362, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  2:
-        values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 362, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  1:
-        values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 362, __pyx_L3_error)
-        CYTHON_FALLTHROUGH;
-        case  0: break;
-        default: goto __pyx_L5_argtuple_error;
-      }
-      const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "partition_balltree_with_offsets", 0) < (0)) __PYX_ERR(0, 362, __pyx_L3_error)
-      for (Py_ssize_t i = __pyx_nargs; i < 3; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("partition_balltree_with_offsets", 1, 3, 3, i); __PYX_ERR(0, 362, __pyx_L3_error) }
-      }
-    } else if (unlikely(__pyx_nargs != 3)) {
-      goto __pyx_L5_argtuple_error;
-    } else {
-      values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 362, __pyx_L3_error)
-      values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 362, __pyx_L3_error)
-      values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 362, __pyx_L3_error)
-    }
-    __pyx_v_data = values[0];
-    __pyx_v_batch_offsets = values[1];
-    if (__Pyx_PyInt_FromNumber(&values[2], "target_level", 0) < (0)) __PYX_ERR(0, 362, __pyx_L3_error)
-    __pyx_v_target_level = ((PyObject*)values[2]);
-  }
-  goto __pyx_L6_skip;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("partition_balltree_with_offsets", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 362, __pyx_L3_error)
-  __pyx_L6_skip:;
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L3_error:;
-  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-    Py_XDECREF(values[__pyx_temp]);
-  }
-  __Pyx_AddTraceback("balltree_setaxis.balltree.partition_balltree_with_offsets", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __Pyx_RefNannyFinishContext();
-  return NULL;
-  __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_target_level), (&PyLong_Type), 0, "target_level", 2))) __PYX_ERR(0, 362, __pyx_L1_error)
-  __pyx_r = __pyx_pf_16balltree_setaxis_8balltree_2partition_balltree_with_offsets(__pyx_self, __pyx_v_data, __pyx_v_batch_offsets, __pyx_v_target_level);
-
-  /* function exit code */
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __pyx_r = NULL;
-  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-    Py_XDECREF(values[__pyx_temp]);
-  }
-  goto __pyx_L7_cleaned_up;
-  __pyx_L0:;
-  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
-    Py_XDECREF(values[__pyx_temp]);
-  }
-  __pyx_L7_cleaned_up:;
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_16balltree_setaxis_8balltree_2partition_balltree_with_offsets(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_data, PyObject *__pyx_v_batch_offsets, PyObject *__pyx_v_target_level) {
-  __Pyx_memviewslice __pyx_v_data_arr = { 0, 0, { 0 }, { 0 }, { 0 } };
-  __Pyx_memviewslice __pyx_v_batch_offsets_arr = { 0, 0, { 0 }, { 0 }, { 0 } };
-  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_target_level_val;
-  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_num_batches;
-  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_num_features;
-  __Pyx_memviewslice __pyx_v_batch_metadata = { 0, 0, { 0 }, { 0 }, { 0 } };
-  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_total_size;
-  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_i;
-  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_num_points;
-  struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *__pyx_v_metadata;
-  __Pyx_memviewslice __pyx_v_output = { 0, 0, { 0 }, { 0 }, { 0 } };
-  int __pyx_v_num_threads;
-  CYTHON_UNUSED int __pyx_v_chunk_size;
-  int __pyx_v_ret;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  int __pyx_t_1;
-  PyObject *__pyx_t_2 = NULL;
-  PyObject *__pyx_t_3 = NULL;
-  int __pyx_t_4;
-  int __pyx_t_5;
-  size_t __pyx_t_6;
-  PyObject *__pyx_t_7 = NULL;
-  PyObject *__pyx_t_8 = NULL;
-  Py_ssize_t __pyx_t_9;
-  PyObject *__pyx_t_10 = NULL;
-  __Pyx_memviewslice __pyx_t_11 = { 0, 0, { 0 }, { 0 }, { 0 } };
-  __Pyx_memviewslice __pyx_t_12 = { 0, 0, { 0 }, { 0 }, { 0 } };
-  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_t_13;
-  PyObject *__pyx_t_14 = NULL;
-  PyObject *__pyx_t_15 = NULL;
-  PyObject *__pyx_t_16 = NULL;
-  PyObject *__pyx_t_17 = NULL;
-  PyObject *__pyx_t_18 = NULL;
-  __Pyx_memviewslice __pyx_t_19 = { 0, 0, { 0 }, { 0 }, { 0 } };
-  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_t_20;
-  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_t_21;
-  Py_ssize_t __pyx_t_22;
-  PyObject *__pyx_t_23[3];
-  long __pyx_t_24;
-  int __pyx_t_25;
-  Py_ssize_t __pyx_t_26;
-  Py_ssize_t __pyx_t_27;
-  Py_ssize_t __pyx_t_28;
-  int __pyx_t_29;
-  PyObject *__pyx_t_30[4];
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("partition_balltree_with_offsets", 0);
-
-  /* "balltree_setaxis/balltree.pyx":398
- *         If partitioning fails
- *     """
- *     if not isinstance(data, np.ndarray) or not isinstance(batch_offsets, np.ndarray):             # <<<<<<<<<<<<<<
- *         raise ValueError("Both data and batch_offsets must be numpy arrays")
- * 
-*/
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 398, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 398, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_4 = PyObject_IsInstance(__pyx_v_data, __pyx_t_3); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(0, 398, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_5 = (!__pyx_t_4);
-  if (!__pyx_t_5) {
-  } else {
-    __pyx_t_1 = __pyx_t_5;
-    goto __pyx_L4_bool_binop_done;
-  }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 398, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 398, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_5 = PyObject_IsInstance(__pyx_v_batch_offsets, __pyx_t_2); if (unlikely(__pyx_t_5 == ((int)-1))) __PYX_ERR(0, 398, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_4 = (!__pyx_t_5);
-  __pyx_t_1 = __pyx_t_4;
-  __pyx_L4_bool_binop_done:;
-  if (unlikely(__pyx_t_1)) {
-
-    /* "balltree_setaxis/balltree.pyx":399
- *     """
- *     if not isinstance(data, np.ndarray) or not isinstance(batch_offsets, np.ndarray):
- *         raise ValueError("Both data and batch_offsets must be numpy arrays")             # <<<<<<<<<<<<<<
- * 
- *     if data.ndim != 2:
-*/
-    __pyx_t_3 = NULL;
-    __pyx_t_6 = 1;
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_kp_u_Both_data_and_batch_offsets_must};
-      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 399, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-    }
-    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 399, __pyx_L1_error)
-
-    /* "balltree_setaxis/balltree.pyx":398
- *         If partitioning fails
- *     """
- *     if not isinstance(data, np.ndarray) or not isinstance(batch_offsets, np.ndarray):             # <<<<<<<<<<<<<<
- *         raise ValueError("Both data and batch_offsets must be numpy arrays")
- * 
-*/
-  }
-
-  /* "balltree_setaxis/balltree.pyx":401
- *         raise ValueError("Both data and batch_offsets must be numpy arrays")
- * 
- *     if data.ndim != 2:             # <<<<<<<<<<<<<<
- *         raise ValueError(
- *             f"Data must be 2D array of shape (num_samples, num_features), "
-*/
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 401, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_2, 2, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 401, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(__pyx_t_1)) {
-
-    /* "balltree_setaxis/balltree.pyx":402
- * 
- *     if data.ndim != 2:
- *         raise ValueError(             # <<<<<<<<<<<<<<
- *             f"Data must be 2D array of shape (num_samples, num_features), "
- *             f"got shape {data.shape}"
-*/
-    __pyx_t_3 = NULL;
-
-    /* "balltree_setaxis/balltree.pyx":404
- *         raise ValueError(
- *             f"Data must be 2D array of shape (num_samples, num_features), "
- *             f"got shape {data.shape}"             # <<<<<<<<<<<<<<
- *         )
- * 
-*/
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 404, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 404, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_8);
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-
-    /* "balltree_setaxis/balltree.pyx":403
- *     if data.ndim != 2:
- *         raise ValueError(
- *             f"Data must be 2D array of shape (num_samples, num_features), "             # <<<<<<<<<<<<<<
- *             f"got shape {data.shape}"
- *         )
-*/
-    __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Data_must_be_2D_array_of_shape_n, __pyx_t_8); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 403, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_6 = 1;
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_7};
-      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 402, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-    }
-    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 402, __pyx_L1_error)
-
-    /* "balltree_setaxis/balltree.pyx":401
- *         raise ValueError("Both data and batch_offsets must be numpy arrays")
- * 
- *     if data.ndim != 2:             # <<<<<<<<<<<<<<
- *         raise ValueError(
- *             f"Data must be 2D array of shape (num_samples, num_features), "
-*/
-  }
-
-  /* "balltree_setaxis/balltree.pyx":407
- *         )
- * 
- *     if batch_offsets.ndim != 1:             # <<<<<<<<<<<<<<
- *         raise ValueError(
- *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "
-*/
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_offsets, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 407, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 407, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(__pyx_t_1)) {
-
-    /* "balltree_setaxis/balltree.pyx":408
- * 
- *     if batch_offsets.ndim != 1:
- *         raise ValueError(             # <<<<<<<<<<<<<<
- *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "
- *             f"got shape {batch_offsets.shape}"
-*/
-    __pyx_t_7 = NULL;
-
-    /* "balltree_setaxis/balltree.pyx":410
- *         raise ValueError(
- *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "
- *             f"got shape {batch_offsets.shape}"             # <<<<<<<<<<<<<<
- *         )
- * 
-*/
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_offsets, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 410, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 410, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_8);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-
-    /* "balltree_setaxis/balltree.pyx":409
- *     if batch_offsets.ndim != 1:
- *         raise ValueError(
- *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "             # <<<<<<<<<<<<<<
- *             f"got shape {batch_offsets.shape}"
- *         )
-*/
-    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Batch_offsets_must_be_1D_array_o, __pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 409, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_6 = 1;
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_t_3};
-      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-      __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 408, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-    }
-    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 408, __pyx_L1_error)
-
-    /* "balltree_setaxis/balltree.pyx":407
- *         )
- * 
- *     if batch_offsets.ndim != 1:             # <<<<<<<<<<<<<<
- *         raise ValueError(
- *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "
-*/
-  }
-
-  /* "balltree_setaxis/balltree.pyx":413
- *         )
- * 
- *     if len(batch_offsets) < 2:             # <<<<<<<<<<<<<<
- *         raise ValueError("Batch offsets must contain at least 2 elements")
- * 
-*/
-  __pyx_t_9 = PyObject_Length(__pyx_v_batch_offsets); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 413, __pyx_L1_error)
-  __pyx_t_1 = (__pyx_t_9 < 2);
-  if (unlikely(__pyx_t_1)) {
-
-    /* "balltree_setaxis/balltree.pyx":414
- * 
- *     if len(batch_offsets) < 2:
- *         raise ValueError("Batch offsets must contain at least 2 elements")             # <<<<<<<<<<<<<<
- * 
- *     if target_level < 0:
-*/
-    __pyx_t_3 = NULL;
-    __pyx_t_6 = 1;
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_kp_u_Batch_offsets_must_contain_at_le};
-      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 414, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-    }
-    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 414, __pyx_L1_error)
-
-    /* "balltree_setaxis/balltree.pyx":413
- *         )
- * 
- *     if len(batch_offsets) < 2:             # <<<<<<<<<<<<<<
- *         raise ValueError("Batch offsets must contain at least 2 elements")
- * 
-*/
-  }
-
-  /* "balltree_setaxis/balltree.pyx":416
- *         raise ValueError("Batch offsets must contain at least 2 elements")
- * 
- *     if target_level < 0:             # <<<<<<<<<<<<<<
- *         raise ValueError("Target level must be non-negative")
- * 
-*/
-  __pyx_t_2 = PyObject_RichCompare(__pyx_v_target_level, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 416, __pyx_L1_error)
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 416, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(__pyx_t_1)) {
-
-    /* "balltree_setaxis/balltree.pyx":417
- * 
- *     if target_level < 0:
- *         raise ValueError("Target level must be non-negative")             # <<<<<<<<<<<<<<
- * 
- *     cdef float64_t[:, ::1] data_arr = np.asarray(data, dtype=np.float64)
-*/
-    __pyx_t_3 = NULL;
-    __pyx_t_6 = 1;
-    {
-      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_kp_u_Target_level_must_be_non_negativ};
-      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 417, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
-    }
-    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 417, __pyx_L1_error)
-
-    /* "balltree_setaxis/balltree.pyx":416
- *         raise ValueError("Batch offsets must contain at least 2 elements")
- * 
- *     if target_level < 0:             # <<<<<<<<<<<<<<
- *         raise ValueError("Target level must be non-negative")
- * 
-*/
-  }
-
-  /* "balltree_setaxis/balltree.pyx":419
- *         raise ValueError("Target level must be non-negative")
- * 
- *     cdef float64_t[:, ::1] data_arr = np.asarray(data, dtype=np.float64)             # <<<<<<<<<<<<<<
- *     cdef intp_t[::1] batch_offsets_arr = np.asarray(batch_offsets, dtype=np.intp)
- *     cdef intp_t target_level_val = target_level
-*/
-  __pyx_t_3 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 419, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 419, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_8);
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 419, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_float64); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 419, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_10);
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_6 = 1;
-  #if CYTHON_UNPACK_METHODS
-  if (unlikely(PyMethod_Check(__pyx_t_8))) {
-    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_8);
-    assert(__pyx_t_3);
-    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_8);
-    __Pyx_INCREF(__pyx_t_3);
-    __Pyx_INCREF(__pyx__function);
-    __Pyx_DECREF_SET(__pyx_t_8, __pyx__function);
-    __pyx_t_6 = 0;
-  }
-  #endif
-  {
-    PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_3, __pyx_v_data};
-    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 419, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_10, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 419, __pyx_L1_error)
-    __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_8, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_7);
-    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 419, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-  }
-  __pyx_t_11 = __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_16balltree_setaxis_8balltree_float64_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_11.memview)) __PYX_ERR(0, 419, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_data_arr = __pyx_t_11;
-  __pyx_t_11.memview = NULL;
-  __pyx_t_11.data = NULL;
-
-  /* "balltree_setaxis/balltree.pyx":420
- * 
- *     cdef float64_t[:, ::1] data_arr = np.asarray(data, dtype=np.float64)
- *     cdef intp_t[::1] batch_offsets_arr = np.asarray(batch_offsets, dtype=np.intp)             # <<<<<<<<<<<<<<
- *     cdef intp_t target_level_val = target_level
- * 
-*/
-  __pyx_t_8 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 420, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 420, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_10);
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 420, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 420, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_6 = 1;
-  #if CYTHON_UNPACK_METHODS
-  if (unlikely(PyMethod_Check(__pyx_t_10))) {
-    __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_10);
-    assert(__pyx_t_8);
-    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_10);
-    __Pyx_INCREF(__pyx_t_8);
-    __Pyx_INCREF(__pyx__function);
-    __Pyx_DECREF_SET(__pyx_t_10, __pyx__function);
-    __pyx_t_6 = 0;
-  }
-  #endif
-  {
-    PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_8, __pyx_v_batch_offsets};
-    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 420, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_3, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 420, __pyx_L1_error)
-    __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_7);
-    __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 420, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-  }
-  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn___pyx_t_16balltree_setaxis_8balltree_intp_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 420, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_batch_offsets_arr = __pyx_t_12;
-  __pyx_t_12.memview = NULL;
-  __pyx_t_12.data = NULL;
-
-  /* "balltree_setaxis/balltree.pyx":421
- *     cdef float64_t[:, ::1] data_arr = np.asarray(data, dtype=np.float64)
- *     cdef intp_t[::1] batch_offsets_arr = np.asarray(batch_offsets, dtype=np.intp)
- *     cdef intp_t target_level_val = target_level             # <<<<<<<<<<<<<<
- * 
- *     cdef intp_t num_batches = len(batch_offsets) - 1
-*/
-  __pyx_t_13 = __Pyx_PyLong_As_npy_intp(__pyx_v_target_level); if (unlikely((__pyx_t_13 == ((npy_intp)-1)) && PyErr_Occurred())) __PYX_ERR(0, 421, __pyx_L1_error)
-  __pyx_v_target_level_val = __pyx_t_13;
-
-  /* "balltree_setaxis/balltree.pyx":423
- *     cdef intp_t target_level_val = target_level
- * 
- *     cdef intp_t num_batches = len(batch_offsets) - 1             # <<<<<<<<<<<<<<
- *     cdef intp_t num_features = data.shape[1]
- * 
-*/
-  __pyx_t_9 = PyObject_Length(__pyx_v_batch_offsets); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 423, __pyx_L1_error)
-  __pyx_v_num_batches = (__pyx_t_9 - 1);
-
-  /* "balltree_setaxis/balltree.pyx":424
- * 
- *     cdef intp_t num_batches = len(batch_offsets) - 1
- *     cdef intp_t num_features = data.shape[1]             # <<<<<<<<<<<<<<
- * 
- *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[
-*/
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 424, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_10 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 424, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_10);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_13 = __Pyx_PyLong_As_npy_intp(__pyx_t_10); if (unlikely((__pyx_t_13 == ((npy_intp)-1)) && PyErr_Occurred())) __PYX_ERR(0, 424, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-  __pyx_v_num_features = __pyx_t_13;
-
-  /* "balltree_setaxis/balltree.pyx":426
- *     cdef intp_t num_features = data.shape[1]
- * 
- *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[             # <<<<<<<<<<<<<<
- *         ('start', np.intp),
- *         ('end', np.intp),
-*/
-  __pyx_t_2 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 426, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 426, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyLong_From_npy_intp(__pyx_v_num_batches); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 426, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-
-  /* "balltree_setaxis/balltree.pyx":427
- * 
- *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[
- *         ('start', np.intp),             # <<<<<<<<<<<<<<
- *         ('end', np.intp),
- *         ('tree_offset', np.intp),
-*/
-  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 427, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 427, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_14);
-  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 427, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_8);
-  __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_start);
-  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_start);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_mstate_global->__pyx_n_u_start) != (0)) __PYX_ERR(0, 427, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_14);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_t_14) != (0)) __PYX_ERR(0, 427, __pyx_L1_error);
-  __pyx_t_14 = 0;
-
-  /* "balltree_setaxis/balltree.pyx":428
- *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[
- *         ('start', np.intp),
- *         ('end', np.intp),             # <<<<<<<<<<<<<<
- *         ('tree_offset', np.intp),
- *         ('tree_size', np.intp),
-*/
-  __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 428, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_14);
-  __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 428, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_15);
-  __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-  __pyx_t_14 = PyTuple_New(2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 428, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_14);
-  __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_end);
-  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_end);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_mstate_global->__pyx_n_u_end) != (0)) __PYX_ERR(0, 428, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_15);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_14, 1, __pyx_t_15) != (0)) __PYX_ERR(0, 428, __pyx_L1_error);
-  __pyx_t_15 = 0;
-
-  /* "balltree_setaxis/balltree.pyx":429
- *         ('start', np.intp),
- *         ('end', np.intp),
- *         ('tree_offset', np.intp),             # <<<<<<<<<<<<<<
- *         ('tree_size', np.intp),
- *         ('num_leaves', np.intp)
-*/
-  __Pyx_GetModuleGlobalName(__pyx_t_15, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 429, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_15);
-  __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_15, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 429, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_16);
-  __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
-  __pyx_t_15 = PyTuple_New(2); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 429, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_15);
-  __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_tree_offset);
-  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_tree_offset);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_15, 0, __pyx_mstate_global->__pyx_n_u_tree_offset) != (0)) __PYX_ERR(0, 429, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_16);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_15, 1, __pyx_t_16) != (0)) __PYX_ERR(0, 429, __pyx_L1_error);
-  __pyx_t_16 = 0;
-
-  /* "balltree_setaxis/balltree.pyx":430
- *         ('end', np.intp),
- *         ('tree_offset', np.intp),
- *         ('tree_size', np.intp),             # <<<<<<<<<<<<<<
- *         ('num_leaves', np.intp)
- *     ])
-*/
-  __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 430, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_16);
-  __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 430, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_17);
-  __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-  __pyx_t_16 = PyTuple_New(2); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 430, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_16);
-  __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_tree_size);
-  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_tree_size);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 0, __pyx_mstate_global->__pyx_n_u_tree_size) != (0)) __PYX_ERR(0, 430, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_17);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 1, __pyx_t_17) != (0)) __PYX_ERR(0, 430, __pyx_L1_error);
-  __pyx_t_17 = 0;
-
-  /* "balltree_setaxis/balltree.pyx":431
- *         ('tree_offset', np.intp),
- *         ('tree_size', np.intp),
- *         ('num_leaves', np.intp)             # <<<<<<<<<<<<<<
- *     ])
- * 
-*/
-  __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 431, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_17);
-  __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 431, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_18);
-  __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-  __pyx_t_17 = PyTuple_New(2); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 431, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_17);
-  __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_num_leaves);
-  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_num_leaves);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_17, 0, __pyx_mstate_global->__pyx_n_u_num_leaves) != (0)) __PYX_ERR(0, 431, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_18);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_17, 1, __pyx_t_18) != (0)) __PYX_ERR(0, 431, __pyx_L1_error);
-  __pyx_t_18 = 0;
-
-  /* "balltree_setaxis/balltree.pyx":426
- *     cdef intp_t num_features = data.shape[1]
- * 
- *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[             # <<<<<<<<<<<<<<
- *         ('start', np.intp),
- *         ('end', np.intp),
-*/
-  __pyx_t_18 = PyList_New(5); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 426, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_18);
-  __Pyx_GIVEREF(__pyx_t_8);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 0, __pyx_t_8) != (0)) __PYX_ERR(0, 426, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_14);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 1, __pyx_t_14) != (0)) __PYX_ERR(0, 426, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_15);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 2, __pyx_t_15) != (0)) __PYX_ERR(0, 426, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_16);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 3, __pyx_t_16) != (0)) __PYX_ERR(0, 426, __pyx_L1_error);
-  __Pyx_GIVEREF(__pyx_t_17);
-  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 4, __pyx_t_17) != (0)) __PYX_ERR(0, 426, __pyx_L1_error);
-  __pyx_t_8 = 0;
-  __pyx_t_14 = 0;
-  __pyx_t_15 = 0;
-  __pyx_t_16 = 0;
-  __pyx_t_17 = 0;
-  __pyx_t_6 = 1;
-  #if CYTHON_UNPACK_METHODS
-  if (unlikely(PyMethod_Check(__pyx_t_3))) {
-    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_3);
-    assert(__pyx_t_2);
-    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_3);
-    __Pyx_INCREF(__pyx_t_2);
-    __Pyx_INCREF(__pyx__function);
-    __Pyx_DECREF_SET(__pyx_t_3, __pyx__function);
-    __pyx_t_6 = 0;
-  }
-  #endif
-  {
-    PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_2, __pyx_t_7};
-    __pyx_t_17 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 426, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_17);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_18, __pyx_t_17, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 426, __pyx_L1_error)
-    __pyx_t_10 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_3, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_17);
-    __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 426, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_10);
-  }
-  __pyx_t_19 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_struct____pyx_t_16balltree_setaxis_8balltree_BatchMetadata(__pyx_t_10, PyBUF_WRITABLE); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 426, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-  __pyx_v_batch_metadata = __pyx_t_19;
-  __pyx_t_19.memview = NULL;
-  __pyx_t_19.data = NULL;
-
-  /* "balltree_setaxis/balltree.pyx":434
- *     ])
- * 
- *     cdef intp_t total_size = 0             # <<<<<<<<<<<<<<
- *     cdef intp_t i, num_points
- *     cdef BatchMetadata* metadata
-*/
-  __pyx_v_total_size = 0;
-
-  /* "balltree_setaxis/balltree.pyx":438
- *     cdef BatchMetadata* metadata
- * 
- *     for i in range(num_batches):             # <<<<<<<<<<<<<<
- *         # Get pointer to current batch metadata
- *         metadata = &batch_metadata[i]
-*/
-  __pyx_t_13 = __pyx_v_num_batches;
-  __pyx_t_20 = __pyx_t_13;
-  for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_20; __pyx_t_21+=1) {
-    __pyx_v_i = __pyx_t_21;
-
-    /* "balltree_setaxis/balltree.pyx":440
- *     for i in range(num_batches):
- *         # Get pointer to current batch metadata
- *         metadata = &batch_metadata[i]             # <<<<<<<<<<<<<<
- * 
- *         metadata.start = batch_offsets_arr[i]
-*/
-    __pyx_t_22 = __pyx_v_i;
-    __pyx_v_metadata = (&(*((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) ( /* dim=0 */ ((char *) (((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) __pyx_v_batch_metadata.data) + __pyx_t_22)) ))));
-
-    /* "balltree_setaxis/balltree.pyx":442
- *         metadata = &batch_metadata[i]
- * 
- *         metadata.start = batch_offsets_arr[i]             # <<<<<<<<<<<<<<
- *         metadata.end = batch_offsets_arr[i + 1]
- * 
-*/
-    __pyx_t_22 = __pyx_v_i;
-    __pyx_v_metadata->start = (*((__pyx_t_16balltree_setaxis_8balltree_intp_t *) ( /* dim=0 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_intp_t *) __pyx_v_batch_offsets_arr.data) + __pyx_t_22)) )));
-
-    /* "balltree_setaxis/balltree.pyx":443
- * 
- *         metadata.start = batch_offsets_arr[i]
- *         metadata.end = batch_offsets_arr[i + 1]             # <<<<<<<<<<<<<<
- * 
- *         if metadata.start >= metadata.end:
-*/
-    __pyx_t_22 = (__pyx_v_i + 1);
-    __pyx_v_metadata->end = (*((__pyx_t_16balltree_setaxis_8balltree_intp_t *) ( /* dim=0 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_intp_t *) __pyx_v_batch_offsets_arr.data) + __pyx_t_22)) )));
-
-    /* "balltree_setaxis/balltree.pyx":445
- *         metadata.end = batch_offsets_arr[i + 1]
- * 
- *         if metadata.start >= metadata.end:             # <<<<<<<<<<<<<<
- *             raise ValueError(f"Invalid batch offsets at index {i}")
- *         if metadata.start < 0 or metadata.end > data.shape[0]:
-*/
-    __pyx_t_1 = (__pyx_v_metadata->start >= __pyx_v_metadata->end);
-    if (unlikely(__pyx_t_1)) {
-
-      /* "balltree_setaxis/balltree.pyx":446
- * 
- *         if metadata.start >= metadata.end:
- *             raise ValueError(f"Invalid batch offsets at index {i}")             # <<<<<<<<<<<<<<
- *         if metadata.start < 0 or metadata.end > data.shape[0]:
- *             raise ValueError(f"Batch offset {i} out of bounds")
-*/
-      __pyx_t_3 = NULL;
-      __pyx_t_17 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 446, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_17);
-      __pyx_t_18 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Invalid_batch_offsets_at_index, __pyx_t_17); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 446, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_18);
-      __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-      __pyx_t_6 = 1;
-      {
-        PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_18};
-        __pyx_t_10 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-        __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 446, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_10);
-      }
-      __Pyx_Raise(__pyx_t_10, 0, 0, 0);
-      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __PYX_ERR(0, 446, __pyx_L1_error)
-
-      /* "balltree_setaxis/balltree.pyx":445
- *         metadata.end = batch_offsets_arr[i + 1]
- * 
- *         if metadata.start >= metadata.end:             # <<<<<<<<<<<<<<
- *             raise ValueError(f"Invalid batch offsets at index {i}")
- *         if metadata.start < 0 or metadata.end > data.shape[0]:
-*/
-    }
-
-    /* "balltree_setaxis/balltree.pyx":447
- *         if metadata.start >= metadata.end:
- *             raise ValueError(f"Invalid batch offsets at index {i}")
- *         if metadata.start < 0 or metadata.end > data.shape[0]:             # <<<<<<<<<<<<<<
- *             raise ValueError(f"Batch offset {i} out of bounds")
- * 
-*/
-    __pyx_t_4 = (__pyx_v_metadata->start < 0);
-    if (!__pyx_t_4) {
-    } else {
-      __pyx_t_1 = __pyx_t_4;
-      goto __pyx_L14_bool_binop_done;
-    }
-    __pyx_t_10 = __Pyx_PyLong_From_npy_intp(__pyx_v_metadata->end); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 447, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 447, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_18, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 447, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __pyx_t_18 = PyObject_RichCompare(__pyx_t_10, __pyx_t_3, Py_GT); __Pyx_XGOTREF(__pyx_t_18); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 447, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_18); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 447, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __pyx_t_1 = __pyx_t_4;
-    __pyx_L14_bool_binop_done:;
-    if (unlikely(__pyx_t_1)) {
-
-      /* "balltree_setaxis/balltree.pyx":448
- *             raise ValueError(f"Invalid batch offsets at index {i}")
- *         if metadata.start < 0 or metadata.end > data.shape[0]:
- *             raise ValueError(f"Batch offset {i} out of bounds")             # <<<<<<<<<<<<<<
- * 
- *         # Calculate number of leaves
-*/
-      __pyx_t_3 = NULL;
-      __pyx_t_10 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 448, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_23[0] = __pyx_mstate_global->__pyx_kp_u_Batch_offset;
-      __pyx_t_23[1] = __pyx_t_10;
-      __pyx_t_23[2] = __pyx_mstate_global->__pyx_kp_u_out_of_bounds;
-      __pyx_t_17 = __Pyx_PyUnicode_Join(__pyx_t_23, 3, 13 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_10) + 14, 127);
-      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 448, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_17);
-      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-      __pyx_t_6 = 1;
-      {
-        PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_17};
-        __pyx_t_18 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-        __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-        if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 448, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_18);
-      }
-      __Pyx_Raise(__pyx_t_18, 0, 0, 0);
-      __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-      __PYX_ERR(0, 448, __pyx_L1_error)
-
-      /* "balltree_setaxis/balltree.pyx":447
- *         if metadata.start >= metadata.end:
- *             raise ValueError(f"Invalid batch offsets at index {i}")
- *         if metadata.start < 0 or metadata.end > data.shape[0]:             # <<<<<<<<<<<<<<
- *             raise ValueError(f"Batch offset {i} out of bounds")
- * 
-*/
-    }
-
-    /* "balltree_setaxis/balltree.pyx":451
- * 
- *         # Calculate number of leaves
- *         num_points = metadata.end - metadata.start             # <<<<<<<<<<<<<<
- * 
- *         metadata.tree_size = num_points
-*/
-    __pyx_v_num_points = (__pyx_v_metadata->end - __pyx_v_metadata->start);
-
-    /* "balltree_setaxis/balltree.pyx":453
- *         num_points = metadata.end - metadata.start
- * 
- *         metadata.tree_size = num_points             # <<<<<<<<<<<<<<
- *         metadata.tree_offset = total_size
- *         metadata.num_leaves = num_points
-*/
-    __pyx_v_metadata->tree_size = __pyx_v_num_points;
-
-    /* "balltree_setaxis/balltree.pyx":454
- * 
- *         metadata.tree_size = num_points
- *         metadata.tree_offset = total_size             # <<<<<<<<<<<<<<
- *         metadata.num_leaves = num_points
- * 
-*/
-    __pyx_v_metadata->tree_offset = __pyx_v_total_size;
-
-    /* "balltree_setaxis/balltree.pyx":455
- *         metadata.tree_size = num_points
- *         metadata.tree_offset = total_size
- *         metadata.num_leaves = num_points             # <<<<<<<<<<<<<<
- * 
- *         total_size += metadata.tree_size
-*/
-    __pyx_v_metadata->num_leaves = __pyx_v_num_points;
-
-    /* "balltree_setaxis/balltree.pyx":457
- *         metadata.num_leaves = num_points
- * 
- *         total_size += metadata.tree_size             # <<<<<<<<<<<<<<
- * 
- *     # Allocate memory for the output array
-*/
-    __pyx_v_total_size = (__pyx_v_total_size + __pyx_v_metadata->tree_size);
-  }
-
-  /* "balltree_setaxis/balltree.pyx":460
- * 
- *     # Allocate memory for the output array
- *     cdef intp_t[::1] output = np.empty(total_size, dtype=np.intp)             # <<<<<<<<<<<<<<
- * 
- *     # Configure parallel processing of batches, equal chunks of compute per batch element
-*/
-  __pyx_t_17 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 460, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_empty); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 460, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_10);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyLong_From_npy_intp(__pyx_v_total_size); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 460, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 460, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 460, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_6 = 1;
-  #if CYTHON_UNPACK_METHODS
-  if (unlikely(PyMethod_Check(__pyx_t_10))) {
-    __pyx_t_17 = PyMethod_GET_SELF(__pyx_t_10);
-    assert(__pyx_t_17);
-    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_10);
-    __Pyx_INCREF(__pyx_t_17);
-    __Pyx_INCREF(__pyx__function);
-    __Pyx_DECREF_SET(__pyx_t_10, __pyx__function);
-    __pyx_t_6 = 0;
-  }
-  #endif
-  {
-    PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_17, __pyx_t_3};
-    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 460, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_2, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 460, __pyx_L1_error)
-    __pyx_t_18 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_7);
-    __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 460, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_18);
-  }
-  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn___pyx_t_16balltree_setaxis_8balltree_intp_t(__pyx_t_18, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 460, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-  __pyx_v_output = __pyx_t_12;
-  __pyx_t_12.memview = NULL;
-  __pyx_t_12.data = NULL;
-
-  /* "balltree_setaxis/balltree.pyx":463
- * 
- *     # Configure parallel processing of batches, equal chunks of compute per batch element
- *     cdef int num_threads = omp_get_max_threads()             # <<<<<<<<<<<<<<
- *     cdef int chunk_size = max(1, num_batches // num_threads)
- *     omp_set_num_threads(num_threads)
-*/
-  __pyx_v_num_threads = omp_get_max_threads();
-
-  /* "balltree_setaxis/balltree.pyx":464
- *     # Configure parallel processing of batches, equal chunks of compute per batch element
- *     cdef int num_threads = omp_get_max_threads()
- *     cdef int chunk_size = max(1, num_batches // num_threads)             # <<<<<<<<<<<<<<
- *     omp_set_num_threads(num_threads)
- * 
-*/
-  if (unlikely(__pyx_v_num_threads == 0)) {
-    PyErr_SetString(PyExc_ZeroDivisionError, "integer division or modulo by zero");
-    __PYX_ERR(0, 464, __pyx_L1_error)
-  }
-  else if (sizeof(__pyx_t_16balltree_setaxis_8balltree_intp_t) == sizeof(long) && (!(((int)-1) > 0)) && unlikely(__pyx_v_num_threads == (int)-1)  && unlikely(__Pyx_UNARY_NEG_WOULD_OVERFLOW(__pyx_v_num_batches))) {
-    PyErr_SetString(PyExc_OverflowError, "value too large to perform division");
-    __PYX_ERR(0, 464, __pyx_L1_error)
-  }
-  __pyx_t_13 = __Pyx_div___pyx_t_16balltree_setaxis_8balltree_intp_t(__pyx_v_num_batches, __pyx_v_num_threads, 0);
-  __pyx_t_24 = 1;
-  __pyx_t_1 = (__pyx_t_13 > __pyx_t_24);
-  if (__pyx_t_1) {
-    __pyx_t_20 = __pyx_t_13;
-  } else {
-    __pyx_t_20 = __pyx_t_24;
-  }
-  __pyx_v_chunk_size = __pyx_t_20;
-
-  /* "balltree_setaxis/balltree.pyx":465
- *     cdef int num_threads = omp_get_max_threads()
- *     cdef int chunk_size = max(1, num_batches // num_threads)
- *     omp_set_num_threads(num_threads)             # <<<<<<<<<<<<<<
- * 
- *     cdef int ret
-*/
-  omp_set_num_threads(__pyx_v_num_threads);
-
-  /* "balltree_setaxis/balltree.pyx":469
- *     cdef int ret
- * 
- *     with nogil, parallel(num_threads=num_threads):             # <<<<<<<<<<<<<<
- *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):
- *             ret = partition_batch_trees(
-*/
-  {
-      PyThreadState * _save;
-      _save = PyEval_SaveThread();
-      __Pyx_FastGIL_Remember();
-      /*try:*/ {
-        {
-            const char *__pyx_parallel_filename = NULL; int __pyx_parallel_lineno = 0, __pyx_parallel_clineno = 0;
-            PyObject *__pyx_parallel_exc_type = NULL, *__pyx_parallel_exc_value = NULL, *__pyx_parallel_exc_tb = NULL;
-            #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-            PyMutex __pyx_parallel_freethreading_mutex = {0};
-            #endif
-            int __pyx_parallel_why;
-            __pyx_parallel_why = 0;
-            #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
-                #undef likely
-                #undef unlikely
-                #define likely(x)   (x)
-                #define unlikely(x) (x)
-            #endif
-            #ifdef _OPENMP
-            #pragma omp parallel  private(__pyx_t_1, __pyx_t_13, __pyx_t_20, __pyx_t_21, __pyx_t_22, __pyx_t_25, __pyx_t_26, __pyx_t_27, __pyx_t_28, __pyx_t_29, __pyx_t_30, __pyx_t_6) firstprivate(__pyx_t_10, __pyx_t_18, __pyx_t_2, __pyx_t_3, __pyx_t_7) __Pyx_shared_in_cpython_freethreading(__pyx_parallel_freethreading_mutex) private(__pyx_filename, __pyx_lineno, __pyx_clineno) shared(__pyx_parallel_why, __pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb) num_threads(__pyx_v_num_threads)
-            #endif /* _OPENMP */
-            {
-                #ifdef _OPENMP
-                PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                Py_BEGIN_ALLOW_THREADS
-                #endif /* _OPENMP */
-
-                /* "balltree_setaxis/balltree.pyx":470
- * 
- *     with nogil, parallel(num_threads=num_threads):
- *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):             # <<<<<<<<<<<<<<
- *             ret = partition_batch_trees(
- *                 &data_arr[0,0],
-*/
-                __pyx_t_20 = __pyx_v_num_batches;
-                {
-                    const char *__pyx_parallel_filename = NULL; int __pyx_parallel_lineno = 0, __pyx_parallel_clineno = 0;
-                    PyObject *__pyx_parallel_exc_type = NULL, *__pyx_parallel_exc_value = NULL, *__pyx_parallel_exc_tb = NULL;
-                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
-                    PyMutex __pyx_parallel_freethreading_mutex = {0};
-                    #endif
-                    int __pyx_parallel_why;
-                    __pyx_parallel_why = 0;
-                    __pyx_t_25 = __pyx_v_chunk_size;
-                    __pyx_t_21 = (__pyx_t_20 - 0 + 1 - 1/abs(1)) / 1;
-                    if (__pyx_t_21 > 0)
-                    {
-                        #ifdef _OPENMP
-                        #pragma omp for firstprivate(__pyx_v_i) lastprivate(__pyx_v_i) firstprivate(__pyx_v_ret) lastprivate(__pyx_v_ret) schedule(static, __pyx_t_25)
-                        #endif /* _OPENMP */
-                        for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_21; __pyx_t_13++){
-                            if (__pyx_parallel_why < 2)
-                            {
-                                __pyx_v_i = (__pyx_t_16balltree_setaxis_8balltree_intp_t)(0 + 1 * __pyx_t_13);
-
-                                /* "balltree_setaxis/balltree.pyx":472
- *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):
- *             ret = partition_batch_trees(
- *                 &data_arr[0,0],             # <<<<<<<<<<<<<<
- *                 batch_metadata[i],
- *                 target_level_val,
-*/
-                                __pyx_t_22 = 0;
-                                __pyx_t_26 = 0;
-
-                                /* "balltree_setaxis/balltree.pyx":473
- *             ret = partition_batch_trees(
- *                 &data_arr[0,0],
- *                 batch_metadata[i],             # <<<<<<<<<<<<<<
- *                 target_level_val,
- *                 &output[0],
-*/
-                                __pyx_t_27 = __pyx_v_i;
-
-                                /* "balltree_setaxis/balltree.pyx":475
- *                 batch_metadata[i],
- *                 target_level_val,
- *                 &output[0],             # <<<<<<<<<<<<<<
- *                 num_features
- *             )
-*/
-                                __pyx_t_28 = 0;
-
-                                /* "balltree_setaxis/balltree.pyx":471
- *     with nogil, parallel(num_threads=num_threads):
- *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):
- *             ret = partition_batch_trees(             # <<<<<<<<<<<<<<
- *                 &data_arr[0,0],
- *                 batch_metadata[i],
-*/
-                                __pyx_t_29 = __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees((&(*((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=1 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=0 */ (__pyx_v_data_arr.data + __pyx_t_22 * __pyx_v_data_arr.strides[0]) )) + __pyx_t_26)) )))), (*((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) ( /* dim=0 */ ((char *) (((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) __pyx_v_batch_metadata.data) + __pyx_t_27)) ))), __pyx_v_target_level_val, (&(*((__pyx_t_16balltree_setaxis_8balltree_intp_t *) ( /* dim=0 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_intp_t *) __pyx_v_output.data) + __pyx_t_28)) )))), __pyx_v_num_features); if (unlikely(__pyx_t_29 == ((int)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 471, __pyx_L25_error)
-                                __pyx_v_ret = __pyx_t_29;
-
-                                /* "balltree_setaxis/balltree.pyx":478
- *                 num_features
- *             )
- *             if ret != 0:             # <<<<<<<<<<<<<<
- *                 with gil:
- *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
-*/
-                                __pyx_t_1 = (__pyx_v_ret != 0);
-                                if (unlikely(__pyx_t_1)) {
-
-                                  /* "balltree_setaxis/balltree.pyx":479
- *             )
- *             if ret != 0:
- *                 with gil:             # <<<<<<<<<<<<<<
- *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
- * 
-*/
-                                  {
-                                      PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
-                                      /*try:*/ {
-
-                                        /* "balltree_setaxis/balltree.pyx":480
- *             if ret != 0:
- *                 with gil:
- *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")             # <<<<<<<<<<<<<<
- * 
- *     return np.asarray(output)
-*/
-                                        __pyx_t_10 = NULL;
-                                        __pyx_t_7 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 480, __pyx_L31_error)
-                                        __Pyx_GOTREF(__pyx_t_7);
-                                        __pyx_t_2 = __Pyx_PyUnicode_From_int(__pyx_v_ret, 0, ' ', 'd'); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 480, __pyx_L31_error)
-                                        __Pyx_GOTREF(__pyx_t_2);
-                                        __pyx_t_30[0] = __pyx_mstate_global->__pyx_kp_u_Error_processing_batch;
-                                        __pyx_t_30[1] = __pyx_t_7;
-                                        __pyx_t_30[2] = __pyx_mstate_global->__pyx_kp_u_error_code;
-                                        __pyx_t_30[3] = __pyx_t_2;
-                                        __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_30, 4, 23 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7) + 13 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2), 127);
-                                        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 480, __pyx_L31_error)
-                                        __Pyx_GOTREF(__pyx_t_3);
-                                        __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-                                        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-                                        __pyx_t_6 = 1;
-                                        {
-                                          PyObject *__pyx_callargs[2] = {__pyx_t_10, __pyx_t_3};
-                                          __pyx_t_18 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_RuntimeError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-                                          __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
-                                          __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-                                          if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 480, __pyx_L31_error)
-                                          __Pyx_GOTREF(__pyx_t_18);
-                                        }
-                                        __Pyx_Raise(__pyx_t_18, 0, 0, 0);
-                                        __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-                                        __PYX_ERR(0, 480, __pyx_L31_error)
-                                      }
-
-                                      /* "balltree_setaxis/balltree.pyx":479
+                                      /* "balltree_setaxis/balltree.pyx":365
  *             )
  *             if ret != 0:
  *                 with gil:             # <<<<<<<<<<<<<<
@@ -22405,7 +20903,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_2partition_balltree_with_
                                       }
                                   }
 
-                                  /* "balltree_setaxis/balltree.pyx":478
+                                  /* "balltree_setaxis/balltree.pyx":364
  *                 num_features
  *             )
  *             if ret != 0:             # <<<<<<<<<<<<<<
@@ -22497,9 +20995,9 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
                 #endif /* _OPENMP */
                 /* Clean up any temporaries */
                 __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
+                __Pyx_XDECREF(__pyx_t_16); __pyx_t_16 = 0;
+                __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
                 __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
-                __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-                __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
                 __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
                 __Pyx_PyGILState_Release(__pyx_gilstate_save);
                 #ifndef _OPENMP
@@ -22538,12 +21036,12 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
         #endif
       }
 
-      /* "balltree_setaxis/balltree.pyx":469
+      /* "balltree_setaxis/balltree.pyx":353
  *     cdef int ret
  * 
  *     with nogil, parallel(num_threads=num_threads):             # <<<<<<<<<<<<<<
  *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):
- *             ret = partition_batch_trees(
+ *             ret = build_batch_trees(
 */
       /*finally:*/ {
         /*normal exit:*/{
@@ -22560,7 +21058,1583 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
       }
   }
 
+  /* "balltree_setaxis/balltree.pyx":368
+ *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
+ * 
+ *     return np.asarray(output), np.asarray(mask), np.asarray(rotation_matrices)             # <<<<<<<<<<<<<<
+ * 
+ * def partition_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray, target_level: int):
+*/
+  __Pyx_XDECREF(__pyx_r);
+  __pyx_t_16 = NULL;
+  __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_17);
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
+  __pyx_t_17 = __pyx_memoryview_fromslice(__pyx_v_output, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_16balltree_setaxis_8balltree_intp_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_16balltree_setaxis_8balltree_intp_t, 0);; if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_17);
+  __pyx_t_6 = 1;
+  #if CYTHON_UNPACK_METHODS
+  if (unlikely(PyMethod_Check(__pyx_t_7))) {
+    __pyx_t_16 = PyMethod_GET_SELF(__pyx_t_7);
+    assert(__pyx_t_16);
+    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_7);
+    __Pyx_INCREF(__pyx_t_16);
+    __Pyx_INCREF(__pyx__function);
+    __Pyx_DECREF_SET(__pyx_t_7, __pyx__function);
+    __pyx_t_6 = 0;
+  }
+  #endif
+  {
+    PyObject *__pyx_callargs[2] = {__pyx_t_16, __pyx_t_17};
+    __pyx_t_18 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_7, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+    __Pyx_XDECREF(__pyx_t_16); __pyx_t_16 = 0;
+    __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 368, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_18);
+  }
+  __pyx_t_17 = NULL;
+  __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_16);
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
+  __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
+  __pyx_t_16 = __pyx_memoryview_fromslice(__pyx_v_mask, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_bool, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_bool, 0);; if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_16);
+  __pyx_t_6 = 1;
+  #if CYTHON_UNPACK_METHODS
+  if (unlikely(PyMethod_Check(__pyx_t_10))) {
+    __pyx_t_17 = PyMethod_GET_SELF(__pyx_t_10);
+    assert(__pyx_t_17);
+    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_10);
+    __Pyx_INCREF(__pyx_t_17);
+    __Pyx_INCREF(__pyx__function);
+    __Pyx_DECREF_SET(__pyx_t_10, __pyx__function);
+    __pyx_t_6 = 0;
+  }
+  #endif
+  {
+    PyObject *__pyx_callargs[2] = {__pyx_t_17, __pyx_t_16};
+    __pyx_t_7 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+    __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
+    __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 368, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+  }
+  __pyx_t_16 = NULL;
+  __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_17);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
+  __pyx_t_17 = __pyx_memoryview_fromslice(__pyx_v_rotation_matrices, 3, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_16balltree_setaxis_8balltree_float64_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_16balltree_setaxis_8balltree_float64_t, 0);; if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_17);
+  __pyx_t_6 = 1;
+  #if CYTHON_UNPACK_METHODS
+  if (unlikely(PyMethod_Check(__pyx_t_2))) {
+    __pyx_t_16 = PyMethod_GET_SELF(__pyx_t_2);
+    assert(__pyx_t_16);
+    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_2);
+    __Pyx_INCREF(__pyx_t_16);
+    __Pyx_INCREF(__pyx__function);
+    __Pyx_DECREF_SET(__pyx_t_2, __pyx__function);
+    __pyx_t_6 = 0;
+  }
+  #endif
+  {
+    PyObject *__pyx_callargs[2] = {__pyx_t_16, __pyx_t_17};
+    __pyx_t_10 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_2, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+    __Pyx_XDECREF(__pyx_t_16); __pyx_t_16 = 0;
+    __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 368, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_10);
+  }
+  __pyx_t_2 = PyTuple_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 368, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_GIVEREF(__pyx_t_18);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_18) != (0)) __PYX_ERR(0, 368, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_7);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 1, __pyx_t_7) != (0)) __PYX_ERR(0, 368, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_10);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_2, 2, __pyx_t_10) != (0)) __PYX_ERR(0, 368, __pyx_L1_error);
+  __pyx_t_18 = 0;
+  __pyx_t_7 = 0;
+  __pyx_t_10 = 0;
+  __pyx_r = __pyx_t_2;
+  __pyx_t_2 = 0;
+  goto __pyx_L0;
+
+  /* "balltree_setaxis/balltree.pyx":237
+ *     return 0
+ * 
+ * def build_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray):             # <<<<<<<<<<<<<<
+ *     """Build ball trees for multiple subarrays in parallel with global PCA alignment.
+ * 
+*/
+
+  /* function exit code */
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_7);
+  __Pyx_XDECREF(__pyx_t_8);
+  __Pyx_XDECREF(__pyx_t_10);
+  __PYX_XCLEAR_MEMVIEW(&__pyx_t_11, 1);
+  __PYX_XCLEAR_MEMVIEW(&__pyx_t_12, 1);
+  __Pyx_XDECREF(__pyx_t_14);
+  __Pyx_XDECREF(__pyx_t_15);
+  __Pyx_XDECREF(__pyx_t_16);
+  __Pyx_XDECREF(__pyx_t_17);
+  __Pyx_XDECREF(__pyx_t_18);
+  __PYX_XCLEAR_MEMVIEW(&__pyx_t_19, 1);
+  __PYX_XCLEAR_MEMVIEW(&__pyx_t_25, 1);
+  __PYX_XCLEAR_MEMVIEW(&__pyx_t_26, 1);
+  __Pyx_AddTraceback("balltree_setaxis.balltree.build_balltree_with_offsets", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __PYX_XCLEAR_MEMVIEW(&__pyx_v_data_arr, 1);
+  __PYX_XCLEAR_MEMVIEW(&__pyx_v_batch_offsets_arr, 1);
+  __PYX_XCLEAR_MEMVIEW(&__pyx_v_batch_metadata, 1);
+  __PYX_XCLEAR_MEMVIEW(&__pyx_v_output, 1);
+  __PYX_XCLEAR_MEMVIEW(&__pyx_v_mask, 1);
+  __PYX_XCLEAR_MEMVIEW(&__pyx_v_rotation_matrices, 1);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "balltree_setaxis/balltree.pyx":370
+ *     return np.asarray(output), np.asarray(mask), np.asarray(rotation_matrices)
+ * 
+ * def partition_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray, target_level: int):             # <<<<<<<<<<<<<<
+ *     """Partition ball trees for multiple subarrays in parallel.
+ * 
+*/
+
+/* Python wrapper */
+static PyObject *__pyx_pw_16balltree_setaxis_8balltree_3partition_balltree_with_offsets(PyObject *__pyx_self, 
+#if CYTHON_METH_FASTCALL
+PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
+#else
+PyObject *__pyx_args, PyObject *__pyx_kwds
+#endif
+); /*proto*/
+PyDoc_STRVAR(__pyx_doc_16balltree_setaxis_8balltree_2partition_balltree_with_offsets, "Partition ball trees for multiple subarrays in parallel.\n    \n    For each subarray defined by batch_offsets, partitions the points\n    up to the specified target level.\n    \n    Parameters\n    ----------\n    data : ndarray of shape (num_samples, num_features)\n        Input data points. Must be contiguous and float64.\n        Each subarray has length 2^k as it is a complete binary tree.\n    batch_offsets : ndarray of shape (num_batches + 1,)\n        Indices that define the boundaries of subarrays in data.\n        Each subarray i contains points from batch_offsets[i] to batch_offsets[i+1].\n    target_level : int\n        Number of partitioning steps to apply.\n        \n    Returns\n    -------\n    ndarray\n        Flattened array containing partitioned indices for all trees.\n        \n    Notes\n    -----\n    - Input arrays must be contiguous\n    - Each subarray is a complete binary tree\n    - Partitioning stops at the specified target level\n    - Thread-safe and GIL-free during partitioning\n    \n    Raises\n    ------\n    ValueError\n        If input arrays have incorrect shapes or invalid batch offsets\n    RuntimeError\n        If partitioning fails\n    ");
+static PyMethodDef __pyx_mdef_16balltree_setaxis_8balltree_3partition_balltree_with_offsets = {"partition_balltree_with_offsets", (PyCFunction)(void(*)(void))(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_16balltree_setaxis_8balltree_3partition_balltree_with_offsets, __Pyx_METH_FASTCALL|METH_KEYWORDS, __pyx_doc_16balltree_setaxis_8balltree_2partition_balltree_with_offsets};
+static PyObject *__pyx_pw_16balltree_setaxis_8balltree_3partition_balltree_with_offsets(PyObject *__pyx_self, 
+#if CYTHON_METH_FASTCALL
+PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
+#else
+PyObject *__pyx_args, PyObject *__pyx_kwds
+#endif
+) {
+  PyObject *__pyx_v_data = 0;
+  PyObject *__pyx_v_batch_offsets = 0;
+  PyObject *__pyx_v_target_level = 0;
+  #if !CYTHON_METH_FASTCALL
+  CYTHON_UNUSED Py_ssize_t __pyx_nargs;
+  #endif
+  CYTHON_UNUSED PyObject *const *__pyx_kwvalues;
+  PyObject* values[3] = {0,0,0};
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("partition_balltree_with_offsets (wrapper)", 0);
+  #if !CYTHON_METH_FASTCALL
+  #if CYTHON_ASSUME_SAFE_SIZE
+  __pyx_nargs = PyTuple_GET_SIZE(__pyx_args);
+  #else
+  __pyx_nargs = PyTuple_Size(__pyx_args); if (unlikely(__pyx_nargs < 0)) return NULL;
+  #endif
+  #endif
+  __pyx_kwvalues = __Pyx_KwValues_FASTCALL(__pyx_args, __pyx_nargs);
+  {
+    PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_data,&__pyx_mstate_global->__pyx_n_u_batch_offsets,&__pyx_mstate_global->__pyx_n_u_target_level,0};
+    const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 370, __pyx_L3_error)
+    if (__pyx_kwds_len > 0) {
+      switch (__pyx_nargs) {
+        case  3:
+        values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 370, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
+        case  2:
+        values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 370, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
+        case  1:
+        values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 370, __pyx_L3_error)
+        CYTHON_FALLTHROUGH;
+        case  0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      const Py_ssize_t kwd_pos_args = __pyx_nargs;
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "partition_balltree_with_offsets", 0) < (0)) __PYX_ERR(0, 370, __pyx_L3_error)
+      for (Py_ssize_t i = __pyx_nargs; i < 3; i++) {
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("partition_balltree_with_offsets", 1, 3, 3, i); __PYX_ERR(0, 370, __pyx_L3_error) }
+      }
+    } else if (unlikely(__pyx_nargs != 3)) {
+      goto __pyx_L5_argtuple_error;
+    } else {
+      values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 370, __pyx_L3_error)
+      values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 370, __pyx_L3_error)
+      values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 370, __pyx_L3_error)
+    }
+    __pyx_v_data = values[0];
+    __pyx_v_batch_offsets = values[1];
+    if (__Pyx_PyInt_FromNumber(&values[2], "target_level", 0) < (0)) __PYX_ERR(0, 370, __pyx_L3_error)
+    __pyx_v_target_level = ((PyObject*)values[2]);
+  }
+  goto __pyx_L6_skip;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("partition_balltree_with_offsets", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 370, __pyx_L3_error)
+  __pyx_L6_skip:;
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L3_error:;
+  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+    Py_XDECREF(values[__pyx_temp]);
+  }
+  __Pyx_AddTraceback("balltree_setaxis.balltree.partition_balltree_with_offsets", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_RefNannyFinishContext();
+  return NULL;
+  __pyx_L4_argument_unpacking_done:;
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_target_level), (&PyLong_Type), 0, "target_level", 2))) __PYX_ERR(0, 370, __pyx_L1_error)
+  __pyx_r = __pyx_pf_16balltree_setaxis_8balltree_2partition_balltree_with_offsets(__pyx_self, __pyx_v_data, __pyx_v_batch_offsets, __pyx_v_target_level);
+
+  /* function exit code */
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __pyx_r = NULL;
+  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+    Py_XDECREF(values[__pyx_temp]);
+  }
+  goto __pyx_L7_cleaned_up;
+  __pyx_L0:;
+  for (Py_ssize_t __pyx_temp=0; __pyx_temp < (Py_ssize_t)(sizeof(values)/sizeof(values[0])); ++__pyx_temp) {
+    Py_XDECREF(values[__pyx_temp]);
+  }
+  __pyx_L7_cleaned_up:;
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_16balltree_setaxis_8balltree_2partition_balltree_with_offsets(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_data, PyObject *__pyx_v_batch_offsets, PyObject *__pyx_v_target_level) {
+  __Pyx_memviewslice __pyx_v_data_arr = { 0, 0, { 0 }, { 0 }, { 0 } };
+  __Pyx_memviewslice __pyx_v_batch_offsets_arr = { 0, 0, { 0 }, { 0 }, { 0 } };
+  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_target_level_val;
+  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_num_batches;
+  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_num_features;
+  __Pyx_memviewslice __pyx_v_batch_metadata = { 0, 0, { 0 }, { 0 }, { 0 } };
+  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_total_size;
+  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_i;
+  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_v_num_points;
+  struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *__pyx_v_metadata;
+  __Pyx_memviewslice __pyx_v_output = { 0, 0, { 0 }, { 0 }, { 0 } };
+  int __pyx_v_num_threads;
+  CYTHON_UNUSED int __pyx_v_chunk_size;
+  int __pyx_v_ret;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  int __pyx_t_1;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  int __pyx_t_4;
+  int __pyx_t_5;
+  size_t __pyx_t_6;
+  PyObject *__pyx_t_7 = NULL;
+  PyObject *__pyx_t_8 = NULL;
+  Py_ssize_t __pyx_t_9;
+  PyObject *__pyx_t_10 = NULL;
+  __Pyx_memviewslice __pyx_t_11 = { 0, 0, { 0 }, { 0 }, { 0 } };
+  __Pyx_memviewslice __pyx_t_12 = { 0, 0, { 0 }, { 0 }, { 0 } };
+  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_t_13;
+  PyObject *__pyx_t_14 = NULL;
+  PyObject *__pyx_t_15 = NULL;
+  PyObject *__pyx_t_16 = NULL;
+  PyObject *__pyx_t_17 = NULL;
+  PyObject *__pyx_t_18 = NULL;
+  __Pyx_memviewslice __pyx_t_19 = { 0, 0, { 0 }, { 0 }, { 0 } };
+  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_t_20;
+  __pyx_t_16balltree_setaxis_8balltree_intp_t __pyx_t_21;
+  Py_ssize_t __pyx_t_22;
+  PyObject *__pyx_t_23[3];
+  long __pyx_t_24;
+  int __pyx_t_25;
+  Py_ssize_t __pyx_t_26;
+  Py_ssize_t __pyx_t_27;
+  Py_ssize_t __pyx_t_28;
+  int __pyx_t_29;
+  PyObject *__pyx_t_30[4];
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("partition_balltree_with_offsets", 0);
+
+  /* "balltree_setaxis/balltree.pyx":406
+ *         If partitioning fails
+ *     """
+ *     if not isinstance(data, np.ndarray) or not isinstance(batch_offsets, np.ndarray):             # <<<<<<<<<<<<<<
+ *         raise ValueError("Both data and batch_offsets must be numpy arrays")
+ * 
+*/
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 406, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 406, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_4 = PyObject_IsInstance(__pyx_v_data, __pyx_t_3); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(0, 406, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_t_5 = (!__pyx_t_4);
+  if (!__pyx_t_5) {
+  } else {
+    __pyx_t_1 = __pyx_t_5;
+    goto __pyx_L4_bool_binop_done;
+  }
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 406, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 406, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_t_5 = PyObject_IsInstance(__pyx_v_batch_offsets, __pyx_t_2); if (unlikely(__pyx_t_5 == ((int)-1))) __PYX_ERR(0, 406, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_4 = (!__pyx_t_5);
+  __pyx_t_1 = __pyx_t_4;
+  __pyx_L4_bool_binop_done:;
+  if (unlikely(__pyx_t_1)) {
+
+    /* "balltree_setaxis/balltree.pyx":407
+ *     """
+ *     if not isinstance(data, np.ndarray) or not isinstance(batch_offsets, np.ndarray):
+ *         raise ValueError("Both data and batch_offsets must be numpy arrays")             # <<<<<<<<<<<<<<
+ * 
+ *     if data.ndim != 2:
+*/
+    __pyx_t_3 = NULL;
+    __pyx_t_6 = 1;
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_kp_u_Both_data_and_batch_offsets_must};
+      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 407, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+    }
+    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __PYX_ERR(0, 407, __pyx_L1_error)
+
+    /* "balltree_setaxis/balltree.pyx":406
+ *         If partitioning fails
+ *     """
+ *     if not isinstance(data, np.ndarray) or not isinstance(batch_offsets, np.ndarray):             # <<<<<<<<<<<<<<
+ *         raise ValueError("Both data and batch_offsets must be numpy arrays")
+ * 
+*/
+  }
+
+  /* "balltree_setaxis/balltree.pyx":409
+ *         raise ValueError("Both data and batch_offsets must be numpy arrays")
+ * 
+ *     if data.ndim != 2:             # <<<<<<<<<<<<<<
+ *         raise ValueError(
+ *             f"Data must be 2D array of shape (num_samples, num_features), "
+*/
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_2, 2, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 409, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (unlikely(__pyx_t_1)) {
+
+    /* "balltree_setaxis/balltree.pyx":410
+ * 
+ *     if data.ndim != 2:
+ *         raise ValueError(             # <<<<<<<<<<<<<<
+ *             f"Data must be 2D array of shape (num_samples, num_features), "
+ *             f"got shape {data.shape}"
+*/
+    __pyx_t_3 = NULL;
+
+    /* "balltree_setaxis/balltree.pyx":412
+ *         raise ValueError(
+ *             f"Data must be 2D array of shape (num_samples, num_features), "
+ *             f"got shape {data.shape}"             # <<<<<<<<<<<<<<
+ *         )
+ * 
+*/
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 412, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 412, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+
+    /* "balltree_setaxis/balltree.pyx":411
+ *     if data.ndim != 2:
+ *         raise ValueError(
+ *             f"Data must be 2D array of shape (num_samples, num_features), "             # <<<<<<<<<<<<<<
+ *             f"got shape {data.shape}"
+ *         )
+*/
+    __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Data_must_be_2D_array_of_shape_n, __pyx_t_8); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 411, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __pyx_t_6 = 1;
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_7};
+      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 410, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+    }
+    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __PYX_ERR(0, 410, __pyx_L1_error)
+
+    /* "balltree_setaxis/balltree.pyx":409
+ *         raise ValueError("Both data and batch_offsets must be numpy arrays")
+ * 
+ *     if data.ndim != 2:             # <<<<<<<<<<<<<<
+ *         raise ValueError(
+ *             f"Data must be 2D array of shape (num_samples, num_features), "
+*/
+  }
+
+  /* "balltree_setaxis/balltree.pyx":415
+ *         )
+ * 
+ *     if batch_offsets.ndim != 1:             # <<<<<<<<<<<<<<
+ *         raise ValueError(
+ *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "
+*/
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_offsets, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 415, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 415, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (unlikely(__pyx_t_1)) {
+
+    /* "balltree_setaxis/balltree.pyx":416
+ * 
+ *     if batch_offsets.ndim != 1:
+ *         raise ValueError(             # <<<<<<<<<<<<<<
+ *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "
+ *             f"got shape {batch_offsets.shape}"
+*/
+    __pyx_t_7 = NULL;
+
+    /* "balltree_setaxis/balltree.pyx":418
+ *         raise ValueError(
+ *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "
+ *             f"got shape {batch_offsets.shape}"             # <<<<<<<<<<<<<<
+ *         )
+ * 
+*/
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_offsets, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 418, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_8 = __Pyx_PyObject_FormatSimple(__pyx_t_3, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 418, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_8);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+    /* "balltree_setaxis/balltree.pyx":417
+ *     if batch_offsets.ndim != 1:
+ *         raise ValueError(
+ *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "             # <<<<<<<<<<<<<<
+ *             f"got shape {batch_offsets.shape}"
+ *         )
+*/
+    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Batch_offsets_must_be_1D_array_o, __pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 417, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __pyx_t_6 = 1;
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_7, __pyx_t_3};
+      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+      __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 416, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+    }
+    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __PYX_ERR(0, 416, __pyx_L1_error)
+
+    /* "balltree_setaxis/balltree.pyx":415
+ *         )
+ * 
+ *     if batch_offsets.ndim != 1:             # <<<<<<<<<<<<<<
+ *         raise ValueError(
+ *             f"Batch offsets must be 1D array of shape (num_batches + 1,), "
+*/
+  }
+
+  /* "balltree_setaxis/balltree.pyx":421
+ *         )
+ * 
+ *     if len(batch_offsets) < 2:             # <<<<<<<<<<<<<<
+ *         raise ValueError("Batch offsets must contain at least 2 elements")
+ * 
+*/
+  __pyx_t_9 = PyObject_Length(__pyx_v_batch_offsets); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 421, __pyx_L1_error)
+  __pyx_t_1 = (__pyx_t_9 < 2);
+  if (unlikely(__pyx_t_1)) {
+
+    /* "balltree_setaxis/balltree.pyx":422
+ * 
+ *     if len(batch_offsets) < 2:
+ *         raise ValueError("Batch offsets must contain at least 2 elements")             # <<<<<<<<<<<<<<
+ * 
+ *     if target_level < 0:
+*/
+    __pyx_t_3 = NULL;
+    __pyx_t_6 = 1;
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_kp_u_Batch_offsets_must_contain_at_le};
+      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 422, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+    }
+    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __PYX_ERR(0, 422, __pyx_L1_error)
+
+    /* "balltree_setaxis/balltree.pyx":421
+ *         )
+ * 
+ *     if len(batch_offsets) < 2:             # <<<<<<<<<<<<<<
+ *         raise ValueError("Batch offsets must contain at least 2 elements")
+ * 
+*/
+  }
+
+  /* "balltree_setaxis/balltree.pyx":424
+ *         raise ValueError("Batch offsets must contain at least 2 elements")
+ * 
+ *     if target_level < 0:             # <<<<<<<<<<<<<<
+ *         raise ValueError("Target level must be non-negative")
+ * 
+*/
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_target_level, __pyx_mstate_global->__pyx_int_0, Py_LT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 424, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 424, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (unlikely(__pyx_t_1)) {
+
+    /* "balltree_setaxis/balltree.pyx":425
+ * 
+ *     if target_level < 0:
+ *         raise ValueError("Target level must be non-negative")             # <<<<<<<<<<<<<<
+ * 
+ *     cdef float64_t[:, ::1] data_arr = np.asarray(data, dtype=np.float64)
+*/
+    __pyx_t_3 = NULL;
+    __pyx_t_6 = 1;
+    {
+      PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_kp_u_Target_level_must_be_non_negativ};
+      __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+      __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 425, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+    }
+    __Pyx_Raise(__pyx_t_2, 0, 0, 0);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __PYX_ERR(0, 425, __pyx_L1_error)
+
+    /* "balltree_setaxis/balltree.pyx":424
+ *         raise ValueError("Batch offsets must contain at least 2 elements")
+ * 
+ *     if target_level < 0:             # <<<<<<<<<<<<<<
+ *         raise ValueError("Target level must be non-negative")
+ * 
+*/
+  }
+
+  /* "balltree_setaxis/balltree.pyx":427
+ *         raise ValueError("Target level must be non-negative")
+ * 
+ *     cdef float64_t[:, ::1] data_arr = np.asarray(data, dtype=np.float64)             # <<<<<<<<<<<<<<
+ *     cdef intp_t[::1] batch_offsets_arr = np.asarray(batch_offsets, dtype=np.intp)
+ *     cdef intp_t target_level_val = target_level
+*/
+  __pyx_t_3 = NULL;
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 427, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 427, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 427, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_float64); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 427, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_6 = 1;
+  #if CYTHON_UNPACK_METHODS
+  if (unlikely(PyMethod_Check(__pyx_t_8))) {
+    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_8);
+    assert(__pyx_t_3);
+    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_8);
+    __Pyx_INCREF(__pyx_t_3);
+    __Pyx_INCREF(__pyx__function);
+    __Pyx_DECREF_SET(__pyx_t_8, __pyx__function);
+    __pyx_t_6 = 0;
+  }
+  #endif
+  {
+    PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_3, __pyx_v_data};
+    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 427, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_10, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 427, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_8, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_7);
+    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 427, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+  }
+  __pyx_t_11 = __Pyx_PyObject_to_MemoryviewSlice_d_dc_nn___pyx_t_16balltree_setaxis_8balltree_float64_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_11.memview)) __PYX_ERR(0, 427, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_v_data_arr = __pyx_t_11;
+  __pyx_t_11.memview = NULL;
+  __pyx_t_11.data = NULL;
+
+  /* "balltree_setaxis/balltree.pyx":428
+ * 
+ *     cdef float64_t[:, ::1] data_arr = np.asarray(data, dtype=np.float64)
+ *     cdef intp_t[::1] batch_offsets_arr = np.asarray(batch_offsets, dtype=np.intp)             # <<<<<<<<<<<<<<
+ *     cdef intp_t target_level_val = target_level
+ * 
+*/
+  __pyx_t_8 = NULL;
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 428, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 428, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 428, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 428, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_6 = 1;
+  #if CYTHON_UNPACK_METHODS
+  if (unlikely(PyMethod_Check(__pyx_t_10))) {
+    __pyx_t_8 = PyMethod_GET_SELF(__pyx_t_10);
+    assert(__pyx_t_8);
+    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_10);
+    __Pyx_INCREF(__pyx_t_8);
+    __Pyx_INCREF(__pyx__function);
+    __Pyx_DECREF_SET(__pyx_t_10, __pyx__function);
+    __pyx_t_6 = 0;
+  }
+  #endif
+  {
+    PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_8, __pyx_v_batch_offsets};
+    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 428, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_3, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 428, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_7);
+    __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 428, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+  }
+  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn___pyx_t_16balltree_setaxis_8balltree_intp_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 428, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_v_batch_offsets_arr = __pyx_t_12;
+  __pyx_t_12.memview = NULL;
+  __pyx_t_12.data = NULL;
+
+  /* "balltree_setaxis/balltree.pyx":429
+ *     cdef float64_t[:, ::1] data_arr = np.asarray(data, dtype=np.float64)
+ *     cdef intp_t[::1] batch_offsets_arr = np.asarray(batch_offsets, dtype=np.intp)
+ *     cdef intp_t target_level_val = target_level             # <<<<<<<<<<<<<<
+ * 
+ *     cdef intp_t num_batches = len(batch_offsets) - 1
+*/
+  __pyx_t_13 = __Pyx_PyLong_As_npy_intp(__pyx_v_target_level); if (unlikely((__pyx_t_13 == ((npy_intp)-1)) && PyErr_Occurred())) __PYX_ERR(0, 429, __pyx_L1_error)
+  __pyx_v_target_level_val = __pyx_t_13;
+
+  /* "balltree_setaxis/balltree.pyx":431
+ *     cdef intp_t target_level_val = target_level
+ * 
+ *     cdef intp_t num_batches = len(batch_offsets) - 1             # <<<<<<<<<<<<<<
+ *     cdef intp_t num_features = data.shape[1]
+ * 
+*/
+  __pyx_t_9 = PyObject_Length(__pyx_v_batch_offsets); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 431, __pyx_L1_error)
+  __pyx_v_num_batches = (__pyx_t_9 - 1);
+
+  /* "balltree_setaxis/balltree.pyx":432
+ * 
+ *     cdef intp_t num_batches = len(batch_offsets) - 1
+ *     cdef intp_t num_features = data.shape[1]             # <<<<<<<<<<<<<<
+ * 
+ *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[
+*/
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 432, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_10 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 432, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_13 = __Pyx_PyLong_As_npy_intp(__pyx_t_10); if (unlikely((__pyx_t_13 == ((npy_intp)-1)) && PyErr_Occurred())) __PYX_ERR(0, 432, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+  __pyx_v_num_features = __pyx_t_13;
+
+  /* "balltree_setaxis/balltree.pyx":434
+ *     cdef intp_t num_features = data.shape[1]
+ * 
+ *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[             # <<<<<<<<<<<<<<
+ *         ('start', np.intp),
+ *         ('end', np.intp),
+*/
+  __pyx_t_2 = NULL;
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 434, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 434, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_7 = __Pyx_PyLong_From_npy_intp(__pyx_v_num_batches); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 434, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+
+  /* "balltree_setaxis/balltree.pyx":435
+ * 
+ *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[
+ *         ('start', np.intp),             # <<<<<<<<<<<<<<
+ *         ('end', np.intp),
+ *         ('tree_offset', np.intp),
+*/
+  __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 435, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 435, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_14);
+  __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
+  __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 435, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_8);
+  __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_start);
+  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_start);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_mstate_global->__pyx_n_u_start) != (0)) __PYX_ERR(0, 435, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_14);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_t_14) != (0)) __PYX_ERR(0, 435, __pyx_L1_error);
+  __pyx_t_14 = 0;
+
+  /* "balltree_setaxis/balltree.pyx":436
+ *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[
+ *         ('start', np.intp),
+ *         ('end', np.intp),             # <<<<<<<<<<<<<<
+ *         ('tree_offset', np.intp),
+ *         ('tree_size', np.intp),
+*/
+  __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 436, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_14);
+  __pyx_t_15 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 436, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_15);
+  __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
+  __pyx_t_14 = PyTuple_New(2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 436, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_14);
+  __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_end);
+  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_end);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_mstate_global->__pyx_n_u_end) != (0)) __PYX_ERR(0, 436, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_15);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_14, 1, __pyx_t_15) != (0)) __PYX_ERR(0, 436, __pyx_L1_error);
+  __pyx_t_15 = 0;
+
+  /* "balltree_setaxis/balltree.pyx":437
+ *         ('start', np.intp),
+ *         ('end', np.intp),
+ *         ('tree_offset', np.intp),             # <<<<<<<<<<<<<<
+ *         ('tree_size', np.intp),
+ *         ('num_leaves', np.intp)
+*/
+  __Pyx_GetModuleGlobalName(__pyx_t_15, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 437, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_15);
+  __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_15, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 437, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_16);
+  __Pyx_DECREF(__pyx_t_15); __pyx_t_15 = 0;
+  __pyx_t_15 = PyTuple_New(2); if (unlikely(!__pyx_t_15)) __PYX_ERR(0, 437, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_15);
+  __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_tree_offset);
+  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_tree_offset);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_15, 0, __pyx_mstate_global->__pyx_n_u_tree_offset) != (0)) __PYX_ERR(0, 437, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_16);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_15, 1, __pyx_t_16) != (0)) __PYX_ERR(0, 437, __pyx_L1_error);
+  __pyx_t_16 = 0;
+
+  /* "balltree_setaxis/balltree.pyx":438
+ *         ('end', np.intp),
+ *         ('tree_offset', np.intp),
+ *         ('tree_size', np.intp),             # <<<<<<<<<<<<<<
+ *         ('num_leaves', np.intp)
+ *     ])
+*/
+  __Pyx_GetModuleGlobalName(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 438, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_16);
+  __pyx_t_17 = __Pyx_PyObject_GetAttrStr(__pyx_t_16, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 438, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_17);
+  __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
+  __pyx_t_16 = PyTuple_New(2); if (unlikely(!__pyx_t_16)) __PYX_ERR(0, 438, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_16);
+  __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_tree_size);
+  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_tree_size);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 0, __pyx_mstate_global->__pyx_n_u_tree_size) != (0)) __PYX_ERR(0, 438, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_17);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_16, 1, __pyx_t_17) != (0)) __PYX_ERR(0, 438, __pyx_L1_error);
+  __pyx_t_17 = 0;
+
+  /* "balltree_setaxis/balltree.pyx":439
+ *         ('tree_offset', np.intp),
+ *         ('tree_size', np.intp),
+ *         ('num_leaves', np.intp)             # <<<<<<<<<<<<<<
+ *     ])
+ * 
+*/
+  __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 439, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_17);
+  __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 439, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_18);
+  __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
+  __pyx_t_17 = PyTuple_New(2); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 439, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_17);
+  __Pyx_INCREF(__pyx_mstate_global->__pyx_n_u_num_leaves);
+  __Pyx_GIVEREF(__pyx_mstate_global->__pyx_n_u_num_leaves);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_17, 0, __pyx_mstate_global->__pyx_n_u_num_leaves) != (0)) __PYX_ERR(0, 439, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_18);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_17, 1, __pyx_t_18) != (0)) __PYX_ERR(0, 439, __pyx_L1_error);
+  __pyx_t_18 = 0;
+
+  /* "balltree_setaxis/balltree.pyx":434
+ *     cdef intp_t num_features = data.shape[1]
+ * 
+ *     cdef BatchMetadata[::1] batch_metadata = np.zeros(num_batches, dtype=[             # <<<<<<<<<<<<<<
+ *         ('start', np.intp),
+ *         ('end', np.intp),
+*/
+  __pyx_t_18 = PyList_New(5); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 434, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_18);
+  __Pyx_GIVEREF(__pyx_t_8);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 0, __pyx_t_8) != (0)) __PYX_ERR(0, 434, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_14);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 1, __pyx_t_14) != (0)) __PYX_ERR(0, 434, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_15);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 2, __pyx_t_15) != (0)) __PYX_ERR(0, 434, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_16);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 3, __pyx_t_16) != (0)) __PYX_ERR(0, 434, __pyx_L1_error);
+  __Pyx_GIVEREF(__pyx_t_17);
+  if (__Pyx_PyList_SET_ITEM(__pyx_t_18, 4, __pyx_t_17) != (0)) __PYX_ERR(0, 434, __pyx_L1_error);
+  __pyx_t_8 = 0;
+  __pyx_t_14 = 0;
+  __pyx_t_15 = 0;
+  __pyx_t_16 = 0;
+  __pyx_t_17 = 0;
+  __pyx_t_6 = 1;
+  #if CYTHON_UNPACK_METHODS
+  if (unlikely(PyMethod_Check(__pyx_t_3))) {
+    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_3);
+    assert(__pyx_t_2);
+    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_3);
+    __Pyx_INCREF(__pyx_t_2);
+    __Pyx_INCREF(__pyx__function);
+    __Pyx_DECREF_SET(__pyx_t_3, __pyx__function);
+    __pyx_t_6 = 0;
+  }
+  #endif
+  {
+    PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_2, __pyx_t_7};
+    __pyx_t_17 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 434, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_17);
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_18, __pyx_t_17, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 434, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_3, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_17);
+    __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+    __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 434, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_10);
+  }
+  __pyx_t_19 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_struct____pyx_t_16balltree_setaxis_8balltree_BatchMetadata(__pyx_t_10, PyBUF_WRITABLE); if (unlikely(!__pyx_t_19.memview)) __PYX_ERR(0, 434, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+  __pyx_v_batch_metadata = __pyx_t_19;
+  __pyx_t_19.memview = NULL;
+  __pyx_t_19.data = NULL;
+
+  /* "balltree_setaxis/balltree.pyx":442
+ *     ])
+ * 
+ *     cdef intp_t total_size = 0             # <<<<<<<<<<<<<<
+ *     cdef intp_t i, num_points
+ *     cdef BatchMetadata* metadata
+*/
+  __pyx_v_total_size = 0;
+
+  /* "balltree_setaxis/balltree.pyx":446
+ *     cdef BatchMetadata* metadata
+ * 
+ *     for i in range(num_batches):             # <<<<<<<<<<<<<<
+ *         # Get pointer to current batch metadata
+ *         metadata = &batch_metadata[i]
+*/
+  __pyx_t_13 = __pyx_v_num_batches;
+  __pyx_t_20 = __pyx_t_13;
+  for (__pyx_t_21 = 0; __pyx_t_21 < __pyx_t_20; __pyx_t_21+=1) {
+    __pyx_v_i = __pyx_t_21;
+
+    /* "balltree_setaxis/balltree.pyx":448
+ *     for i in range(num_batches):
+ *         # Get pointer to current batch metadata
+ *         metadata = &batch_metadata[i]             # <<<<<<<<<<<<<<
+ * 
+ *         metadata.start = batch_offsets_arr[i]
+*/
+    __pyx_t_22 = __pyx_v_i;
+    __pyx_v_metadata = (&(*((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) ( /* dim=0 */ ((char *) (((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) __pyx_v_batch_metadata.data) + __pyx_t_22)) ))));
+
+    /* "balltree_setaxis/balltree.pyx":450
+ *         metadata = &batch_metadata[i]
+ * 
+ *         metadata.start = batch_offsets_arr[i]             # <<<<<<<<<<<<<<
+ *         metadata.end = batch_offsets_arr[i + 1]
+ * 
+*/
+    __pyx_t_22 = __pyx_v_i;
+    __pyx_v_metadata->start = (*((__pyx_t_16balltree_setaxis_8balltree_intp_t *) ( /* dim=0 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_intp_t *) __pyx_v_batch_offsets_arr.data) + __pyx_t_22)) )));
+
+    /* "balltree_setaxis/balltree.pyx":451
+ * 
+ *         metadata.start = batch_offsets_arr[i]
+ *         metadata.end = batch_offsets_arr[i + 1]             # <<<<<<<<<<<<<<
+ * 
+ *         if metadata.start >= metadata.end:
+*/
+    __pyx_t_22 = (__pyx_v_i + 1);
+    __pyx_v_metadata->end = (*((__pyx_t_16balltree_setaxis_8balltree_intp_t *) ( /* dim=0 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_intp_t *) __pyx_v_batch_offsets_arr.data) + __pyx_t_22)) )));
+
+    /* "balltree_setaxis/balltree.pyx":453
+ *         metadata.end = batch_offsets_arr[i + 1]
+ * 
+ *         if metadata.start >= metadata.end:             # <<<<<<<<<<<<<<
+ *             raise ValueError(f"Invalid batch offsets at index {i}")
+ *         if metadata.start < 0 or metadata.end > data.shape[0]:
+*/
+    __pyx_t_1 = (__pyx_v_metadata->start >= __pyx_v_metadata->end);
+    if (unlikely(__pyx_t_1)) {
+
+      /* "balltree_setaxis/balltree.pyx":454
+ * 
+ *         if metadata.start >= metadata.end:
+ *             raise ValueError(f"Invalid batch offsets at index {i}")             # <<<<<<<<<<<<<<
+ *         if metadata.start < 0 or metadata.end > data.shape[0]:
+ *             raise ValueError(f"Batch offset {i} out of bounds")
+*/
+      __pyx_t_3 = NULL;
+      __pyx_t_17 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 454, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_17);
+      __pyx_t_18 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Invalid_batch_offsets_at_index, __pyx_t_17); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 454, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_18);
+      __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
+      __pyx_t_6 = 1;
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_18};
+        __pyx_t_10 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+        __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+        __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+        if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 454, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_10);
+      }
+      __Pyx_Raise(__pyx_t_10, 0, 0, 0);
+      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+      __PYX_ERR(0, 454, __pyx_L1_error)
+
+      /* "balltree_setaxis/balltree.pyx":453
+ *         metadata.end = batch_offsets_arr[i + 1]
+ * 
+ *         if metadata.start >= metadata.end:             # <<<<<<<<<<<<<<
+ *             raise ValueError(f"Invalid batch offsets at index {i}")
+ *         if metadata.start < 0 or metadata.end > data.shape[0]:
+*/
+    }
+
+    /* "balltree_setaxis/balltree.pyx":455
+ *         if metadata.start >= metadata.end:
+ *             raise ValueError(f"Invalid batch offsets at index {i}")
+ *         if metadata.start < 0 or metadata.end > data.shape[0]:             # <<<<<<<<<<<<<<
+ *             raise ValueError(f"Batch offset {i} out of bounds")
+ * 
+*/
+    __pyx_t_4 = (__pyx_v_metadata->start < 0);
+    if (!__pyx_t_4) {
+    } else {
+      __pyx_t_1 = __pyx_t_4;
+      goto __pyx_L14_bool_binop_done;
+    }
+    __pyx_t_10 = __Pyx_PyLong_From_npy_intp(__pyx_v_metadata->end); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 455, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_10);
+    __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 455, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_18);
+    __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_18, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 455, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+    __pyx_t_18 = PyObject_RichCompare(__pyx_t_10, __pyx_t_3, Py_GT); __Pyx_XGOTREF(__pyx_t_18); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 455, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_18); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 455, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+    __pyx_t_1 = __pyx_t_4;
+    __pyx_L14_bool_binop_done:;
+    if (unlikely(__pyx_t_1)) {
+
+      /* "balltree_setaxis/balltree.pyx":456
+ *             raise ValueError(f"Invalid batch offsets at index {i}")
+ *         if metadata.start < 0 or metadata.end > data.shape[0]:
+ *             raise ValueError(f"Batch offset {i} out of bounds")             # <<<<<<<<<<<<<<
+ * 
+ *         # Calculate number of leaves
+*/
+      __pyx_t_3 = NULL;
+      __pyx_t_10 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 456, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_10);
+      __pyx_t_23[0] = __pyx_mstate_global->__pyx_kp_u_Batch_offset;
+      __pyx_t_23[1] = __pyx_t_10;
+      __pyx_t_23[2] = __pyx_mstate_global->__pyx_kp_u_out_of_bounds;
+      __pyx_t_17 = __Pyx_PyUnicode_Join(__pyx_t_23, 3, 13 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_10) + 14, 127);
+      if (unlikely(!__pyx_t_17)) __PYX_ERR(0, 456, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_17);
+      __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+      __pyx_t_6 = 1;
+      {
+        PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_t_17};
+        __pyx_t_18 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+        __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+        __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
+        if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 456, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_18);
+      }
+      __Pyx_Raise(__pyx_t_18, 0, 0, 0);
+      __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+      __PYX_ERR(0, 456, __pyx_L1_error)
+
+      /* "balltree_setaxis/balltree.pyx":455
+ *         if metadata.start >= metadata.end:
+ *             raise ValueError(f"Invalid batch offsets at index {i}")
+ *         if metadata.start < 0 or metadata.end > data.shape[0]:             # <<<<<<<<<<<<<<
+ *             raise ValueError(f"Batch offset {i} out of bounds")
+ * 
+*/
+    }
+
+    /* "balltree_setaxis/balltree.pyx":459
+ * 
+ *         # Calculate number of leaves
+ *         num_points = metadata.end - metadata.start             # <<<<<<<<<<<<<<
+ * 
+ *         metadata.tree_size = num_points
+*/
+    __pyx_v_num_points = (__pyx_v_metadata->end - __pyx_v_metadata->start);
+
+    /* "balltree_setaxis/balltree.pyx":461
+ *         num_points = metadata.end - metadata.start
+ * 
+ *         metadata.tree_size = num_points             # <<<<<<<<<<<<<<
+ *         metadata.tree_offset = total_size
+ *         metadata.num_leaves = num_points
+*/
+    __pyx_v_metadata->tree_size = __pyx_v_num_points;
+
+    /* "balltree_setaxis/balltree.pyx":462
+ * 
+ *         metadata.tree_size = num_points
+ *         metadata.tree_offset = total_size             # <<<<<<<<<<<<<<
+ *         metadata.num_leaves = num_points
+ * 
+*/
+    __pyx_v_metadata->tree_offset = __pyx_v_total_size;
+
+    /* "balltree_setaxis/balltree.pyx":463
+ *         metadata.tree_size = num_points
+ *         metadata.tree_offset = total_size
+ *         metadata.num_leaves = num_points             # <<<<<<<<<<<<<<
+ * 
+ *         total_size += metadata.tree_size
+*/
+    __pyx_v_metadata->num_leaves = __pyx_v_num_points;
+
+    /* "balltree_setaxis/balltree.pyx":465
+ *         metadata.num_leaves = num_points
+ * 
+ *         total_size += metadata.tree_size             # <<<<<<<<<<<<<<
+ * 
+ *     # Allocate memory for the output array
+*/
+    __pyx_v_total_size = (__pyx_v_total_size + __pyx_v_metadata->tree_size);
+  }
+
+  /* "balltree_setaxis/balltree.pyx":468
+ * 
+ *     # Allocate memory for the output array
+ *     cdef intp_t[::1] output = np.empty(total_size, dtype=np.intp)             # <<<<<<<<<<<<<<
+ * 
+ *     # Configure parallel processing of batches, equal chunks of compute per batch element
+*/
+  __pyx_t_17 = NULL;
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 468, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_empty); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 468, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_t_3 = __Pyx_PyLong_From_npy_intp(__pyx_v_total_size); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 468, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 468, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 468, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __pyx_t_6 = 1;
+  #if CYTHON_UNPACK_METHODS
+  if (unlikely(PyMethod_Check(__pyx_t_10))) {
+    __pyx_t_17 = PyMethod_GET_SELF(__pyx_t_10);
+    assert(__pyx_t_17);
+    PyObject* __pyx__function = PyMethod_GET_FUNCTION(__pyx_t_10);
+    __Pyx_INCREF(__pyx_t_17);
+    __Pyx_INCREF(__pyx__function);
+    __Pyx_DECREF_SET(__pyx_t_10, __pyx__function);
+    __pyx_t_6 = 0;
+  }
+  #endif
+  {
+    PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_17, __pyx_t_3};
+    __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 468, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_2, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 468, __pyx_L1_error)
+    __pyx_t_18 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_7);
+    __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 468, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_18);
+  }
+  __pyx_t_12 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn___pyx_t_16balltree_setaxis_8balltree_intp_t(__pyx_t_18, PyBUF_WRITABLE); if (unlikely(!__pyx_t_12.memview)) __PYX_ERR(0, 468, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+  __pyx_v_output = __pyx_t_12;
+  __pyx_t_12.memview = NULL;
+  __pyx_t_12.data = NULL;
+
+  /* "balltree_setaxis/balltree.pyx":472
+ *     # Configure parallel processing of batches, equal chunks of compute per batch element
+ *     cdef int num_threads
+ *     if _USE_OPENMP:             # <<<<<<<<<<<<<<
+ *         num_threads = omp_get_max_threads()
+ *         omp_set_num_threads(num_threads)
+*/
+  __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_mstate_global->__pyx_n_u_USE_OPENMP); if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 472, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_18);
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_18); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 472, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+  if (__pyx_t_1) {
+
+    /* "balltree_setaxis/balltree.pyx":473
+ *     cdef int num_threads
+ *     if _USE_OPENMP:
+ *         num_threads = omp_get_max_threads()             # <<<<<<<<<<<<<<
+ *         omp_set_num_threads(num_threads)
+ *     else:
+*/
+    __pyx_v_num_threads = omp_get_max_threads();
+
+    /* "balltree_setaxis/balltree.pyx":474
+ *     if _USE_OPENMP:
+ *         num_threads = omp_get_max_threads()
+ *         omp_set_num_threads(num_threads)             # <<<<<<<<<<<<<<
+ *     else:
+ *         num_threads = 1
+*/
+    omp_set_num_threads(__pyx_v_num_threads);
+
+    /* "balltree_setaxis/balltree.pyx":472
+ *     # Configure parallel processing of batches, equal chunks of compute per batch element
+ *     cdef int num_threads
+ *     if _USE_OPENMP:             # <<<<<<<<<<<<<<
+ *         num_threads = omp_get_max_threads()
+ *         omp_set_num_threads(num_threads)
+*/
+    goto __pyx_L16;
+  }
+
+  /* "balltree_setaxis/balltree.pyx":476
+ *         omp_set_num_threads(num_threads)
+ *     else:
+ *         num_threads = 1             # <<<<<<<<<<<<<<
+ * 
+ *     cdef int chunk_size = max(1, num_batches // num_threads)
+*/
+  /*else*/ {
+    __pyx_v_num_threads = 1;
+  }
+  __pyx_L16:;
+
+  /* "balltree_setaxis/balltree.pyx":478
+ *         num_threads = 1
+ * 
+ *     cdef int chunk_size = max(1, num_batches // num_threads)             # <<<<<<<<<<<<<<
+ * 
+ *     cdef int ret
+*/
+  if (unlikely(__pyx_v_num_threads == 0)) {
+    PyErr_SetString(PyExc_ZeroDivisionError, "integer division or modulo by zero");
+    __PYX_ERR(0, 478, __pyx_L1_error)
+  }
+  else if (sizeof(__pyx_t_16balltree_setaxis_8balltree_intp_t) == sizeof(long) && (!(((int)-1) > 0)) && unlikely(__pyx_v_num_threads == (int)-1)  && unlikely(__Pyx_UNARY_NEG_WOULD_OVERFLOW(__pyx_v_num_batches))) {
+    PyErr_SetString(PyExc_OverflowError, "value too large to perform division");
+    __PYX_ERR(0, 478, __pyx_L1_error)
+  }
+  __pyx_t_13 = __Pyx_div___pyx_t_16balltree_setaxis_8balltree_intp_t(__pyx_v_num_batches, __pyx_v_num_threads, 0);
+  __pyx_t_24 = 1;
+  __pyx_t_1 = (__pyx_t_13 > __pyx_t_24);
+  if (__pyx_t_1) {
+    __pyx_t_20 = __pyx_t_13;
+  } else {
+    __pyx_t_20 = __pyx_t_24;
+  }
+  __pyx_v_chunk_size = __pyx_t_20;
+
   /* "balltree_setaxis/balltree.pyx":482
+ *     cdef int ret
+ * 
+ *     with nogil, parallel(num_threads=num_threads):             # <<<<<<<<<<<<<<
+ *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):
+ *             ret = partition_batch_trees(
+*/
+  {
+      PyThreadState * _save;
+      _save = PyEval_SaveThread();
+      __Pyx_FastGIL_Remember();
+      /*try:*/ {
+        {
+            const char *__pyx_parallel_filename = NULL; int __pyx_parallel_lineno = 0, __pyx_parallel_clineno = 0;
+            PyObject *__pyx_parallel_exc_type = NULL, *__pyx_parallel_exc_value = NULL, *__pyx_parallel_exc_tb = NULL;
+            #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+            PyMutex __pyx_parallel_freethreading_mutex = {0};
+            #endif
+            int __pyx_parallel_why;
+            __pyx_parallel_why = 0;
+            #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
+                #undef likely
+                #undef unlikely
+                #define likely(x)   (x)
+                #define unlikely(x) (x)
+            #endif
+            #ifdef _OPENMP
+            #pragma omp parallel  private(__pyx_t_1, __pyx_t_13, __pyx_t_20, __pyx_t_21, __pyx_t_22, __pyx_t_25, __pyx_t_26, __pyx_t_27, __pyx_t_28, __pyx_t_29, __pyx_t_30, __pyx_t_6) firstprivate(__pyx_t_10, __pyx_t_18, __pyx_t_2, __pyx_t_3, __pyx_t_7) __Pyx_shared_in_cpython_freethreading(__pyx_parallel_freethreading_mutex) private(__pyx_filename, __pyx_lineno, __pyx_clineno) shared(__pyx_parallel_why, __pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb) num_threads(__pyx_v_num_threads)
+            #endif /* _OPENMP */
+            {
+                #ifdef _OPENMP
+                PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                Py_BEGIN_ALLOW_THREADS
+                #endif /* _OPENMP */
+
+                /* "balltree_setaxis/balltree.pyx":483
+ * 
+ *     with nogil, parallel(num_threads=num_threads):
+ *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):             # <<<<<<<<<<<<<<
+ *             ret = partition_batch_trees(
+ *                 &data_arr[0,0],
+*/
+                __pyx_t_20 = __pyx_v_num_batches;
+                {
+                    const char *__pyx_parallel_filename = NULL; int __pyx_parallel_lineno = 0, __pyx_parallel_clineno = 0;
+                    PyObject *__pyx_parallel_exc_type = NULL, *__pyx_parallel_exc_value = NULL, *__pyx_parallel_exc_tb = NULL;
+                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                    PyMutex __pyx_parallel_freethreading_mutex = {0};
+                    #endif
+                    int __pyx_parallel_why;
+                    __pyx_parallel_why = 0;
+                    __pyx_t_25 = __pyx_v_chunk_size;
+                    __pyx_t_21 = (__pyx_t_20 - 0 + 1 - 1/abs(1)) / 1;
+                    if (__pyx_t_21 > 0)
+                    {
+                        #ifdef _OPENMP
+                        #pragma omp for firstprivate(__pyx_v_i) lastprivate(__pyx_v_i) firstprivate(__pyx_v_ret) lastprivate(__pyx_v_ret) schedule(static, __pyx_t_25)
+                        #endif /* _OPENMP */
+                        for (__pyx_t_13 = 0; __pyx_t_13 < __pyx_t_21; __pyx_t_13++){
+                            if (__pyx_parallel_why < 2)
+                            {
+                                __pyx_v_i = (__pyx_t_16balltree_setaxis_8balltree_intp_t)(0 + 1 * __pyx_t_13);
+
+                                /* "balltree_setaxis/balltree.pyx":485
+ *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):
+ *             ret = partition_batch_trees(
+ *                 &data_arr[0,0],             # <<<<<<<<<<<<<<
+ *                 batch_metadata[i],
+ *                 target_level_val,
+*/
+                                __pyx_t_22 = 0;
+                                __pyx_t_26 = 0;
+
+                                /* "balltree_setaxis/balltree.pyx":486
+ *             ret = partition_batch_trees(
+ *                 &data_arr[0,0],
+ *                 batch_metadata[i],             # <<<<<<<<<<<<<<
+ *                 target_level_val,
+ *                 &output[0],
+*/
+                                __pyx_t_27 = __pyx_v_i;
+
+                                /* "balltree_setaxis/balltree.pyx":488
+ *                 batch_metadata[i],
+ *                 target_level_val,
+ *                 &output[0],             # <<<<<<<<<<<<<<
+ *                 num_features
+ *             )
+*/
+                                __pyx_t_28 = 0;
+
+                                /* "balltree_setaxis/balltree.pyx":484
+ *     with nogil, parallel(num_threads=num_threads):
+ *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):
+ *             ret = partition_batch_trees(             # <<<<<<<<<<<<<<
+ *                 &data_arr[0,0],
+ *                 batch_metadata[i],
+*/
+                                __pyx_t_29 = __pyx_f_16balltree_setaxis_8balltree_partition_batch_trees((&(*((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=1 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_float64_t *) ( /* dim=0 */ (__pyx_v_data_arr.data + __pyx_t_22 * __pyx_v_data_arr.strides[0]) )) + __pyx_t_26)) )))), (*((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) ( /* dim=0 */ ((char *) (((struct __pyx_t_16balltree_setaxis_8balltree_BatchMetadata *) __pyx_v_batch_metadata.data) + __pyx_t_27)) ))), __pyx_v_target_level_val, (&(*((__pyx_t_16balltree_setaxis_8balltree_intp_t *) ( /* dim=0 */ ((char *) (((__pyx_t_16balltree_setaxis_8balltree_intp_t *) __pyx_v_output.data) + __pyx_t_28)) )))), __pyx_v_num_features); if (unlikely(__pyx_t_29 == ((int)-1) && __Pyx_ErrOccurredWithGIL())) __PYX_ERR(0, 484, __pyx_L26_error)
+                                __pyx_v_ret = __pyx_t_29;
+
+                                /* "balltree_setaxis/balltree.pyx":491
+ *                 num_features
+ *             )
+ *             if ret != 0:             # <<<<<<<<<<<<<<
+ *                 with gil:
+ *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
+*/
+                                __pyx_t_1 = (__pyx_v_ret != 0);
+                                if (unlikely(__pyx_t_1)) {
+
+                                  /* "balltree_setaxis/balltree.pyx":492
+ *             )
+ *             if ret != 0:
+ *                 with gil:             # <<<<<<<<<<<<<<
+ *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
+ * 
+*/
+                                  {
+                                      PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                                      /*try:*/ {
+
+                                        /* "balltree_setaxis/balltree.pyx":493
+ *             if ret != 0:
+ *                 with gil:
+ *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")             # <<<<<<<<<<<<<<
+ * 
+ *     return np.asarray(output)
+*/
+                                        __pyx_t_10 = NULL;
+                                        __pyx_t_7 = __Pyx_PyUnicode_From_npy_intp(__pyx_v_i, 0, ' ', 'd'); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 493, __pyx_L32_error)
+                                        __Pyx_GOTREF(__pyx_t_7);
+                                        __pyx_t_2 = __Pyx_PyUnicode_From_int(__pyx_v_ret, 0, ' ', 'd'); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 493, __pyx_L32_error)
+                                        __Pyx_GOTREF(__pyx_t_2);
+                                        __pyx_t_30[0] = __pyx_mstate_global->__pyx_kp_u_Error_processing_batch;
+                                        __pyx_t_30[1] = __pyx_t_7;
+                                        __pyx_t_30[2] = __pyx_mstate_global->__pyx_kp_u_error_code;
+                                        __pyx_t_30[3] = __pyx_t_2;
+                                        __pyx_t_3 = __Pyx_PyUnicode_Join(__pyx_t_30, 4, 23 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7) + 13 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_2), 127);
+                                        if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 493, __pyx_L32_error)
+                                        __Pyx_GOTREF(__pyx_t_3);
+                                        __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+                                        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+                                        __pyx_t_6 = 1;
+                                        {
+                                          PyObject *__pyx_callargs[2] = {__pyx_t_10, __pyx_t_3};
+                                          __pyx_t_18 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_RuntimeError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+                                          __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
+                                          __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+                                          if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 493, __pyx_L32_error)
+                                          __Pyx_GOTREF(__pyx_t_18);
+                                        }
+                                        __Pyx_Raise(__pyx_t_18, 0, 0, 0);
+                                        __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
+                                        __PYX_ERR(0, 493, __pyx_L32_error)
+                                      }
+
+                                      /* "balltree_setaxis/balltree.pyx":492
+ *             )
+ *             if ret != 0:
+ *                 with gil:             # <<<<<<<<<<<<<<
+ *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
+ * 
+*/
+                                      /*finally:*/ {
+                                        __pyx_L32_error: {
+                                          __Pyx_PyGILState_Release(__pyx_gilstate_save);
+                                          goto __pyx_L26_error;
+                                        }
+                                      }
+                                  }
+
+                                  /* "balltree_setaxis/balltree.pyx":491
+ *                 num_features
+ *             )
+ *             if ret != 0:             # <<<<<<<<<<<<<<
+ *                 with gil:
+ *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
+*/
+                                }
+                                goto __pyx_L35;
+                                __pyx_L26_error:;
+                                {
+                                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                                    PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
+                                    #endif
+                                    #ifdef _OPENMP
+                                    #pragma omp flush(__pyx_parallel_exc_type)
+                                    #endif /* _OPENMP */
+                                    if (!__pyx_parallel_exc_type) {
+                                      __Pyx_ErrFetchWithState(&__pyx_parallel_exc_type, &__pyx_parallel_exc_value, &__pyx_parallel_exc_tb);
+                                      __pyx_parallel_filename = __pyx_filename; __pyx_parallel_lineno = __pyx_lineno; __pyx_parallel_clineno = __pyx_clineno;
+                                      __Pyx_GOTREF(__pyx_parallel_exc_type);
+                                    }
+                                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                                    PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
+                                    #endif
+                                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
+                                }
+                                __pyx_parallel_why = 4;
+                                goto __pyx_L35;
+                                __pyx_L35:;
+                                #ifdef _OPENMP
+                                #pragma omp flush(__pyx_parallel_why)
+                                #endif /* _OPENMP */
+                            }
+                        }
+                    }
+                    if (__pyx_parallel_exc_type) {
+                      /* This may have been overridden by a continue, break or return in another thread. Prefer the error. */
+                      __pyx_parallel_why = 4;
+                    }
+                    if (__pyx_parallel_why) {
+                      switch (__pyx_parallel_why) {
+                            case 4:
+                        {
+                            PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                            #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                            PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
+                            #endif
+                            __Pyx_GIVEREF(__pyx_parallel_exc_type);
+                            __Pyx_ErrRestoreWithState(__pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb);
+                            __pyx_filename = __pyx_parallel_filename; __pyx_lineno = __pyx_parallel_lineno; __pyx_clineno = __pyx_parallel_clineno;
+                            #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                            PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
+                            #endif
+                            __Pyx_PyGILState_Release(__pyx_gilstate_save);
+                        }
+                        goto __pyx_L22_error;
+                      }
+                    }
+                }
+                goto __pyx_L37;
+                __pyx_L22_error:;
+                {
+                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                    PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
+                    #endif
+                    #ifdef _OPENMP
+                    #pragma omp flush(__pyx_parallel_exc_type)
+                    #endif /* _OPENMP */
+                    if (!__pyx_parallel_exc_type) {
+                      __Pyx_ErrFetchWithState(&__pyx_parallel_exc_type, &__pyx_parallel_exc_value, &__pyx_parallel_exc_tb);
+                      __pyx_parallel_filename = __pyx_filename; __pyx_parallel_lineno = __pyx_lineno; __pyx_parallel_clineno = __pyx_clineno;
+                      __Pyx_GOTREF(__pyx_parallel_exc_type);
+                    }
+                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                    PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
+                    #endif
+                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
+                }
+                __pyx_parallel_why = 4;
+                goto __pyx_L37;
+                __pyx_L37:;
+                #ifdef _OPENMP
+                Py_END_ALLOW_THREADS
+                #else
+{
+PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                #endif /* _OPENMP */
+                /* Clean up any temporaries */
+                __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
+                __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
+                __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+                __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+                __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+                __Pyx_PyGILState_Release(__pyx_gilstate_save);
+                #ifndef _OPENMP
+}
+#endif /* _OPENMP */
+            }
+            if (__pyx_parallel_exc_type) {
+              /* This may have been overridden by a continue, break or return in another thread. Prefer the error. */
+              __pyx_parallel_why = 4;
+            }
+            if (__pyx_parallel_why) {
+              switch (__pyx_parallel_why) {
+                    case 4:
+                {
+                    PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
+                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                    PyMutex_Lock(&__pyx_parallel_freethreading_mutex);
+                    #endif
+                    __Pyx_GIVEREF(__pyx_parallel_exc_type);
+                    __Pyx_ErrRestoreWithState(__pyx_parallel_exc_type, __pyx_parallel_exc_value, __pyx_parallel_exc_tb);
+                    __pyx_filename = __pyx_parallel_filename; __pyx_lineno = __pyx_parallel_lineno; __pyx_clineno = __pyx_parallel_clineno;
+                    #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
+                    PyMutex_Unlock(&__pyx_parallel_freethreading_mutex);
+                    #endif
+                    __Pyx_PyGILState_Release(__pyx_gilstate_save);
+                }
+                goto __pyx_L18_error;
+              }
+            }
+        }
+        #if ((defined(__APPLE__) || defined(__OSX__)) && (defined(__GNUC__) && (__GNUC__ > 2 || (__GNUC__ == 2 && (__GNUC_MINOR__ > 95)))))
+            #undef likely
+            #undef unlikely
+            #define likely(x)   __builtin_expect(!!(x), 1)
+            #define unlikely(x) __builtin_expect(!!(x), 0)
+        #endif
+      }
+
+      /* "balltree_setaxis/balltree.pyx":482
+ *     cdef int ret
+ * 
+ *     with nogil, parallel(num_threads=num_threads):             # <<<<<<<<<<<<<<
+ *         for i in prange(num_batches, schedule='static', chunksize=chunk_size):
+ *             ret = partition_batch_trees(
+*/
+      /*finally:*/ {
+        /*normal exit:*/{
+          __Pyx_FastGIL_Forget();
+          PyEval_RestoreThread(_save);
+          goto __pyx_L19;
+        }
+        __pyx_L18_error: {
+          __Pyx_FastGIL_Forget();
+          PyEval_RestoreThread(_save);
+          goto __pyx_L1_error;
+        }
+        __pyx_L19:;
+      }
+  }
+
+  /* "balltree_setaxis/balltree.pyx":495
  *                     raise RuntimeError(f"Error processing batch {i}: error code {ret}")
  * 
  *     return np.asarray(output)             # <<<<<<<<<<<<<<
@@ -22569,12 +22643,12 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
 */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_3 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 482, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 495, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 482, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_asarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 495, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-  __pyx_t_10 = __pyx_memoryview_fromslice(__pyx_v_output, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_16balltree_setaxis_8balltree_intp_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_16balltree_setaxis_8balltree_intp_t, 0);; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 482, __pyx_L1_error)
+  __pyx_t_10 = __pyx_memoryview_fromslice(__pyx_v_output, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn___pyx_t_16balltree_setaxis_8balltree_intp_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn___pyx_t_16balltree_setaxis_8balltree_intp_t, 0);; if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 495, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __pyx_t_6 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -22594,14 +22668,14 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 482, __pyx_L1_error)
+    if (unlikely(!__pyx_t_18)) __PYX_ERR(0, 495, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
   }
   __pyx_r = __pyx_t_18;
   __pyx_t_18 = 0;
   goto __pyx_L0;
 
-  /* "balltree_setaxis/balltree.pyx":362
+  /* "balltree_setaxis/balltree.pyx":370
  *     return np.asarray(output), np.asarray(mask), np.asarray(rotation_matrices)
  * 
  * def partition_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray, target_level: int):             # <<<<<<<<<<<<<<
@@ -22636,7 +22710,7 @@ PyGILState_STATE __pyx_gilstate_save = __Pyx_PyGILState_Ensure();
   return __pyx_r;
 }
 
-/* "balltree_setaxis/balltree.pyx":484
+/* "balltree_setaxis/balltree.pyx":497
  *     return np.asarray(output)
  * 
  * def build_balltree_with_idx(data: np.ndarray, batch_idx: np.ndarray):             # <<<<<<<<<<<<<<
@@ -22685,39 +22759,39 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_data,&__pyx_mstate_global->__pyx_n_u_batch_idx,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 484, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 497, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 484, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 497, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 484, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 497, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "build_balltree_with_idx", 0) < (0)) __PYX_ERR(0, 484, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "build_balltree_with_idx", 0) < (0)) __PYX_ERR(0, 497, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 2; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("build_balltree_with_idx", 1, 2, 2, i); __PYX_ERR(0, 484, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("build_balltree_with_idx", 1, 2, 2, i); __PYX_ERR(0, 497, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 2)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 484, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 497, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 484, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 497, __pyx_L3_error)
     }
     __pyx_v_data = values[0];
     __pyx_v_batch_idx = values[1];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("build_balltree_with_idx", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 484, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("build_balltree_with_idx", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 497, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -22761,24 +22835,24 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("build_balltree_with_idx", 0);
 
-  /* "balltree_setaxis/balltree.pyx":504
+  /* "balltree_setaxis/balltree.pyx":517
  *         either containing two point indices or duplicating a single point index.
  *     """
  *     if not isinstance(batch_idx, np.ndarray):             # <<<<<<<<<<<<<<
  *         raise ValueError("batch_idx must be a numpy array")
  * 
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 504, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 517, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 504, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 517, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_3 = PyObject_IsInstance(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(__pyx_t_3 == ((int)-1))) __PYX_ERR(0, 504, __pyx_L1_error)
+  __pyx_t_3 = PyObject_IsInstance(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(__pyx_t_3 == ((int)-1))) __PYX_ERR(0, 517, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_4 = (!__pyx_t_3);
   if (unlikely(__pyx_t_4)) {
 
-    /* "balltree_setaxis/balltree.pyx":505
+    /* "balltree_setaxis/balltree.pyx":518
  *     """
  *     if not isinstance(batch_idx, np.ndarray):
  *         raise ValueError("batch_idx must be a numpy array")             # <<<<<<<<<<<<<<
@@ -22791,14 +22865,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
       PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_mstate_global->__pyx_kp_u_batch_idx_must_be_a_numpy_array};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 505, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 518, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 505, __pyx_L1_error)
+    __PYX_ERR(0, 518, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":504
+    /* "balltree_setaxis/balltree.pyx":517
  *         either containing two point indices or duplicating a single point index.
  *     """
  *     if not isinstance(batch_idx, np.ndarray):             # <<<<<<<<<<<<<<
@@ -22807,20 +22881,20 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":507
+  /* "balltree_setaxis/balltree.pyx":520
  *         raise ValueError("batch_idx must be a numpy array")
  * 
  *     if batch_idx.ndim != 1:             # <<<<<<<<<<<<<<
  *         raise ValueError(f"batch_idx must be 1D array, got shape {batch_idx.shape}")
  * 
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 507, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 520, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 507, __pyx_L1_error)
+  __pyx_t_4 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 520, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_4)) {
 
-    /* "balltree_setaxis/balltree.pyx":508
+    /* "balltree_setaxis/balltree.pyx":521
  * 
  *     if batch_idx.ndim != 1:
  *         raise ValueError(f"batch_idx must be 1D array, got shape {batch_idx.shape}")             # <<<<<<<<<<<<<<
@@ -22828,12 +22902,12 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
  *     if batch_idx.shape[0] != data.shape[0]:
 */
     __pyx_t_1 = NULL;
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 508, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 521, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 508, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 521, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_batch_idx_must_be_1D_array_got_s, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 508, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_batch_idx_must_be_1D_array_got_s, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 521, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_5 = 1;
@@ -22842,14 +22916,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 508, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 521, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 508, __pyx_L1_error)
+    __PYX_ERR(0, 521, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":507
+    /* "balltree_setaxis/balltree.pyx":520
  *         raise ValueError("batch_idx must be a numpy array")
  * 
  *     if batch_idx.ndim != 1:             # <<<<<<<<<<<<<<
@@ -22858,31 +22932,31 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":510
+  /* "balltree_setaxis/balltree.pyx":523
  *         raise ValueError(f"batch_idx must be 1D array, got shape {batch_idx.shape}")
  * 
  *     if batch_idx.shape[0] != data.shape[0]:             # <<<<<<<<<<<<<<
  *         raise ValueError(
  *             f"batch_idx length ({batch_idx.shape[0]}) must match "
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 510, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 523, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_6 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 510, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 523, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 510, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 523, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 510, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 523, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyObject_RichCompare(__pyx_t_6, __pyx_t_1, Py_NE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 510, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_t_6, __pyx_t_1, Py_NE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 523, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 510, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 523, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_4)) {
 
-    /* "balltree_setaxis/balltree.pyx":511
+    /* "balltree_setaxis/balltree.pyx":524
  * 
  *     if batch_idx.shape[0] != data.shape[0]:
  *         raise ValueError(             # <<<<<<<<<<<<<<
@@ -22891,35 +22965,35 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
 */
     __pyx_t_1 = NULL;
 
-    /* "balltree_setaxis/balltree.pyx":512
+    /* "balltree_setaxis/balltree.pyx":525
  *     if batch_idx.shape[0] != data.shape[0]:
  *         raise ValueError(
  *             f"batch_idx length ({batch_idx.shape[0]}) must match "             # <<<<<<<<<<<<<<
  *             f"number of data points ({data.shape[0]})"
  *         )
 */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 512, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 525, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_6, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 512, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_6, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 525, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 512, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 525, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":513
+    /* "balltree_setaxis/balltree.pyx":526
  *         raise ValueError(
  *             f"batch_idx length ({batch_idx.shape[0]}) must match "
  *             f"number of data points ({data.shape[0]})"             # <<<<<<<<<<<<<<
  *         )
  * 
 */
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 513, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 526, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_7, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 513, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_7, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 526, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 513, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 526, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __pyx_t_9[0] = __pyx_mstate_global->__pyx_kp_u_batch_idx_length;
@@ -22928,7 +23002,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
     __pyx_t_9[3] = __pyx_t_7;
     __pyx_t_9[4] = __pyx_mstate_global->__pyx_kp_u__5;
 
-    /* "balltree_setaxis/balltree.pyx":512
+    /* "balltree_setaxis/balltree.pyx":525
  *     if batch_idx.shape[0] != data.shape[0]:
  *         raise ValueError(
  *             f"batch_idx length ({batch_idx.shape[0]}) must match "             # <<<<<<<<<<<<<<
@@ -22936,7 +23010,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
  *         )
 */
     __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_9, 5, 18 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_6) + 36 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7) + 1, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_6) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_7));
-    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 512, __pyx_L1_error)
+    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 525, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
@@ -22946,14 +23020,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 511, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 524, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 511, __pyx_L1_error)
+    __PYX_ERR(0, 524, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":510
+    /* "balltree_setaxis/balltree.pyx":523
  *         raise ValueError(f"batch_idx must be 1D array, got shape {batch_idx.shape}")
  * 
  *     if batch_idx.shape[0] != data.shape[0]:             # <<<<<<<<<<<<<<
@@ -22962,18 +23036,18 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":516
+  /* "balltree_setaxis/balltree.pyx":529
  *         )
  * 
  *     if len(batch_idx) == 0:             # <<<<<<<<<<<<<<
  *         raise ValueError("batch_idx is empty")
  * 
 */
-  __pyx_t_10 = PyObject_Length(__pyx_v_batch_idx); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 516, __pyx_L1_error)
+  __pyx_t_10 = PyObject_Length(__pyx_v_batch_idx); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 529, __pyx_L1_error)
   __pyx_t_4 = (__pyx_t_10 == 0);
   if (unlikely(__pyx_t_4)) {
 
-    /* "balltree_setaxis/balltree.pyx":517
+    /* "balltree_setaxis/balltree.pyx":530
  * 
  *     if len(batch_idx) == 0:
  *         raise ValueError("batch_idx is empty")             # <<<<<<<<<<<<<<
@@ -22986,14 +23060,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
       PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_mstate_global->__pyx_kp_u_batch_idx_is_empty};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 517, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 530, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 517, __pyx_L1_error)
+    __PYX_ERR(0, 530, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":516
+    /* "balltree_setaxis/balltree.pyx":529
  *         )
  * 
  *     if len(batch_idx) == 0:             # <<<<<<<<<<<<<<
@@ -23002,20 +23076,20 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":519
+  /* "balltree_setaxis/balltree.pyx":532
  *         raise ValueError("batch_idx is empty")
  * 
  *     if batch_idx[0] != 0:             # <<<<<<<<<<<<<<
  *         raise ValueError("Batch indices must start from 0")
  * 
 */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_batch_idx, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 519, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_batch_idx, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 532, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 519, __pyx_L1_error)
+  __pyx_t_4 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 532, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_4)) {
 
-    /* "balltree_setaxis/balltree.pyx":520
+    /* "balltree_setaxis/balltree.pyx":533
  * 
  *     if batch_idx[0] != 0:
  *         raise ValueError("Batch indices must start from 0")             # <<<<<<<<<<<<<<
@@ -23028,14 +23102,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
       PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_mstate_global->__pyx_kp_u_Batch_indices_must_start_from_0};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 520, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 533, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 520, __pyx_L1_error)
+    __PYX_ERR(0, 533, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":519
+    /* "balltree_setaxis/balltree.pyx":532
  *         raise ValueError("batch_idx is empty")
  * 
  *     if batch_idx[0] != 0:             # <<<<<<<<<<<<<<
@@ -23044,20 +23118,20 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":522
+  /* "balltree_setaxis/balltree.pyx":535
  *         raise ValueError("Batch indices must start from 0")
  * 
  *     n = len(batch_idx)             # <<<<<<<<<<<<<<
  * 
  *     # Compute offsets by finding where batch index changes
 */
-  __pyx_t_10 = PyObject_Length(__pyx_v_batch_idx); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 522, __pyx_L1_error)
-  __pyx_t_2 = PyLong_FromSsize_t(__pyx_t_10); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 522, __pyx_L1_error)
+  __pyx_t_10 = PyObject_Length(__pyx_v_batch_idx); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 535, __pyx_L1_error)
+  __pyx_t_2 = PyLong_FromSsize_t(__pyx_t_10); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 535, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_v_n = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":525
+  /* "balltree_setaxis/balltree.pyx":538
  * 
  *     # Compute offsets by finding where batch index changes
  *     change_points = np.where(batch_idx[1:n] != batch_idx[0:n-1])[0] + 1             # <<<<<<<<<<<<<<
@@ -23065,19 +23139,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
  * 
 */
   __pyx_t_8 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 525, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_where); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 525, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_where); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 1, 0, NULL, &__pyx_v_n, NULL, 1, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 525, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 1, 0, NULL, &__pyx_v_n, NULL, 1, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __Pyx_PyLong_SubtractObjC(__pyx_v_n, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 525, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyLong_SubtractObjC(__pyx_v_n, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_11 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 0, 0, NULL, &__pyx_t_6, NULL, 1, 0, 0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 525, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 0, 0, NULL, &__pyx_t_6, NULL, 1, 0, 0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_t_1, __pyx_t_11, Py_NE); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 525, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_t_1, __pyx_t_11, Py_NE); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   __pyx_t_5 = 1;
@@ -23098,37 +23172,37 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 525, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 538, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 525, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyLong_AddObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 525, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_AddObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 538, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_v_change_points = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":526
+  /* "balltree_setaxis/balltree.pyx":539
  *     # Compute offsets by finding where batch index changes
  *     change_points = np.where(batch_idx[1:n] != batch_idx[0:n-1])[0] + 1
  *     num_batches = batch_idx[n-1] + 1             # <<<<<<<<<<<<<<
  * 
  *     batch_offsets = np.zeros(num_batches + 1, dtype=np.intp)
 */
-  __pyx_t_2 = __Pyx_PyLong_SubtractObjC(__pyx_v_n, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 526, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_SubtractObjC(__pyx_v_n, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 539, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 526, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 539, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyLong_AddObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 526, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_AddObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 539, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_v_num_batches = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":528
+  /* "balltree_setaxis/balltree.pyx":541
  *     num_batches = batch_idx[n-1] + 1
  * 
  *     batch_offsets = np.zeros(num_batches + 1, dtype=np.intp)             # <<<<<<<<<<<<<<
@@ -23136,16 +23210,16 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
  *     batch_offsets[num_batches] = n
 */
   __pyx_t_7 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 528, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 541, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 528, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 541, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyLong_AddObjC(__pyx_v_num_batches, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 528, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyLong_AddObjC(__pyx_v_num_batches, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 541, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 528, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 541, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 528, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 541, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   __pyx_t_5 = 1;
@@ -23162,40 +23236,40 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
   #endif
   {
     PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_7, __pyx_t_6};
-    __pyx_t_11 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 528, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 541, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_1, __pyx_t_11, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 528, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_1, __pyx_t_11, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 541, __pyx_L1_error)
     __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_8, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_11);
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 528, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 541, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
   __pyx_v_batch_offsets = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":529
+  /* "balltree_setaxis/balltree.pyx":542
  * 
  *     batch_offsets = np.zeros(num_batches + 1, dtype=np.intp)
  *     batch_offsets[1:num_batches] = change_points             # <<<<<<<<<<<<<<
  *     batch_offsets[num_batches] = n
  * 
 */
-  if (__Pyx_PyObject_SetSlice(__pyx_v_batch_offsets, __pyx_v_change_points, 1, 0, NULL, &__pyx_v_num_batches, NULL, 1, 0, 0) < (0)) __PYX_ERR(0, 529, __pyx_L1_error)
+  if (__Pyx_PyObject_SetSlice(__pyx_v_batch_offsets, __pyx_v_change_points, 1, 0, NULL, &__pyx_v_num_batches, NULL, 1, 0, 0) < (0)) __PYX_ERR(0, 542, __pyx_L1_error)
 
-  /* "balltree_setaxis/balltree.pyx":530
+  /* "balltree_setaxis/balltree.pyx":543
  *     batch_offsets = np.zeros(num_batches + 1, dtype=np.intp)
  *     batch_offsets[1:num_batches] = change_points
  *     batch_offsets[num_batches] = n             # <<<<<<<<<<<<<<
  * 
  *     return build_balltree_with_offsets(data, batch_offsets)
 */
-  if (unlikely((PyObject_SetItem(__pyx_v_batch_offsets, __pyx_v_num_batches, __pyx_v_n) < 0))) __PYX_ERR(0, 530, __pyx_L1_error)
+  if (unlikely((PyObject_SetItem(__pyx_v_batch_offsets, __pyx_v_num_batches, __pyx_v_n) < 0))) __PYX_ERR(0, 543, __pyx_L1_error)
 
-  /* "balltree_setaxis/balltree.pyx":532
+  /* "balltree_setaxis/balltree.pyx":545
  *     batch_offsets[num_batches] = n
  * 
  *     return build_balltree_with_offsets(data, batch_offsets)             # <<<<<<<<<<<<<<
@@ -23204,7 +23278,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
 */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_8 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_build_balltree_with_offsets); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 532, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_build_balltree_with_offsets); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 545, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __pyx_t_5 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -23223,14 +23297,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
     __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_11, __pyx_callargs+__pyx_t_5, (3-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 532, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 545, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "balltree_setaxis/balltree.pyx":484
+  /* "balltree_setaxis/balltree.pyx":497
  *     return np.asarray(output)
  * 
  * def build_balltree_with_idx(data: np.ndarray, batch_idx: np.ndarray):             # <<<<<<<<<<<<<<
@@ -23258,7 +23332,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_4build_balltree_with_idx(
   return __pyx_r;
 }
 
-/* "balltree_setaxis/balltree.pyx":534
+/* "balltree_setaxis/balltree.pyx":547
  *     return build_balltree_with_offsets(data, batch_offsets)
  * 
  * def partition_balltree_with_idx(data: np.ndarray, batch_idx: np.ndarray, target_level: int):             # <<<<<<<<<<<<<<
@@ -23308,47 +23382,47 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_data,&__pyx_mstate_global->__pyx_n_u_batch_idx,&__pyx_mstate_global->__pyx_n_u_target_level,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 534, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 547, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 547, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 547, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 547, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "partition_balltree_with_idx", 0) < (0)) __PYX_ERR(0, 534, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "partition_balltree_with_idx", 0) < (0)) __PYX_ERR(0, 547, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 3; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("partition_balltree_with_idx", 1, 3, 3, i); __PYX_ERR(0, 534, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("partition_balltree_with_idx", 1, 3, 3, i); __PYX_ERR(0, 547, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 3)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 534, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 547, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 534, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 547, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 534, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 547, __pyx_L3_error)
     }
     __pyx_v_data = values[0];
     __pyx_v_batch_idx = values[1];
-    if (__Pyx_PyInt_FromNumber(&values[2], "target_level", 0) < (0)) __PYX_ERR(0, 534, __pyx_L3_error)
+    if (__Pyx_PyInt_FromNumber(&values[2], "target_level", 0) < (0)) __PYX_ERR(0, 547, __pyx_L3_error)
     __pyx_v_target_level = ((PyObject*)values[2]);
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("partition_balltree_with_idx", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 534, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("partition_balltree_with_idx", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 547, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -23359,7 +23433,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_target_level), (&PyLong_Type), 0, "target_level", 2))) __PYX_ERR(0, 534, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_target_level), (&PyLong_Type), 0, "target_level", 2))) __PYX_ERR(0, 547, __pyx_L1_error)
   __pyx_r = __pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_idx(__pyx_self, __pyx_v_data, __pyx_v_batch_idx, __pyx_v_target_level);
 
   /* function exit code */
@@ -23402,24 +23476,24 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("partition_balltree_with_idx", 0);
 
-  /* "balltree_setaxis/balltree.pyx":555
+  /* "balltree_setaxis/balltree.pyx":568
  *         Flattened array containing partitioned indices for all trees.
  *     """
  *     if not isinstance(batch_idx, np.ndarray):             # <<<<<<<<<<<<<<
  *         raise ValueError("batch_idx must be a numpy array")
  * 
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 555, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 568, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 555, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_ndarray); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 568, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_3 = PyObject_IsInstance(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(__pyx_t_3 == ((int)-1))) __PYX_ERR(0, 555, __pyx_L1_error)
+  __pyx_t_3 = PyObject_IsInstance(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(__pyx_t_3 == ((int)-1))) __PYX_ERR(0, 568, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_4 = (!__pyx_t_3);
   if (unlikely(__pyx_t_4)) {
 
-    /* "balltree_setaxis/balltree.pyx":556
+    /* "balltree_setaxis/balltree.pyx":569
  *     """
  *     if not isinstance(batch_idx, np.ndarray):
  *         raise ValueError("batch_idx must be a numpy array")             # <<<<<<<<<<<<<<
@@ -23432,14 +23506,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
       PyObject *__pyx_callargs[2] = {__pyx_t_1, __pyx_mstate_global->__pyx_kp_u_batch_idx_must_be_a_numpy_array};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 556, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 569, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 556, __pyx_L1_error)
+    __PYX_ERR(0, 569, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":555
+    /* "balltree_setaxis/balltree.pyx":568
  *         Flattened array containing partitioned indices for all trees.
  *     """
  *     if not isinstance(batch_idx, np.ndarray):             # <<<<<<<<<<<<<<
@@ -23448,20 +23522,20 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":558
+  /* "balltree_setaxis/balltree.pyx":571
  *         raise ValueError("batch_idx must be a numpy array")
  * 
  *     if batch_idx.ndim != 1:             # <<<<<<<<<<<<<<
  *         raise ValueError(f"batch_idx must be 1D array, got shape {batch_idx.shape}")
  * 
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 558, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 571, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 558, __pyx_L1_error)
+  __pyx_t_4 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 571, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_4)) {
 
-    /* "balltree_setaxis/balltree.pyx":559
+    /* "balltree_setaxis/balltree.pyx":572
  * 
  *     if batch_idx.ndim != 1:
  *         raise ValueError(f"batch_idx must be 1D array, got shape {batch_idx.shape}")             # <<<<<<<<<<<<<<
@@ -23469,12 +23543,12 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
  *     if batch_idx.shape[0] != data.shape[0]:
 */
     __pyx_t_1 = NULL;
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 559, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 572, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 559, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_6, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 572, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_batch_idx_must_be_1D_array_got_s, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 559, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_batch_idx_must_be_1D_array_got_s, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 572, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_5 = 1;
@@ -23483,14 +23557,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 559, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 572, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 559, __pyx_L1_error)
+    __PYX_ERR(0, 572, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":558
+    /* "balltree_setaxis/balltree.pyx":571
  *         raise ValueError("batch_idx must be a numpy array")
  * 
  *     if batch_idx.ndim != 1:             # <<<<<<<<<<<<<<
@@ -23499,31 +23573,31 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":561
+  /* "balltree_setaxis/balltree.pyx":574
  *         raise ValueError(f"batch_idx must be 1D array, got shape {batch_idx.shape}")
  * 
  *     if batch_idx.shape[0] != data.shape[0]:             # <<<<<<<<<<<<<<
  *         raise ValueError(
  *             f"batch_idx length ({batch_idx.shape[0]}) must match "
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 561, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 574, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_6 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 561, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 574, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 561, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 574, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 561, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 574, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyObject_RichCompare(__pyx_t_6, __pyx_t_1, Py_NE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 561, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_t_6, __pyx_t_1, Py_NE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 574, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 561, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 574, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_4)) {
 
-    /* "balltree_setaxis/balltree.pyx":562
+    /* "balltree_setaxis/balltree.pyx":575
  * 
  *     if batch_idx.shape[0] != data.shape[0]:
  *         raise ValueError(             # <<<<<<<<<<<<<<
@@ -23532,35 +23606,35 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
 */
     __pyx_t_1 = NULL;
 
-    /* "balltree_setaxis/balltree.pyx":563
+    /* "balltree_setaxis/balltree.pyx":576
  *     if batch_idx.shape[0] != data.shape[0]:
  *         raise ValueError(
  *             f"batch_idx length ({batch_idx.shape[0]}) must match "             # <<<<<<<<<<<<<<
  *             f"number of data points ({data.shape[0]})"
  *         )
 */
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 563, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 576, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_6, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 563, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_6, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 576, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 563, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 576, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":564
+    /* "balltree_setaxis/balltree.pyx":577
  *         raise ValueError(
  *             f"batch_idx length ({batch_idx.shape[0]}) must match "
  *             f"number of data points ({data.shape[0]})"             # <<<<<<<<<<<<<<
  *         )
  * 
 */
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 564, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 577, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_7, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 564, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_7, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 577, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 564, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 577, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __pyx_t_9[0] = __pyx_mstate_global->__pyx_kp_u_batch_idx_length;
@@ -23569,7 +23643,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
     __pyx_t_9[3] = __pyx_t_7;
     __pyx_t_9[4] = __pyx_mstate_global->__pyx_kp_u__5;
 
-    /* "balltree_setaxis/balltree.pyx":563
+    /* "balltree_setaxis/balltree.pyx":576
  *     if batch_idx.shape[0] != data.shape[0]:
  *         raise ValueError(
  *             f"batch_idx length ({batch_idx.shape[0]}) must match "             # <<<<<<<<<<<<<<
@@ -23577,7 +23651,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
  *         )
 */
     __pyx_t_8 = __Pyx_PyUnicode_Join(__pyx_t_9, 5, 18 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_6) + 36 + __Pyx_PyUnicode_GET_LENGTH(__pyx_t_7) + 1, 127 | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_6) | __Pyx_PyUnicode_MAX_CHAR_VALUE(__pyx_t_7));
-    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 563, __pyx_L1_error)
+    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 576, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
@@ -23587,14 +23661,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 562, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 575, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 562, __pyx_L1_error)
+    __PYX_ERR(0, 575, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":561
+    /* "balltree_setaxis/balltree.pyx":574
  *         raise ValueError(f"batch_idx must be 1D array, got shape {batch_idx.shape}")
  * 
  *     if batch_idx.shape[0] != data.shape[0]:             # <<<<<<<<<<<<<<
@@ -23603,18 +23677,18 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":567
+  /* "balltree_setaxis/balltree.pyx":580
  *         )
  * 
  *     if len(batch_idx) == 0:             # <<<<<<<<<<<<<<
  *         raise ValueError("batch_idx is empty")
  * 
 */
-  __pyx_t_10 = PyObject_Length(__pyx_v_batch_idx); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 567, __pyx_L1_error)
+  __pyx_t_10 = PyObject_Length(__pyx_v_batch_idx); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 580, __pyx_L1_error)
   __pyx_t_4 = (__pyx_t_10 == 0);
   if (unlikely(__pyx_t_4)) {
 
-    /* "balltree_setaxis/balltree.pyx":568
+    /* "balltree_setaxis/balltree.pyx":581
  * 
  *     if len(batch_idx) == 0:
  *         raise ValueError("batch_idx is empty")             # <<<<<<<<<<<<<<
@@ -23627,14 +23701,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
       PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_mstate_global->__pyx_kp_u_batch_idx_is_empty};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 568, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 581, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 568, __pyx_L1_error)
+    __PYX_ERR(0, 581, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":567
+    /* "balltree_setaxis/balltree.pyx":580
  *         )
  * 
  *     if len(batch_idx) == 0:             # <<<<<<<<<<<<<<
@@ -23643,20 +23717,20 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":570
+  /* "balltree_setaxis/balltree.pyx":583
  *         raise ValueError("batch_idx is empty")
  * 
  *     if batch_idx[0] != 0:             # <<<<<<<<<<<<<<
  *         raise ValueError("Batch indices must start from 0")
  * 
 */
-  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_batch_idx, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 570, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_batch_idx, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_FunctionArgument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 583, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 570, __pyx_L1_error)
+  __pyx_t_4 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_0, 0, 0)); if (unlikely((__pyx_t_4 < 0))) __PYX_ERR(0, 583, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_4)) {
 
-    /* "balltree_setaxis/balltree.pyx":571
+    /* "balltree_setaxis/balltree.pyx":584
  * 
  *     if batch_idx[0] != 0:
  *         raise ValueError("Batch indices must start from 0")             # <<<<<<<<<<<<<<
@@ -23669,14 +23743,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
       PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_mstate_global->__pyx_kp_u_Batch_indices_must_start_from_0};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 571, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 584, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 571, __pyx_L1_error)
+    __PYX_ERR(0, 584, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":570
+    /* "balltree_setaxis/balltree.pyx":583
  *         raise ValueError("batch_idx is empty")
  * 
  *     if batch_idx[0] != 0:             # <<<<<<<<<<<<<<
@@ -23685,20 +23759,20 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":573
+  /* "balltree_setaxis/balltree.pyx":586
  *         raise ValueError("Batch indices must start from 0")
  * 
  *     n = len(batch_idx)             # <<<<<<<<<<<<<<
  * 
  *     # Compute offsets by finding where batch index changes
 */
-  __pyx_t_10 = PyObject_Length(__pyx_v_batch_idx); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 573, __pyx_L1_error)
-  __pyx_t_2 = PyLong_FromSsize_t(__pyx_t_10); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 573, __pyx_L1_error)
+  __pyx_t_10 = PyObject_Length(__pyx_v_batch_idx); if (unlikely(__pyx_t_10 == ((Py_ssize_t)-1))) __PYX_ERR(0, 586, __pyx_L1_error)
+  __pyx_t_2 = PyLong_FromSsize_t(__pyx_t_10); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 586, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_v_n = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":576
+  /* "balltree_setaxis/balltree.pyx":589
  * 
  *     # Compute offsets by finding where batch index changes
  *     change_points = np.where(batch_idx[1:n] != batch_idx[0:n-1])[0] + 1             # <<<<<<<<<<<<<<
@@ -23706,19 +23780,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
  * 
 */
   __pyx_t_8 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 576, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_where); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 576, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_mstate_global->__pyx_n_u_where); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 1, 0, NULL, &__pyx_v_n, NULL, 1, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 576, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 1, 0, NULL, &__pyx_v_n, NULL, 1, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __Pyx_PyLong_SubtractObjC(__pyx_v_n, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 576, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyLong_SubtractObjC(__pyx_v_n, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_11 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 0, 0, NULL, &__pyx_t_6, NULL, 1, 0, 0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 576, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 0, 0, NULL, &__pyx_t_6, NULL, 1, 0, 0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = PyObject_RichCompare(__pyx_t_1, __pyx_t_11, Py_NE); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 576, __pyx_L1_error)
+  __pyx_t_6 = PyObject_RichCompare(__pyx_t_1, __pyx_t_11, Py_NE); __Pyx_XGOTREF(__pyx_t_6); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   __pyx_t_5 = 1;
@@ -23739,37 +23813,37 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 576, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 589, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 576, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyLong_AddObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 576, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_AddObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 589, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_v_change_points = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":577
+  /* "balltree_setaxis/balltree.pyx":590
  *     # Compute offsets by finding where batch index changes
  *     change_points = np.where(batch_idx[1:n] != batch_idx[0:n-1])[0] + 1
  *     num_batches = batch_idx[n-1] + 1             # <<<<<<<<<<<<<<
  * 
  *     batch_offsets = np.zeros(num_batches + 1, dtype=np.intp)
 */
-  __pyx_t_2 = __Pyx_PyLong_SubtractObjC(__pyx_v_n, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 577, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_SubtractObjC(__pyx_v_n, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 590, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 577, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 590, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyLong_AddObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 577, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyLong_AddObjC(__pyx_t_7, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 590, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_v_num_batches = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":579
+  /* "balltree_setaxis/balltree.pyx":592
  *     num_batches = batch_idx[n-1] + 1
  * 
  *     batch_offsets = np.zeros(num_batches + 1, dtype=np.intp)             # <<<<<<<<<<<<<<
@@ -23777,16 +23851,16 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
  *     batch_offsets[num_batches] = n
 */
   __pyx_t_7 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 592, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 592, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyLong_AddObjC(__pyx_v_num_batches, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyLong_AddObjC(__pyx_v_num_batches, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 592, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_np); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 592, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 579, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_intp); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 592, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
   __pyx_t_5 = 1;
@@ -23803,40 +23877,40 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
   #endif
   {
     PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_7, __pyx_t_6};
-    __pyx_t_11 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 579, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 592, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_1, __pyx_t_11, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 579, __pyx_L1_error)
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_1, __pyx_t_11, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 592, __pyx_L1_error)
     __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_8, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_11);
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 579, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 592, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
   __pyx_v_batch_offsets = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":580
+  /* "balltree_setaxis/balltree.pyx":593
  * 
  *     batch_offsets = np.zeros(num_batches + 1, dtype=np.intp)
  *     batch_offsets[1:num_batches] = change_points             # <<<<<<<<<<<<<<
  *     batch_offsets[num_batches] = n
  * 
 */
-  if (__Pyx_PyObject_SetSlice(__pyx_v_batch_offsets, __pyx_v_change_points, 1, 0, NULL, &__pyx_v_num_batches, NULL, 1, 0, 0) < (0)) __PYX_ERR(0, 580, __pyx_L1_error)
+  if (__Pyx_PyObject_SetSlice(__pyx_v_batch_offsets, __pyx_v_change_points, 1, 0, NULL, &__pyx_v_num_batches, NULL, 1, 0, 0) < (0)) __PYX_ERR(0, 593, __pyx_L1_error)
 
-  /* "balltree_setaxis/balltree.pyx":581
+  /* "balltree_setaxis/balltree.pyx":594
  *     batch_offsets = np.zeros(num_batches + 1, dtype=np.intp)
  *     batch_offsets[1:num_batches] = change_points
  *     batch_offsets[num_batches] = n             # <<<<<<<<<<<<<<
  * 
  *     return partition_balltree_with_offsets(data, batch_offsets, target_level)
 */
-  if (unlikely((PyObject_SetItem(__pyx_v_batch_offsets, __pyx_v_num_batches, __pyx_v_n) < 0))) __PYX_ERR(0, 581, __pyx_L1_error)
+  if (unlikely((PyObject_SetItem(__pyx_v_batch_offsets, __pyx_v_num_batches, __pyx_v_n) < 0))) __PYX_ERR(0, 594, __pyx_L1_error)
 
-  /* "balltree_setaxis/balltree.pyx":583
+  /* "balltree_setaxis/balltree.pyx":596
  *     batch_offsets[num_batches] = n
  * 
  *     return partition_balltree_with_offsets(data, batch_offsets, target_level)             # <<<<<<<<<<<<<<
@@ -23845,7 +23919,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
 */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_8 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_offsets); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 583, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_offsets); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 596, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __pyx_t_5 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -23864,14 +23938,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
     __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_11, __pyx_callargs+__pyx_t_5, (4-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 583, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 596, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "balltree_setaxis/balltree.pyx":534
+  /* "balltree_setaxis/balltree.pyx":547
  *     return build_balltree_with_offsets(data, batch_offsets)
  * 
  * def partition_balltree_with_idx(data: np.ndarray, batch_idx: np.ndarray, target_level: int):             # <<<<<<<<<<<<<<
@@ -23899,7 +23973,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_6partition_balltree_with_
   return __pyx_r;
 }
 
-/* "balltree_setaxis/balltree.pyx":585
+/* "balltree_setaxis/balltree.pyx":598
  *     return partition_balltree_with_offsets(data, batch_offsets, target_level)
  * 
  * def build_balltree(data: torch.Tensor, batch_idx: torch.Tensor):             # <<<<<<<<<<<<<<
@@ -23948,39 +24022,39 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_data,&__pyx_mstate_global->__pyx_n_u_batch_idx,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 585, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 598, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 585, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 598, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 585, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 598, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "build_balltree", 0) < (0)) __PYX_ERR(0, 585, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "build_balltree", 0) < (0)) __PYX_ERR(0, 598, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 2; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("build_balltree", 1, 2, 2, i); __PYX_ERR(0, 585, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("build_balltree", 1, 2, 2, i); __PYX_ERR(0, 598, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 2)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 585, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 598, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 585, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 598, __pyx_L3_error)
     }
     __pyx_v_data = values[0];
     __pyx_v_batch_idx = values[1];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("build_balltree", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 585, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("build_balltree", 1, 2, 2, __pyx_nargs); __PYX_ERR(0, 598, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -24025,19 +24099,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("build_balltree", 0);
 
-  /* "balltree_setaxis/balltree.pyx":598
+  /* "balltree_setaxis/balltree.pyx":611
  *     """
  * 
  *     if not isinstance(data, torch.Tensor) or not isinstance(batch_idx, torch.Tensor):             # <<<<<<<<<<<<<<
  *         raise ValueError("Inputs must be PyTorch tensors")
  * 
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 598, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 611, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Tensor); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 598, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Tensor); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 611, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_4 = PyObject_IsInstance(__pyx_v_data, __pyx_t_3); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(0, 598, __pyx_L1_error)
+  __pyx_t_4 = PyObject_IsInstance(__pyx_v_data, __pyx_t_3); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(0, 611, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = (!__pyx_t_4);
   if (!__pyx_t_5) {
@@ -24045,19 +24119,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_1 = __pyx_t_5;
     goto __pyx_L4_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 598, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 611, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_Tensor); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 598, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_Tensor); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 611, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_5 = PyObject_IsInstance(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(__pyx_t_5 == ((int)-1))) __PYX_ERR(0, 598, __pyx_L1_error)
+  __pyx_t_5 = PyObject_IsInstance(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(__pyx_t_5 == ((int)-1))) __PYX_ERR(0, 611, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_4 = (!__pyx_t_5);
   __pyx_t_1 = __pyx_t_4;
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_1)) {
 
-    /* "balltree_setaxis/balltree.pyx":599
+    /* "balltree_setaxis/balltree.pyx":612
  * 
  *     if not isinstance(data, torch.Tensor) or not isinstance(batch_idx, torch.Tensor):
  *         raise ValueError("Inputs must be PyTorch tensors")             # <<<<<<<<<<<<<<
@@ -24070,14 +24144,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
       PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_kp_u_Inputs_must_be_PyTorch_tensors};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 599, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 612, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 599, __pyx_L1_error)
+    __PYX_ERR(0, 612, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":598
+    /* "balltree_setaxis/balltree.pyx":611
  *     """
  * 
  *     if not isinstance(data, torch.Tensor) or not isinstance(batch_idx, torch.Tensor):             # <<<<<<<<<<<<<<
@@ -24086,7 +24160,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":601
+  /* "balltree_setaxis/balltree.pyx":614
  *         raise ValueError("Inputs must be PyTorch tensors")
  * 
  *     if data.dim() != 2:             # <<<<<<<<<<<<<<
@@ -24100,14 +24174,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
     __pyx_t_2 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_dim, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 601, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 614, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_2, 2, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 601, __pyx_L1_error)
+  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_2, 2, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 614, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_1)) {
 
-    /* "balltree_setaxis/balltree.pyx":602
+    /* "balltree_setaxis/balltree.pyx":615
  * 
  *     if data.dim() != 2:
  *         raise ValueError(f"Data must be 2D tensor, got shape {tuple(data.shape)}")             # <<<<<<<<<<<<<<
@@ -24115,15 +24189,15 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
  *     if batch_idx.dim() != 1:
 */
     __pyx_t_3 = NULL;
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 602, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 615, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = __Pyx_PySequence_Tuple(__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 602, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PySequence_Tuple(__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 615, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 602, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 615, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Data_must_be_2D_tensor_got_shape, __pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 602, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Data_must_be_2D_tensor_got_shape, __pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 615, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_6 = 1;
@@ -24132,14 +24206,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 602, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 615, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 602, __pyx_L1_error)
+    __PYX_ERR(0, 615, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":601
+    /* "balltree_setaxis/balltree.pyx":614
  *         raise ValueError("Inputs must be PyTorch tensors")
  * 
  *     if data.dim() != 2:             # <<<<<<<<<<<<<<
@@ -24148,7 +24222,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":604
+  /* "balltree_setaxis/balltree.pyx":617
  *         raise ValueError(f"Data must be 2D tensor, got shape {tuple(data.shape)}")
  * 
  *     if batch_idx.dim() != 1:             # <<<<<<<<<<<<<<
@@ -24162,14 +24236,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     PyObject *__pyx_callargs[2] = {__pyx_t_8, NULL};
     __pyx_t_2 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_dim, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 604, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 617, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 604, __pyx_L1_error)
+  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 617, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_1)) {
 
-    /* "balltree_setaxis/balltree.pyx":605
+    /* "balltree_setaxis/balltree.pyx":618
  * 
  *     if batch_idx.dim() != 1:
  *         raise ValueError(f"batch_idx must be 1D tensor, got shape {tuple(batch_idx.shape)}")             # <<<<<<<<<<<<<<
@@ -24177,15 +24251,15 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
  *     if batch_idx.shape[0] != data.shape[0]:
 */
     __pyx_t_8 = NULL;
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 605, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 618, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_7 = __Pyx_PySequence_Tuple(__pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 605, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PySequence_Tuple(__pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 618, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 605, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 618, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_batch_idx_must_be_1D_tensor_got, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 605, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_batch_idx_must_be_1D_tensor_got, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 618, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -24194,14 +24268,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 605, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 618, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 605, __pyx_L1_error)
+    __PYX_ERR(0, 618, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":604
+    /* "balltree_setaxis/balltree.pyx":617
  *         raise ValueError(f"Data must be 2D tensor, got shape {tuple(data.shape)}")
  * 
  *     if batch_idx.dim() != 1:             # <<<<<<<<<<<<<<
@@ -24210,31 +24284,31 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":607
+  /* "balltree_setaxis/balltree.pyx":620
  *         raise ValueError(f"batch_idx must be 1D tensor, got shape {tuple(batch_idx.shape)}")
  * 
  *     if batch_idx.shape[0] != data.shape[0]:             # <<<<<<<<<<<<<<
  *         raise ValueError("batch_idx length must match number of data points")
  * 
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 607, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 620, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 607, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 620, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 607, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 620, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 607, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 620, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyObject_RichCompare(__pyx_t_7, __pyx_t_8, Py_NE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 607, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_t_7, __pyx_t_8, Py_NE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 620, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 607, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 620, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_1)) {
 
-    /* "balltree_setaxis/balltree.pyx":608
+    /* "balltree_setaxis/balltree.pyx":621
  * 
  *     if batch_idx.shape[0] != data.shape[0]:
  *         raise ValueError("batch_idx length must match number of data points")             # <<<<<<<<<<<<<<
@@ -24247,14 +24321,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
       PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_mstate_global->__pyx_kp_u_batch_idx_length_must_match_numb};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 608, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 621, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 608, __pyx_L1_error)
+    __PYX_ERR(0, 621, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":607
+    /* "balltree_setaxis/balltree.pyx":620
  *         raise ValueError(f"batch_idx must be 1D tensor, got shape {tuple(batch_idx.shape)}")
  * 
  *     if batch_idx.shape[0] != data.shape[0]:             # <<<<<<<<<<<<<<
@@ -24263,19 +24337,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":610
+  /* "balltree_setaxis/balltree.pyx":623
  *         raise ValueError("batch_idx length must match number of data points")
  * 
  *     device = data.device             # <<<<<<<<<<<<<<
  * 
  *     cdef cnp.ndarray data_np = data.detach().cpu().double().numpy()
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_device); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 610, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_device); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 623, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_v_device = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":612
+  /* "balltree_setaxis/balltree.pyx":625
  *     device = data.device
  * 
  *     cdef cnp.ndarray data_np = data.detach().cpu().double().numpy()             # <<<<<<<<<<<<<<
@@ -24289,7 +24363,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     PyObject *__pyx_callargs[2] = {__pyx_t_12, NULL};
     __pyx_t_11 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_detach, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-    if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 612, __pyx_L1_error)
+    if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 625, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
   }
   __pyx_t_10 = __pyx_t_11;
@@ -24300,7 +24374,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_9 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_cpu, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 612, __pyx_L1_error)
+    if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 625, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
   }
   __pyx_t_3 = __pyx_t_9;
@@ -24311,7 +24385,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_7 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_double, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 612, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 625, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
   }
   __pyx_t_8 = __pyx_t_7;
@@ -24322,14 +24396,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_2 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_numpy, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 612, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 625, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_mstate_global->__pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 612, __pyx_L1_error)
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_mstate_global->__pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 625, __pyx_L1_error)
   __pyx_v_data_np = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":613
+  /* "balltree_setaxis/balltree.pyx":626
  * 
  *     cdef cnp.ndarray data_np = data.detach().cpu().double().numpy()
  *     cdef cnp.ndarray batch_idx_np = batch_idx.detach().cpu().long().numpy()             # <<<<<<<<<<<<<<
@@ -24343,7 +24417,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     PyObject *__pyx_callargs[2] = {__pyx_t_12, NULL};
     __pyx_t_10 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_detach, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 613, __pyx_L1_error)
+    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 626, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
   }
   __pyx_t_11 = __pyx_t_10;
@@ -24354,7 +24428,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_3 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_cpu, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 613, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 626, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
   }
   __pyx_t_9 = __pyx_t_3;
@@ -24365,7 +24439,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_8 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_long, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 613, __pyx_L1_error)
+    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 626, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
   }
   __pyx_t_7 = __pyx_t_8;
@@ -24376,14 +24450,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_2 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_numpy, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 613, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 626, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_mstate_global->__pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 613, __pyx_L1_error)
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_mstate_global->__pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 626, __pyx_L1_error)
   __pyx_v_batch_idx_np = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":615
+  /* "balltree_setaxis/balltree.pyx":628
  *     cdef cnp.ndarray batch_idx_np = batch_idx.detach().cpu().long().numpy()
  * 
  *     cdef tuple result = build_balltree_with_idx(data_np, batch_idx_np)             # <<<<<<<<<<<<<<
@@ -24391,7 +24465,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
  *     return (
 */
   __pyx_t_8 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_build_balltree_with_idx); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 615, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_build_balltree_with_idx); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 628, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __pyx_t_6 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -24410,14 +24484,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_7, __pyx_callargs+__pyx_t_6, (3-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 615, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 628, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  if (!(likely(PyTuple_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_t_2))) __PYX_ERR(0, 615, __pyx_L1_error)
+  if (!(likely(PyTuple_CheckExact(__pyx_t_2))||((__pyx_t_2) == Py_None) || __Pyx_RaiseUnexpectedTypeError("tuple", __pyx_t_2))) __PYX_ERR(0, 628, __pyx_L1_error)
   __pyx_v_result = ((PyObject*)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":617
+  /* "balltree_setaxis/balltree.pyx":630
  *     cdef tuple result = build_balltree_with_idx(data_np, batch_idx_np)
  * 
  *     return (             # <<<<<<<<<<<<<<
@@ -24426,7 +24500,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
 */
   __Pyx_XDECREF(__pyx_r);
 
-  /* "balltree_setaxis/balltree.pyx":618
+  /* "balltree_setaxis/balltree.pyx":631
  * 
  *     return (
  *         torch.from_numpy(result[0]).to(device),             # <<<<<<<<<<<<<<
@@ -24434,14 +24508,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
  *         torch.from_numpy(result[2]).to(device)
 */
   __pyx_t_3 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 618, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 631, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_from_numpy); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 618, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_from_numpy); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 631, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   if (unlikely(__pyx_v_result == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-    __PYX_ERR(0, 618, __pyx_L1_error)
+    __PYX_ERR(0, 631, __pyx_L1_error)
   }
   __pyx_t_6 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -24460,7 +24534,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_8 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 618, __pyx_L1_error)
+    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 631, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
   }
   __pyx_t_7 = __pyx_t_8;
@@ -24471,11 +24545,11 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_2 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_to, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 618, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 631, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
 
-  /* "balltree_setaxis/balltree.pyx":619
+  /* "balltree_setaxis/balltree.pyx":632
  *     return (
  *         torch.from_numpy(result[0]).to(device),
  *         torch.from_numpy(result[1]).to(device),             # <<<<<<<<<<<<<<
@@ -24483,14 +24557,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
  *     )
 */
   __pyx_t_3 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 619, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 632, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_from_numpy); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 619, __pyx_L1_error)
+  __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_from_numpy); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 632, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   if (unlikely(__pyx_v_result == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-    __PYX_ERR(0, 619, __pyx_L1_error)
+    __PYX_ERR(0, 632, __pyx_L1_error)
   }
   __pyx_t_6 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -24509,7 +24583,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_10 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_11, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 619, __pyx_L1_error)
+    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 632, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
   }
   __pyx_t_7 = __pyx_t_10;
@@ -24520,11 +24594,11 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_8 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_to, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 619, __pyx_L1_error)
+    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 632, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
   }
 
-  /* "balltree_setaxis/balltree.pyx":620
+  /* "balltree_setaxis/balltree.pyx":633
  *         torch.from_numpy(result[0]).to(device),
  *         torch.from_numpy(result[1]).to(device),
  *         torch.from_numpy(result[2]).to(device)             # <<<<<<<<<<<<<<
@@ -24532,14 +24606,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
  * 
 */
   __pyx_t_3 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 620, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 633, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_from_numpy); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 620, __pyx_L1_error)
+  __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_from_numpy); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 633, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_12);
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   if (unlikely(__pyx_v_result == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
-    __PYX_ERR(0, 620, __pyx_L1_error)
+    __PYX_ERR(0, 633, __pyx_L1_error)
   }
   __pyx_t_6 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -24558,7 +24632,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_11 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_12, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-    if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 620, __pyx_L1_error)
+    if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 633, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
   }
   __pyx_t_7 = __pyx_t_11;
@@ -24569,25 +24643,25 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
     __pyx_t_10 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_to, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 620, __pyx_L1_error)
+    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 633, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
   }
 
-  /* "balltree_setaxis/balltree.pyx":618
+  /* "balltree_setaxis/balltree.pyx":631
  * 
  *     return (
  *         torch.from_numpy(result[0]).to(device),             # <<<<<<<<<<<<<<
  *         torch.from_numpy(result[1]).to(device),
  *         torch.from_numpy(result[2]).to(device)
 */
-  __pyx_t_11 = PyTuple_New(3); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 618, __pyx_L1_error)
+  __pyx_t_11 = PyTuple_New(3); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 631, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_11);
   __Pyx_GIVEREF(__pyx_t_2);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_11, 0, __pyx_t_2) != (0)) __PYX_ERR(0, 618, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_11, 0, __pyx_t_2) != (0)) __PYX_ERR(0, 631, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_8);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_11, 1, __pyx_t_8) != (0)) __PYX_ERR(0, 618, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_11, 1, __pyx_t_8) != (0)) __PYX_ERR(0, 631, __pyx_L1_error);
   __Pyx_GIVEREF(__pyx_t_10);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_11, 2, __pyx_t_10) != (0)) __PYX_ERR(0, 618, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_11, 2, __pyx_t_10) != (0)) __PYX_ERR(0, 631, __pyx_L1_error);
   __pyx_t_2 = 0;
   __pyx_t_8 = 0;
   __pyx_t_10 = 0;
@@ -24595,7 +24669,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
   __pyx_t_11 = 0;
   goto __pyx_L0;
 
-  /* "balltree_setaxis/balltree.pyx":585
+  /* "balltree_setaxis/balltree.pyx":598
  *     return partition_balltree_with_offsets(data, batch_offsets, target_level)
  * 
  * def build_balltree(data: torch.Tensor, batch_idx: torch.Tensor):             # <<<<<<<<<<<<<<
@@ -24625,7 +24699,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_8build_balltree(CYTHON_UN
   return __pyx_r;
 }
 
-/* "balltree_setaxis/balltree.pyx":623
+/* "balltree_setaxis/balltree.pyx":636
  *     )
  * 
  * def partition_balltree(data: torch.Tensor, batch_idx: torch.Tensor, target_level: int):             # <<<<<<<<<<<<<<
@@ -24675,47 +24749,47 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_data,&__pyx_mstate_global->__pyx_n_u_batch_idx,&__pyx_mstate_global->__pyx_n_u_target_level,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 623, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 636, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 623, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 636, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 623, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 636, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 623, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 636, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "partition_balltree", 0) < (0)) __PYX_ERR(0, 623, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "partition_balltree", 0) < (0)) __PYX_ERR(0, 636, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 3; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("partition_balltree", 1, 3, 3, i); __PYX_ERR(0, 623, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("partition_balltree", 1, 3, 3, i); __PYX_ERR(0, 636, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 3)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 623, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 636, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 623, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 636, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 623, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 636, __pyx_L3_error)
     }
     __pyx_v_data = values[0];
     __pyx_v_batch_idx = values[1];
-    if (__Pyx_PyInt_FromNumber(&values[2], "target_level", 0) < (0)) __PYX_ERR(0, 623, __pyx_L3_error)
+    if (__Pyx_PyInt_FromNumber(&values[2], "target_level", 0) < (0)) __PYX_ERR(0, 636, __pyx_L3_error)
     __pyx_v_target_level = ((PyObject*)values[2]);
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("partition_balltree", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 623, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("partition_balltree", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 636, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -24726,7 +24800,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_target_level), (&PyLong_Type), 0, "target_level", 2))) __PYX_ERR(0, 623, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_target_level), (&PyLong_Type), 0, "target_level", 2))) __PYX_ERR(0, 636, __pyx_L1_error)
   __pyx_r = __pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(__pyx_self, __pyx_v_data, __pyx_v_batch_idx, __pyx_v_target_level);
 
   /* function exit code */
@@ -24770,19 +24844,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("partition_balltree", 0);
 
-  /* "balltree_setaxis/balltree.pyx":626
+  /* "balltree_setaxis/balltree.pyx":639
  *     """ Wrapper around 'partition_balltree_with_idx' that handles torch Tensors. """
  * 
  *     if not isinstance(data, torch.Tensor) or not isinstance(batch_idx, torch.Tensor):             # <<<<<<<<<<<<<<
  *         raise ValueError("Inputs must be PyTorch tensors")
  * 
 */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 626, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 639, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Tensor); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 626, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_mstate_global->__pyx_n_u_Tensor); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 639, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_4 = PyObject_IsInstance(__pyx_v_data, __pyx_t_3); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(0, 626, __pyx_L1_error)
+  __pyx_t_4 = PyObject_IsInstance(__pyx_v_data, __pyx_t_3); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(0, 639, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_5 = (!__pyx_t_4);
   if (!__pyx_t_5) {
@@ -24790,19 +24864,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     __pyx_t_1 = __pyx_t_5;
     goto __pyx_L4_bool_binop_done;
   }
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 626, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 639, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_Tensor); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 626, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_Tensor); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 639, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_5 = PyObject_IsInstance(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(__pyx_t_5 == ((int)-1))) __PYX_ERR(0, 626, __pyx_L1_error)
+  __pyx_t_5 = PyObject_IsInstance(__pyx_v_batch_idx, __pyx_t_2); if (unlikely(__pyx_t_5 == ((int)-1))) __PYX_ERR(0, 639, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_4 = (!__pyx_t_5);
   __pyx_t_1 = __pyx_t_4;
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_1)) {
 
-    /* "balltree_setaxis/balltree.pyx":627
+    /* "balltree_setaxis/balltree.pyx":640
  * 
  *     if not isinstance(data, torch.Tensor) or not isinstance(batch_idx, torch.Tensor):
  *         raise ValueError("Inputs must be PyTorch tensors")             # <<<<<<<<<<<<<<
@@ -24815,14 +24889,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
       PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_mstate_global->__pyx_kp_u_Inputs_must_be_PyTorch_tensors};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 627, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 640, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 627, __pyx_L1_error)
+    __PYX_ERR(0, 640, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":626
+    /* "balltree_setaxis/balltree.pyx":639
  *     """ Wrapper around 'partition_balltree_with_idx' that handles torch Tensors. """
  * 
  *     if not isinstance(data, torch.Tensor) or not isinstance(batch_idx, torch.Tensor):             # <<<<<<<<<<<<<<
@@ -24831,7 +24905,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":629
+  /* "balltree_setaxis/balltree.pyx":642
  *         raise ValueError("Inputs must be PyTorch tensors")
  * 
  *     if data.dim() != 2:             # <<<<<<<<<<<<<<
@@ -24845,14 +24919,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     PyObject *__pyx_callargs[2] = {__pyx_t_3, NULL};
     __pyx_t_2 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_dim, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 629, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 642, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_2, 2, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 629, __pyx_L1_error)
+  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_2, 2, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 642, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_1)) {
 
-    /* "balltree_setaxis/balltree.pyx":630
+    /* "balltree_setaxis/balltree.pyx":643
  * 
  *     if data.dim() != 2:
  *         raise ValueError(f"Data must be 2D tensor, got shape {tuple(data.shape)}")             # <<<<<<<<<<<<<<
@@ -24860,15 +24934,15 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
  *     if batch_idx.dim() != 1:
 */
     __pyx_t_3 = NULL;
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 630, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 643, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = __Pyx_PySequence_Tuple(__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 630, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PySequence_Tuple(__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 643, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 630, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_FormatSimple(__pyx_t_8, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 643, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Data_must_be_2D_tensor_got_shape, __pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 630, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Data_must_be_2D_tensor_got_shape, __pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 643, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __pyx_t_6 = 1;
@@ -24877,14 +24951,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 630, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 643, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 630, __pyx_L1_error)
+    __PYX_ERR(0, 643, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":629
+    /* "balltree_setaxis/balltree.pyx":642
  *         raise ValueError("Inputs must be PyTorch tensors")
  * 
  *     if data.dim() != 2:             # <<<<<<<<<<<<<<
@@ -24893,7 +24967,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":632
+  /* "balltree_setaxis/balltree.pyx":645
  *         raise ValueError(f"Data must be 2D tensor, got shape {tuple(data.shape)}")
  * 
  *     if batch_idx.dim() != 1:             # <<<<<<<<<<<<<<
@@ -24907,14 +24981,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     PyObject *__pyx_callargs[2] = {__pyx_t_8, NULL};
     __pyx_t_2 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_dim, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 632, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 645, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 632, __pyx_L1_error)
+  __pyx_t_1 = (__Pyx_PyLong_BoolNeObjC(__pyx_t_2, __pyx_mstate_global->__pyx_int_1, 1, 0)); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 645, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_1)) {
 
-    /* "balltree_setaxis/balltree.pyx":633
+    /* "balltree_setaxis/balltree.pyx":646
  * 
  *     if batch_idx.dim() != 1:
  *         raise ValueError(f"batch_idx must be 1D tensor, got shape {tuple(batch_idx.shape)}")             # <<<<<<<<<<<<<<
@@ -24922,15 +24996,15 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
  *     if batch_idx.shape[0] != data.shape[0]:
 */
     __pyx_t_8 = NULL;
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 633, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 646, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_7 = __Pyx_PySequence_Tuple(__pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 633, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PySequence_Tuple(__pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 646, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 633, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_FormatSimple(__pyx_t_7, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 646, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_batch_idx_must_be_1D_tensor_got, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 633, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_batch_idx_must_be_1D_tensor_got, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 646, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_6 = 1;
@@ -24939,14 +25013,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 633, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 646, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 633, __pyx_L1_error)
+    __PYX_ERR(0, 646, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":632
+    /* "balltree_setaxis/balltree.pyx":645
  *         raise ValueError(f"Data must be 2D tensor, got shape {tuple(data.shape)}")
  * 
  *     if batch_idx.dim() != 1:             # <<<<<<<<<<<<<<
@@ -24955,31 +25029,31 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":635
+  /* "balltree_setaxis/balltree.pyx":648
  *         raise ValueError(f"batch_idx must be 1D tensor, got shape {tuple(batch_idx.shape)}")
  * 
  *     if batch_idx.shape[0] != data.shape[0]:             # <<<<<<<<<<<<<<
  *         raise ValueError("batch_idx length must match number of data points")
  * 
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 635, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_batch_idx, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 648, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 635, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 648, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 635, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 648, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 635, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 648, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = PyObject_RichCompare(__pyx_t_7, __pyx_t_8, Py_NE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 635, __pyx_L1_error)
+  __pyx_t_2 = PyObject_RichCompare(__pyx_t_7, __pyx_t_8, Py_NE); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 648, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 635, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_1 < 0))) __PYX_ERR(0, 648, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (unlikely(__pyx_t_1)) {
 
-    /* "balltree_setaxis/balltree.pyx":636
+    /* "balltree_setaxis/balltree.pyx":649
  * 
  *     if batch_idx.shape[0] != data.shape[0]:
  *         raise ValueError("batch_idx length must match number of data points")             # <<<<<<<<<<<<<<
@@ -24992,14 +25066,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
       PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_mstate_global->__pyx_kp_u_batch_idx_length_must_match_numb};
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 636, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 649, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 636, __pyx_L1_error)
+    __PYX_ERR(0, 649, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":635
+    /* "balltree_setaxis/balltree.pyx":648
  *         raise ValueError(f"batch_idx must be 1D tensor, got shape {tuple(batch_idx.shape)}")
  * 
  *     if batch_idx.shape[0] != data.shape[0]:             # <<<<<<<<<<<<<<
@@ -25008,19 +25082,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":638
+  /* "balltree_setaxis/balltree.pyx":651
  *         raise ValueError("batch_idx length must match number of data points")
  * 
  *     device = data.device             # <<<<<<<<<<<<<<
  * 
  *     cdef cnp.ndarray data_np = data.detach().cpu().double().numpy()
 */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_device); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 638, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_device); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 651, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_v_device = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":640
+  /* "balltree_setaxis/balltree.pyx":653
  *     device = data.device
  * 
  *     cdef cnp.ndarray data_np = data.detach().cpu().double().numpy()             # <<<<<<<<<<<<<<
@@ -25034,7 +25108,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     PyObject *__pyx_callargs[2] = {__pyx_t_12, NULL};
     __pyx_t_11 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_detach, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-    if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 640, __pyx_L1_error)
+    if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 653, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
   }
   __pyx_t_10 = __pyx_t_11;
@@ -25045,7 +25119,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     __pyx_t_9 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_cpu, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 640, __pyx_L1_error)
+    if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 653, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
   }
   __pyx_t_3 = __pyx_t_9;
@@ -25056,7 +25130,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     __pyx_t_7 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_double, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 640, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 653, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
   }
   __pyx_t_8 = __pyx_t_7;
@@ -25067,14 +25141,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     __pyx_t_2 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_numpy, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 640, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 653, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_mstate_global->__pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 640, __pyx_L1_error)
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_mstate_global->__pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 653, __pyx_L1_error)
   __pyx_v_data_np = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":641
+  /* "balltree_setaxis/balltree.pyx":654
  * 
  *     cdef cnp.ndarray data_np = data.detach().cpu().double().numpy()
  *     cdef cnp.ndarray batch_idx_np = batch_idx.detach().cpu().long().numpy()             # <<<<<<<<<<<<<<
@@ -25088,7 +25162,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     PyObject *__pyx_callargs[2] = {__pyx_t_12, NULL};
     __pyx_t_10 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_detach, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 641, __pyx_L1_error)
+    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 654, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
   }
   __pyx_t_11 = __pyx_t_10;
@@ -25099,7 +25173,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     __pyx_t_3 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_cpu, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 641, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 654, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
   }
   __pyx_t_9 = __pyx_t_3;
@@ -25110,7 +25184,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     __pyx_t_8 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_long, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 641, __pyx_L1_error)
+    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 654, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
   }
   __pyx_t_7 = __pyx_t_8;
@@ -25121,14 +25195,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     __pyx_t_2 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_numpy, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 641, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 654, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_mstate_global->__pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 641, __pyx_L1_error)
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_mstate_global->__pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 654, __pyx_L1_error)
   __pyx_v_batch_idx_np = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":643
+  /* "balltree_setaxis/balltree.pyx":656
  *     cdef cnp.ndarray batch_idx_np = batch_idx.detach().cpu().long().numpy()
  * 
  *     cdef cnp.ndarray result = partition_balltree_with_idx(data_np, batch_idx_np, target_level)             # <<<<<<<<<<<<<<
@@ -25136,7 +25210,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
  *     return torch.from_numpy(result).to(device)
 */
   __pyx_t_8 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_idx); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 643, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_idx); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 656, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __pyx_t_6 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -25155,14 +25229,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_7, __pyx_callargs+__pyx_t_6, (4-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 643, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 656, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_mstate_global->__pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 643, __pyx_L1_error)
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_mstate_global->__pyx_ptype_5numpy_ndarray))))) __PYX_ERR(0, 656, __pyx_L1_error)
   __pyx_v_result = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":645
+  /* "balltree_setaxis/balltree.pyx":658
  *     cdef cnp.ndarray result = partition_balltree_with_idx(data_np, batch_idx_np, target_level)
  * 
  *     return torch.from_numpy(result).to(device)             # <<<<<<<<<<<<<<
@@ -25171,9 +25245,9 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
 */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_3 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 645, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 658, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
-  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_from_numpy); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 645, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_from_numpy); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 658, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_10);
   __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
   __pyx_t_6 = 1;
@@ -25193,7 +25267,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     __pyx_t_8 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 645, __pyx_L1_error)
+    if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 658, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
   }
   __pyx_t_7 = __pyx_t_8;
@@ -25204,14 +25278,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
     __pyx_t_2 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_to, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 645, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 658, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "balltree_setaxis/balltree.pyx":623
+  /* "balltree_setaxis/balltree.pyx":636
  *     )
  * 
  * def partition_balltree(data: torch.Tensor, batch_idx: torch.Tensor, target_level: int):             # <<<<<<<<<<<<<<
@@ -25241,7 +25315,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_10partition_balltree(CYTH
   return __pyx_r;
 }
 
-/* "balltree_setaxis/balltree.pyx":647
+/* "balltree_setaxis/balltree.pyx":660
  *     return torch.from_numpy(result).to(device)
  * 
  * def generate_rotation_matrix(angle: float, dim: int, device: torch.device):             # <<<<<<<<<<<<<<
@@ -25291,47 +25365,47 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_angle,&__pyx_mstate_global->__pyx_n_u_dim,&__pyx_mstate_global->__pyx_n_u_device,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 647, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 660, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 647, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 660, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 647, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 660, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 647, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 660, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "generate_rotation_matrix", 0) < (0)) __PYX_ERR(0, 647, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "generate_rotation_matrix", 0) < (0)) __PYX_ERR(0, 660, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 3; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("generate_rotation_matrix", 1, 3, 3, i); __PYX_ERR(0, 647, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("generate_rotation_matrix", 1, 3, 3, i); __PYX_ERR(0, 660, __pyx_L3_error) }
       }
     } else if (unlikely(__pyx_nargs != 3)) {
       goto __pyx_L5_argtuple_error;
     } else {
       values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 647, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 660, __pyx_L3_error)
       values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 647, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 660, __pyx_L3_error)
       values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 647, __pyx_L3_error)
+      if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 660, __pyx_L3_error)
     }
-    __pyx_v_angle = __Pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_angle == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 647, __pyx_L3_error)
-    if (__Pyx_PyInt_FromNumber(&values[1], "dim", 0) < (0)) __PYX_ERR(0, 647, __pyx_L3_error)
+    __pyx_v_angle = __Pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_angle == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 660, __pyx_L3_error)
+    if (__Pyx_PyInt_FromNumber(&values[1], "dim", 0) < (0)) __PYX_ERR(0, 660, __pyx_L3_error)
     __pyx_v_dim = ((PyObject*)values[1]);
     __pyx_v_device = values[2];
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("generate_rotation_matrix", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 647, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("generate_rotation_matrix", 1, 3, 3, __pyx_nargs); __PYX_ERR(0, 660, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -25342,7 +25416,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_dim), (&PyLong_Type), 0, "dim", 2))) __PYX_ERR(0, 647, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_dim), (&PyLong_Type), 0, "dim", 2))) __PYX_ERR(0, 660, __pyx_L1_error)
   __pyx_r = __pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matrix(__pyx_self, __pyx_v_angle, __pyx_v_dim, __pyx_v_device);
 
   /* function exit code */
@@ -25384,7 +25458,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("generate_rotation_matrix", 0);
 
-  /* "balltree_setaxis/balltree.pyx":653
+  /* "balltree_setaxis/balltree.pyx":666
  *     """
  * 
  *     angle = math.radians(angle)             # <<<<<<<<<<<<<<
@@ -25392,12 +25466,12 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
  *     if dim == 2:
 */
   __pyx_t_2 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 653, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 666, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_radians); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 653, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_radians); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 666, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_angle); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 653, __pyx_L1_error)
+  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_angle); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 666, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_5 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -25417,14 +25491,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 653, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 666, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
   }
-  __pyx_t_6 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_6 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 653, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyFloat_AsDouble(__pyx_t_1); if (unlikely((__pyx_t_6 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 666, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_angle = __pyx_t_6;
 
-  /* "balltree_setaxis/balltree.pyx":654
+  /* "balltree_setaxis/balltree.pyx":667
  * 
  *     angle = math.radians(angle)
  *     c, s = math.cos(angle), math.sin(angle)             # <<<<<<<<<<<<<<
@@ -25432,12 +25506,12 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
  *         return torch.tensor([
 */
   __pyx_t_4 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 654, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 667, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_cos); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 654, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_mstate_global->__pyx_n_u_cos); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 667, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_angle); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 654, __pyx_L1_error)
+  __pyx_t_3 = PyFloat_FromDouble(__pyx_v_angle); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 667, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_5 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -25457,16 +25531,16 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 654, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 667, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
   }
   __pyx_t_3 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 654, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 667, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_sin); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 654, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_sin); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 667, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = PyFloat_FromDouble(__pyx_v_angle); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 654, __pyx_L1_error)
+  __pyx_t_4 = PyFloat_FromDouble(__pyx_v_angle); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 667, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_5 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -25486,7 +25560,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 654, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 667, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
   }
   __pyx_v_c = __pyx_t_1;
@@ -25494,17 +25568,17 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
   __pyx_v_s = __pyx_t_2;
   __pyx_t_2 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":655
+  /* "balltree_setaxis/balltree.pyx":668
  *     angle = math.radians(angle)
  *     c, s = math.cos(angle), math.sin(angle)
  *     if dim == 2:             # <<<<<<<<<<<<<<
  *         return torch.tensor([
  *             [c, -s],
 */
-  __pyx_t_8 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_dim, __pyx_mstate_global->__pyx_int_2, 2, 0)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 655, __pyx_L1_error)
+  __pyx_t_8 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_dim, __pyx_mstate_global->__pyx_int_2, 2, 0)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 668, __pyx_L1_error)
   if (__pyx_t_8) {
 
-    /* "balltree_setaxis/balltree.pyx":656
+    /* "balltree_setaxis/balltree.pyx":669
  *     c, s = math.cos(angle), math.sin(angle)
  *     if dim == 2:
  *         return torch.tensor([             # <<<<<<<<<<<<<<
@@ -25513,63 +25587,63 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
 */
     __Pyx_XDECREF(__pyx_r);
     __pyx_t_1 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 656, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 669, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_tensor); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 656, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_tensor); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 669, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":657
+    /* "balltree_setaxis/balltree.pyx":670
  *     if dim == 2:
  *         return torch.tensor([
  *             [c, -s],             # <<<<<<<<<<<<<<
  *             [s,  c]
  *         ], device=device)
 */
-    __pyx_t_7 = PyNumber_Negative(__pyx_v_s); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 657, __pyx_L1_error)
+    __pyx_t_7 = PyNumber_Negative(__pyx_v_s); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 670, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_3 = PyList_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 657, __pyx_L1_error)
+    __pyx_t_3 = PyList_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 670, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(__pyx_v_c);
     __Pyx_GIVEREF(__pyx_v_c);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 0, __pyx_v_c) != (0)) __PYX_ERR(0, 657, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 0, __pyx_v_c) != (0)) __PYX_ERR(0, 670, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_7);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 1, __pyx_t_7) != (0)) __PYX_ERR(0, 657, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 1, __pyx_t_7) != (0)) __PYX_ERR(0, 670, __pyx_L1_error);
     __pyx_t_7 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":658
+    /* "balltree_setaxis/balltree.pyx":671
  *         return torch.tensor([
  *             [c, -s],
  *             [s,  c]             # <<<<<<<<<<<<<<
  *         ], device=device)
  *     elif dim == 3:
 */
-    __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 658, __pyx_L1_error)
+    __pyx_t_7 = PyList_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 671, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_INCREF(__pyx_v_s);
     __Pyx_GIVEREF(__pyx_v_s);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_v_s) != (0)) __PYX_ERR(0, 658, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_v_s) != (0)) __PYX_ERR(0, 671, __pyx_L1_error);
     __Pyx_INCREF(__pyx_v_c);
     __Pyx_GIVEREF(__pyx_v_c);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_v_c) != (0)) __PYX_ERR(0, 658, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_v_c) != (0)) __PYX_ERR(0, 671, __pyx_L1_error);
 
-    /* "balltree_setaxis/balltree.pyx":656
+    /* "balltree_setaxis/balltree.pyx":669
  *     c, s = math.cos(angle), math.sin(angle)
  *     if dim == 2:
  *         return torch.tensor([             # <<<<<<<<<<<<<<
  *             [c, -s],
  *             [s,  c]
 */
-    __pyx_t_9 = PyList_New(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 656, __pyx_L1_error)
+    __pyx_t_9 = PyList_New(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 669, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_GIVEREF(__pyx_t_3);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_9, 0, __pyx_t_3) != (0)) __PYX_ERR(0, 656, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_9, 0, __pyx_t_3) != (0)) __PYX_ERR(0, 669, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_7);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_9, 1, __pyx_t_7) != (0)) __PYX_ERR(0, 656, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_9, 1, __pyx_t_7) != (0)) __PYX_ERR(0, 669, __pyx_L1_error);
     __pyx_t_3 = 0;
     __pyx_t_7 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":659
+    /* "balltree_setaxis/balltree.pyx":672
  *             [c, -s],
  *             [s,  c]
  *         ], device=device)             # <<<<<<<<<<<<<<
@@ -25590,22 +25664,22 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
     #endif
     {
       PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_1, __pyx_t_9};
-      __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 656, __pyx_L1_error)
+      __pyx_t_7 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 669, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_7);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_device, __pyx_v_device, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 656, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_device, __pyx_v_device, __pyx_t_7, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 669, __pyx_L1_error)
       __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_4, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_7);
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 656, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 669, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "balltree_setaxis/balltree.pyx":655
+    /* "balltree_setaxis/balltree.pyx":668
  *     angle = math.radians(angle)
  *     c, s = math.cos(angle), math.sin(angle)
  *     if dim == 2:             # <<<<<<<<<<<<<<
@@ -25614,17 +25688,17 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":660
+  /* "balltree_setaxis/balltree.pyx":673
  *             [s,  c]
  *         ], device=device)
  *     elif dim == 3:             # <<<<<<<<<<<<<<
  *         return torch.tensor([
  *             [c*c,   s*c*(s-1),  s*(s+c*c)],
 */
-  __pyx_t_8 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_dim, __pyx_mstate_global->__pyx_int_3, 3, 0)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 660, __pyx_L1_error)
+  __pyx_t_8 = (__Pyx_PyLong_BoolEqObjC(__pyx_v_dim, __pyx_mstate_global->__pyx_int_3, 3, 0)); if (unlikely((__pyx_t_8 < 0))) __PYX_ERR(0, 673, __pyx_L1_error)
   if (likely(__pyx_t_8)) {
 
-    /* "balltree_setaxis/balltree.pyx":661
+    /* "balltree_setaxis/balltree.pyx":674
  *         ], device=device)
  *     elif dim == 3:
  *         return torch.tensor([             # <<<<<<<<<<<<<<
@@ -25633,134 +25707,134 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
 */
     __Pyx_XDECREF(__pyx_r);
     __pyx_t_4 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 661, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 674, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_tensor); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 661, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_mstate_global->__pyx_n_u_tensor); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 674, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":662
+    /* "balltree_setaxis/balltree.pyx":675
  *     elif dim == 3:
  *         return torch.tensor([
  *             [c*c,   s*c*(s-1),  s*(s+c*c)],             # <<<<<<<<<<<<<<
  *             [s*c,   s*s*s+c*c,  s*c*(s-1)],
  *             [-s,    s*c,        c*c      ]
 */
-    __pyx_t_7 = PyNumber_Multiply(__pyx_v_c, __pyx_v_c); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 662, __pyx_L1_error)
+    __pyx_t_7 = PyNumber_Multiply(__pyx_v_c, __pyx_v_c); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 675, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_1 = PyNumber_Multiply(__pyx_v_s, __pyx_v_c); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 662, __pyx_L1_error)
+    __pyx_t_1 = PyNumber_Multiply(__pyx_v_s, __pyx_v_c); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 675, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyLong_SubtractObjC(__pyx_v_s, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 662, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyLong_SubtractObjC(__pyx_v_s, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 675, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_10 = PyNumber_Multiply(__pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 662, __pyx_L1_error)
+    __pyx_t_10 = PyNumber_Multiply(__pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 675, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyNumber_Multiply(__pyx_v_c, __pyx_v_c); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 662, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Multiply(__pyx_v_c, __pyx_v_c); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 675, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = PyNumber_Add(__pyx_v_s, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 662, __pyx_L1_error)
+    __pyx_t_1 = PyNumber_Add(__pyx_v_s, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 675, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyNumber_Multiply(__pyx_v_s, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 662, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Multiply(__pyx_v_s, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 675, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyList_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 662, __pyx_L1_error)
+    __pyx_t_1 = PyList_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 675, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_GIVEREF(__pyx_t_7);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 0, __pyx_t_7) != (0)) __PYX_ERR(0, 662, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 0, __pyx_t_7) != (0)) __PYX_ERR(0, 675, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_10);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 1, __pyx_t_10) != (0)) __PYX_ERR(0, 662, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 1, __pyx_t_10) != (0)) __PYX_ERR(0, 675, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_3);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 2, __pyx_t_3) != (0)) __PYX_ERR(0, 662, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_1, 2, __pyx_t_3) != (0)) __PYX_ERR(0, 675, __pyx_L1_error);
     __pyx_t_7 = 0;
     __pyx_t_10 = 0;
     __pyx_t_3 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":663
+    /* "balltree_setaxis/balltree.pyx":676
  *         return torch.tensor([
  *             [c*c,   s*c*(s-1),  s*(s+c*c)],
  *             [s*c,   s*s*s+c*c,  s*c*(s-1)],             # <<<<<<<<<<<<<<
  *             [-s,    s*c,        c*c      ]
  *         ], device=device)
 */
-    __pyx_t_3 = PyNumber_Multiply(__pyx_v_s, __pyx_v_c); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 663, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Multiply(__pyx_v_s, __pyx_v_c); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 676, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_10 = PyNumber_Multiply(__pyx_v_s, __pyx_v_s); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 663, __pyx_L1_error)
+    __pyx_t_10 = PyNumber_Multiply(__pyx_v_s, __pyx_v_s); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 676, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_7 = PyNumber_Multiply(__pyx_t_10, __pyx_v_s); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 663, __pyx_L1_error)
+    __pyx_t_7 = PyNumber_Multiply(__pyx_t_10, __pyx_v_s); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 676, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __pyx_t_10 = PyNumber_Multiply(__pyx_v_c, __pyx_v_c); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 663, __pyx_L1_error)
+    __pyx_t_10 = PyNumber_Multiply(__pyx_v_c, __pyx_v_c); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 676, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_11 = PyNumber_Add(__pyx_t_7, __pyx_t_10); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 663, __pyx_L1_error)
+    __pyx_t_11 = PyNumber_Add(__pyx_t_7, __pyx_t_10); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 676, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    __pyx_t_10 = PyNumber_Multiply(__pyx_v_s, __pyx_v_c); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 663, __pyx_L1_error)
+    __pyx_t_10 = PyNumber_Multiply(__pyx_v_s, __pyx_v_c); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 676, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_7 = __Pyx_PyLong_SubtractObjC(__pyx_v_s, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 663, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyLong_SubtractObjC(__pyx_v_s, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 676, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_12 = PyNumber_Multiply(__pyx_t_10, __pyx_t_7); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 663, __pyx_L1_error)
+    __pyx_t_12 = PyNumber_Multiply(__pyx_t_10, __pyx_t_7); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 676, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = PyList_New(3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 663, __pyx_L1_error)
+    __pyx_t_7 = PyList_New(3); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 676, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_GIVEREF(__pyx_t_3);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_t_3) != (0)) __PYX_ERR(0, 663, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 0, __pyx_t_3) != (0)) __PYX_ERR(0, 676, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_11);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_t_11) != (0)) __PYX_ERR(0, 663, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 1, __pyx_t_11) != (0)) __PYX_ERR(0, 676, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_12);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 2, __pyx_t_12) != (0)) __PYX_ERR(0, 663, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_7, 2, __pyx_t_12) != (0)) __PYX_ERR(0, 676, __pyx_L1_error);
     __pyx_t_3 = 0;
     __pyx_t_11 = 0;
     __pyx_t_12 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":664
+    /* "balltree_setaxis/balltree.pyx":677
  *             [c*c,   s*c*(s-1),  s*(s+c*c)],
  *             [s*c,   s*s*s+c*c,  s*c*(s-1)],
  *             [-s,    s*c,        c*c      ]             # <<<<<<<<<<<<<<
  *         ], device=device)
  *     else:
 */
-    __pyx_t_12 = PyNumber_Negative(__pyx_v_s); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 664, __pyx_L1_error)
+    __pyx_t_12 = PyNumber_Negative(__pyx_v_s); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 677, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
-    __pyx_t_11 = PyNumber_Multiply(__pyx_v_s, __pyx_v_c); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 664, __pyx_L1_error)
+    __pyx_t_11 = PyNumber_Multiply(__pyx_v_s, __pyx_v_c); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 677, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    __pyx_t_3 = PyNumber_Multiply(__pyx_v_c, __pyx_v_c); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 664, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Multiply(__pyx_v_c, __pyx_v_c); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 677, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_10 = PyList_New(3); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 664, __pyx_L1_error)
+    __pyx_t_10 = PyList_New(3); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 677, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
     __Pyx_GIVEREF(__pyx_t_12);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_10, 0, __pyx_t_12) != (0)) __PYX_ERR(0, 664, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_10, 0, __pyx_t_12) != (0)) __PYX_ERR(0, 677, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_11);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_10, 1, __pyx_t_11) != (0)) __PYX_ERR(0, 664, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_10, 1, __pyx_t_11) != (0)) __PYX_ERR(0, 677, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_3);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_10, 2, __pyx_t_3) != (0)) __PYX_ERR(0, 664, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_10, 2, __pyx_t_3) != (0)) __PYX_ERR(0, 677, __pyx_L1_error);
     __pyx_t_12 = 0;
     __pyx_t_11 = 0;
     __pyx_t_3 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":661
+    /* "balltree_setaxis/balltree.pyx":674
  *         ], device=device)
  *     elif dim == 3:
  *         return torch.tensor([             # <<<<<<<<<<<<<<
  *             [c*c,   s*c*(s-1),  s*(s+c*c)],
  *             [s*c,   s*s*s+c*c,  s*c*(s-1)],
 */
-    __pyx_t_3 = PyList_New(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 661, __pyx_L1_error)
+    __pyx_t_3 = PyList_New(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 674, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_GIVEREF(__pyx_t_1);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 0, __pyx_t_1) != (0)) __PYX_ERR(0, 661, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 0, __pyx_t_1) != (0)) __PYX_ERR(0, 674, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_7);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 1, __pyx_t_7) != (0)) __PYX_ERR(0, 661, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 1, __pyx_t_7) != (0)) __PYX_ERR(0, 674, __pyx_L1_error);
     __Pyx_GIVEREF(__pyx_t_10);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 2, __pyx_t_10) != (0)) __PYX_ERR(0, 661, __pyx_L1_error);
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_3, 2, __pyx_t_10) != (0)) __PYX_ERR(0, 674, __pyx_L1_error);
     __pyx_t_1 = 0;
     __pyx_t_7 = 0;
     __pyx_t_10 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":665
+    /* "balltree_setaxis/balltree.pyx":678
  *             [s*c,   s*s*s+c*c,  s*c*(s-1)],
  *             [-s,    s*c,        c*c      ]
  *         ], device=device)             # <<<<<<<<<<<<<<
@@ -25781,22 +25855,22 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
     #endif
     {
       PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_4, __pyx_t_3};
-      __pyx_t_10 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 661, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 674, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_device, __pyx_v_device, __pyx_t_10, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 661, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_device, __pyx_v_device, __pyx_t_10, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 674, __pyx_L1_error)
       __pyx_t_2 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_9, __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_10);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 661, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 674, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "balltree_setaxis/balltree.pyx":660
+    /* "balltree_setaxis/balltree.pyx":673
  *             [s,  c]
  *         ], device=device)
  *     elif dim == 3:             # <<<<<<<<<<<<<<
@@ -25805,7 +25879,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
 */
   }
 
-  /* "balltree_setaxis/balltree.pyx":667
+  /* "balltree_setaxis/balltree.pyx":680
  *         ], device=device)
  *     else:
  *         raise ValueError(f"Unsupported dimension: {dim}")             # <<<<<<<<<<<<<<
@@ -25814,9 +25888,9 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
 */
   /*else*/ {
     __pyx_t_9 = NULL;
-    __pyx_t_10 = __Pyx_PyObject_FormatSimple(__pyx_v_dim, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 667, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyObject_FormatSimple(__pyx_v_dim, __pyx_mstate_global->__pyx_empty_unicode); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 680, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_10);
-    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Unsupported_dimension, __pyx_t_10); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 667, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyUnicode_Concat(__pyx_mstate_global->__pyx_kp_u_Unsupported_dimension, __pyx_t_10); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 680, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
     __pyx_t_5 = 1;
@@ -25825,15 +25899,15 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
       __pyx_t_2 = __Pyx_PyObject_FastCall((PyObject*)(((PyTypeObject*)PyExc_ValueError)), __pyx_callargs+__pyx_t_5, (2-__pyx_t_5) | (__pyx_t_5*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 667, __pyx_L1_error)
+      if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 680, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_2);
     }
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 667, __pyx_L1_error)
+    __PYX_ERR(0, 680, __pyx_L1_error)
   }
 
-  /* "balltree_setaxis/balltree.pyx":647
+  /* "balltree_setaxis/balltree.pyx":660
  *     return torch.from_numpy(result).to(device)
  * 
  * def generate_rotation_matrix(angle: float, dim: int, device: torch.device):             # <<<<<<<<<<<<<<
@@ -25862,7 +25936,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_12generate_rotation_matri
   return __pyx_r;
 }
 
-/* "balltree_setaxis/balltree.pyx":669
+/* "balltree_setaxis/balltree.pyx":682
  *         raise ValueError(f"Unsupported dimension: {dim}")
  * 
  * @torch.compiler.disable(recursive=False)             # <<<<<<<<<<<<<<
@@ -25914,52 +25988,52 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   {
     PyObject ** const __pyx_pyargnames[] = {&__pyx_mstate_global->__pyx_n_u_data,&__pyx_mstate_global->__pyx_n_u_batch_idx,&__pyx_mstate_global->__pyx_n_u_strides,&__pyx_mstate_global->__pyx_n_u_ball_sizes,&__pyx_mstate_global->__pyx_n_u_angle,0};
     const Py_ssize_t __pyx_kwds_len = (__pyx_kwds) ? __Pyx_NumKwargs_FASTCALL(__pyx_kwds) : 0;
-    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 669, __pyx_L3_error)
+    if (unlikely(__pyx_kwds_len) < 0) __PYX_ERR(0, 682, __pyx_L3_error)
     if (__pyx_kwds_len > 0) {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 669, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 682, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 669, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 682, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  3:
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 669, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 682, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  2:
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 669, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 682, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  1:
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 669, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 682, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  0: break;
         default: goto __pyx_L5_argtuple_error;
       }
       const Py_ssize_t kwd_pos_args = __pyx_nargs;
-      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "build_balltree_with_rotations", 0) < (0)) __PYX_ERR(0, 669, __pyx_L3_error)
+      if (__Pyx_ParseKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values, kwd_pos_args, __pyx_kwds_len, "build_balltree_with_rotations", 0) < (0)) __PYX_ERR(0, 682, __pyx_L3_error)
       for (Py_ssize_t i = __pyx_nargs; i < 4; i++) {
-        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("build_balltree_with_rotations", 0, 4, 5, i); __PYX_ERR(0, 669, __pyx_L3_error) }
+        if (unlikely(!values[i])) { __Pyx_RaiseArgtupleInvalid("build_balltree_with_rotations", 0, 4, 5, i); __PYX_ERR(0, 682, __pyx_L3_error) }
       }
     } else {
       switch (__pyx_nargs) {
         case  5:
         values[4] = __Pyx_ArgRef_FASTCALL(__pyx_args, 4);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 669, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[4])) __PYX_ERR(0, 682, __pyx_L3_error)
         CYTHON_FALLTHROUGH;
         case  4:
         values[3] = __Pyx_ArgRef_FASTCALL(__pyx_args, 3);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 669, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[3])) __PYX_ERR(0, 682, __pyx_L3_error)
         values[2] = __Pyx_ArgRef_FASTCALL(__pyx_args, 2);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 669, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[2])) __PYX_ERR(0, 682, __pyx_L3_error)
         values[1] = __Pyx_ArgRef_FASTCALL(__pyx_args, 1);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 669, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[1])) __PYX_ERR(0, 682, __pyx_L3_error)
         values[0] = __Pyx_ArgRef_FASTCALL(__pyx_args, 0);
-        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 669, __pyx_L3_error)
+        if (!CYTHON_ASSUME_SAFE_MACROS && unlikely(!values[0])) __PYX_ERR(0, 682, __pyx_L3_error)
         break;
         default: goto __pyx_L5_argtuple_error;
       }
@@ -25969,14 +26043,14 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
     __pyx_v_strides = ((PyObject*)values[2]);
     __pyx_v_ball_sizes = ((PyObject*)values[3]);
     if (values[4]) {
-      __pyx_v_angle = __Pyx_PyFloat_AsDouble(values[4]); if (unlikely((__pyx_v_angle == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 670, __pyx_L3_error)
+      __pyx_v_angle = __Pyx_PyFloat_AsDouble(values[4]); if (unlikely((__pyx_v_angle == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 683, __pyx_L3_error)
     } else {
       __pyx_v_angle = ((double)((double)45.));
     }
   }
   goto __pyx_L6_skip;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("build_balltree_with_rotations", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 669, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("build_balltree_with_rotations", 0, 4, 5, __pyx_nargs); __PYX_ERR(0, 682, __pyx_L3_error)
   __pyx_L6_skip:;
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -25987,8 +26061,8 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_strides), (&PyList_Type), 0, "strides", 2))) __PYX_ERR(0, 670, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ball_sizes), (&PyList_Type), 0, "ball_sizes", 2))) __PYX_ERR(0, 670, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_strides), (&PyList_Type), 0, "strides", 2))) __PYX_ERR(0, 683, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ball_sizes), (&PyList_Type), 0, "ball_sizes", 2))) __PYX_ERR(0, 683, __pyx_L1_error)
   __pyx_r = __pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rotations(__pyx_self, __pyx_v_data, __pyx_v_batch_idx, __pyx_v_strides, __pyx_v_ball_sizes, __pyx_v_angle);
 
   /* function exit code */
@@ -26059,7 +26133,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("build_balltree_with_rotations", 0);
 
-  /* "balltree_setaxis/balltree.pyx":702
+  /* "balltree_setaxis/balltree.pyx":715
  *           the PCA alignment rotation matrix for each batch
  *     """
  *     assert len(strides) == len(ball_sizes) - 1, "Strides must be one less than ball sizes"             # <<<<<<<<<<<<<<
@@ -26068,47 +26142,47 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
 */
   #ifndef CYTHON_WITHOUT_ASSERTIONS
   if (unlikely(__pyx_assertions_enabled())) {
-    __pyx_t_1 = __Pyx_PyList_GET_SIZE(__pyx_v_strides); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 702, __pyx_L1_error)
-    __pyx_t_2 = __Pyx_PyList_GET_SIZE(__pyx_v_ball_sizes); if (unlikely(__pyx_t_2 == ((Py_ssize_t)-1))) __PYX_ERR(0, 702, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyList_GET_SIZE(__pyx_v_strides); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 715, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyList_GET_SIZE(__pyx_v_ball_sizes); if (unlikely(__pyx_t_2 == ((Py_ssize_t)-1))) __PYX_ERR(0, 715, __pyx_L1_error)
     __pyx_t_3 = (__pyx_t_1 == (__pyx_t_2 - 1));
     if (unlikely(!__pyx_t_3)) {
       __Pyx_Raise(((PyObject *)(((PyTypeObject*)PyExc_AssertionError))), __pyx_mstate_global->__pyx_kp_u_Strides_must_be_one_less_than_ba, 0, 0);
-      __PYX_ERR(0, 702, __pyx_L1_error)
+      __PYX_ERR(0, 715, __pyx_L1_error)
     }
   }
   #else
-  if ((1)); else __PYX_ERR(0, 702, __pyx_L1_error)
+  if ((1)); else __PYX_ERR(0, 715, __pyx_L1_error)
   #endif
 
-  /* "balltree_setaxis/balltree.pyx":703
+  /* "balltree_setaxis/balltree.pyx":716
  *     """
  *     assert len(strides) == len(ball_sizes) - 1, "Strides must be one less than ball sizes"
  *     dim = data.shape[1]             # <<<<<<<<<<<<<<
  *     num_layers = len(ball_sizes)
  * 
 */
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 703, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 716, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_4, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 703, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_4, 1, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 716, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_v_dim = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":704
+  /* "balltree_setaxis/balltree.pyx":717
  *     assert len(strides) == len(ball_sizes) - 1, "Strides must be one less than ball sizes"
  *     dim = data.shape[1]
  *     num_layers = len(ball_sizes)             # <<<<<<<<<<<<<<
  * 
  *     # Build original tree (now returns alignment rotations)
 */
-  __pyx_t_2 = __Pyx_PyList_GET_SIZE(__pyx_v_ball_sizes); if (unlikely(__pyx_t_2 == ((Py_ssize_t)-1))) __PYX_ERR(0, 704, __pyx_L1_error)
-  __pyx_t_5 = PyLong_FromSsize_t(__pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 704, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyList_GET_SIZE(__pyx_v_ball_sizes); if (unlikely(__pyx_t_2 == ((Py_ssize_t)-1))) __PYX_ERR(0, 717, __pyx_L1_error)
+  __pyx_t_5 = PyLong_FromSsize_t(__pyx_t_2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 717, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_v_num_layers = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":707
+  /* "balltree_setaxis/balltree.pyx":720
  * 
  *     # Build original tree (now returns alignment rotations)
  *     tree_idx, tree_mask, alignment_rotations = build_balltree(data, batch_idx)             # <<<<<<<<<<<<<<
@@ -26116,7 +26190,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
  *     if angle <= 0:
 */
   __pyx_t_4 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_build_balltree); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 707, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_build_balltree); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 720, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_7 = 1;
   #if CYTHON_UNPACK_METHODS
@@ -26135,7 +26209,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     __pyx_t_5 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_6, __pyx_callargs+__pyx_t_7, (3-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 707, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
   }
   if ((likely(PyTuple_CheckExact(__pyx_t_5))) || (PyList_CheckExact(__pyx_t_5))) {
@@ -26144,7 +26218,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     if (unlikely(size != 3)) {
       if (size > 3) __Pyx_RaiseTooManyValuesError(3);
       else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-      __PYX_ERR(0, 707, __pyx_L1_error)
+      __PYX_ERR(0, 720, __pyx_L1_error)
     }
     #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
     if (likely(PyTuple_CheckExact(sequence))) {
@@ -26156,27 +26230,27 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       __Pyx_INCREF(__pyx_t_8);
     } else {
       __pyx_t_6 = __Pyx_PyList_GetItemRefFast(sequence, 0, __Pyx_ReferenceSharing_SharedReference);
-      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 707, __pyx_L1_error)
+      if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 720, __pyx_L1_error)
       __Pyx_XGOTREF(__pyx_t_6);
       __pyx_t_4 = __Pyx_PyList_GetItemRefFast(sequence, 1, __Pyx_ReferenceSharing_SharedReference);
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 707, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 720, __pyx_L1_error)
       __Pyx_XGOTREF(__pyx_t_4);
       __pyx_t_8 = __Pyx_PyList_GetItemRefFast(sequence, 2, __Pyx_ReferenceSharing_SharedReference);
-      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 707, __pyx_L1_error)
+      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 720, __pyx_L1_error)
       __Pyx_XGOTREF(__pyx_t_8);
     }
     #else
-    __pyx_t_6 = __Pyx_PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 707, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_4 = __Pyx_PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 707, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_8 = __Pyx_PySequence_ITEM(sequence, 2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 707, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PySequence_ITEM(sequence, 2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     #endif
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   } else {
     Py_ssize_t index = -1;
-    __pyx_t_9 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 707, __pyx_L1_error)
+    __pyx_t_9 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_10 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_9);
@@ -26186,7 +26260,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     __Pyx_GOTREF(__pyx_t_4);
     index = 2; __pyx_t_8 = __pyx_t_10(__pyx_t_9); if (unlikely(!__pyx_t_8)) goto __pyx_L3_unpacking_failed;
     __Pyx_GOTREF(__pyx_t_8);
-    if (__Pyx_IternextUnpackEndCheck(__pyx_t_10(__pyx_t_9), 3) < (0)) __PYX_ERR(0, 707, __pyx_L1_error)
+    if (__Pyx_IternextUnpackEndCheck(__pyx_t_10(__pyx_t_9), 3) < (0)) __PYX_ERR(0, 720, __pyx_L1_error)
     __pyx_t_10 = NULL;
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     goto __pyx_L4_unpacking_done;
@@ -26194,7 +26268,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     __pyx_t_10 = NULL;
     if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-    __PYX_ERR(0, 707, __pyx_L1_error)
+    __PYX_ERR(0, 720, __pyx_L1_error)
     __pyx_L4_unpacking_done:;
   }
   __pyx_v_tree_idx = __pyx_t_6;
@@ -26204,7 +26278,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
   __pyx_v_alignment_rotations = __pyx_t_8;
   __pyx_t_8 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":709
+  /* "balltree_setaxis/balltree.pyx":722
  *     tree_idx, tree_mask, alignment_rotations = build_balltree(data, batch_idx)
  * 
  *     if angle <= 0:             # <<<<<<<<<<<<<<
@@ -26214,19 +26288,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
   __pyx_t_3 = (__pyx_v_angle <= 0.0);
   if (__pyx_t_3) {
 
-    /* "balltree_setaxis/balltree.pyx":710
+    /* "balltree_setaxis/balltree.pyx":723
  * 
  *     if angle <= 0:
  *         rot_tree_indices = [None] * num_layers             # <<<<<<<<<<<<<<
  *     else:
  *         # Get leaves of the original tree (original coordinates)
 */
-    __pyx_t_5 = PyList_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 710, __pyx_L1_error)
+    __pyx_t_5 = PyList_New(1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 723, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_INCREF(Py_None);
     __Pyx_GIVEREF(Py_None);
-    if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 0, Py_None) != (0)) __PYX_ERR(0, 710, __pyx_L1_error);
-    { PyObject* __pyx_temp = PyNumber_InPlaceMultiply(__pyx_t_5, __pyx_v_num_layers); if (unlikely(!__pyx_temp)) __PYX_ERR(0, 710, __pyx_L1_error)
+    if (__Pyx_PyList_SET_ITEM(__pyx_t_5, 0, Py_None) != (0)) __PYX_ERR(0, 723, __pyx_L1_error);
+    { PyObject* __pyx_temp = PyNumber_InPlaceMultiply(__pyx_t_5, __pyx_v_num_layers); if (unlikely(!__pyx_temp)) __PYX_ERR(0, 723, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_temp);
       __Pyx_DECREF(__pyx_t_5);
       __pyx_t_5 = __pyx_temp;
@@ -26234,7 +26308,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     __pyx_v_rot_tree_indices = ((PyObject*)__pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":709
+    /* "balltree_setaxis/balltree.pyx":722
  *     tree_idx, tree_mask, alignment_rotations = build_balltree(data, batch_idx)
  * 
  *     if angle <= 0:             # <<<<<<<<<<<<<<
@@ -26244,7 +26318,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     goto __pyx_L5;
   }
 
-  /* "balltree_setaxis/balltree.pyx":713
+  /* "balltree_setaxis/balltree.pyx":726
  *     else:
  *         # Get leaves of the original tree (original coordinates)
  *         leaves = data[tree_idx]             # <<<<<<<<<<<<<<
@@ -26252,39 +26326,39 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
  * 
 */
   /*else*/ {
-    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_tree_idx); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 713, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_data, __pyx_v_tree_idx); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 726, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_v_leaves = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":714
+    /* "balltree_setaxis/balltree.pyx":727
  *         # Get leaves of the original tree (original coordinates)
  *         leaves = data[tree_idx]
  *         current_batch_idx = batch_idx[tree_idx]             # <<<<<<<<<<<<<<
  * 
  *         # Apply alignment to leaves (transform to canonical frame)
 */
-    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_batch_idx, __pyx_v_tree_idx); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 714, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_batch_idx, __pyx_v_tree_idx); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 727, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_v_current_batch_idx = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":718
+    /* "balltree_setaxis/balltree.pyx":731
  *         # Apply alignment to leaves (transform to canonical frame)
  *         # Each batch has its own alignment rotation
  *         num_batches = alignment_rotations.shape[0]             # <<<<<<<<<<<<<<
  *         aligned_leaves = leaves.clone()
  * 
 */
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_alignment_rotations, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 718, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_alignment_rotations, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 731, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_5, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 718, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetItemInt(__pyx_t_5, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 731, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_v_num_batches = __pyx_t_8;
     __pyx_t_8 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":719
+    /* "balltree_setaxis/balltree.pyx":732
  *         # Each batch has its own alignment rotation
  *         num_batches = alignment_rotations.shape[0]
  *         aligned_leaves = leaves.clone()             # <<<<<<<<<<<<<<
@@ -26298,26 +26372,26 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
       __pyx_t_8 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_clone, __pyx_callargs+__pyx_t_7, (1-__pyx_t_7) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 719, __pyx_L1_error)
+      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 732, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
     }
     __pyx_v_aligned_leaves = __pyx_t_8;
     __pyx_t_8 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":722
+    /* "balltree_setaxis/balltree.pyx":735
  * 
  *         # Determine batch boundaries in tree_idx
  *         n = len(batch_idx)             # <<<<<<<<<<<<<<
  *         change_points = torch.where(batch_idx[1:n] != batch_idx[0:n-1])[0] + 1
  *         batch_offsets = torch.zeros(num_batches + 1, dtype=torch.long, device=data.device)
 */
-    __pyx_t_2 = PyObject_Length(__pyx_v_batch_idx); if (unlikely(__pyx_t_2 == ((Py_ssize_t)-1))) __PYX_ERR(0, 722, __pyx_L1_error)
-    __pyx_t_8 = PyLong_FromSsize_t(__pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 722, __pyx_L1_error)
+    __pyx_t_2 = PyObject_Length(__pyx_v_batch_idx); if (unlikely(__pyx_t_2 == ((Py_ssize_t)-1))) __PYX_ERR(0, 735, __pyx_L1_error)
+    __pyx_t_8 = PyLong_FromSsize_t(__pyx_t_2); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 735, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_v_n = __pyx_t_8;
     __pyx_t_8 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":723
+    /* "balltree_setaxis/balltree.pyx":736
  *         # Determine batch boundaries in tree_idx
  *         n = len(batch_idx)
  *         change_points = torch.where(batch_idx[1:n] != batch_idx[0:n-1])[0] + 1             # <<<<<<<<<<<<<<
@@ -26325,19 +26399,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
  *         batch_offsets[1:num_batches] = change_points
 */
     __pyx_t_5 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 723, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_where); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 723, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_where); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 1, 0, NULL, &__pyx_v_n, NULL, 1, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 723, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 1, 0, NULL, &__pyx_v_n, NULL, 1, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_9 = __Pyx_PyLong_SubtractObjC(__pyx_v_n, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 723, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyLong_SubtractObjC(__pyx_v_n, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_11 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 0, 0, NULL, &__pyx_t_9, NULL, 1, 0, 0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 723, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_GetSlice(__pyx_v_batch_idx, 0, 0, NULL, &__pyx_t_9, NULL, 1, 0, 0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __pyx_t_9 = PyObject_RichCompare(__pyx_t_4, __pyx_t_11, Py_NE); __Pyx_XGOTREF(__pyx_t_9); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 723, __pyx_L1_error)
+    __pyx_t_9 = PyObject_RichCompare(__pyx_t_4, __pyx_t_11, Py_NE); __Pyx_XGOTREF(__pyx_t_9); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
     __pyx_t_7 = 1;
@@ -26358,19 +26432,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 723, __pyx_L1_error)
+      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 736, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
     }
-    __pyx_t_6 = __Pyx_GetItemInt(__pyx_t_8, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 723, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_GetItemInt(__pyx_t_8, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = __Pyx_PyLong_AddObjC(__pyx_t_6, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 723, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyLong_AddObjC(__pyx_t_6, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 736, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __pyx_v_change_points = __pyx_t_8;
     __pyx_t_8 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":724
+    /* "balltree_setaxis/balltree.pyx":737
  *         n = len(batch_idx)
  *         change_points = torch.where(batch_idx[1:n] != batch_idx[0:n-1])[0] + 1
  *         batch_offsets = torch.zeros(num_batches + 1, dtype=torch.long, device=data.device)             # <<<<<<<<<<<<<<
@@ -26378,19 +26452,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
  *         batch_offsets[num_batches] = n
 */
     __pyx_t_6 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 724, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 737, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 724, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 737, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __pyx_t_9 = __Pyx_PyLong_AddObjC(__pyx_v_num_batches, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 724, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyLong_AddObjC(__pyx_v_num_batches, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 737, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 724, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 737, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_long); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 724, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_11, __pyx_mstate_global->__pyx_n_u_long); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 737, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_device); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 724, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_device); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 737, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_11);
     __pyx_t_7 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -26406,10 +26480,10 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     #endif
     {
       PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 2 : 0)] = {__pyx_t_6, __pyx_t_9};
-      __pyx_t_12 = __Pyx_MakeVectorcallBuilderKwds(2); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 724, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_MakeVectorcallBuilderKwds(2); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 737, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_4, __pyx_t_12, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 724, __pyx_L1_error)
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_device, __pyx_t_11, __pyx_t_12, __pyx_callargs+2, 1) < (0)) __PYX_ERR(0, 724, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_4, __pyx_t_12, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 737, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_device, __pyx_t_11, __pyx_t_12, __pyx_callargs+2, 1) < (0)) __PYX_ERR(0, 737, __pyx_L1_error)
       __pyx_t_8 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_5, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_12);
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
@@ -26417,43 +26491,43 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 724, __pyx_L1_error)
+      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 737, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
     }
     __pyx_v_batch_offsets = __pyx_t_8;
     __pyx_t_8 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":725
+    /* "balltree_setaxis/balltree.pyx":738
  *         change_points = torch.where(batch_idx[1:n] != batch_idx[0:n-1])[0] + 1
  *         batch_offsets = torch.zeros(num_batches + 1, dtype=torch.long, device=data.device)
  *         batch_offsets[1:num_batches] = change_points             # <<<<<<<<<<<<<<
  *         batch_offsets[num_batches] = n
  * 
 */
-    if (__Pyx_PyObject_SetSlice(__pyx_v_batch_offsets, __pyx_v_change_points, 1, 0, NULL, &__pyx_v_num_batches, NULL, 1, 0, 0) < (0)) __PYX_ERR(0, 725, __pyx_L1_error)
+    if (__Pyx_PyObject_SetSlice(__pyx_v_batch_offsets, __pyx_v_change_points, 1, 0, NULL, &__pyx_v_num_batches, NULL, 1, 0, 0) < (0)) __PYX_ERR(0, 738, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":726
+    /* "balltree_setaxis/balltree.pyx":739
  *         batch_offsets = torch.zeros(num_batches + 1, dtype=torch.long, device=data.device)
  *         batch_offsets[1:num_batches] = change_points
  *         batch_offsets[num_batches] = n             # <<<<<<<<<<<<<<
  * 
  *         # Compute tree leaf offsets per batch
 */
-    if (unlikely((PyObject_SetItem(__pyx_v_batch_offsets, __pyx_v_num_batches, __pyx_v_n) < 0))) __PYX_ERR(0, 726, __pyx_L1_error)
+    if (unlikely((PyObject_SetItem(__pyx_v_batch_offsets, __pyx_v_num_batches, __pyx_v_n) < 0))) __PYX_ERR(0, 739, __pyx_L1_error)
 
-    /* "balltree_setaxis/balltree.pyx":729
+    /* "balltree_setaxis/balltree.pyx":742
  * 
  *         # Compute tree leaf offsets per batch
  *         tree_leaves_per_batch = []             # <<<<<<<<<<<<<<
  *         for b in range(num_batches):
  *             batch_size = batch_offsets[b+1] - batch_offsets[b]
 */
-    __pyx_t_8 = PyList_New(0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 729, __pyx_L1_error)
+    __pyx_t_8 = PyList_New(0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 742, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_v_tree_leaves_per_batch = ((PyObject*)__pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":730
+    /* "balltree_setaxis/balltree.pyx":743
  *         # Compute tree leaf offsets per batch
  *         tree_leaves_per_batch = []
  *         for b in range(num_batches):             # <<<<<<<<<<<<<<
@@ -26466,12 +26540,12 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_v_num_batches};
       __pyx_t_8 = __Pyx_PyObject_FastCall((PyObject*)(&PyRange_Type), __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 730, __pyx_L1_error)
+      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 743, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
     }
-    __pyx_t_5 = PyObject_GetIter(__pyx_t_8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 730, __pyx_L1_error)
+    __pyx_t_5 = PyObject_GetIter(__pyx_t_8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 743, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_13 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_5); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 730, __pyx_L1_error)
+    __pyx_t_13 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_5); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 743, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     for (;;) {
       {
@@ -26479,7 +26553,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         if (unlikely(!__pyx_t_8)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 730, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 743, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
@@ -26489,28 +26563,28 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       __Pyx_XDECREF_SET(__pyx_v_b, __pyx_t_8);
       __pyx_t_8 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":731
+      /* "balltree_setaxis/balltree.pyx":744
  *         tree_leaves_per_batch = []
  *         for b in range(num_batches):
  *             batch_size = batch_offsets[b+1] - batch_offsets[b]             # <<<<<<<<<<<<<<
  *             depth = int(math.ceil(math.log2(batch_size))) - 1
  *             num_leaves = 1 << depth
 */
-      __pyx_t_8 = __Pyx_PyLong_AddObjC(__pyx_v_b, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 731, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyLong_AddObjC(__pyx_v_b, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 744, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_12 = __Pyx_PyObject_GetItem(__pyx_v_batch_offsets, __pyx_t_8); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 731, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyObject_GetItem(__pyx_v_batch_offsets, __pyx_t_8); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 744, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_v_batch_offsets, __pyx_v_b); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 731, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_v_batch_offsets, __pyx_v_b); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 744, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_11 = PyNumber_Subtract(__pyx_t_12, __pyx_t_8); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 731, __pyx_L1_error)
+      __pyx_t_11 = PyNumber_Subtract(__pyx_t_12, __pyx_t_8); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 744, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_XDECREF_SET(__pyx_v_batch_size, __pyx_t_11);
       __pyx_t_11 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":732
+      /* "balltree_setaxis/balltree.pyx":745
  *         for b in range(num_batches):
  *             batch_size = batch_offsets[b+1] - batch_offsets[b]
  *             depth = int(math.ceil(math.log2(batch_size))) - 1             # <<<<<<<<<<<<<<
@@ -26518,15 +26592,15 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
  *             tree_leaves_per_batch.append(num_leaves * 2)
 */
       __pyx_t_8 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 732, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 745, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_ceil); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 732, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_ceil); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 745, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
       __pyx_t_9 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 732, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 745, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
-      __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_log2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 732, __pyx_L1_error)
+      __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_mstate_global->__pyx_n_u_log2); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 745, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_7 = 1;
@@ -26546,7 +26620,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         __pyx_t_12 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_14, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-        if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 732, __pyx_L1_error)
+        if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 745, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
       }
       __pyx_t_7 = 1;
@@ -26567,43 +26641,43 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 732, __pyx_L1_error)
+        if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 745, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_11);
       }
-      __pyx_t_4 = __Pyx_PyNumber_Int(__pyx_t_11); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 732, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyNumber_Int(__pyx_t_11); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 745, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-      __pyx_t_11 = __Pyx_PyLong_SubtractObjC(__pyx_t_4, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 732, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_PyLong_SubtractObjC(__pyx_t_4, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 745, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_XDECREF_SET(__pyx_v_depth, ((PyObject*)__pyx_t_11));
       __pyx_t_11 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":733
+      /* "balltree_setaxis/balltree.pyx":746
  *             batch_size = batch_offsets[b+1] - batch_offsets[b]
  *             depth = int(math.ceil(math.log2(batch_size))) - 1
  *             num_leaves = 1 << depth             # <<<<<<<<<<<<<<
  *             tree_leaves_per_batch.append(num_leaves * 2)
  * 
 */
-      __pyx_t_11 = PyNumber_Lshift(__pyx_mstate_global->__pyx_int_1, __pyx_v_depth); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 733, __pyx_L1_error)
+      __pyx_t_11 = PyNumber_Lshift(__pyx_mstate_global->__pyx_int_1, __pyx_v_depth); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 746, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
       __Pyx_XDECREF_SET(__pyx_v_num_leaves, ((PyObject*)__pyx_t_11));
       __pyx_t_11 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":734
+      /* "balltree_setaxis/balltree.pyx":747
  *             depth = int(math.ceil(math.log2(batch_size))) - 1
  *             num_leaves = 1 << depth
  *             tree_leaves_per_batch.append(num_leaves * 2)             # <<<<<<<<<<<<<<
  * 
  *         tree_leaf_offsets = torch.zeros(num_batches + 1, dtype=torch.long, device=data.device)
 */
-      __pyx_t_11 = __Pyx_PyLong_MultiplyObjC(__pyx_v_num_leaves, __pyx_mstate_global->__pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 734, __pyx_L1_error)
+      __pyx_t_11 = __Pyx_PyLong_MultiplyObjC(__pyx_v_num_leaves, __pyx_mstate_global->__pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 747, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_11);
-      __pyx_t_15 = __Pyx_PyList_Append(__pyx_v_tree_leaves_per_batch, __pyx_t_11); if (unlikely(__pyx_t_15 == ((int)-1))) __PYX_ERR(0, 734, __pyx_L1_error)
+      __pyx_t_15 = __Pyx_PyList_Append(__pyx_v_tree_leaves_per_batch, __pyx_t_11); if (unlikely(__pyx_t_15 == ((int)-1))) __PYX_ERR(0, 747, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":730
+      /* "balltree_setaxis/balltree.pyx":743
  *         # Compute tree leaf offsets per batch
  *         tree_leaves_per_batch = []
  *         for b in range(num_batches):             # <<<<<<<<<<<<<<
@@ -26613,7 +26687,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     }
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":736
+    /* "balltree_setaxis/balltree.pyx":749
  *             tree_leaves_per_batch.append(num_leaves * 2)
  * 
  *         tree_leaf_offsets = torch.zeros(num_batches + 1, dtype=torch.long, device=data.device)             # <<<<<<<<<<<<<<
@@ -26621,19 +26695,19 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
  *             tree_leaf_offsets[b+1] = tree_leaf_offsets[b] + tree_leaves_per_batch[b]
 */
     __pyx_t_11 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 736, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 749, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 736, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_zeros); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 749, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyLong_AddObjC(__pyx_v_num_batches, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 736, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyLong_AddObjC(__pyx_v_num_batches, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 749, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 736, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 749, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_long); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 736, __pyx_L1_error)
+    __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_mstate_global->__pyx_n_u_long); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 749, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_14);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_device); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 736, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_device); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 749, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_7 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -26649,10 +26723,10 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     #endif
     {
       PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 2 : 0)] = {__pyx_t_11, __pyx_t_4};
-      __pyx_t_9 = __Pyx_MakeVectorcallBuilderKwds(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 736, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_MakeVectorcallBuilderKwds(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 749, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_14, __pyx_t_9, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 736, __pyx_L1_error)
-      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_device, __pyx_t_8, __pyx_t_9, __pyx_callargs+2, 1) < (0)) __PYX_ERR(0, 736, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_dtype, __pyx_t_14, __pyx_t_9, __pyx_callargs+2, 0) < (0)) __PYX_ERR(0, 749, __pyx_L1_error)
+      if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_device, __pyx_t_8, __pyx_t_9, __pyx_callargs+2, 1) < (0)) __PYX_ERR(0, 749, __pyx_L1_error)
       __pyx_t_5 = __Pyx_Object_Vectorcall_CallFromBuilder((PyObject*)__pyx_t_12, __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_9);
       __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
@@ -26660,13 +26734,13 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 736, __pyx_L1_error)
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 749, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
     }
     __pyx_v_tree_leaf_offsets = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":737
+    /* "balltree_setaxis/balltree.pyx":750
  * 
  *         tree_leaf_offsets = torch.zeros(num_batches + 1, dtype=torch.long, device=data.device)
  *         for b in range(num_batches):             # <<<<<<<<<<<<<<
@@ -26679,12 +26753,12 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       PyObject *__pyx_callargs[2] = {__pyx_t_12, __pyx_v_num_batches};
       __pyx_t_5 = __Pyx_PyObject_FastCall((PyObject*)(&PyRange_Type), __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 737, __pyx_L1_error)
+      if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 750, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
     }
-    __pyx_t_12 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 737, __pyx_L1_error)
+    __pyx_t_12 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 750, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
-    __pyx_t_13 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_12); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 737, __pyx_L1_error)
+    __pyx_t_13 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_12); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 750, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     for (;;) {
       {
@@ -26692,7 +26766,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         if (unlikely(!__pyx_t_5)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 737, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 750, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
@@ -26702,28 +26776,28 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       __Pyx_XDECREF_SET(__pyx_v_b, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":738
+      /* "balltree_setaxis/balltree.pyx":751
  *         tree_leaf_offsets = torch.zeros(num_batches + 1, dtype=torch.long, device=data.device)
  *         for b in range(num_batches):
  *             tree_leaf_offsets[b+1] = tree_leaf_offsets[b] + tree_leaves_per_batch[b]             # <<<<<<<<<<<<<<
  * 
  *         # Apply alignment rotation to leaves for each batch
 */
-      __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tree_leaf_offsets, __pyx_v_b); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 738, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tree_leaf_offsets, __pyx_v_b); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 751, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_9 = __Pyx_PyObject_GetItem(__pyx_v_tree_leaves_per_batch, __pyx_v_b); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 738, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_GetItem(__pyx_v_tree_leaves_per_batch, __pyx_v_b); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 751, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_8 = PyNumber_Add(__pyx_t_5, __pyx_t_9); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 738, __pyx_L1_error)
+      __pyx_t_8 = PyNumber_Add(__pyx_t_5, __pyx_t_9); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 751, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      __pyx_t_9 = __Pyx_PyLong_AddObjC(__pyx_v_b, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 738, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyLong_AddObjC(__pyx_v_b, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 751, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      if (unlikely((PyObject_SetItem(__pyx_v_tree_leaf_offsets, __pyx_t_9, __pyx_t_8) < 0))) __PYX_ERR(0, 738, __pyx_L1_error)
+      if (unlikely((PyObject_SetItem(__pyx_v_tree_leaf_offsets, __pyx_t_9, __pyx_t_8) < 0))) __PYX_ERR(0, 751, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":737
+      /* "balltree_setaxis/balltree.pyx":750
  * 
  *         tree_leaf_offsets = torch.zeros(num_batches + 1, dtype=torch.long, device=data.device)
  *         for b in range(num_batches):             # <<<<<<<<<<<<<<
@@ -26733,7 +26807,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     }
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":741
+    /* "balltree_setaxis/balltree.pyx":754
  * 
  *         # Apply alignment rotation to leaves for each batch
  *         for b in range(num_batches):             # <<<<<<<<<<<<<<
@@ -26746,12 +26820,12 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       PyObject *__pyx_callargs[2] = {__pyx_t_8, __pyx_v_num_batches};
       __pyx_t_12 = __Pyx_PyObject_FastCall((PyObject*)(&PyRange_Type), __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-      if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 741, __pyx_L1_error)
+      if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 754, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
     }
-    __pyx_t_8 = PyObject_GetIter(__pyx_t_12); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 741, __pyx_L1_error)
+    __pyx_t_8 = PyObject_GetIter(__pyx_t_12); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 754, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_13 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_8); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 741, __pyx_L1_error)
+    __pyx_t_13 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_8); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 754, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     for (;;) {
       {
@@ -26759,7 +26833,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         if (unlikely(!__pyx_t_12)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 741, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 754, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
@@ -26769,14 +26843,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       __Pyx_XDECREF_SET(__pyx_v_b, __pyx_t_12);
       __pyx_t_12 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":742
+      /* "balltree_setaxis/balltree.pyx":755
  *         # Apply alignment rotation to leaves for each batch
  *         for b in range(num_batches):
  *             start = tree_leaf_offsets[b].item()             # <<<<<<<<<<<<<<
  *             end = tree_leaf_offsets[b+1].item()
  *             R = alignment_rotations[b].float()  # (dim, dim)
 */
-      __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tree_leaf_offsets, __pyx_v_b); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 742, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tree_leaf_offsets, __pyx_v_b); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 755, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_9 = __pyx_t_5;
       __Pyx_INCREF(__pyx_t_9);
@@ -26786,22 +26860,22 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         __pyx_t_12 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_item, __pyx_callargs+__pyx_t_7, (1-__pyx_t_7) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 742, __pyx_L1_error)
+        if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 755, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
       }
       __Pyx_XDECREF_SET(__pyx_v_start, __pyx_t_12);
       __pyx_t_12 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":743
+      /* "balltree_setaxis/balltree.pyx":756
  *         for b in range(num_batches):
  *             start = tree_leaf_offsets[b].item()
  *             end = tree_leaf_offsets[b+1].item()             # <<<<<<<<<<<<<<
  *             R = alignment_rotations[b].float()  # (dim, dim)
  *             # aligned_leaves[start:end] = leaves[start:end] @ R.T
 */
-      __pyx_t_9 = __Pyx_PyLong_AddObjC(__pyx_v_b, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 743, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyLong_AddObjC(__pyx_v_b, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 756, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
-      __pyx_t_14 = __Pyx_PyObject_GetItem(__pyx_v_tree_leaf_offsets, __pyx_t_9); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 743, __pyx_L1_error)
+      __pyx_t_14 = __Pyx_PyObject_GetItem(__pyx_v_tree_leaf_offsets, __pyx_t_9); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 756, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       __pyx_t_5 = __pyx_t_14;
@@ -26812,20 +26886,20 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         __pyx_t_12 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_item, __pyx_callargs+__pyx_t_7, (1-__pyx_t_7) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-        if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 743, __pyx_L1_error)
+        if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 756, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
       }
       __Pyx_XDECREF_SET(__pyx_v_end, __pyx_t_12);
       __pyx_t_12 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":744
+      /* "balltree_setaxis/balltree.pyx":757
  *             start = tree_leaf_offsets[b].item()
  *             end = tree_leaf_offsets[b+1].item()
  *             R = alignment_rotations[b].float()  # (dim, dim)             # <<<<<<<<<<<<<<
  *             # aligned_leaves[start:end] = leaves[start:end] @ R.T
  *             aligned_leaves[start:end] = torch.matmul(leaves[start:end], R.T)
 */
-      __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_alignment_rotations, __pyx_v_b); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 744, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_alignment_rotations, __pyx_v_b); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 757, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_14 = __pyx_t_5;
       __Pyx_INCREF(__pyx_t_14);
@@ -26835,13 +26909,13 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         __pyx_t_12 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_float, __pyx_callargs+__pyx_t_7, (1-__pyx_t_7) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
         __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 744, __pyx_L1_error)
+        if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 757, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
       }
       __Pyx_XDECREF_SET(__pyx_v_R, __pyx_t_12);
       __pyx_t_12 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":746
+      /* "balltree_setaxis/balltree.pyx":759
  *             R = alignment_rotations[b].float()  # (dim, dim)
  *             # aligned_leaves[start:end] = leaves[start:end] @ R.T
  *             aligned_leaves[start:end] = torch.matmul(leaves[start:end], R.T)             # <<<<<<<<<<<<<<
@@ -26849,14 +26923,14 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
  *         # Number of partitions to do such that leaf balls contain necessary number of points
 */
       __pyx_t_5 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 746, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 759, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_matmul); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 746, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_matmul); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 759, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-      __pyx_t_14 = __Pyx_PyObject_GetSlice(__pyx_v_leaves, 0, 0, &__pyx_v_start, &__pyx_v_end, NULL, 0, 0, 0); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 746, __pyx_L1_error)
+      __pyx_t_14 = __Pyx_PyObject_GetSlice(__pyx_v_leaves, 0, 0, &__pyx_v_start, &__pyx_v_end, NULL, 0, 0, 0); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 759, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_R, __pyx_mstate_global->__pyx_n_u_T); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 746, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_R, __pyx_mstate_global->__pyx_n_u_T); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 759, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_7 = 1;
       #if CYTHON_UNPACK_METHODS
@@ -26877,13 +26951,13 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-        if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 746, __pyx_L1_error)
+        if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 759, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
       }
-      if (__Pyx_PyObject_SetSlice(__pyx_v_aligned_leaves, __pyx_t_12, 0, 0, &__pyx_v_start, &__pyx_v_end, NULL, 0, 0, 0) < (0)) __PYX_ERR(0, 746, __pyx_L1_error)
+      if (__Pyx_PyObject_SetSlice(__pyx_v_aligned_leaves, __pyx_t_12, 0, 0, &__pyx_v_start, &__pyx_v_end, NULL, 0, 0, 0) < (0)) __PYX_ERR(0, 759, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":741
+      /* "balltree_setaxis/balltree.pyx":754
  * 
  *         # Apply alignment rotation to leaves for each batch
  *         for b in range(num_batches):             # <<<<<<<<<<<<<<
@@ -26893,7 +26967,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     }
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":749
+    /* "balltree_setaxis/balltree.pyx":762
  * 
  *         # Number of partitions to do such that leaf balls contain necessary number of points
  *         target_partitions = [max(0, int(math.log2(aligned_leaves.shape[0] / bs))) for bs in ball_sizes]             # <<<<<<<<<<<<<<
@@ -26901,7 +26975,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
  *         # Apply Swin-like rotation for shifted windows (on aligned data)
 */
     { /* enter inner scope */
-      __pyx_t_8 = PyList_New(0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 749, __pyx_L17_error)
+      __pyx_t_8 = PyList_New(0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 762, __pyx_L17_error)
       __Pyx_GOTREF(__pyx_t_8);
       __pyx_t_12 = __pyx_v_ball_sizes; __Pyx_INCREF(__pyx_t_12);
       __pyx_t_2 = 0;
@@ -26909,28 +26983,28 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         {
           Py_ssize_t __pyx_temp = __Pyx_PyList_GET_SIZE(__pyx_t_12);
           #if !CYTHON_ASSUME_SAFE_SIZE
-          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 749, __pyx_L17_error)
+          if (unlikely((__pyx_temp < 0))) __PYX_ERR(0, 762, __pyx_L17_error)
           #endif
           if (__pyx_t_2 >= __pyx_temp) break;
         }
         __pyx_t_9 = __Pyx_PyList_GetItemRefFast(__pyx_t_12, __pyx_t_2, __Pyx_ReferenceSharing_OwnStrongReference);
         ++__pyx_t_2;
-        if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 749, __pyx_L17_error)
+        if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 762, __pyx_L17_error)
         __Pyx_GOTREF(__pyx_t_9);
         __Pyx_XDECREF_SET(__pyx_7genexpr__pyx_v_bs, __pyx_t_9);
         __pyx_t_9 = 0;
         __pyx_t_4 = NULL;
-        __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 749, __pyx_L17_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_math); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 762, __pyx_L17_error)
         __Pyx_GOTREF(__pyx_t_14);
-        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_log2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 749, __pyx_L17_error)
+        __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_14, __pyx_mstate_global->__pyx_n_u_log2); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 762, __pyx_L17_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-        __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_v_aligned_leaves, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 749, __pyx_L17_error)
+        __pyx_t_14 = __Pyx_PyObject_GetAttrStr(__pyx_v_aligned_leaves, __pyx_mstate_global->__pyx_n_u_shape); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 762, __pyx_L17_error)
         __Pyx_GOTREF(__pyx_t_14);
-        __pyx_t_11 = __Pyx_GetItemInt(__pyx_t_14, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 749, __pyx_L17_error)
+        __pyx_t_11 = __Pyx_GetItemInt(__pyx_t_14, 0, long, 1, __Pyx_PyLong_From_long, 0, 0, 0, 1, __Pyx_ReferenceSharing_OwnStrongReference); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 762, __pyx_L17_error)
         __Pyx_GOTREF(__pyx_t_11);
         __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-        __pyx_t_14 = __Pyx_PyNumber_Divide(__pyx_t_11, __pyx_7genexpr__pyx_v_bs); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 749, __pyx_L17_error)
+        __pyx_t_14 = __Pyx_PyNumber_Divide(__pyx_t_11, __pyx_7genexpr__pyx_v_bs); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 762, __pyx_L17_error)
         __Pyx_GOTREF(__pyx_t_14);
         __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
         __pyx_t_7 = 1;
@@ -26951,31 +27025,31 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-          if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 749, __pyx_L17_error)
+          if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 762, __pyx_L17_error)
           __Pyx_GOTREF(__pyx_t_9);
         }
-        __pyx_t_5 = __Pyx_PyNumber_Int(__pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 749, __pyx_L17_error)
+        __pyx_t_5 = __Pyx_PyNumber_Int(__pyx_t_9); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 762, __pyx_L17_error)
         __Pyx_GOTREF(__pyx_t_5);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         __pyx_t_16 = 0;
-        __pyx_t_14 = __Pyx_PyLong_From_long(__pyx_t_16); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 749, __pyx_L17_error)
+        __pyx_t_14 = __Pyx_PyLong_From_long(__pyx_t_16); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 762, __pyx_L17_error)
         __Pyx_GOTREF(__pyx_t_14);
-        __pyx_t_4 = PyObject_RichCompare(__pyx_t_5, __pyx_t_14, Py_GT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 749, __pyx_L17_error)
+        __pyx_t_4 = PyObject_RichCompare(__pyx_t_5, __pyx_t_14, Py_GT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 762, __pyx_L17_error)
         __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-        __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 749, __pyx_L17_error)
+        __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 762, __pyx_L17_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         if (__pyx_t_3) {
           __Pyx_INCREF(__pyx_t_5);
           __pyx_t_9 = __pyx_t_5;
         } else {
-          __pyx_t_4 = __Pyx_PyLong_From_long(__pyx_t_16); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 749, __pyx_L17_error)
+          __pyx_t_4 = __Pyx_PyLong_From_long(__pyx_t_16); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 762, __pyx_L17_error)
           __Pyx_GOTREF(__pyx_t_4);
-          if (__Pyx_PyInt_FromNumber(&__pyx_t_4, NULL, 0) < (0)) __PYX_ERR(0, 749, __pyx_L17_error)
+          if (__Pyx_PyInt_FromNumber(&__pyx_t_4, NULL, 0) < (0)) __PYX_ERR(0, 762, __pyx_L17_error)
           __pyx_t_9 = __pyx_t_4;
           __pyx_t_4 = 0;
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (unlikely(__Pyx_ListComp_Append(__pyx_t_8, (PyObject*)__pyx_t_9))) __PYX_ERR(0, 749, __pyx_L17_error)
+        if (unlikely(__Pyx_ListComp_Append(__pyx_t_8, (PyObject*)__pyx_t_9))) __PYX_ERR(0, 762, __pyx_L17_error)
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       }
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
@@ -26989,7 +27063,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
     __pyx_v_target_partitions = ((PyObject*)__pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":752
+    /* "balltree_setaxis/balltree.pyx":765
  * 
  *         # Apply Swin-like rotation for shifted windows (on aligned data)
  *         rotation_matrix = generate_rotation_matrix(angle, dim, data.device)             # <<<<<<<<<<<<<<
@@ -26997,11 +27071,11 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
  * 
 */
     __pyx_t_12 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_generate_rotation_matrix); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 752, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_generate_rotation_matrix); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 765, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_5 = PyFloat_FromDouble(__pyx_v_angle); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 752, __pyx_L1_error)
+    __pyx_t_5 = PyFloat_FromDouble(__pyx_v_angle); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 765, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_device); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 752, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_data, __pyx_mstate_global->__pyx_n_u_device); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 765, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_7 = 1;
     #if CYTHON_UNPACK_METHODS
@@ -27022,13 +27096,13 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 752, __pyx_L1_error)
+      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 765, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
     }
     __pyx_v_rotation_matrix = __pyx_t_8;
     __pyx_t_8 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":753
+    /* "balltree_setaxis/balltree.pyx":766
  *         # Apply Swin-like rotation for shifted windows (on aligned data)
  *         rotation_matrix = generate_rotation_matrix(angle, dim, data.device)
  *         rotated_leaves = torch.matmul(aligned_leaves, rotation_matrix)             # <<<<<<<<<<<<<<
@@ -27036,9 +27110,9 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
  *         rot_tree_indices = []
 */
     __pyx_t_9 = NULL;
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 753, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 766, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_matmul); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 753, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_matmul); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 766, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_7 = 1;
@@ -27058,25 +27132,25 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       __pyx_t_8 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_5, __pyx_callargs+__pyx_t_7, (3-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 753, __pyx_L1_error)
+      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 766, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
     }
     __pyx_v_rotated_leaves = __pyx_t_8;
     __pyx_t_8 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":755
+    /* "balltree_setaxis/balltree.pyx":768
  *         rotated_leaves = torch.matmul(aligned_leaves, rotation_matrix)
  * 
  *         rot_tree_indices = []             # <<<<<<<<<<<<<<
  *         for i in range(num_layers):
  *             rot_tree_indices.append(
 */
-    __pyx_t_8 = PyList_New(0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 755, __pyx_L1_error)
+    __pyx_t_8 = PyList_New(0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 768, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_v_rot_tree_indices = ((PyObject*)__pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* "balltree_setaxis/balltree.pyx":756
+    /* "balltree_setaxis/balltree.pyx":769
  * 
  *         rot_tree_indices = []
  *         for i in range(num_layers):             # <<<<<<<<<<<<<<
@@ -27089,12 +27163,12 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       PyObject *__pyx_callargs[2] = {__pyx_t_5, __pyx_v_num_layers};
       __pyx_t_8 = __Pyx_PyObject_FastCall((PyObject*)(&PyRange_Type), __pyx_callargs+__pyx_t_7, (2-__pyx_t_7) | (__pyx_t_7*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 756, __pyx_L1_error)
+      if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 769, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
     }
-    __pyx_t_5 = PyObject_GetIter(__pyx_t_8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 756, __pyx_L1_error)
+    __pyx_t_5 = PyObject_GetIter(__pyx_t_8); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 769, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_13 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_5); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 756, __pyx_L1_error)
+    __pyx_t_13 = (CYTHON_COMPILING_IN_LIMITED_API) ? PyIter_Next : __Pyx_PyObject_GetIterNextFunc(__pyx_t_5); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 769, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     for (;;) {
       {
@@ -27102,7 +27176,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         if (unlikely(!__pyx_t_8)) {
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
-            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 756, __pyx_L1_error)
+            if (unlikely(!__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) __PYX_ERR(0, 769, __pyx_L1_error)
             PyErr_Clear();
           }
           break;
@@ -27112,7 +27186,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
       __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_8);
       __pyx_t_8 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":758
+      /* "balltree_setaxis/balltree.pyx":771
  *         for i in range(num_layers):
  *             rot_tree_indices.append(
  *                 partition_balltree(             # <<<<<<<<<<<<<<
@@ -27120,17 +27194,17 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
  *                     current_batch_idx,
 */
       __pyx_t_9 = NULL;
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_partition_balltree); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 758, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_partition_balltree); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 771, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
 
-      /* "balltree_setaxis/balltree.pyx":761
+      /* "balltree_setaxis/balltree.pyx":774
  *                     rotated_leaves,
  *                     current_batch_idx,
  *                     target_partitions[i]             # <<<<<<<<<<<<<<
  *                 )
  *             )
 */
-      __pyx_t_12 = __Pyx_PyObject_GetItem(__pyx_v_target_partitions, __pyx_v_i); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 761, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyObject_GetItem(__pyx_v_target_partitions, __pyx_v_i); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 774, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
       __pyx_t_7 = 1;
       #if CYTHON_UNPACK_METHODS
@@ -27150,36 +27224,36 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 758, __pyx_L1_error)
+        if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 771, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_8);
       }
 
-      /* "balltree_setaxis/balltree.pyx":757
+      /* "balltree_setaxis/balltree.pyx":770
  *         rot_tree_indices = []
  *         for i in range(num_layers):
  *             rot_tree_indices.append(             # <<<<<<<<<<<<<<
  *                 partition_balltree(
  *                     rotated_leaves,
 */
-      __pyx_t_15 = __Pyx_PyList_Append(__pyx_v_rot_tree_indices, __pyx_t_8); if (unlikely(__pyx_t_15 == ((int)-1))) __PYX_ERR(0, 757, __pyx_L1_error)
+      __pyx_t_15 = __Pyx_PyList_Append(__pyx_v_rot_tree_indices, __pyx_t_8); if (unlikely(__pyx_t_15 == ((int)-1))) __PYX_ERR(0, 770, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-      /* "balltree_setaxis/balltree.pyx":765
+      /* "balltree_setaxis/balltree.pyx":778
  *             )
  * 
  *             if i < num_layers - 1:             # <<<<<<<<<<<<<<
  *                 rotated_leaves = rotated_leaves.view(-1, strides[i], dim).mean(axis=1)
  *                 current_batch_idx = current_batch_idx[::strides[i]]
 */
-      __pyx_t_8 = __Pyx_PyLong_SubtractObjC(__pyx_v_num_layers, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 765, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyLong_SubtractObjC(__pyx_v_num_layers, __pyx_mstate_global->__pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 778, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
-      __pyx_t_4 = PyObject_RichCompare(__pyx_v_i, __pyx_t_8, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 765, __pyx_L1_error)
+      __pyx_t_4 = PyObject_RichCompare(__pyx_v_i, __pyx_t_8, Py_LT); __Pyx_XGOTREF(__pyx_t_4); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 778, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 765, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely((__pyx_t_3 < 0))) __PYX_ERR(0, 778, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_3) {
 
-        /* "balltree_setaxis/balltree.pyx":766
+        /* "balltree_setaxis/balltree.pyx":779
  * 
  *             if i < num_layers - 1:
  *                 rotated_leaves = rotated_leaves.view(-1, strides[i], dim).mean(axis=1)             # <<<<<<<<<<<<<<
@@ -27188,7 +27262,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
 */
         __pyx_t_9 = __pyx_v_rotated_leaves;
         __Pyx_INCREF(__pyx_t_9);
-        __pyx_t_14 = __Pyx_PyObject_GetItem(__pyx_v_strides, __pyx_v_i); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 766, __pyx_L1_error)
+        __pyx_t_14 = __Pyx_PyObject_GetItem(__pyx_v_strides, __pyx_v_i); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 779, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_14);
         __pyx_t_7 = 0;
         {
@@ -27196,7 +27270,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
           __pyx_t_12 = __Pyx_PyObject_FastCallMethod((PyObject*)__pyx_mstate_global->__pyx_n_u_view, __pyx_callargs+__pyx_t_7, (4-__pyx_t_7) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
           __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
-          if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 766, __pyx_L1_error)
+          if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 779, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_12);
         }
         __pyx_t_8 = __pyx_t_12;
@@ -27204,38 +27278,38 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
         __pyx_t_7 = 0;
         {
           PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_8, NULL};
-          __pyx_t_14 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 766, __pyx_L1_error)
+          __pyx_t_14 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_14)) __PYX_ERR(0, 779, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_14);
-          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_axis, __pyx_mstate_global->__pyx_int_1, __pyx_t_14, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 766, __pyx_L1_error)
+          if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_axis, __pyx_mstate_global->__pyx_int_1, __pyx_t_14, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 779, __pyx_L1_error)
           __pyx_t_4 = __Pyx_Object_VectorcallMethod_CallFromBuilder((PyObject*)__pyx_mstate_global->__pyx_n_u_mean, __pyx_callargs+__pyx_t_7, (1-__pyx_t_7) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_14);
           __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
           __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 766, __pyx_L1_error)
+          if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 779, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_4);
         }
         __Pyx_DECREF_SET(__pyx_v_rotated_leaves, __pyx_t_4);
         __pyx_t_4 = 0;
 
-        /* "balltree_setaxis/balltree.pyx":767
+        /* "balltree_setaxis/balltree.pyx":780
  *             if i < num_layers - 1:
  *                 rotated_leaves = rotated_leaves.view(-1, strides[i], dim).mean(axis=1)
  *                 current_batch_idx = current_batch_idx[::strides[i]]             # <<<<<<<<<<<<<<
  * 
  *     return tree_idx, tree_mask, rot_tree_indices, alignment_rotations
 */
-        __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_strides, __pyx_v_i); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 767, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_strides, __pyx_v_i); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 780, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_12 = PySlice_New(Py_None, Py_None, __pyx_t_4); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 767, __pyx_L1_error)
+        __pyx_t_12 = PySlice_New(Py_None, Py_None, __pyx_t_4); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 780, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_current_batch_idx, __pyx_t_12); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 767, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_current_batch_idx, __pyx_t_12); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 780, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         __Pyx_DECREF_SET(__pyx_v_current_batch_idx, __pyx_t_4);
         __pyx_t_4 = 0;
 
-        /* "balltree_setaxis/balltree.pyx":765
+        /* "balltree_setaxis/balltree.pyx":778
  *             )
  * 
  *             if i < num_layers - 1:             # <<<<<<<<<<<<<<
@@ -27244,7 +27318,7 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
 */
       }
 
-      /* "balltree_setaxis/balltree.pyx":756
+      /* "balltree_setaxis/balltree.pyx":769
  * 
  *         rot_tree_indices = []
  *         for i in range(num_layers):             # <<<<<<<<<<<<<<
@@ -27256,31 +27330,31 @@ static PyObject *__pyx_pf_16balltree_setaxis_8balltree_14build_balltree_with_rot
   }
   __pyx_L5:;
 
-  /* "balltree_setaxis/balltree.pyx":769
+  /* "balltree_setaxis/balltree.pyx":782
  *                 current_batch_idx = current_batch_idx[::strides[i]]
  * 
  *     return tree_idx, tree_mask, rot_tree_indices, alignment_rotations             # <<<<<<<<<<<<<<
 */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_5 = PyTuple_New(4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 769, __pyx_L1_error)
+  __pyx_t_5 = PyTuple_New(4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 782, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_INCREF(__pyx_v_tree_idx);
   __Pyx_GIVEREF(__pyx_v_tree_idx);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_v_tree_idx) != (0)) __PYX_ERR(0, 769, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_v_tree_idx) != (0)) __PYX_ERR(0, 782, __pyx_L1_error);
   __Pyx_INCREF(__pyx_v_tree_mask);
   __Pyx_GIVEREF(__pyx_v_tree_mask);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_v_tree_mask) != (0)) __PYX_ERR(0, 769, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_v_tree_mask) != (0)) __PYX_ERR(0, 782, __pyx_L1_error);
   __Pyx_INCREF(__pyx_v_rot_tree_indices);
   __Pyx_GIVEREF(__pyx_v_rot_tree_indices);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 2, __pyx_v_rot_tree_indices) != (0)) __PYX_ERR(0, 769, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 2, __pyx_v_rot_tree_indices) != (0)) __PYX_ERR(0, 782, __pyx_L1_error);
   __Pyx_INCREF(__pyx_v_alignment_rotations);
   __Pyx_GIVEREF(__pyx_v_alignment_rotations);
-  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 3, __pyx_v_alignment_rotations) != (0)) __PYX_ERR(0, 769, __pyx_L1_error);
+  if (__Pyx_PyTuple_SET_ITEM(__pyx_t_5, 3, __pyx_v_alignment_rotations) != (0)) __PYX_ERR(0, 782, __pyx_L1_error);
   __pyx_r = __pyx_t_5;
   __pyx_t_5 = 0;
   goto __pyx_L0;
 
-  /* "balltree_setaxis/balltree.pyx":669
+  /* "balltree_setaxis/balltree.pyx":682
  *         raise ValueError(f"Unsupported dimension: {dim}")
  * 
  * @torch.compiler.disable(recursive=False)             # <<<<<<<<<<<<<<
@@ -28748,9 +28822,9 @@ static CYTHON_SMALL_CODE int __pyx_pymod_exec_balltree(PyObject *__pyx_pyinit_mo
   size_t __pyx_t_6;
   static PyThread_type_lock __pyx_t_7[8];
   int __pyx_t_8;
-  int __pyx_t_9;
+  PyObject *__pyx_t_9 = NULL;
   PyObject *__pyx_t_10 = NULL;
-  PyObject *__pyx_t_11 = NULL;
+  int __pyx_t_11;
   PyObject *__pyx_t_12 = NULL;
   PyObject *__pyx_t_13 = NULL;
   int __pyx_lineno = 0;
@@ -29372,250 +29446,290 @@ __Pyx_RefNannySetupContext("PyInit_balltree", 0);
   /* "balltree_setaxis/balltree.pyx":18
  * from openmp cimport omp_get_max_threads, omp_set_num_threads
  * 
+ * import platform             # <<<<<<<<<<<<<<
+ * _USE_OPENMP = platform.system() != 'Darwin'
+ * 
+*/
+  __pyx_t_1 = __Pyx_Import(__pyx_mstate_global->__pyx_n_u_platform, 0, 0, NULL, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 18, __pyx_L1_error)
+  __pyx_t_4 = __pyx_t_1;
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_platform, __pyx_t_4) < (0)) __PYX_ERR(0, 18, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+  /* "balltree_setaxis/balltree.pyx":19
+ * 
+ * import platform
+ * _USE_OPENMP = platform.system() != 'Darwin'             # <<<<<<<<<<<<<<
+ * 
+ * cnp.import_array()
+*/
+  __pyx_t_5 = NULL;
+  __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_platform); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 19, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
+  __pyx_t_10 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_mstate_global->__pyx_n_u_system); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 19, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
+  __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+  __pyx_t_6 = 1;
+  {
+    PyObject *__pyx_callargs[2] = {__pyx_t_5, NULL};
+    __pyx_t_4 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 19, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+  }
+  __pyx_t_10 = PyObject_RichCompare(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_Darwin, Py_NE); __Pyx_XGOTREF(__pyx_t_10); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 19, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_USE_OPENMP, __pyx_t_10) < (0)) __PYX_ERR(0, 19, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+
+  /* "balltree_setaxis/balltree.pyx":21
+ * _USE_OPENMP = platform.system() != 'Darwin'
+ * 
  * cnp.import_array()             # <<<<<<<<<<<<<<
  * 
  * ctypedef cnp.intp_t intp_t
 */
-  __pyx_t_9 = __pyx_f_5numpy_import_array(); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(0, 18, __pyx_L1_error)
+  __pyx_t_11 = __pyx_f_5numpy_import_array(); if (unlikely(__pyx_t_11 == ((int)-1))) __PYX_ERR(0, 21, __pyx_L1_error)
 
-  /* "balltree_setaxis/balltree.pyx":234
+  /* "balltree_setaxis/balltree.pyx":237
  *     return 0
  * 
  * def build_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray):             # <<<<<<<<<<<<<<
  *     """Build ball trees for multiple subarrays in parallel with global PCA alignment.
  * 
 */
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 234, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 237, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
+  if (PyDict_SetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 237, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_batch_offsets, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 237, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_1build_balltree_with_offsets, 0, __pyx_mstate_global->__pyx_n_u_build_balltree_with_offsets, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[0])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 237, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 234, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_batch_offsets, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 234, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_1build_balltree_with_offsets, 0, __pyx_mstate_global->__pyx_n_u_build_balltree_with_offsets, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[0])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 234, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
-  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
+  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_4);
   #endif
-  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_5, __pyx_t_4);
+  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_4, __pyx_t_10);
+  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_build_balltree_with_offsets, __pyx_t_4) < (0)) __PYX_ERR(0, 237, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_build_balltree_with_offsets, __pyx_t_5) < (0)) __PYX_ERR(0, 234, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":362
+  /* "balltree_setaxis/balltree.pyx":370
  *     return np.asarray(output), np.asarray(mask), np.asarray(rotation_matrices)
  * 
  * def partition_balltree_with_offsets(data: np.ndarray, batch_offsets: np.ndarray, target_level: int):             # <<<<<<<<<<<<<<
  *     """Partition ball trees for multiple subarrays in parallel.
  * 
 */
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 362, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 362, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_batch_offsets, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 362, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_target_level, __pyx_mstate_global->__pyx_n_u_int) < (0)) __PYX_ERR(0, 362, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_3partition_balltree_with_offsets, 0, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_offsets, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 362, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 370, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 370, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_batch_offsets, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 370, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_target_level, __pyx_mstate_global->__pyx_n_u_int) < (0)) __PYX_ERR(0, 370, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_3partition_balltree_with_offsets, 0, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_offsets, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[1])); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 370, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
-  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_4);
+  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_10);
   #endif
-  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_4, __pyx_t_5);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_offsets, __pyx_t_4) < (0)) __PYX_ERR(0, 362, __pyx_L1_error)
+  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_10, __pyx_t_4);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_offsets, __pyx_t_10) < (0)) __PYX_ERR(0, 370, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":484
+  /* "balltree_setaxis/balltree.pyx":497
  *     return np.asarray(output)
  * 
  * def build_balltree_with_idx(data: np.ndarray, batch_idx: np.ndarray):             # <<<<<<<<<<<<<<
  *     """Build ball trees for multiple subarrays in parallel using batch indices.
  * 
 */
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 484, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 497, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
+  if (PyDict_SetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 497, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_batch_idx, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 497, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_5build_balltree_with_idx, 0, __pyx_mstate_global->__pyx_n_u_build_balltree_with_idx, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 497, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 484, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_batch_idx, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 484, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_5build_balltree_with_idx, 0, __pyx_mstate_global->__pyx_n_u_build_balltree_with_idx, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[2])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 484, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
-  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
+  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_4);
   #endif
-  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_5, __pyx_t_4);
+  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_4, __pyx_t_10);
+  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_build_balltree_with_idx, __pyx_t_4) < (0)) __PYX_ERR(0, 497, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_build_balltree_with_idx, __pyx_t_5) < (0)) __PYX_ERR(0, 484, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":534
+  /* "balltree_setaxis/balltree.pyx":547
  *     return build_balltree_with_offsets(data, batch_offsets)
  * 
  * def partition_balltree_with_idx(data: np.ndarray, batch_idx: np.ndarray, target_level: int):             # <<<<<<<<<<<<<<
  *     """Partition ball trees for multiple subarrays in parallel using batch indices.
  * 
 */
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 534, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 534, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_batch_idx, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 534, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_target_level, __pyx_mstate_global->__pyx_n_u_int) < (0)) __PYX_ERR(0, 534, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_7partition_balltree_with_idx, 0, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_idx, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 534, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 547, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 547, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_batch_idx, __pyx_mstate_global->__pyx_kp_u_np_ndarray) < (0)) __PYX_ERR(0, 547, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_target_level, __pyx_mstate_global->__pyx_n_u_int) < (0)) __PYX_ERR(0, 547, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_7partition_balltree_with_idx, 0, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_idx, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[3])); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 547, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
-  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_4);
+  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_10);
   #endif
-  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_4, __pyx_t_5);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_idx, __pyx_t_4) < (0)) __PYX_ERR(0, 534, __pyx_L1_error)
+  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_10, __pyx_t_4);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_partition_balltree_with_idx, __pyx_t_10) < (0)) __PYX_ERR(0, 547, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":585
+  /* "balltree_setaxis/balltree.pyx":598
  *     return partition_balltree_with_offsets(data, batch_offsets, target_level)
  * 
  * def build_balltree(data: torch.Tensor, batch_idx: torch.Tensor):             # <<<<<<<<<<<<<<
  *     """ Wrapper around 'build_balltree_with_idx' that handles torch Tensors.
  * 
 */
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 585, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 598, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
+  if (PyDict_SetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 598, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_batch_idx, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 598, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_9build_balltree, 0, __pyx_mstate_global->__pyx_n_u_build_balltree, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 598, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 585, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_batch_idx, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 585, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_9build_balltree, 0, __pyx_mstate_global->__pyx_n_u_build_balltree, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[4])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 585, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
-  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
+  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_4);
   #endif
-  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_5, __pyx_t_4);
+  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_4, __pyx_t_10);
+  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_build_balltree, __pyx_t_4) < (0)) __PYX_ERR(0, 598, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_build_balltree, __pyx_t_5) < (0)) __PYX_ERR(0, 585, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":623
+  /* "balltree_setaxis/balltree.pyx":636
  *     )
  * 
  * def partition_balltree(data: torch.Tensor, batch_idx: torch.Tensor, target_level: int):             # <<<<<<<<<<<<<<
  *     """ Wrapper around 'partition_balltree_with_idx' that handles torch Tensors. """
  * 
 */
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 623, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 623, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_batch_idx, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 623, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_5, __pyx_mstate_global->__pyx_n_u_target_level, __pyx_mstate_global->__pyx_n_u_int) < (0)) __PYX_ERR(0, 623, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_11partition_balltree, 0, __pyx_mstate_global->__pyx_n_u_partition_balltree, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 623, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 636, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 636, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_batch_idx, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 636, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_target_level, __pyx_mstate_global->__pyx_n_u_int) < (0)) __PYX_ERR(0, 636, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_11partition_balltree, 0, __pyx_mstate_global->__pyx_n_u_partition_balltree, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[5])); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 636, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
-  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_4);
+  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_10);
   #endif
-  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_4, __pyx_t_5);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_partition_balltree, __pyx_t_4) < (0)) __PYX_ERR(0, 623, __pyx_L1_error)
+  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_10, __pyx_t_4);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_partition_balltree, __pyx_t_10) < (0)) __PYX_ERR(0, 636, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":647
+  /* "balltree_setaxis/balltree.pyx":660
  *     return torch.from_numpy(result).to(device)
  * 
  * def generate_rotation_matrix(angle: float, dim: int, device: torch.device):             # <<<<<<<<<<<<<<
  *     """ Generate a rotation matrix for the specified angle and dimensionality of the space.
  * 
 */
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 647, __pyx_L1_error)
+  __pyx_t_10 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 660, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_10);
+  if (PyDict_SetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_angle, __pyx_mstate_global->__pyx_n_u_float) < (0)) __PYX_ERR(0, 660, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_dim, __pyx_mstate_global->__pyx_n_u_int) < (0)) __PYX_ERR(0, 660, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_10, __pyx_mstate_global->__pyx_n_u_device, __pyx_mstate_global->__pyx_kp_u_torch_device) < (0)) __PYX_ERR(0, 660, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_13generate_rotation_matrix, 0, __pyx_mstate_global->__pyx_n_u_generate_rotation_matrix, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[6])); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 660, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_angle, __pyx_mstate_global->__pyx_n_u_float) < (0)) __PYX_ERR(0, 647, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_dim, __pyx_mstate_global->__pyx_n_u_int) < (0)) __PYX_ERR(0, 647, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_4, __pyx_mstate_global->__pyx_n_u_device, __pyx_mstate_global->__pyx_kp_u_torch_device) < (0)) __PYX_ERR(0, 647, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_13generate_rotation_matrix, 0, __pyx_mstate_global->__pyx_n_u_generate_rotation_matrix, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[6])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 647, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
-  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_5);
+  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_4);
   #endif
-  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_5, __pyx_t_4);
+  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_4, __pyx_t_10);
+  __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_generate_rotation_matrix, __pyx_t_4) < (0)) __PYX_ERR(0, 660, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_generate_rotation_matrix, __pyx_t_5) < (0)) __PYX_ERR(0, 647, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "balltree_setaxis/balltree.pyx":669
+  /* "balltree_setaxis/balltree.pyx":682
  *         raise ValueError(f"Unsupported dimension: {dim}")
  * 
  * @torch.compiler.disable(recursive=False)             # <<<<<<<<<<<<<<
  * def build_balltree_with_rotations(data: torch.Tensor, batch_idx: torch.Tensor, strides: list, ball_sizes: list, angle: float = 45.):
  *     """ Builds the computational backbone of Erwin Transformer's layers with global PCA alignment.
 */
-  __pyx_t_4 = NULL;
-  __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 669, __pyx_L1_error)
+  __pyx_t_10 = NULL;
+  __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_torch); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 682, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_12);
-  __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_compiler); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 669, __pyx_L1_error)
+  __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_mstate_global->__pyx_n_u_compiler); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 682, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_13);
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
-  __pyx_t_11 = __pyx_t_13;
-  __Pyx_INCREF(__pyx_t_11);
+  __pyx_t_9 = __pyx_t_13;
+  __Pyx_INCREF(__pyx_t_9);
   __pyx_t_6 = 0;
   {
-    PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_11, NULL};
-    __pyx_t_12 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 669, __pyx_L1_error)
+    PyObject *__pyx_callargs[2 + ((CYTHON_VECTORCALL) ? 1 : 0)] = {__pyx_t_9, NULL};
+    __pyx_t_12 = __Pyx_MakeVectorcallBuilderKwds(1); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 682, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
-    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_recursive, Py_False, __pyx_t_12, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 669, __pyx_L1_error)
-    __pyx_t_10 = __Pyx_Object_VectorcallMethod_CallFromBuilder((PyObject*)__pyx_mstate_global->__pyx_n_u_disable, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_12);
-    __Pyx_XDECREF(__pyx_t_11); __pyx_t_11 = 0;
+    if (__Pyx_VectorcallBuilder_AddArg(__pyx_mstate_global->__pyx_n_u_recursive, Py_False, __pyx_t_12, __pyx_callargs+1, 0) < (0)) __PYX_ERR(0, 682, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_Object_VectorcallMethod_CallFromBuilder((PyObject*)__pyx_mstate_global->__pyx_n_u_disable, __pyx_callargs+__pyx_t_6, (1-__pyx_t_6) | (1*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET), __pyx_t_12);
+    __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-    if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 669, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_10);
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 682, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
   }
 
-  /* "balltree_setaxis/balltree.pyx":670
+  /* "balltree_setaxis/balltree.pyx":683
  * 
  * @torch.compiler.disable(recursive=False)
  * def build_balltree_with_rotations(data: torch.Tensor, batch_idx: torch.Tensor, strides: list, ball_sizes: list, angle: float = 45.):             # <<<<<<<<<<<<<<
  *     """ Builds the computational backbone of Erwin Transformer's layers with global PCA alignment.
  * 
 */
-  __pyx_t_13 = PyFloat_FromDouble(((double)45.)); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 670, __pyx_L1_error)
+  __pyx_t_13 = PyFloat_FromDouble(((double)45.)); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 683, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_13);
 
-  /* "balltree_setaxis/balltree.pyx":669
+  /* "balltree_setaxis/balltree.pyx":682
  *         raise ValueError(f"Unsupported dimension: {dim}")
  * 
  * @torch.compiler.disable(recursive=False)             # <<<<<<<<<<<<<<
  * def build_balltree_with_rotations(data: torch.Tensor, batch_idx: torch.Tensor, strides: list, ball_sizes: list, angle: float = 45.):
  *     """ Builds the computational backbone of Erwin Transformer's layers with global PCA alignment.
 */
-  __pyx_t_12 = PyTuple_Pack(1, __pyx_t_13); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 669, __pyx_L1_error)
+  __pyx_t_12 = PyTuple_Pack(1, __pyx_t_13); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 682, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_12);
   __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-  __pyx_t_13 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 669, __pyx_L1_error)
+  __pyx_t_13 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_13)) __PYX_ERR(0, 682, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_13);
-  if (PyDict_SetItem(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 669, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_batch_idx, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 669, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_strides, __pyx_mstate_global->__pyx_n_u_list) < (0)) __PYX_ERR(0, 669, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_ball_sizes, __pyx_mstate_global->__pyx_n_u_list) < (0)) __PYX_ERR(0, 669, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_angle, __pyx_mstate_global->__pyx_n_u_float) < (0)) __PYX_ERR(0, 669, __pyx_L1_error)
-  __pyx_t_11 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_15build_balltree_with_rotations, 0, __pyx_mstate_global->__pyx_n_u_build_balltree_with_rotations, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[7])); if (unlikely(!__pyx_t_11)) __PYX_ERR(0, 669, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_11);
+  if (PyDict_SetItem(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_data, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 682, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_batch_idx, __pyx_mstate_global->__pyx_kp_u_torch_Tensor) < (0)) __PYX_ERR(0, 682, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_strides, __pyx_mstate_global->__pyx_n_u_list) < (0)) __PYX_ERR(0, 682, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_ball_sizes, __pyx_mstate_global->__pyx_n_u_list) < (0)) __PYX_ERR(0, 682, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_13, __pyx_mstate_global->__pyx_n_u_angle, __pyx_mstate_global->__pyx_n_u_float) < (0)) __PYX_ERR(0, 682, __pyx_L1_error)
+  __pyx_t_9 = __Pyx_CyFunction_New(&__pyx_mdef_16balltree_setaxis_8balltree_15build_balltree_with_rotations, 0, __pyx_mstate_global->__pyx_n_u_build_balltree_with_rotations, NULL, __pyx_mstate_global->__pyx_n_u_balltree_setaxis_balltree, __pyx_mstate_global->__pyx_d, ((PyObject *)__pyx_mstate_global->__pyx_codeobj_tab[7])); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 682, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_9);
   #if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX >= 0x030E0000
-  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_11);
+  PyUnstable_Object_EnableDeferredRefcount(__pyx_t_9);
   #endif
-  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_11, __pyx_t_12);
-  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_11, __pyx_t_13);
+  __Pyx_CyFunction_SetDefaultsTuple(__pyx_t_9, __pyx_t_12);
+  __Pyx_CyFunction_SetAnnotationsDict(__pyx_t_9, __pyx_t_13);
   __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
   __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
   __pyx_t_6 = 1;
   {
-    PyObject *__pyx_callargs[2] = {__pyx_t_4, __pyx_t_11};
-    __pyx_t_5 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_10, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_11); __pyx_t_11 = 0;
-    __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 669, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
+    PyObject *__pyx_callargs[2] = {__pyx_t_10, __pyx_t_9};
+    __pyx_t_4 = __Pyx_PyObject_FastCall((PyObject*)__pyx_t_5, __pyx_callargs+__pyx_t_6, (2-__pyx_t_6) | (__pyx_t_6*__Pyx_PY_VECTORCALL_ARGUMENTS_OFFSET));
+    __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
+    __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 682, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
   }
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_build_balltree_with_rotations, __pyx_t_5) < (0)) __PYX_ERR(0, 669, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_build_balltree_with_rotations, __pyx_t_4) < (0)) __PYX_ERR(0, 682, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /* "balltree_setaxis/balltree.pyx":1
  * #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION             # <<<<<<<<<<<<<<
  * # distutils: language=c++
  * # cython: boundscheck=False
 */
-  __pyx_t_5 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_test, __pyx_t_5) < (0)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_mstate_global->__pyx_d, __pyx_mstate_global->__pyx_n_u_test, __pyx_t_4) < (0)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
   /*--- Wrapped vars code ---*/
 
@@ -29623,8 +29737,8 @@ __Pyx_RefNannySetupContext("PyInit_balltree", 0);
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
+  __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_XDECREF(__pyx_t_11);
   __Pyx_XDECREF(__pyx_t_12);
   __Pyx_XDECREF(__pyx_t_13);
   if (__pyx_m) {
@@ -29754,31 +29868,31 @@ static int __Pyx_InitCachedConstants(__pyx_mstatetype *__pyx_mstate) {
 static int __Pyx_InitConstants(__pyx_mstatetype *__pyx_mstate) {
   CYTHON_UNUSED_VAR(__pyx_mstate);
   {
-    const struct { const unsigned int length: 10; } index[] = {{2},{68},{31},{13},{70},{46},{48},{35},{54},{37},{60},{24},{52},{70},{34},{26},{34},{23},{29},{33},{30},{31},{45},{22},{15},{179},{37},{30},{40},{33},{32},{23},{1},{1},{1},{1},{1},{8},{5},{6},{29},{18},{18},{49},{38},{39},{31},{15},{23},{25},{7},{6},{13},{2},{6},{35},{9},{30},{36},{50},{10},{39},{34},{8},{14},{20},{32},{22},{12},{12},{30},{37},{5},{8},{20},{1},{8},{1},{6},{15},{3},{14},{19},{15},{5},{7},{18},{4},{1},{10},{25},{4},{9},{12},{14},{13},{17},{10},{5},{2},{14},{23},{27},{29},{1},{4},{13},{10},{9},{17},{18},{5},{8},{3},{5},{3},{17},{4},{8},{7},{5},{6},{6},{8},{3},{7},{6},{5},{15},{5},{6},{3},{9},{5},{5},{5},{7},{6},{7},{10},{8},{24},{12},{1},{2},{10},{5},{3},{4},{13},{4},{5},{8},{6},{4},{4},{4},{8},{4},{4},{6},{4},{7},{8},{4},{10},{1},{4},{8},{7},{4},{7},{2},{11},{12},{10},{10},{10},{11},{5},{3},{6},{4},{18},{27},{31},{3},{14},{11},{10},{19},{14},{12},{7},{9},{10},{17},{13},{8},{6},{3},{16},{14},{17},{15},{1},{12},{10},{12},{19},{5},{3},{4},{5},{4},{4},{7},{6},{12},{16},{17},{6},{8},{2},{5},{10},{8},{17},{21},{9},{11},{9},{6},{6},{6},{4},{5},{1},{5},{266},{230},{281},{668},{655},{585},{218},{287},{1}};
-    #if (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (3419 bytes) */
-const char* const cstring = "BZh91AY&SY\223\020k{\000\003\005\377\377\377\377\377\377\377\377\377\377\377\357\377\356\377\377\377\367@@@@@@@@@@@@@\000@\000`\r\177\001\205\3545\315\264\017y\356N\335;Vj\323\0335\2333\2669\254oA\000\005\345\tDB\231G\225?Bf\2013FI\351Oi\2321\023H\321\244\364\365=M\252=\212\236(\332OS\365F\236\312\230'\244\3155\031\246\232\217SA\240\tD\000F\202h\020\322j0\206j\rOj\217Sh\200dcD44\323M0F@=A\247\244dh4h\003S&ME\t\247\352\006\232\201\350\230\t\241\223CM\006\023A\200\020\302140F\214\000\000F\214&\014D\t\242T\377BmR~\251\357Jzjj~\251\241\3514\006\232d\323@\003@\000\032\000\000\006\215\003@\000\0100\004\302`L&\023L\023\021\200&\000\215\014\230\004\300\000\000\010\300L\000\000\t\022\004#I\244\364#\324\236\224\366\251\376\251?&\322j=M# h4\r= \007\250hmL\214\230@\362'\220M\251\351\352\236\247\345OQP\203\247\034<Pd)\261%&\t\264\327:]\264z\177\213\356s|\253\224\021\376\321\342\017\370.b\250\347UJj\265\013\022s\021>j\226\231A\225R\347%eqKK\307\343c`\r\200\322c\033c\033\030\323\030\357-;X\351$+\312\023T\362?\362\005p\244e\230\2034L\242YL\243B\033\000i\241\214cC\037P\025\212^e(\233\030\320\330\325\014hH\255\r\242\026\330:3\n \300bM\245}V\027\365f\372@\335\345V\006s\032\004\301)\226\221\"E0\022\305\352\300\250\213S\004o\242\360\274:\010\314\257\3153#\006\n\032\022 <\203\321\t\n@\200\301\344\006\016\204h\227\364\305./\n\316\344/\022\340\252%K\202IbhJI\003\024-q(\227\020l\014\212\020\010L\257\210W\000\210\261\"\027\241,\014:\344\314L\n\022 \314\002\010\302\342\342\t'\242\035R~)\021\214 \03327J\023\314\304qC+2+SAUJhX\316\206\341\224.r\030d\333;\237\031\341=\362^\031x\037\303\337\212\217\265\372\374\037/:E\220\334S\234\035!_\032\337\346=,\263\263\364\213\214\265\r\322\3174\220\364 =\303\375\0139\323\271>9\310X\002Y\037V^\351_V\270\306\003\237\010Vtn\n\304_O\345\355\372\323\331\352F\270[\360j}Y\026\252\030\215\240\341\2223\300v[Z\306\215 \304\371\030\345\274\204\342k\030\306\350\324\365ng\372\235\250\342K\204J\306\322\305\211\034J\022\006\307\r\221\307\335\255\304\252\336\226\024\336Q.Q""\326\324\321\215u\007q\230\334\347\261\355h@Z\262\257t[\031\345\214/^\271\334\017\240q\257*||h\344]s\3178\324\\^\311\301Z\016\262u\327 \262]\233\354\254Z\364\350\354\262\224(\007\241E\354\320\244qqK\244\376p\3502,\344\356L\2703\251\330\355u\270L\222\030\261\361M^\273\240\\&jO\324\236uLb\346D\262N#\301t\311\311\303\233&\231\245\212\270\237d\323\2233\034\\w\244,}94\0329\204-7\035\205H5\367L\370\331&\306U\0038\304D\324\036Ih\224G\316\300\262[\312&J\016:\262eI\326\244\312\r6X\221z\327\201B\364\257v\014\234\t\227\022\t\030\337\370\375\217ri\001e\353\376,\263;~\034H\330\237\261\354\340\224('\327\212\021\207z\226$\007Lr\367\206w&\206\022\007O0\352W\256h.\037\221\331\204\274\253J\204\263\"\244\243\243\346\021\2469!\300\014\023y\277\220\310\311\220=^\003\t\222Q\203\3052q\211_#\353\330\334Q\t\204%\202&\007\210\\w\347\253\262k\277\033!}\345:<\365U\254\273K<\211\022>n\377\333\313\335\244\302hOy\353]\220\363r?\215\303\2149[\241\207\353\241\315\313\255\245\"\227\024a\340\361\351\033\314\377\013\332G3\275\035\304\330\254\t\354I\"%\222`:idm\373\306E\"\233$\341TQ\243\232\321ZG\317\252'\023\340V\007g\370\007{\277\236\374\322i9\220C\236\375\377\006\356j&\240\251\322\236\247\217%B_Q\\X\274}S\324\376M\241\270\222i\360\260G\"\274Kn\031\201\323\363\377\007\207>Q\270\021\213\022\353\226\0215\025\214iT\266\361\243\242$\256\366\"\004\255V\\\323\246-\271\036\377$\222AF\242~}\225\314v\013`\034)\206\016\274\022D\030$\257QB\346V\210\210\\f\342\010\305W#R\263#\213[ \321\221\001\241(Nc^)\346'\205*\362\3358uuF\223\257khcb\331\332\214\001\274\3054O\227B\341\251\337{L5\017\313\344g\312\234W\334^1\210\207\257\360\300\304%\r\247F4\020V\256.\017%\266z!\330\232I\312lU\2438\013\270\206\320[\363\320v\300\213\371\231eU\3739=Q\201\207\305\220p\306\200\277H\361P\3646Z\373\224\305\344\300X\362\006\217D\305\324\321\201f\226\313Z\326\261\032\203X.N\301\330\363\253B\204\316\301;\247\0274F \014\020\222I[\022V\314p\244 \314\022d\246@\213\nD^\365\022\271\357\025\201@t\263\301\340\017\001\353H$\224VVc\264MA\2506'""\016\246\316\262\340\224\263\2601Q\254\277\210\305M\267\200\032\n\004\357OC\210+^\330\315UC\315\310\033\217\2057h\374\260\204\216\253_g\221D,(\252\231\212\322F\340\334\007)h!&1P\356\265X1Z\2155\014\035\2400\352\300\250C\005\344^U\334\224E\206K(<<3G!%3\214D\013\031\020\232gW\322\234\234\325`R\313\200-\343A\277\23337Q\317\n6[d\206\0304/\206\353\2312\343\300\3438J\223\323\235SeY\222\245\314\324\341\010\275\2574\362n\374]Xj\244\001\221_s \326B/\2468\305s\345\205\314\304\361w\312\036[\316\246\210\262\347\2614\005\212\204\021\026\243\313\226\3420\2336a\223\250\223\320\330\263\017\314#\006\2031\266Z\372m\327B(\222<u\027\006\265l\310\253<\335\273\2070\330\272I\365\305\372\022\316\354t\215\265\360\326g~P/\231\223\034\332E\224U$\262\264\241\256\272\325EXj\032\215\205d\202M];\257W\035D\2635\013y\232\017\013\313\325\3446\220}\276\216\253\020`iF\260\276H\205q\3253\355s\271\246tD+\344\035p3\361\215Q\013.Td\360\005\034\334\352\207#F\211\223\\y\372lli6!\266\301\246\307\264\221\n\033]\263\006%\034\303^\3541t\343+\354\344B\021719\3003\034\304\220HK$\305Utn\207@\306.1b\321gV\256\211I6\330_3\n\343\206y\353\256\340Na$\230\333W\\\"\241x2\230\023%?\233]\314\263\277>\253\362n%AE\223@\331\317\326I\257s\244\010\217\343?\306\032\024QU\3446\347U\330\255o\201\020\333\301\r\370\241\332^G\361q0\242\227L\2109\343f\302\003\261\275\013\246\337\242\343\017-\202%\227\022)\276~s\340U\214\302(\203\033\255\037QH<\006\252Y08\233\247a\350\367\021\240U\310-\201*\331OS\312\220rnz\034\320\024\005\034\274\213\t/\305\326*+P\231\220QM2\224\305\r&\3609jlf\316\351?-\336\"y\245\207\033Eb\002\313$<\273\035\251\334\360\311\001h&J\351\251\335XF\273\314\315\261\261\223,\306\362\\,\021(\242Ln\r\031\025G\243EMU\341w\000j\260\202\230\353\263\354\225\346\342\200d\242\315\266d0\311%m\335\361\275\373\002\263b\256\310ck\223\300\266\354bA\014h\275\002\322\034\231\021\304\255\362\256\300\315\270\007e\023A\t0\214\310N3\023\010\010\343yH$\210E\250\200d\027a\334C\014/5\304\345\025\035\256\235\334\232n\014\374\033q\254mXs\010)\025""\202\265\332\333\0066$\r\2566\n\311\304\201\276\353,S<.\353\270K\320\325\243\352_\257l]p\363\022\341<\303\320\221BA\004\024\205\001\020\333\342\350^\301\215\246\017g3!\265\272\2050\210\203l\340\333:}\021\035<\r\006A\004]\206\221B\353\265\000\344\007\3431\203\335\264\314\274n\026\244&,\004\326C\201A\332\t\300`\020\nlN\234\016\214\006q\277\222\225\200\264;\024\310\272N\265\2514$ C\304*\322\252\310pjV{\311\010\024'\244x\200R\246\201\317:\261\241\030\241\243\233\000\300\005,\316\t\210\235\014r\245\322\325\262\352;E\031\224\225\225^\306\213\n\031 \253hb\320Ii\250\212)+\305\255.aA\3620\247UG{~P1\030\203\263\177L\255\243>\225\002BHl\010`\242\223)D>\203)\003\005\025(\023\2123\321e2\330\002\262\302\004\2738\272\021\213\317\005@`L\204H\006L\316\202D\326\241\215K\243\231%\273\266\327\256\330\247\025\0316\250\223\r\252;\225\010\341\202.c$\220\013\224f8\203\235emD\033\3457\016\245\365\270c\311_s\263\254\370\240h\250\026xh\251\342\264\243m\r\346f\314\241\261\2146\034\236\305\215\245\031\372\204F\350-\325\344\207\006\347>r/\013U\217\325\3249\324Gt\361\026\206\241\016\302\240jgV\311\306\355\033\314\234\234\224\024\336=.BW\230\216\204\264\201\306\323\264sw\r\371z\222\213\340C\270\3266\233\363\323{{\202\363\325\212\220:\353E\010v]~m\017\254\024/\312\314\350\017)1q\234\226a\024\031[1\277 \2028\266\327\n\003\304t\341\336),\020{\340\013\367\272\300\231\244\301\351\301\032\270C(2qB$i\322YK\263\356\207xLL\023\017p\320\037\323\274\177\003\333\350\2041\202\210\274\341\276q\243\250\250WT\276X\030\222\217\320^\037h\"sg\372n\243I\302\213\261\254~\203\251 \031\370Y\340b\356\207g\266\316)v\311\235\311z`\303\362\022\370\306\244j Po\177\223x\203\371\205;'\336*\275\303\307\360\035\3453\272L\261\302\254z\207\354\270\277\276\022\234\022\216\340\375\362}j\003\371\001\366\231\304T\216R\205\002A1\203|\020|\007\023\031$A\004\007\017\237\352\244\271\223K\324\030\246\035\323\216 \367\212u\265\314\217H\032JE\002\023\r\363\277\3268O\352L\345)\375\212\204\211\036\361\342<\257\213\354\277E\367\r1\360\366\006""\240\321A\243=\364\371\277wG\236j\253\224JF\315C\234h@wF\016\274%\027\212\207s\306B\317\340tx\204aU\204I\005\205\027r08\345\210lo\023!\211\025\3460\250l\304r\215\362\r\034\262\013\036\315wG\014!\203\276\222\266\225f1\235\341\250\376\211\310y\206\215\252\301\235 \205\305-\003i\220If\323\006[\025|t\256\372\271Z\251\347eR#{\317\031\315mP\210\370\037\255\323\240xt\034\024\304\255\004!uX\032\252r\373\230\207\264\213yCXZ\303Td'\317\001\316|\303+\016\rm\244\200\266n\007\020\336'\310\217\365HF\260\343.\227bH\212\265_\212\331L\204\365\373\033\270k\217a\017\024\266\312\243\364\273\326\351\034\320\027\307j\205\342\372?\375\\ F\267n\220G \256\322\331W4%\336G\357\224h\245'\317\225\307:\0378<X\034)\225*\035\370\021`\247.\201E\214C!\246\237\311D\3414\276\035\007\231\223I\t8\360\033\351\340\3300l\317M\002\1777\325\367\216O\024j\223\003=\025=\347\375\2778\232t\031\351\350\3014\232^\235\202q\273\375\232\345\2322\215\021u\311\350W\244\023\346\223.\037s\t\306\201\\\335\326\270h\245\177-\351E\251\237\341:\326Y\264f\365C-l\213\335i\024\264\307\026\306\014b\0137=\330\335)C2\263\272\334G\036\216\032gP\3148$\033'\227'\201D\333\3378p\316\377\243/6\377\007gH\314>\336\264n\344\215^\301\035;{X\347l\332\354P\262n\370\277O\357\365\376\036M\216-ZO,\234\022%\003S8\002r\313#\251\322&TdL\251i\\@W\007\207\205r\260&UOjA\020\304\031\204@\334\200\201\223!\023\320\006`N\200X<\031\271C07\233\032\020DPk\371\213\303r\n1z\003F\341\031\003\031L\t#J\234\004\206\306\2141\034\2133\034\025I\262\013\354\246V\205\006h3\030\377\261\272(\243\004\370\326V\347C\372E\334\221N\024$$\304\032\336\300";
-    PyObject *data = __Pyx_DecompressString(cstring, 3419, 2);
+    const struct { const unsigned int length: 10; } index[] = {{2},{68},{31},{13},{70},{46},{48},{35},{54},{37},{60},{24},{52},{70},{34},{26},{34},{23},{29},{33},{30},{31},{45},{22},{15},{179},{37},{30},{40},{33},{32},{23},{1},{1},{1},{1},{1},{8},{5},{6},{29},{18},{18},{49},{38},{39},{31},{15},{23},{25},{7},{6},{13},{2},{6},{35},{9},{30},{36},{50},{10},{39},{34},{8},{14},{20},{32},{22},{12},{12},{30},{37},{5},{6},{8},{20},{1},{8},{1},{6},{11},{15},{3},{14},{19},{15},{5},{7},{18},{4},{1},{10},{25},{4},{9},{12},{14},{13},{17},{10},{5},{2},{14},{23},{27},{29},{1},{4},{13},{10},{9},{17},{18},{5},{8},{3},{5},{3},{17},{4},{8},{7},{5},{6},{6},{8},{3},{7},{6},{5},{15},{5},{6},{3},{9},{5},{5},{5},{7},{6},{7},{10},{8},{24},{12},{1},{2},{10},{5},{3},{4},{13},{4},{5},{8},{6},{4},{4},{4},{8},{4},{4},{6},{4},{7},{8},{4},{10},{1},{4},{8},{7},{4},{7},{2},{11},{12},{10},{10},{10},{11},{5},{3},{6},{4},{18},{27},{31},{8},{3},{14},{11},{10},{19},{14},{12},{7},{9},{10},{17},{13},{8},{6},{3},{16},{14},{17},{15},{1},{12},{10},{12},{19},{5},{3},{4},{5},{4},{4},{7},{6},{6},{12},{16},{17},{6},{8},{2},{5},{10},{8},{17},{21},{9},{11},{9},{6},{6},{6},{4},{5},{1},{5},{266},{230},{281},{668},{665},{595},{218},{287},{1}};
+    #if (CYTHON_COMPRESS_STRINGS) == 2 /* compression: bz2 (3418 bytes) */
+const char* const cstring = "BZh91AY&SY0cQ\010\000\003\n\377\377\377\377\377\377\377\377\377\377\377\357\377\356\377\377\377\367@@@@@@@@@@@@@\000@\000`\r\231\367\212\360\326\256\334\354\n\326\355\335V\2605Mdt7m45k7\221\000\003\016\022\210ST\310\036\240\323FM\033L\215&Odb&\221\243G\251\350L\233MM4\006\232h\331L\203F\232\006\010i\240\000J!\030 @\324\304\236\247\251\223\325=&\324\3651\251\350C@\006C@\006\236\221\246@\000\0324i\240\323M\r\000e\rOHH\023&\2154\320\320\323\032\217\325\014A\202h\310\30220\002h`\001\030\000&\0023(\004\210\202\004\t\212\036\246\023I\251\3516\232\231\250\323\324z\203@h\r\000\000\000\000\000\r\000\000\004\030\002a0&\023\t\246\t\210\300\023\000F\206L\002`\000\000\004`&\000\000\004\212\t\251\244\332T\374\322\031L\322\232l\246\306\232\221\351=CF&\200\007\250h\r4\320\320\000\320\032z\236\246\206@\r\032#\212\020\020R\266\257\302\321\000\202}\300\2270\260\315' \213\277\225\274\316s\372\000\217\331\035\000t\2030)\023J\222\212\240<9\210\010I\212\036\241B\206\227M\016y\204@\367\177{Ll\001\260\032M6\2061\2461\326RT\241\304HU\223(\253\321\377\200X\nM( \327\024*\226\206\203B\033\000i\241\214`\3201\365\t\\\256&\205Sc\032\033\032\251\252\246\024/c\201\013\210;2\325A\220\304\233K\033,\261\353\243\355\003x\226Y\033MU\n\002R)\022$I\335\022\261\353\335*\021I\335G\035\025\205aj/\253-V\227\264\014*p0.X\275\2220\031b\304\025,AKa\222\325\336\031\241XN5!X\225\004\321&T\020K\010\241\010%%\310YQ\007\225\024\266\223\001\"\220\246$\370\244\322\321\342\212+\307\205hB\322\327\233dK\t\020)e\201B0y2\224\272\204Cd\217z<c\nB\374\006XS\034%\304\203\005\214\245fA\034\354)S\261\027\225\004\025\242\204\362\035_\314\355\035a\275\246\366W\261\327e\"\373\033\375\237\337\316\251A\230\235)(\266]\3644?\271\365\360R\277\332q0]!\327\266\215\263\243#\342]\222\275\372^]\230\300ZA,J&\312\335\n\346\327\027R:\212i\234d\333U\210\276\257s\277\366\243\177A\363\266\316\216\372\347\027\226\215\244\344P\214\016m\2057vf$\222\320\277\274Q\352-\215\316$D\360jo\324\317\3526I\304\026\327\223}\220\271\210\373\211\020\006\276\333\337w""\305:\210M\272m\226bKFS^\371\"i\221Nsn\224\254Vd,<\343:\322\363|wm\266\247\346\236\320<bC\343I$#\312|C\322$-\204D\300\215\013\000b\271\213-\300<\237\204O/\017\210\362wY)\022\003\237%\335\221'\334\342UB\215\300\344\230\013\034\234\310\225\006\031\235\346\366\326\210\226\005\265\332r\271s\003\236qs\354\347\3312\234\363Hx\364\3130\324\036\211\223&\r{7M\253^\036\236\271\301\253\244=*\257:\363Y\271\022T\036\354\247\274\316\363\233\305\2463\235\2231\254`Kp\251i \252;\331\027K\270\242\204\301\341\263(X\245\254P\250\323e\3111^fELR|\372Y\032H\225\020\010\026\327\360t\375\370\245\"\303\245\356`\302r\370\217\037a\036\237R\324\221!=\274!\002\214^MA1\335.\246\317\335\302z\004\365\314\\\276Y\260\267|\224i/\315\346*\027\232\334{M\355\321\362\273\002\032\000\2653\031\270\006\003\003)=\235\003\010\220Q\205\002\230\034\301n'\307\346\330e$\204\002\230Z\211i\305*?\010\342\344\031+\272\304+\254\226\367\232\252\275Z\243\274\262\302D\211\312.\317\253O>r\t!,\347F\274E\006d\243\200\341\305\332[y\217\352\221\261\247Y\244\236\225\022a\326\325\301\373/\215\246>\223\251q\034d6\343\256u\242\325hO2I\0210$\300\246kr\235\235D]]r\302\203c$\244\310\344\277\247\232]5\261\235\217_\372\203\363z\235|Z1$\222R)Cv\315\037\216\276\251&0\231\303\317,\224\224\221\231\034\312\342\322\302\212\223\177\361\215\323P\270\264\377(\022R\234MJ~\226\212\333x\335\ty\255\023\311\0048\031\336W\353\272\361\362\344\355\272<\270\271 \256\336\3479\302\254\32651\360\261\230\350\347WJ\252\213D\207\357\306X\023d\233\211\035\310%\374\004\212@\333\330\352\315!\346T\246\212\362Q\252\274\265F\031]\tq\304\215\201H\rED@\303\320\223\301#\201Y9\n5\212\305\"\224u\336\372&\0060&\014l\220*\330Q\211\335\274eCS\261CKq\024`\376\031\334L\365\324V1\210\207O\365\244\270.U\214\360p]\020\342\360H<8\337\232G\"\265rL\323n\3545\207\220\253\030?v\376\376%{!\205{\261\261\267\3624\310`e\374s\0341\2401\344=J\036\366\313\343ejb\330\200\\5F\217(\276\3521h\024iV\326e\230F\270f\005\273\274oy-R\245\t\274\305\332\034\025 f\315\234}M\236\016\224u2\367)\323\306""\364)[uJy\364f\243\023h\230,g\033(L\t\273\265+\214p\320\254\226\212\304\030\203ykj\277imIX\353K\224k-\330b+\331\244\014h\242&\227\343h\345\233gC\326J\356\205\204;\255+\232\227#\314\031R\313~\313\363(\221|cj\321\304\270d\014\200v\345\372\221\204CG\305\227\0049Ro \247\000\203\277c0\266\307\320\372\237id\235\267<-P\363\016\024F\014\346\274D\013T\220\232gs\341R]\025\240S\246@\272\315\347\177^\266t#\375\302\215\315\303g\0361M\224\355\312\264?:\213\236\364\266\027\355s<:\362\210o\r\"0\354\025\234\346\356l\336:\235\230yU\2003X\340\310<\004#\032\352\325\026\333\244/\364\304\365<f\036\233\027DT\307I\305\305\014^\010Ec\t\267\263\222\264\274F\343W+N\013\027\270\367\003V\224F\335{\270\367\247\216E\322\300\3611\354\231z\342\356=\367g(\346\027\2568Q;\250\306C\rWc}\2314d0\327\202\222\270\230\030\346\311\354\222\251\005\205\220\267\034\370\2667m\344\251\265\245\004\265\2050\305`t\245\255\250]l\336zON\347\210\306\201\315\326\331x\302Fd2\005pD'v(\236\243w\025\246\031\"\023\344\033`a\343\033\356\032\336\354\243\035\200\312N\325S\304\321\276\205\027\254\333\333ccI\261\r\266\r6>\t\020\241\267\344\202\022kq\325\333\247<\2716\317_\216\224\252\322\022\346\005C\232\333\033*\262\205\325V,\241id.\0261b\243\251\253\230c)&\333\014\252g}y\356\247\202\335\200\245\002Rcma\200\213\006 \312\344P\232wm}N\216\r\230\316\344J\004c\321P/\334\332H\2573H\"Q\256v\355\306IEZ\nu\260\315oV\267a\341\227.\204\031r\033\313\300\243>v\022R\250\217\007P6,)\035uhi\214\373z\033=\030\022\326\366\227\\\261\364\353c8\215\227H\211\342\253\230\313T\tkZ\330v\347\207\206\252\264/\220gDgD\236v\277D\333\nJZN\230\255\3251\023\r\276<\222S\345\365\031\231\3448\2068\257)\232\"\033i7\221\351X\333\263s\255<\367\020!'\235\034\214!Z\320\036e5\223\223\370i\013#\224\320\036\320\201\320\241HU\244K\210\326\333\033\031B\354o<\005\222Y1bN\311\"\355UH\326\374\372t\351\tpY\233x\353\256\265\237_f\301\271\213_\0233,\345_\243\2767\337\270+\266+n\rW\301<\213\364F\242\010cJp\037h\224\254\216\356[-\227Y\021\274=uV\005,A[\241\311\271*P\257>\304\330""\333CQ\203\010c\361z4\343\307bK].$r\262\347\257-C\033\267\253^TMm\341\010(\365\245Z\354\215\326{]\001\343R\361\325]\n\216%\353\356\212\336\332\366\344\205b5\361s+\315\244\031\303\222\226\331\311<(\223\"\020AX\374C$&\033~\035\3710ci\203\346\330\310mt\241P\"\030^q/5\362\210k\310\306L@d%\234WUV\200j\003w\030\216\033Wt\217I\256\206m\2271\022\312\307\205\322b\216B\001\203\273\204\271q\\8\234\307{V9P\314\230N\032\226\345\367\035\242\226(\211\251Z\367k]\261k\367o2\350\307m\330\"TM\354U\014+5*\254\321\307\240\020\001\344\201\265!\022\231e\344\262lau\016\221VhM\325\236\315\367\0242B\315\241\217\202J.\352`\370^6\232E\375\024\311\327\006>^\023:a\326\034\3478\272\374\256W\323\030\236N\211\r\263\254ga\325\270v\251<U\254*:\273Q.\206\257\303\0347b\017\034P[\320\254\262\265\233\362x\n\211X\252\005h\211cie\221\013%-_x\336\236I\253\345p\347\3121\225\022!\225GgA\366\332\213\204d\022\220\251F]p9\326+f \337\t\266\352\256z\021S\rZS\233<y\354s\264\032\352\034\032\363\244\312u\303z\331\272a\261\214-V\255\2571\243.\340\214f\200M\t\303\r\253\377\273\206D,\233(\305\250\334Q\035\301\270Y\030\204gh1C\217}j\313F=\302\313\226\350\316!5y$\367\332\321o g\311\334\234\354Im\3344TnD\032\323\202jKp\303N\235\273S\210I\003sf\242(9\213\306\303\221\272Df\335\321\022\303\343\270RoJ \253!\351s\275a\215tF\271\035\017\177.I\232\266\370\262vPSOw\324\027X`.\310\216\216\301\2644\363a\022r\344]O\301\352\013\204LL\023\017\230\302\037G\t\357\237.0\203\0301>\300tO\261M4)\252X*\214I'\314]-\220D\332\225\255]\032L\024\\\\\001zJ\360\320\024\254\247\321D\327\014\255\0250[\2428\3667\260\n\035\221\273b\243Ic\004a+p\2240\325\t\357\236YR\352\035\256\261\302\244uI\0246\325\016\221\354\334+\373\3022\201\030uG\300Kj`\373\000\372\014\334*\010\177\004\311\204BC\006\366`f\353\014\212 @\200m\362\272i.\312it\206)\037i\310\204\016\002{Y\244C\314\006\222\2110\202a|l_\234\343\3268\373\0225\207\201\243Oq\3707\210\027\252\265 q\200@\033\001\317\032(\242\215\031\275?o\355 y\346\252\272p\371R\201\362\032\020\230\303\t\017\t9\342\201\326""\324\"g\334\220<D0\242\3024\206\252\213\233h\016uX\252\347\027qF\212\363\030P*Fl\215\363\r\035\216\013k\217N@\343|0\221\354)_\322c\031\2205 \275=\307\240h\332,\031\277\010\234\246H6y\017\t\235v\014\254*\352?_\333\262\325OS(\221\231\336\253Ga\341\004g\350\372W7G\211\000\341N-(b\n\352\300\302Sgq\210m\021\347(a\213Hj\214\210\354\345\021\037!\203)\016\032\334\224\204\254f\206\250\335X\010\317\352\221\ra\256W+\306\221\224h\301\035by\021\361\330ni\210=\276\037\313(\220?\221Y\363n\022\301\"\210h\026 S\363\230B\216n[\341jCM\245b\215\320[\350$\026\t\323\221\370\014\247;v\003?N\313\211\345\n\007v\024X`\267\301'1\210rZ`ug\032E\377\353t\3642Y\301I\207|\357'\177\024\263Rj^\023v\374\036Q\323E\032\245\330JEM\343\375\336\230K7II\255fY,\320\231fa\332\375\230\206T\351%\350\270\204\324)\276\023e\227y\207\221\204\302\360\246v\260\363\013\324\247\347\320\222d\335\377\t\2317'\\\346]\005\312\343\213\214\322;t\344\013V\315\261\016>f\345\266\376H\313\216m\366\251\257{\304Nk\347>\350\317\341\025\017=\306z\211\227\245\304;\232\327<\313\036\014K\363\226h\337ZT\340\341tKT\305\310\2661L\216\216\0161\233\247\334\361\351mO\223\203yp@R\010\n\035\360\254\351'Oh\241a\221B\305\347\002\307\236I%Un;\326\264\367\264V\245#\001\337\014\n\020\2502\035\350\334\320/q\253\025\264\221\n\245\356D\305\342\214\245*E\177\006\036\207\234<OL/\2121d\032\031\022\216J\220\0226\\\204e\250t0c5YX\226A\215\325\n\024/j\332\320\177\333\262\nB\"\265\261\242\376\307\374\337\374]\311\024\341B@\301\215D ";
+    PyObject *data = __Pyx_DecompressString(cstring, 3418, 2);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (3173 bytes) */
-const char* const cstring = "x\332\355WKW\333H\026\306\t$\320\201\016&@ OA\036\204L\342\264IB2\351$\335\206\220n\316\364$1\220\307\234\316\034\215,\225\215\022Y\022z\020\334\247gN/\275\324RK-\265\324\322K/\275\324\322K~\002?a\276[\222\215\201tO\317jN\2373\347`\251Tu\253\352\336\357~\337\255\342\221P\3204AQ\253L\267UC\267\005\323b2ST\275\262\337)\\S\204\252k;B\211\t\252\256\260\035\246\010\222\256\010\272\341\010\266\246\302|Ir\344M\032\303\207\235\330\332\216d9B\3312\252\302W\311\260Q.\333\314\021z?\354\356\272\371g\202dYR\r\003\202\275)\231L\270\241\273U\261D\306X\362OB\376\326\374-\241B;\362\321\317\254\"\033\272#\251\272 9\202\306$t,\010Lc\210\301\261\227\014gSP$G\342~\363E\305\303\036`;\263\2268a/\271\3452\263\204m\225}\022\024\003\373S\250l\3074l\206\300,Ua\366\262\244\013\206\256\325\004\331b\222\303\004I(%\223\234M8\240\332\334\035\265\342\032\256\r`\204*\253\032V-\207Y\264\224d\333jE\027\034C\300d\3456_'\261\240-S\243t\341O\226\352H%\215\245\006\211S\034\327\337\230\313\323$|R\021\266S\003\\si\277cI\272\315\303\330\237\222\230Q\362\220z\247\207\013\317\010\260\016<\013\237O\220-UM\215\331\267\010>\261\014\207]\213\331\0072ux\025\007\253\033\326\001\213^\242\251\t\330\2113+U\323\251\245V\216\213\215\204\262a\tr\315\3314\364\034wg\305\262\320cZ\006\210g\023kyr\205U\036\277\341:\344n\311pu\305\026nH;X\374\2322\277z4\324\204\313\256i\032\226\303\224U\335t{\230\361\252\266aXX4\361\334^\325\267%MMi\324\245\240\324\001\2753\\5\024v\213H\203\235 \2309yN\200\247s\010\200\2220\227\000\3201NB$\362\222\217\217\377\312\223\363\206\222\003\377_\030\240\001\247\3252\217\2340R\230\246\226\230\005\202 \375DIl\302\271\247\013\257V^\335\276\367\360\036\247\272\305>`{\033\241\225d\r\254\003\225\t\020W\325\034lF\324\260s\302jY\250\031\256\2403\270\tJ\232\260\353\235\340l2] \345\242!\314q\036I\016@\0231\035\210\317\245\271R\267\031\315~.i6\313\275<\200<\\N\305!\311\224\2474\025\353\0163\205*(E\340\003\347\237\230e\354gi=\321Y7\013\206\316\240k\333N\202,I([\266\372\023\2637$\253\302H\362\333L\333\027\263\241""\337\326YE\"\257^\353\\>\360\r\222\334f\250J\252\303\252\364m\224\010\235\327z7\361\373\214x$\344\236\316\315\177#)\212\250\023\374\004&\345\370\253\035\332\331\261\030\023\001\t\371z\247\323\2213k;IiQ\225\035\312\021#\366\356\367hL\257@h7\216\364p\247\253\234MP\021\262J\320\361je\032*\252\327\376\204\303\325\262WE\237\265:*\266\243fRo\351\223\rM\243dB\0239\251$?\356\251b\004A\222\352\247\207\273;\305\343\251\242\332\0046\343\220?\022\030W\247\014%\010\025Y\270A^T\270\270\211\014\244V\266\343P}&\346\357\0377\252\235\314W(O\224c\341\361\023\341\253#\322\237\377\217\300\241D\031PJYr5G\020E\213)\256\314DQP\\N\007\"\tH\266\255J\032FeUW\035Q\324\315\234\256\360\3659*9Q6,\226\253b\0055\251\177eI\325\022\241\250UbM\257\231\013g6\217X\244<{z\260\036=N\016\022\345\000\256G\373\250ht\341=0\336\355u\250:\3456x\252\223\266\302\266q\022\273]\342\203\241\206\314O)\036\002A\224\373\314h\302\020Z;=\344r\205\365\345\325\325\025MSM[\265E\361Um\007\277g(6\342\013\244n\215\225\327\326\331\226\313t\231m$\373S\315\312\355\227/P\010\365\255\2423E\304\231\274\315l\376Eg\262h\245e\304\356l/&5B\322+t|sO%\273\246\313\252\221\003\270\300N\3251\037\212+\221\342D.\376\303b\314u:J\222\315\272T\3576\220\335\244]\2059\241p\340*p\340C\204\003I\007mT2\014M,\331T8\025\261\273\307\201/\221\216Q\276\333g\272;;|f\250\213\003J\243\252\311(n\025&&\374\2257]\375#\337\037\364\244j,\212\235\006J\036\251\203>\001\213\250\242\032[\222\214\220\345\217\262\206R)\033U\023,\264d\303\226A7G6]\331\265,\002\276\213\006\001@?\n\225\277uSa\246\263\251\000\034y3\341\220(*\224m<\253\251\266\025\303\245'\235\035\374!\202\030\t\301y\275\003\027 w\206\243\020\302\340\007\024/\002eM\252\330e\315\220\034\376X\274\0075C,\351iH\327\031\221\013I\024\313\256.\213\210O\347\223\273\360\210\260\266\324\035\032qp\267\304\210\250\252\n\036\\bx\323\341\013\320\360g\222K]\312\020LI!I\253IBDM\265\035\315\250,\000\254\212\210\305\201 \236\366GR0~\020|\225I`j\225\256H\035\272\320\231\0163Cq5\274u]\252\322+y\246E\003@\341\203}\242J\322s\203""\355\275\036Q[\223j\314JZ\334\035j%I\247\226\263Iw;\233#\002l\021\010.$&rk\342R\255r8:$:\332\323%\342\257\r\245d4\rS\024qf\211\360O\376hc[\376\225\202KM\236^\336ruS\225?\"\350\025\275c\267\315o\245\304\310-W\322\022\020,IQq\301DUr-\033G\357~\315\355\266\222\n\336\323\301v\250YA:@\024f\273\344\250\203\254\213\334\341\364\177\n\316\202n\0219\310\t\371p\307\016t\202\000\323\304\240\225\036\001\274\235\206\327\323\356x\304\253\037\356\220\274\260\320\177/\360\310\264\035\303L\213!^\256\3548\374\272!\362\353Fo[\304E.\375\356\342n'\307\257(:X\020O\203Wg\274\244\244|%\021*;\374\215\320\312\235\324t:\020\253h2+!\021\357$\212\362Fb\231\324>,\205\004\201\036\256\t\2262x\3422\233x\373i\223Yl\207\356Uv\3347\035O/D3{\347\372\006\006\177q\352\217\274\242W\366W\202\351\360J\270\021\235k\344\033\177i\272\255B{\360\313\372\007?\343gw\373O\302\352^\335\366\256x\305\2647\236~\322(6X3\337|\326\312\220A\315\353\367\226=\333\237\351\032,5g\232\367[\231\326t\274\266\236X\234\360$X\\\3617\202\311`+\314\364l0R\337\360\360\272\354;\301\203p6|\026\035\213\346\032c\215\305f\266\335\1775X\r\337FK\221\322\230m\2544\307\232\213-XN\305Sw\302\255h\250\201\366@{p\244\376#\026\232\364\267\202\343\301\335@\n\266~_W\334w1\276\270\030/\256\301\305\275\023\177\\4.\305\227\376\334\3106\346\233O\343\342\332n\377\251\372}\357\224\237\367\277\353D9\033\317b|\357\306~\204\037\203\261 \177 &rH\366\263]\207\013\315ls\276\225\377-_\333\303B\220\001P\327\243L\224m\017_\013\212\201\222|$`\332\365\231\372\327=\213v6\312xg\200\316VO\357`\375x=_/\320\264\to\t\370\027\374\277\301u+<\023.\207\265F\006\321\347\033\205\306z3\323<\323\\jJ\355\3761o\036\021\026\374\242/S(\273\375\343\351\274\367\341Xx7,\003\"Xe\275\2547\353\275D\250\274y'\300^\247\342S\327\261\366vX\374%\323\276Q\210\013\357\342w\037\342\017fl~\212?\355\354}\233\351\033\030\256\337\255K\365\232\177\334\277\353K\376\317\341B\270\036e\332\375_\324\257\326\313^\001i\307jg\250A\016\237\256\177\214\247\357\204\377\002\003\312\315\002E\270]_\367\200\321y8\370<""\230\r(\254\2411o\034\260K\355\301\013\376*p\222\366\006\373\206\316\306\223\363\341$h\014\343i\360r;\240\005\207F\352\313\365-Z`\312\037\360\337\004yd\274\030\226\242\343\321\335Hml5\217\201I\371\346rs\253u\274\265\320*\356\233\375\000\236\\\211\3364\3567O6?\265\024\020\255=8\201MK\376ib?5\215d\207\231\000\253\017\327W\274\t\344u\253=<\355_$\242\204\031\340\275\024V\t\353\366\3608\345\310\357\207\024\262\301\325\200\205\371\360\0058W \3531\302\245=<\023\234\305\224\363\004\365.\342Z\341\344\030\306\247\334\230l\270\315\357Z\017\342\2657\361\233\267\007\366\272\210\224I\220\340@|m1\222\"\2731\033?.\202\266\211\004\021|\327r<\036'J\225\302\201\260\330\036\036\213\307\256 \310\302~\317h<J=KA9,\354\016\237\363g\374E84\000y\024\200B\276\361\274y\035\202#.\016]\204sg\202e\270\327\037\256D\331(\327<\321\224\232vk\266\365\234\273\370>~\377w\262;\037\237Ca\214\0364\2565\234f\236\2622\341W\202b|}\221BDB\017\204r\001\n\313\267Gg\203\231\366\370\004\377\273\226\246vd\264nyc\336\327~\tH\217\316\004\227B\227\303r\026\004\036on\264&ZR\313\2157^\267G\257\306W\357G\353\215\223Hl\206\224\373\310\3731\026\340C\334w=\276\016\r\356\375\220\351\255KK\376\207\360xx/\374\tr\277\323\032k\345\017\325\245E\342eW\236#\355\251i\177\334/&r\374\247\367\034\022.\036\034E\342\367\305\372\215?\353\367V\272\353\200z\020z\236\214\266\033k\215\255v\377<\304\3650\312G/Qw\306\2508\\\202\374\262\301\235h,\202\304\250`-\206\331p\206V\314\205k\341vT\214\252T\242\332\340\377,\034\033\032\365\216y3\355\241)\377\030j\343\320$\270\231i\017\235\365,\237\227\214Kpu\260o`\250>P\177\355\315x\371\335\3013^\336{\021\314@\340\203\243\336P<}3\234\t\021\363\250w2>{\003\344\033\2036\213\273\203\247\352\017\275\007\010\356]@L\361n\372\205\370\342\323\206\004\227\323\241Y '\007S\341\004\204\324\037=o\3144\362\251\241/\206\205\220\253b\322{\347\277\206^\277\017\013\264\303\227H\336\361\370\312}\304 \321\367\010V\177\317\003\305\307i\177kwp\322\333\3649z\227az\002\n\3729Z\244J\325\356?\207\r\237\303\355\307\200`-\332\"\233""\273\321,\355KA\353\301\313\304\220\202\275\020\237\317\205(U\204\344\205\244\316\234\205\3562\030\373b\332\037\241\200\360\035O\341\000\351\210\240=\232\365\246\374,O\326\350%R\023\365L\322,j$\205f4\033g\301\314`!X\013h\034\177\273\303\247\353\216w\027\203\023\223\355\361s\376\255@\212\347\276\005%/\307\257\212\351\311\261P\177\207\351\252o\001\254l8\207x\037R9\210\373n\3067W\342\0251\026\377\261\367\375\377\220\222'1g\211\352\350\357&i\273\377J\360\253L\335\355\277\375G\346\351.\347e1ed\302Z\351\327\211I]\377-\337\3468{\216\362\255\227r\277\237XR\334w\025\007\325H\243\2707\33470R\177\346\rR\026\333\351\245\312\001\214\337\373\317\202~\252\363I'N\342\366\340\351\272\353}G\347=(B\207\253\227\245\006nI\355Sc\224\247\221\344\304=`V\304\021\356\322!\215b\215\274\341x\270\217\333\312Xz\206\320\205\360\220\321\026y\002\263<\034\310\200+\244\235\036C~\362{\037\222!\276\357n\347\256DgF\236W\354'\361\223\267\361\333w{7\377\177\325J\256Z$\204\305\350r3\363\362\337>~A)";
-    PyObject *data = __Pyx_DecompressString(cstring, 3173, 1);
+    #elif (CYTHON_COMPRESS_STRINGS) != 0 /* compression: zlib (3205 bytes) */
+const char* const cstring = "x\332\355WKs\323X\026\216!\201\244I\232\330$\201\320\r(\341\021\302\200i\007\010\014\rt;\017\272S\323\r8\t\217\251fJ#K\327\216@\226d=\222\270\253gj\226^j\251\245\226Zz\351\245\227^j\351e~B~\302|\347Jv\234\204\356\351\232\315TWMU,]\335{\356\275\347|\347;\337\275y,\3445MP\324\n\323m\325\320m\301\264\230\314\024U/\037t\n\327\025\241\342\332\216Pd\202\252+l\227)\202\244+\202n8\202\255\2510_\222\034y\213\306\360a\307\266\266#Y\216P\262\214\212\360U<l\224J6s\204\376\017\273\267nnE\220,K\252a@\260\267$\223\t7u\267\"\026\311\030K\376I\310\335\236\277-\224iG>\372\211UdCw$U\027$G\320\230\204\216\005\201i\01418\366\222\341l\t\212\344H\334o\276\250x\324\003lg\326b'\354%\267Tb\226\260\255\262\035A1\260?\205\312vM\303f\010\314R\025f/K\272`\350ZM\220-&9L\220\204b<\311\331\202\003\252\315\335Q\313\256\341\332\000F\250\260\212a\325\262\230EKI\266\255\226u\3011\004LV\356\360ub\013\33221J\026\336\261TG*j,1\210\235\342\270\376\306\\\236&aGE\330N\rp\315%\375\216%\3516\017\343`JlF\311C\352\235>.\254\020`]x\026>\235 [\252\230\032\263o\023|b\t\016\273\026\263\017e\352\350*\016V7\254C\026\375DSc\260cgV+\246SK\254\034\027\033\t%\303\022\344\232\263e\350Y\356\316\252e\241\307\264\014\020\317&\326\362\344\nk<~\303u\310\335\242\341\352\212-\334\224v\261\370ue~\355x\2501\227]\3234,\207)k\272\351\3661\343Um\323\260\260h\354\271\275\246oK\232\232\320\250GA\251\013zw\270b(\3546\221\006;\241`\346\3449\001\236\316!\000J\302\\\014@\3278\016\221\310K>>\371\221'\347\r%\007\376\2770@\003N\253e\0369a\2440M-2\013\004A\372\211\222\330\204sO\027^\255\276\272s\377\321}Nu\213}\300\3666B+\312\032X\007*\023 \256\2529\330\214\250ag\205\265\222P3\\Agp\023\2244a\327?\301\331b\272@\225\213\2060\307y$9\000M\304t >\227\344J\335f4\373\271\244\331,\373\362\020\362p9)\016I\246<%\251\330p\230)T@)\002\0378\377\314,\343 K\033q\235\365\262`\350\014um\333q\220E\t\262e\253?3{S\262\312\214J~\233i\007\305l\350wtV\226\310\253\327:/\037\370\206\222\334fP%\325a\025\3726\212\204\316k\275\227\370\003F<\026\262\317\346\346\277\221""\024E\324\t~\002\223r\374\325.\355\354X\214\211\200\204|\275\333\355\310\232\265\335XZTe\227r\304\210\275\007=\032\323\313(\264\233\307z\270\323\025\316&T\021\262J\320q\2652\r\025\352u0\341\250Z\366W\321'\255\216\027\333q3\251_\372dC\323(\231\250\211\254T\224\237\364\251\030A\020\247\372\331\321\356\256x<ST\233\300f\034\362\307\002\343\325)\243\022\204\262,\334$/\312\274\270\211\014T\255l\327!}&\346\037\0347\252\035\317W(O\224c\341\311S\341\253c\245?\377\037\201\203D\031\250\224\222\344j\216 \212\026S\\\231\211\242\240\270\234\016D\022\220l[\2254\214\312\252\256:\242\250\233Y]\341\353sT\262\242lX,[\301\nj\254\177%I\325\342BQ+\304\232~3\027\316l\035\263Hx\366\354\260\036=\211\017\022\345\020\256\307\373H4z\360\036\032\357\365:\244N\331M\236\352\270\255\260m\234\304n\217\370`\250!\363S\212\207@\020e?1\0323\204\326N\016\271l~cymmE\262vT}U\323T\323VmQ|U\333\305o\005\222#\276@\002\327Yi}\203U]\246\313l3\366B|\275\261*\276|\265\372\342\307W$b\331\003=\003\247 xe\235)\"\016\351mf\363/:\244E+\321\025\273\353\217\030\213\206\244\227\351<\347\256KvM\227U#\013\264\001\246\252c>J\260H%(r58Z\235\331nGQ\262Y\217\373\275\006\322\035\267+0'X\016\335\r\016}\210p \356\240\215\212\206\241\211E\233\224T\021{{\034\372\022\351\\\345\273}\242\273\273\303'\206z8@+UM\206\332\225\231\030\023Z\336r\365\217|\177\360\225\344Y\024\273\rh \225\013}\002\026Q\205<[\222\214\220\345\217\262\006\355\224\215\212\tZZ\262a\313\340\237#\233\256\354Z\026\001\337C\203\000\240\037\205\312\337\272\2510\323\331R\000\216\274\025\223J\024\025J<\236\225\244\330\025\303\245'\035&\374!\202#1\343\271\000\202\026\250\177\206\263\021\225\302O,\256\n%M*\333%\315\220\034\376X\274\217\362F\365$\307#\335oD^Y\242XruYD|:\237\334\203G\204\265\245\356\322\210\203\313&FDUU\360\3405\2077\235\306\000\r\177&\271\324\243\014\301\024+K\"/1\0215\325v4\243\274\000\260\312\"\026\007\202x\332\037\251\244\361\203\002T\230\004\246V\350\316\324\245\013\035\36203\024W\303[\327\245\n\275\342g\242\"\000\n\037l\207\244\245\357J\333\177_\242""\266&\325\230\025\267\270;\324\212\223N-g\213.{6G\004\330\"\020\334PL\344\326\304-[\345ptIt\274\247G\304_\033J\310hj\034\177\340g\212\"\0163\021~\312\037ml\317\277\022\220\251\311\323\314[\256n\252\362G\004\277\252w\355\266\371u\225\230Yu%-\006\303\222\024\0257O\310\225k\3318\223\017\304\270\327\212\245\275\257\203\355R\263\214\264\2000\314v\311a\007\331\027\271\343\311?\033\234\r=19\314\r\371h\307.\352\005\201&\tB+9\033x;\t\257\257\335\365\210\313\".\227\\`\350\337\032xd\332\216a&*\211\227\213KV\r\335\025\207\337FD~\033\351o\213\270\347%\337\275,\330\361\351,\212\016\226\305\323\340\342\215\227\024\213Y\034\247\262\313\337\010\260\324MT\267\003\021\213&\263bJ\361N\",o\304\226\261\022b)\244\tdqMp\226\301\023\227\331\304\342\235-f\261]\272v\331\321\300t4\275\320\230\331\277804\374/\247\376\330+x%\1775\230\016\257\206\233\215\213\315\\\363/-\267\235\357\014\177^\377\340\247\374\364\336\340iX\335\257\333\336U\257\220\364F\323O\233\205&k\345Z+\355\024\031\324\274Ao\331\263\375\231\236\301Rk\246\365\240\235jOG\353\033\261\305)O\202\305U\1773\230\n\252a\252o\203\261\372\246\207\327\025\337\t\036\206\263\341J\343Dc\256\231i.\266\322\235\301k\301Z\370\266\261\324P\232\263\315\325V\246\265\330\206\345\205\350\302\335\260\332\030i\242=\324\031\036\253\377\204\205\246\374jp2\270\027HA\365\367uE\003\227\242K\213\321\342:\\\334?\365\307E\343rt\371\317\315ts\276\365,*\254\357\r\236\251?\360\316\3709\377\273n\224\263\321,\306\367o\036D\3701\310\004\271C1\221C\262\237\3569\234o\245[\363\355\334o\371\332\031\025\202\024\200\272\321H5\322\235\321\353A!P\342\217\030L\273>S\377\272o\321\356F)\357\034\320\251\366\365\016\327O\326s\365<M\233\364\226\200\177\336\377+\\\267\302s\341rXk\246\020}\256\231on\264R\255s\255\245\226\324\031\314x\363\2100\357\027|\231B\331\033\234H\346\275\0173\341\275\260\004\210`\225\366\322\336\254\367\022\241\362\346\335\000{\235\211\316\334\300\332\333a\341_\251\316\315|\224\177\027\275\373\020}0#s'\332\331\335\3776504Z\277W\227\3525\377\244\177\317\227\374_""\302\205p\243\221\352\014~V\277V/yy\244\035\253\235\243\0069|\266\3761\232\276\033\376\023\014(\265\362\024\341v}\303\003F_\300\301\347\301l@a\215d\274\t\300.u\206\277\364\327\200\223\264?<0r>\232\232\017\247@c\030O\203\227\333\001-82V_\256Wi\201\013\376\220\377&\310!\343\205\260\3308\331\270\327P\233\325\326\t0)\327ZnU\333'\333\013\355\302\201\331\017\340\311\325\306\233\346\203\326\351\326N[\001\321:\303\223\330\264\350\237%\366S\323\210w\230\t\260\372h}\325\233D^\253\235\321i\377\022\021%L\001\357\245\260BXwF'(G\376 J!\035\\\013X\230\013_\200sy\262\316\020.\235\321\231\340<\246|AP\357!\256UN\216Q|\312\315\251\246\333\372\256\3750Z\177\023\275y{h\257KH\231\204\022\034\212\256/6\244\206\335\234\215\236\024@\333\270\004\021|\317r\"\232 J\025\303\241\260\320\031\315D\231\253\0102\177\3203\036\215S\317RP\n\363{\243\027\375\031\177\021\016\r\241<\362@!\327|\336\272\201\202#.\216\\\202s\347\202e\2707\030\2566\322\215l\353TKj\331\355\331\366s\356\342\373\350\375\337\310\356\213\350\"\204\261\361\260y\275\351\264r\224\225I\277\034\024\242\033\213\024\"\022z(\224/Qa\271\316\370l0\323\231\230\344\177\327\223\324\216\215\327-/\343}\355\027\201\364\370Lp9t9,\347A\340\211\326f{\262-\265\335h\363ug\374Zt\355Ac\243y\032\211MQ\345>\366~\212\004\370\020\r\334\210n\240\006\367\177H\365\353\322\222\377!<\031\336\017\177F\271\337mg\332\271#\272\264H\274\354\225\347X\347\302\264?\341\027\342r\374\207\367\034%\\8<\212\304\037\024\3537\376\254\337\257t7\000\3650\352y\252\261\335\\oV;\203\363(\256G\215\\\343%t'C\342p\031\345\227\016\35662\r\224\030\t\326b\230\016gh\305l\270\036n7\n\215\nIT\007\374\237\205c#\343\336\to\2463r\301?\001m\034\231\0027S\235\221\363\236\345s\311\270\014W\207\007\206F\352C\365\327\336\214\227\333\033>\347\345\274\027\301\014\n|x\334\033\211\246o\2053!b\036\367NG\347o\202|\031\324fao\370L\375\221\367\020\301\275\013\210)\336-?\037]z\326\224\340r24\013\344\344\340B8\211B\032l<o\3164s\211\241/\206\371\220W\305\224\367\316\177\215z\375>\314\323\016\237#y'\243\253""\017\020\203D\337cX\375=\017\024\037g\375\352\336\360\224\267\345s\364\256\300\364\024*\350\227\306\")Ug\360\"6|\016\267\237\000\202\365F\225l\3565fi_\nZ\017^\306\206\373\237\021\362pr\212\224 \035KF\236\026\226bh\277$\341\001$\237M\373c\024\332y\257\032]\300Q\322-\207\316x\332\273\340\247y\332\306/S]Q\317\024\3526E\215Xr\306\323Q\032\034\r\026\202\365\200\306\361\2677z\266\356x\367089\325\231\270\350\337\016\244h\356[\220\363J\364\252\220\234!\013\365w\230\256\372\026`K\207s\210\374\021\tC4p+\272\265\032\255\212\221\370\367\375\357\377\207\344<\2159K\244\250\277\233\256\235\301\253\301\257rvo\360\316\037\231\261{\234\241\205\204\2331\177\245_\247(9\375\3373o\216\363\3508\363\372\311\367\373)&E\003\327px\2155\013\373\243\003Cc\365\025o\230\362\331I.Z\016\000\375\336_\t\006I\373\343N\234\316\235\341\263u\327\373\216\274\006Y\350\300\365\322\324\300\315\251s&C\031\033\213O\341Cf\005\034\353.\035\334\020pd\020G\306\003\334`2\311\271B\227\304#FU\362\004f98\220\002k\250\212\372\014\371m\300\373\020\017\361}\367\272\367':Gr\\\305\237FO\337Fo\337\355\337\372\377\365+\276~QI,6\256\264R/\377\rohT\026";
+    PyObject *data = __Pyx_DecompressString(cstring, 3205, 1);
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #else /* compression: none (6752 bytes) */
-const char* const bytes = ": All dimensions preceding dimension %d must be indexed and not slicedBatch indices must start from 0Batch offset Batch offsets must be 1D array of shape (num_batches + 1,), got shape Batch offsets must contain at least 2 elementsBoth data and batch_offsets must be numpy arraysBuffer view does not expose stridesCan only create a buffer that is contiguous in memory.Cannot assign to read-only memoryviewCannot create writable memory view from read-only memoryviewCannot index with type 'Cannot transpose memoryview with indirect dimensionsData must be 2D array of shape (num_samples, num_features), got shape Data must be 2D tensor, got shape Dimension %d is not directEmpty shape tuple for cython.arrayError processing batch Index out of bounds (axis %d)Indirect dimensions not supportedInputs must be PyTorch tensorsInvalid batch offsets at index Invalid mode, expected 'c' or 'fortran', got Invalid shape in axis <MemoryView of Note that Cython is deliberately stricter than PEP-484 and rejects subclasses of builtin types. If you need to pass subclasses then set the 'annotation_typing' directive to False.Out of bounds on buffer access (axis Step may not be zero (axis %d)Strides must be one less than ball sizesTarget level must be non-negativeUnable to convert item to objectUnsupported dimension: .>')?add_note and  at 0xballtree_setaxis/balltree.pyxbatch_idx is emptybatch_idx length (batch_idx length must match number of data pointsbatch_idx must be 1D array, got shape batch_idx must be 1D tensor, got shape batch_idx must be a numpy arraycollections.abc<contiguous and direct><contiguous and indirect>disableenable: error code gc (got got differing extents in dimension isenableditemsize <= 0 for cython.array) must match number of data points (no default __reduce__ due to non-trivial __cinit__np.ndarraynumpy._core.multiarray failed to importnumpy._core.umath failed to import object> out of bounds<strided and direct><strided and direct or indirect><strided and indirect>torch.Tensor""torch.deviceunable to allocate array data.unable to allocate shape and strides.ASCIIEllipsis__Pyx_PyDict_NextRefRSequenceTTensorView.MemoryViewabcaligned_leavesalignment_rotationsallocate_bufferangleasarrayasyncio.coroutinesaxisbball_sizesballtree_setaxis.balltreebasebatch_idxbatch_idx_npbatch_metadatabatch_offsetsbatch_offsets_arrbatch_sizebool_bsbuild_balltreebuild_balltree_with_idxbuild_balltree_with_offsetsbuild_balltree_with_rotationscceilchange_pointschunk_size__class____class_getitem__cline_in_tracebackclonecompilercoscountcpucurrent_batch_idxdatadata_arrdata_npdepthdetachdevice__dict__dimdisabledoubledtypedtype_is_objectemptyencodeendenumerateerrorflagsfloatfloat64formatfortranfrom_numpy__func__generate_rotation_matrix__getstate__iid__import__indexintintp_is_coroutineitemitemsitemsizeleaveslistlog2long__main__maskmathmatmulmeanmemviewmetadatamode__module__nname__name__ndarrayndim__new__npnum_batchesnum_featuresnum_layersnum_leavesnum_pointsnum_threadsnumpyobjoutputpackpartition_balltreepartition_balltree_with_idxpartition_balltree_with_offsetspop__pyx_checksum__pyx_state__pyx_type__pyx_unpickle_Enum__pyx_vtable____qualname__radiansrecursive__reduce____reduce_cython____reduce_ex__registerresultretrot_tree_indicesrotated_leavesrotation_matricesrotation_matrixs__set_name__setdefault__setstate____setstate_cython__shapesinsizestartstepstopstridesstructtarget_leveltarget_level_valtarget_partitionstensor__test__totorchtotal_sizetree_idxtree_leaf_offsetstree_leaves_per_batchtree_masktree_offsettree_sizeunpackupdatevaluesviewwherexzeros\320\000\031\320\0312\260!\360\032\000\005\010\200t\210:\220Q\220f\230E\240\031\250#\250T\260\032\2701\270K\300u\310A\330\010\016\210j\230\001\230\021\340\004\007\200t\2104\210s\220#\220Q\330\010\016\210j\230\001\320\031=\270Q\270e\3001\300D\310\001\340\004\007\200y\220\004\220C\220s\230!\330\010\016\210j\230\001\320\031B\300!\3005\310\001\310\031\320RS\340\004\007\200y\220\006\220a\220s\230#\230T\240\026\240q\250\001\330\010\016\210j""\230\001\230\021\340\004\r\210T\220\021\340\004\037\230t\2407\250\"\250D\260\002\260'\270\022\2706\300\021\330\004$\240I\250W\260B\260d\270\"\270E\300\022\3006\310\021\340\004\030\320\030/\250q\260\t\270\021\340\004\005\330\010\r\210[\230\001\230\026\230q\240\003\2403\240a\240q\330\010\r\210[\230\001\230\026\230q\240\003\2403\240a\240q\330\010\r\210[\230\001\230\026\230q\240\003\2403\240a\240q\320\000\035\320\0356\3206R\320RS\360\006\000\005\010\200t\210:\220Q\220f\230E\240\031\250#\250T\260\032\2701\270K\300u\310A\330\010\016\210j\230\001\230\021\340\004\007\200t\2104\210s\220#\220Q\330\010\016\210j\230\001\320\031=\270Q\270e\3001\300D\310\001\340\004\007\200y\220\004\220C\220s\230!\330\010\016\210j\230\001\320\031B\300!\3005\310\001\310\031\320RS\340\004\007\200y\220\006\220a\220s\230#\230T\240\026\240q\250\001\330\010\016\210j\230\001\230\021\340\004\r\210T\220\021\340\004\037\230t\2407\250\"\250D\260\002\260'\270\022\2706\300\021\330\004$\240I\250W\260B\260d\270\"\270E\300\022\3006\310\021\340\004\036\320\0369\270\021\270)\300>\320QR\340\004\013\2105\220\013\2301\230G\2403\240a\240q\320\000\"\320\"9\270\021\360(\000\005\010\200t\210:\220Q\220k\240\022\2401\330\010\016\210j\230\001\230\021\340\004\007\200y\220\006\220c\230\021\330\010\016\210j\230\001\320\031A\300\021\300)\3101\340\004\007\200y\220\006\220a\220s\230#\230T\240\026\240q\250\001\330\010\016\210j\230\001\330\014 \240\001\240\031\250&\260\001\260\021\330\014%\240Q\240d\250&\260\001\260\021\360\006\000\005\010\200s\210!\210;\220c\230\021\330\010\016\210j\230\001\230\021\340\004\007\200y\220\001\220\023\220C\220q\330\010\016\210j\230\001\230\021\340\004\010\210\003\2101\210A\360\006\000\005\025\220B\220f\230A\230Y\240a\240r\250\023\250C\250y\270\001\270\022\2701\270A\270S\300\001\300\023\300B\300a\330\004\022\220)\2301\230A\230Q\230c\240\022\2401\340\004\024\220B\220f\230A\230\\\250\022\2503\250f\260B\260a\330\004\021\220\021\220\"\220O\2401\330\004\021\220\021\220/\240\021\340\004\013\320\013&\240a""\240v\250Q\200\001\330(A\320AX\320Xj\320jp\320pw\320wx\360@\001\000\005\014\2103\210a\210y\230\003\2303\230a\230|\2502\250S\260\001\330\004\n\210$\210f\220A\220Q\330\004\021\220\023\220A\220Q\360\006\000\005\017\210k\320\031/\250~\270Q\270f\300A\340\004\007\200v\210S\220\001\330\010\033\2301\230F\240\"\240A\360\006\000\t\022\220\024\220Q\220a\330\010\034\230I\240Q\240a\360\010\000\t\027\320\026)\250\026\250q\260\001\330\010\031\230\026\230v\240Q\360\006\000\t\r\210C\210q\220\001\330\010\030\230\005\230V\2401\240I\250Q\250b\260\003\2603\260i\270q\300\002\300!\3001\300C\300q\310\003\3102\310Q\330\010\030\230\005\230V\2401\240L\260\002\260#\260V\2705\300\007\300w\310d\320RS\330\010\025\220Q\220b\230\017\240q\330\010\025\220Q\220o\240Q\360\006\000\t!\240\001\330\010\014\210E\220\025\220a\220q\330\014\031\230\035\240a\240q\250\001\250\023\250B\250m\2701\270A\330\014\024\220C\220q\230\004\230E\240\021\240$\240e\2501\250N\270\"\270A\330\014\031\230\022\2303\230a\330\014!\240\027\250\001\250\033\260B\260a\340\010\034\230E\240\026\240q\250\014\260B\260c\270\026\270u\300G\3107\320RV\320VW\330\010\014\210E\220\025\220a\220q\330\014\035\230Q\230a\230q\240\005\320%6\260a\260s\270\"\320<Q\320QR\320RS\360\006\000\t\r\210E\220\025\220a\220q\330\014\024\320\024%\240Q\240b\250\005\250Q\330\014\022\320\022#\2401\240A\240Q\240b\250\005\250Q\330\014\020\320\020#\2401\240B\240f\250A\340\014\032\230!\2306\240\027\250\005\250W\260A\260V\2701\270F\300&\310\001\310\021\360\006\000\t\035\230E\240\023\240C\240q\250\004\250E\260\021\260.\300\006\300a\300s\310\"\310F\320RV\320V\\\320\\]\360\006\000\t\033\320\0322\260!\2607\270%\270t\3001\330\010\031\230\025\230g\240Q\320&6\260a\340\010\033\2301\330\010\014\210E\220\025\220a\220q\330\014\034\230G\2401\330\020\"\240!\330\024\025\330\024\025\330\024%\240Q\240a\360\010\000\r\020\210r\220\022\220;\230b\240\001\330\020!\240\036\250u\260B\260c\270\027\300\001\300\024\300T\310\025\310a\310u\320TU\330\020$\320$5\260S\270\007\270q\300\001\340\004\013\210:""\220[\320 2\260!\320\000&\320&A\300\021\360L\001\000\005\010\200t\210:\220Q\220f\230B\230j\250\003\2504\250z\270\021\270/\310\022\3101\330\010\016\210j\230\001\230\021\340\004\007\200t\2106\220\023\220A\330\010\016\210j\230\001\330\014\r\330\030\031\230\024\230Q\360\006\000\005\010\200}\220F\230#\230Q\330\010\016\210j\230\001\330\014\r\330\030\031\230\035\240a\360\006\000\005\010\200s\210!\210?\230\"\230A\330\010\016\210j\230\001\230\021\340\004&\240b\250\010\260\001\260\026\260v\270R\270q\330\004)\250\022\2508\2601\260O\3006\310\022\3101\340\004\036\230c\240\021\240/\260\022\2601\330\004\037\230t\2406\250\021\250!\360\006\000\005.\250R\250v\260Q\260m\3006\310\021\330\t\022\220\"\220A\330\t\020\220\002\220!\330\t\030\230\002\230!\330\t\026\220b\230\001\330\t\027\220r\230\021\360\006\000\005\036\230Q\360\010\000\005\t\210\005\210U\220!\2201\340\010\023\2201\220N\240!\2401\340\010\020\220\t\320\031*\250!\2501\330\010\020\220\007\320\027(\250\001\250\022\2502\250Q\340\010\013\2108\2207\230#\230X\240Q\330\014\022\220*\230A\320\035>\270a\270q\330\010\013\2108\2207\230\"\230B\230c\240\030\250\025\250b\260\004\260F\270!\2701\330\014\022\220*\230A\230_\250A\250Q\360\006\000\t\026\220X\230U\240\"\240H\250A\330\010\020\220\016\230b\240\003\320#5\260Q\260a\330\010\020\220\r\230X\240\\\260\022\2601\330\010\020\220\017\230q\340\010\026\220h\230a\360\006\000\005\037\230b\240\006\240a\240|\2606\270\022\2701\330\004\032\230\"\230F\240!\240<\250v\260R\260q\360\006\000\0053\260\"\260F\270!\330\t\026\220n\240O\2606\270\022\2701\360\010\000\005\034\320\033.\250a\330\004\036\230c\240\034\250S\260\001\330\004\027\220q\230\001\360\010\000\n\031\230\r\240Q\330\014\027\220q\320\030B\300!\330\014\022\320\022#\2401\330\020\021\220\030\230\021\230\"\230A\330\020\036\230a\230q\330\020\021\220\026\220q\230\001\330\020\021\220\024\220Q\220a\330\020\021\320\021\"\240!\2402\240R\240q\330\020\021\330\020\021\340\014\017\210t\2203\220a\330\025\026\330\024\032\230,\240a\320'@\300\001\300\037\320PQ""\320QR\340\004\013\2102\210X\220Q\220i\230r\240\030\250\021\250'\260\022\2608\2701\270A\320\000*\320*E\320E_\320_`\360H\001\000\005\010\200t\210:\220Q\220f\230B\230j\250\003\2504\250z\270\021\270/\310\022\3101\330\010\016\210j\230\001\230\021\340\004\007\200t\2106\220\023\220A\330\010\016\210j\230\001\330\014\r\330\030\031\230\024\230Q\360\006\000\005\010\200}\220F\230#\230Q\330\010\016\210j\230\001\330\014\r\330\030\031\230\035\240a\360\006\000\005\010\200s\210!\210?\230\"\230A\330\010\016\210j\230\001\230\021\340\004\007\200}\220B\220a\330\010\016\210j\230\001\230\021\340\004&\240b\250\010\260\001\260\026\260v\270R\270q\330\004)\250\022\2508\2601\260O\3006\310\022\3101\330\004#\2401\340\004\036\230c\240\021\240/\260\022\2601\330\004\037\230t\2406\250\021\250!\340\004-\250R\250v\260Q\260m\3006\310\021\330\t\022\220\"\220A\330\t\020\220\002\220!\330\t\030\230\002\230!\330\t\026\220b\230\001\330\t\027\220r\230\021\360\006\000\005\036\230Q\360\010\000\005\t\210\005\210U\220!\2201\340\010\023\2201\220N\240!\2401\340\010\020\220\t\320\031*\250!\2501\330\010\020\220\007\320\027(\250\001\250\022\2502\250Q\340\010\013\2108\2207\230#\230X\240Q\330\014\022\220*\230A\320\035>\270a\270q\330\010\013\2108\2207\230\"\230B\230c\240\030\250\025\250b\260\004\260F\270!\2701\330\014\022\220*\230A\230_\250A\250Q\360\006\000\t\026\220X\230U\240\"\240H\250A\340\010\020\220\r\230Q\330\010\020\220\017\230q\330\010\020\220\016\230a\340\010\026\220h\230a\360\006\000\005\037\230b\240\006\240a\240|\2606\270\022\2701\360\006\000\005\034\320\033.\250a\330\004\036\230c\240\034\250S\260\001\330\004\027\220q\230\001\360\010\000\n\031\230\r\240Q\330\014\027\220q\320\030B\300!\330\014\022\320\022'\240q\330\020\021\220\030\230\021\230\"\230A\330\020\036\230a\230q\330\020\021\330\020\021\220\026\220q\230\001\330\020\021\340\014\017\210t\2203\220a\330\025\026\330\024\032\230,\240a\320'@\300\001\300\037\320PQ\320QR\340\004\013\2102\210X\220Q\220a\320\000$\240L\260\r\270Q\360\014\000\005\r\210D\220\010""\230\001\230\021\330\004\007\200t\2104\210t\2201\220H\230D\240\004\240A\240Q\330\004\007\200t\2103\210a\330\010\017\210u\220G\2301\230A\330\014\r\210S\220\001\220\021\330\014\r\210T\220\021\330\013\022\220!\330\t\r\210S\220\001\330\010\017\210u\220G\2301\230A\330\014\r\210Q\210a\210u\220A\220Q\220a\220r\230\021\230!\2305\240\001\240\022\2401\240A\240Q\240a\240q\330\014\r\210Q\210a\210u\220A\220Q\220a\220q\230\001\230\021\230!\2301\230D\240\001\240\021\240!\2402\240Q\240a\240q\330\014\r\210Q\210f\220A\220Q\220j\240\001\240\021\240!\330\013\022\220!\340\010\016\210j\230\001\320\0312\260!\2601\320\000&\320&=\320=W\320WX\360*\000\005\010\200t\210:\220Q\220k\240\022\2401\330\010\016\210j\230\001\230\021\340\004\007\200y\220\006\220c\230\021\330\010\016\210j\230\001\320\031A\300\021\300)\3101\340\004\007\200y\220\006\220a\220s\230#\230T\240\026\240q\250\001\330\010\016\210j\230\001\330\014 \240\001\240\031\250&\260\001\260\021\330\014%\240Q\240d\250&\260\001\260\021\360\006\000\005\010\200s\210!\210;\220c\230\021\330\010\016\210j\230\001\230\021\340\004\007\200y\220\001\220\023\220C\220q\330\010\016\210j\230\001\230\021\340\004\010\210\003\2101\210A\360\006\000\005\025\220B\220f\230A\230Y\240a\240r\250\023\250C\250y\270\001\270\022\2701\270A\270S\300\001\300\023\300B\300a\330\004\022\220)\2301\230A\230Q\230c\240\022\2401\340\004\024\220B\220f\230A\230\\\250\022\2503\250f\260B\260a\330\004\021\220\021\220\"\220O\2401\330\004\021\220\021\220/\240\021\340\004\013\320\013*\250!\2506\260\037\300\001O";
+    #else /* compression: none (6803 bytes) */
+const char* const bytes = ": All dimensions preceding dimension %d must be indexed and not slicedBatch indices must start from 0Batch offset Batch offsets must be 1D array of shape (num_batches + 1,), got shape Batch offsets must contain at least 2 elementsBoth data and batch_offsets must be numpy arraysBuffer view does not expose stridesCan only create a buffer that is contiguous in memory.Cannot assign to read-only memoryviewCannot create writable memory view from read-only memoryviewCannot index with type 'Cannot transpose memoryview with indirect dimensionsData must be 2D array of shape (num_samples, num_features), got shape Data must be 2D tensor, got shape Dimension %d is not directEmpty shape tuple for cython.arrayError processing batch Index out of bounds (axis %d)Indirect dimensions not supportedInputs must be PyTorch tensorsInvalid batch offsets at index Invalid mode, expected 'c' or 'fortran', got Invalid shape in axis <MemoryView of Note that Cython is deliberately stricter than PEP-484 and rejects subclasses of builtin types. If you need to pass subclasses then set the 'annotation_typing' directive to False.Out of bounds on buffer access (axis Step may not be zero (axis %d)Strides must be one less than ball sizesTarget level must be non-negativeUnable to convert item to objectUnsupported dimension: .>')?add_note and  at 0xballtree_setaxis/balltree.pyxbatch_idx is emptybatch_idx length (batch_idx length must match number of data pointsbatch_idx must be 1D array, got shape batch_idx must be 1D tensor, got shape batch_idx must be a numpy arraycollections.abc<contiguous and direct><contiguous and indirect>disableenable: error code gc (got got differing extents in dimension isenableditemsize <= 0 for cython.array) must match number of data points (no default __reduce__ due to non-trivial __cinit__np.ndarraynumpy._core.multiarray failed to importnumpy._core.umath failed to import object> out of bounds<strided and direct><strided and direct or indirect><strided and indirect>torch.Tensor""torch.deviceunable to allocate array data.unable to allocate shape and strides.ASCIIDarwinEllipsis__Pyx_PyDict_NextRefRSequenceTTensor_USE_OPENMPView.MemoryViewabcaligned_leavesalignment_rotationsallocate_bufferangleasarrayasyncio.coroutinesaxisbball_sizesballtree_setaxis.balltreebasebatch_idxbatch_idx_npbatch_metadatabatch_offsetsbatch_offsets_arrbatch_sizebool_bsbuild_balltreebuild_balltree_with_idxbuild_balltree_with_offsetsbuild_balltree_with_rotationscceilchange_pointschunk_size__class____class_getitem__cline_in_tracebackclonecompilercoscountcpucurrent_batch_idxdatadata_arrdata_npdepthdetachdevice__dict__dimdisabledoubledtypedtype_is_objectemptyencodeendenumerateerrorflagsfloatfloat64formatfortranfrom_numpy__func__generate_rotation_matrix__getstate__iid__import__indexintintp_is_coroutineitemitemsitemsizeleaveslistlog2long__main__maskmathmatmulmeanmemviewmetadatamode__module__nname__name__ndarrayndim__new__npnum_batchesnum_featuresnum_layersnum_leavesnum_pointsnum_threadsnumpyobjoutputpackpartition_balltreepartition_balltree_with_idxpartition_balltree_with_offsetsplatformpop__pyx_checksum__pyx_state__pyx_type__pyx_unpickle_Enum__pyx_vtable____qualname__radiansrecursive__reduce____reduce_cython____reduce_ex__registerresultretrot_tree_indicesrotated_leavesrotation_matricesrotation_matrixs__set_name__setdefault__setstate____setstate_cython__shapesinsizestartstepstopstridesstructsystemtarget_leveltarget_level_valtarget_partitionstensor__test__totorchtotal_sizetree_idxtree_leaf_offsetstree_leaves_per_batchtree_masktree_offsettree_sizeunpackupdatevaluesviewwherexzeros\320\000\031\320\0312\260!\360\032\000\005\010\200t\210:\220Q\220f\230E\240\031\250#\250T\260\032\2701\270K\300u\310A\330\010\016\210j\230\001\230\021\340\004\007\200t\2104\210s\220#\220Q\330\010\016\210j\230\001\320\031=\270Q\270e\3001\300D\310\001\340\004\007\200y\220\004\220C\220s\230!\330\010\016\210j\230\001\320\031B\300!\3005\310\001\310\031\320RS\340\004\007\200y\220\006\220a\220s\230#\230T\240""\026\240q\250\001\330\010\016\210j\230\001\230\021\340\004\r\210T\220\021\340\004\037\230t\2407\250\"\250D\260\002\260'\270\022\2706\300\021\330\004$\240I\250W\260B\260d\270\"\270E\300\022\3006\310\021\340\004\030\320\030/\250q\260\t\270\021\340\004\005\330\010\r\210[\230\001\230\026\230q\240\003\2403\240a\240q\330\010\r\210[\230\001\230\026\230q\240\003\2403\240a\240q\330\010\r\210[\230\001\230\026\230q\240\003\2403\240a\240q\320\000\035\320\0356\3206R\320RS\360\006\000\005\010\200t\210:\220Q\220f\230E\240\031\250#\250T\260\032\2701\270K\300u\310A\330\010\016\210j\230\001\230\021\340\004\007\200t\2104\210s\220#\220Q\330\010\016\210j\230\001\320\031=\270Q\270e\3001\300D\310\001\340\004\007\200y\220\004\220C\220s\230!\330\010\016\210j\230\001\320\031B\300!\3005\310\001\310\031\320RS\340\004\007\200y\220\006\220a\220s\230#\230T\240\026\240q\250\001\330\010\016\210j\230\001\230\021\340\004\r\210T\220\021\340\004\037\230t\2407\250\"\250D\260\002\260'\270\022\2706\300\021\330\004$\240I\250W\260B\260d\270\"\270E\300\022\3006\310\021\340\004\036\320\0369\270\021\270)\300>\320QR\340\004\013\2105\220\013\2301\230G\2403\240a\240q\320\000\"\320\"9\270\021\360(\000\005\010\200t\210:\220Q\220k\240\022\2401\330\010\016\210j\230\001\230\021\340\004\007\200y\220\006\220c\230\021\330\010\016\210j\230\001\320\031A\300\021\300)\3101\340\004\007\200y\220\006\220a\220s\230#\230T\240\026\240q\250\001\330\010\016\210j\230\001\330\014 \240\001\240\031\250&\260\001\260\021\330\014%\240Q\240d\250&\260\001\260\021\360\006\000\005\010\200s\210!\210;\220c\230\021\330\010\016\210j\230\001\230\021\340\004\007\200y\220\001\220\023\220C\220q\330\010\016\210j\230\001\230\021\340\004\010\210\003\2101\210A\360\006\000\005\025\220B\220f\230A\230Y\240a\240r\250\023\250C\250y\270\001\270\022\2701\270A\270S\300\001\300\023\300B\300a\330\004\022\220)\2301\230A\230Q\230c\240\022\2401\340\004\024\220B\220f\230A\230\\\250\022\2503\250f\260B\260a\330\004\021\220\021\220\"\220O\2401\330\004\021\220\021\220/""\240\021\340\004\013\320\013&\240a\240v\250Q\200\001\330(A\320AX\320Xj\320jp\320pw\320wx\360@\001\000\005\014\2103\210a\210y\230\003\2303\230a\230|\2502\250S\260\001\330\004\n\210$\210f\220A\220Q\330\004\021\220\023\220A\220Q\360\006\000\005\017\210k\320\031/\250~\270Q\270f\300A\340\004\007\200v\210S\220\001\330\010\033\2301\230F\240\"\240A\360\006\000\t\022\220\024\220Q\220a\330\010\034\230I\240Q\240a\360\010\000\t\027\320\026)\250\026\250q\260\001\330\010\031\230\026\230v\240Q\360\006\000\t\r\210C\210q\220\001\330\010\030\230\005\230V\2401\240I\250Q\250b\260\003\2603\260i\270q\300\002\300!\3001\300C\300q\310\003\3102\310Q\330\010\030\230\005\230V\2401\240L\260\002\260#\260V\2705\300\007\300w\310d\320RS\330\010\025\220Q\220b\230\017\240q\330\010\025\220Q\220o\240Q\360\006\000\t!\240\001\330\010\014\210E\220\025\220a\220q\330\014\031\230\035\240a\240q\250\001\250\023\250B\250m\2701\270A\330\014\024\220C\220q\230\004\230E\240\021\240$\240e\2501\250N\270\"\270A\330\014\031\230\022\2303\230a\330\014!\240\027\250\001\250\033\260B\260a\340\010\034\230E\240\026\240q\250\014\260B\260c\270\026\270u\300G\3107\320RV\320VW\330\010\014\210E\220\025\220a\220q\330\014\035\230Q\230a\230q\240\005\320%6\260a\260s\270\"\320<Q\320QR\320RS\360\006\000\t\r\210E\220\025\220a\220q\330\014\024\320\024%\240Q\240b\250\005\250Q\330\014\022\320\022#\2401\240A\240Q\240b\250\005\250Q\330\014\020\320\020#\2401\240B\240f\250A\340\014\032\230!\2306\240\027\250\005\250W\260A\260V\2701\270F\300&\310\001\310\021\360\006\000\t\035\230E\240\023\240C\240q\250\004\250E\260\021\260.\300\006\300a\300s\310\"\310F\320RV\320V\\\320\\]\360\006\000\t\033\320\0322\260!\2607\270%\270t\3001\330\010\031\230\025\230g\240Q\320&6\260a\340\010\033\2301\330\010\014\210E\220\025\220a\220q\330\014\034\230G\2401\330\020\"\240!\330\024\025\330\024\025\330\024%\240Q\240a\360\010\000\r\020\210r\220\022\220;\230b\240\001\330\020!\240\036\250u\260B\260c\270\027\300\001\300\024\300T\310\025\310a\310u\320TU\330\020$\320$5\260S""\270\007\270q\300\001\340\004\013\210:\220[\320 2\260!\320\000&\320&A\300\021\360L\001\000\005\010\200t\210:\220Q\220f\230B\230j\250\003\2504\250z\270\021\270/\310\022\3101\330\010\016\210j\230\001\230\021\340\004\007\200t\2106\220\023\220A\330\010\016\210j\230\001\330\014\r\330\030\031\230\024\230Q\360\006\000\005\010\200}\220F\230#\230Q\330\010\016\210j\230\001\330\014\r\330\030\031\230\035\240a\360\006\000\005\010\200s\210!\210?\230\"\230A\330\010\016\210j\230\001\230\021\340\004&\240b\250\010\260\001\260\026\260v\270R\270q\330\004)\250\022\2508\2601\260O\3006\310\022\3101\340\004\036\230c\240\021\240/\260\022\2601\330\004\037\230t\2406\250\021\250!\360\006\000\005.\250R\250v\260Q\260m\3006\310\021\330\t\022\220\"\220A\330\t\020\220\002\220!\330\t\030\230\002\230!\330\t\026\220b\230\001\330\t\027\220r\230\021\360\006\000\005\036\230Q\360\010\000\005\t\210\005\210U\220!\2201\340\010\023\2201\220N\240!\2401\340\010\020\220\t\320\031*\250!\2501\330\010\020\220\007\320\027(\250\001\250\022\2502\250Q\340\010\013\2108\2207\230#\230X\240Q\330\014\022\220*\230A\320\035>\270a\270q\330\010\013\2108\2207\230\"\230B\230c\240\030\250\025\250b\260\004\260F\270!\2701\330\014\022\220*\230A\230_\250A\250Q\360\006\000\t\026\220X\230U\240\"\240H\250A\330\010\020\220\016\230b\240\003\320#5\260Q\260a\330\010\020\220\r\230X\240\\\260\022\2601\330\010\020\220\017\230q\340\010\026\220h\230a\360\006\000\005\037\230b\240\006\240a\240|\2606\270\022\2701\330\004\032\230\"\230F\240!\240<\250v\260R\260q\360\006\000\0053\260\"\260F\270!\330\t\026\220n\240O\2606\270\022\2701\360\n\000\005\010\200q\330\010\026\320\026)\250\021\330\010\033\2301\230A\340\010\026\220a\340\004\036\230c\240\034\250S\260\001\360\010\000\n\031\230\r\240Q\330\014\027\220q\320\030B\300!\330\014\022\320\022#\2401\330\020\021\220\030\230\021\230\"\230A\330\020\036\230a\230q\330\020\021\220\026\220q\230\001\330\020\021\220\024\220Q\220a\330\020\021\320\021\"\240!\2402\240R\240q\330\020\021\330\020\021\340\014\017\210t\2203""\220a\330\025\026\330\024\032\230,\240a\320'@\300\001\300\037\320PQ\320QR\340\004\013\2102\210X\220Q\220i\230r\240\030\250\021\250'\260\022\2608\2701\270A\320\000*\320*E\320E_\320_`\360H\001\000\005\010\200t\210:\220Q\220f\230B\230j\250\003\2504\250z\270\021\270/\310\022\3101\330\010\016\210j\230\001\230\021\340\004\007\200t\2106\220\023\220A\330\010\016\210j\230\001\330\014\r\330\030\031\230\024\230Q\360\006\000\005\010\200}\220F\230#\230Q\330\010\016\210j\230\001\330\014\r\330\030\031\230\035\240a\360\006\000\005\010\200s\210!\210?\230\"\230A\330\010\016\210j\230\001\230\021\340\004\007\200}\220B\220a\330\010\016\210j\230\001\230\021\340\004&\240b\250\010\260\001\260\026\260v\270R\270q\330\004)\250\022\2508\2601\260O\3006\310\022\3101\330\004#\2401\340\004\036\230c\240\021\240/\260\022\2601\330\004\037\230t\2406\250\021\250!\340\004-\250R\250v\260Q\260m\3006\310\021\330\t\022\220\"\220A\330\t\020\220\002\220!\330\t\030\230\002\230!\330\t\026\220b\230\001\330\t\027\220r\230\021\360\006\000\005\036\230Q\360\010\000\005\t\210\005\210U\220!\2201\340\010\023\2201\220N\240!\2401\340\010\020\220\t\320\031*\250!\2501\330\010\020\220\007\320\027(\250\001\250\022\2502\250Q\340\010\013\2108\2207\230#\230X\240Q\330\014\022\220*\230A\320\035>\270a\270q\330\010\013\2108\2207\230\"\230B\230c\240\030\250\025\250b\260\004\260F\270!\2701\330\014\022\220*\230A\230_\250A\250Q\360\006\000\t\026\220X\230U\240\"\240H\250A\340\010\020\220\r\230Q\330\010\020\220\017\230q\330\010\020\220\016\230a\340\010\026\220h\230a\360\006\000\005\037\230b\240\006\240a\240|\2606\270\022\2701\360\010\000\005\010\200q\330\010\026\320\026)\250\021\330\010\033\2301\230A\340\010\026\220a\340\004\036\230c\240\034\250S\260\001\360\010\000\n\031\230\r\240Q\330\014\027\220q\320\030B\300!\330\014\022\320\022'\240q\330\020\021\220\030\230\021\230\"\230A\330\020\036\230a\230q\330\020\021\330\020\021\220\026\220q\230\001\330\020\021\340\014\017\210t\2203\220a\330\025\026\330\024\032\230,\240a\320'@\300\001\300\037""\320PQ\320QR\340\004\013\2102\210X\220Q\220a\320\000$\240L\260\r\270Q\360\014\000\005\r\210D\220\010\230\001\230\021\330\004\007\200t\2104\210t\2201\220H\230D\240\004\240A\240Q\330\004\007\200t\2103\210a\330\010\017\210u\220G\2301\230A\330\014\r\210S\220\001\220\021\330\014\r\210T\220\021\330\013\022\220!\330\t\r\210S\220\001\330\010\017\210u\220G\2301\230A\330\014\r\210Q\210a\210u\220A\220Q\220a\220r\230\021\230!\2305\240\001\240\022\2401\240A\240Q\240a\240q\330\014\r\210Q\210a\210u\220A\220Q\220a\220q\230\001\230\021\230!\2301\230D\240\001\240\021\240!\2402\240Q\240a\240q\330\014\r\210Q\210f\220A\220Q\220j\240\001\240\021\240!\330\013\022\220!\340\010\016\210j\230\001\320\0312\260!\2601\320\000&\320&=\320=W\320WX\360*\000\005\010\200t\210:\220Q\220k\240\022\2401\330\010\016\210j\230\001\230\021\340\004\007\200y\220\006\220c\230\021\330\010\016\210j\230\001\320\031A\300\021\300)\3101\340\004\007\200y\220\006\220a\220s\230#\230T\240\026\240q\250\001\330\010\016\210j\230\001\330\014 \240\001\240\031\250&\260\001\260\021\330\014%\240Q\240d\250&\260\001\260\021\360\006\000\005\010\200s\210!\210;\220c\230\021\330\010\016\210j\230\001\230\021\340\004\007\200y\220\001\220\023\220C\220q\330\010\016\210j\230\001\230\021\340\004\010\210\003\2101\210A\360\006\000\005\025\220B\220f\230A\230Y\240a\240r\250\023\250C\250y\270\001\270\022\2701\270A\270S\300\001\300\023\300B\300a\330\004\022\220)\2301\230A\230Q\230c\240\022\2401\340\004\024\220B\220f\230A\230\\\250\022\2503\250f\260B\260a\330\004\021\220\021\220\"\220O\2401\330\004\021\220\021\220/\240\021\340\004\013\320\013*\250!\2506\260\037\300\001O";
     PyObject *data = NULL;
     CYTHON_UNUSED_VAR(__Pyx_DecompressString);
     #endif
     PyObject **stringtab = __pyx_mstate->__pyx_string_tab;
     Py_ssize_t pos = 0;
-    for (int i = 0; i < 239; i++) {
+    for (int i = 0; i < 243; i++) {
       Py_ssize_t bytes_length = index[i].length;
       PyObject *string = PyUnicode_DecodeUTF8(bytes + pos, bytes_length, NULL);
       if (likely(string) && i >= 72) PyUnicode_InternInPlace(&string);
@@ -29789,7 +29903,7 @@ const char* const bytes = ": All dimensions preceding dimension %d must be index
       stringtab[i] = string;
       pos += bytes_length;
     }
-    for (int i = 239; i < 248; i++) {
+    for (int i = 243; i < 252; i++) {
       Py_ssize_t bytes_length = index[i].length;
       PyObject *string = PyBytes_FromStringAndSize(bytes + pos, bytes_length);
       stringtab[i] = string;
@@ -29800,14 +29914,14 @@ const char* const bytes = ": All dimensions preceding dimension %d must be index
       }
     }
     Py_XDECREF(data);
-    for (Py_ssize_t i = 0; i < 248; i++) {
+    for (Py_ssize_t i = 0; i < 252; i++) {
       if (unlikely(PyObject_Hash(stringtab[i]) == -1)) {
         __PYX_ERR(0, 1, __pyx_L1_error)
       }
     }
     #if CYTHON_IMMORTAL_CONSTANTS
     {
-      PyObject **table = stringtab + 239;
+      PyObject **table = stringtab + 243;
       for (Py_ssize_t i=0; i<9; ++i) {
         #if CYTHON_COMPILING_IN_CPYTHON_FREETHREADING
         #if PY_VERSION_HEX < 0x030E0000
@@ -29881,42 +29995,42 @@ static int __Pyx_CreateCodeObjects(__pyx_mstatetype *__pyx_mstate) {
   PyObject* tuple_dedup_map = PyDict_New();
   if (unlikely(!tuple_dedup_map)) return -1;
   {
-    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 17, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 234};
+    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 17, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 237};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_data, __pyx_mstate->__pyx_n_u_batch_offsets, __pyx_mstate->__pyx_n_u_data_arr, __pyx_mstate->__pyx_n_u_batch_offsets_arr, __pyx_mstate->__pyx_n_u_num_batches, __pyx_mstate->__pyx_n_u_num_features, __pyx_mstate->__pyx_n_u_batch_metadata, __pyx_mstate->__pyx_n_u_total_size, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_num_points, __pyx_mstate->__pyx_n_u_metadata, __pyx_mstate->__pyx_n_u_output, __pyx_mstate->__pyx_n_u_mask, __pyx_mstate->__pyx_n_u_rotation_matrices, __pyx_mstate->__pyx_n_u_num_threads, __pyx_mstate->__pyx_n_u_chunk_size, __pyx_mstate->__pyx_n_u_ret};
     __pyx_mstate_global->__pyx_codeobj_tab[0] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_balltree_setaxis_balltree_pyx, __pyx_mstate->__pyx_n_u_build_balltree_with_offsets, __pyx_mstate->__pyx_kp_b_iso88591_A_L_t_QfBj_4z_1_j_t6_A_j_Q_F_Q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[0])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 17, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 362};
+    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 17, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 370};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_data, __pyx_mstate->__pyx_n_u_batch_offsets, __pyx_mstate->__pyx_n_u_target_level, __pyx_mstate->__pyx_n_u_data_arr, __pyx_mstate->__pyx_n_u_batch_offsets_arr, __pyx_mstate->__pyx_n_u_target_level_val, __pyx_mstate->__pyx_n_u_num_batches, __pyx_mstate->__pyx_n_u_num_features, __pyx_mstate->__pyx_n_u_batch_metadata, __pyx_mstate->__pyx_n_u_total_size, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_num_points, __pyx_mstate->__pyx_n_u_metadata, __pyx_mstate->__pyx_n_u_output, __pyx_mstate->__pyx_n_u_num_threads, __pyx_mstate->__pyx_n_u_chunk_size, __pyx_mstate->__pyx_n_u_ret};
     __pyx_mstate_global->__pyx_codeobj_tab[1] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_balltree_setaxis_balltree_pyx, __pyx_mstate->__pyx_n_u_partition_balltree_with_offsets, __pyx_mstate->__pyx_kp_b_iso88591_EE___H_t_QfBj_4z_1_j_t6_A_j_Q_F, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[1])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 6, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 484};
+    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 6, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 497};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_data, __pyx_mstate->__pyx_n_u_batch_idx, __pyx_mstate->__pyx_n_u_n, __pyx_mstate->__pyx_n_u_change_points, __pyx_mstate->__pyx_n_u_num_batches, __pyx_mstate->__pyx_n_u_batch_offsets};
     __pyx_mstate_global->__pyx_codeobj_tab[2] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_balltree_setaxis_balltree_pyx, __pyx_mstate->__pyx_n_u_build_balltree_with_idx, __pyx_mstate->__pyx_kp_b_iso88591_9_t_Qk_1_j_y_c_j_A_1_y_as_T_q_j, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[2])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 534};
+    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 547};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_data, __pyx_mstate->__pyx_n_u_batch_idx, __pyx_mstate->__pyx_n_u_target_level, __pyx_mstate->__pyx_n_u_n, __pyx_mstate->__pyx_n_u_change_points, __pyx_mstate->__pyx_n_u_num_batches, __pyx_mstate->__pyx_n_u_batch_offsets};
     __pyx_mstate_global->__pyx_codeobj_tab[3] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_balltree_setaxis_balltree_pyx, __pyx_mstate->__pyx_n_u_partition_balltree_with_idx, __pyx_mstate->__pyx_kp_b_iso88591_WWX_t_Qk_1_j_y_c_j_A_1_y_as_T_q, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[3])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 6, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 585};
+    const __Pyx_PyCode_New_function_description descr = {2, 0, 0, 6, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 598};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_data, __pyx_mstate->__pyx_n_u_batch_idx, __pyx_mstate->__pyx_n_u_device, __pyx_mstate->__pyx_n_u_data_np, __pyx_mstate->__pyx_n_u_batch_idx_np, __pyx_mstate->__pyx_n_u_result};
     __pyx_mstate_global->__pyx_codeobj_tab[4] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_balltree_setaxis_balltree_pyx, __pyx_mstate->__pyx_n_u_build_balltree, __pyx_mstate->__pyx_kp_b_iso88591_2_t_QfE_T_1KuA_j_t4s_Q_j_Qe1D_y, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[4])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 623};
+    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 7, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 636};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_data, __pyx_mstate->__pyx_n_u_batch_idx, __pyx_mstate->__pyx_n_u_target_level, __pyx_mstate->__pyx_n_u_device, __pyx_mstate->__pyx_n_u_data_np, __pyx_mstate->__pyx_n_u_batch_idx_np, __pyx_mstate->__pyx_n_u_result};
     __pyx_mstate_global->__pyx_codeobj_tab[5] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_balltree_setaxis_balltree_pyx, __pyx_mstate->__pyx_n_u_partition_balltree, __pyx_mstate->__pyx_kp_b_iso88591_66RRS_t_QfE_T_1KuA_j_t4s_Q_j_Qe, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[5])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 5, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 647};
+    const __Pyx_PyCode_New_function_description descr = {3, 0, 0, 5, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 660};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_angle, __pyx_mstate->__pyx_n_u_dim, __pyx_mstate->__pyx_n_u_device, __pyx_mstate->__pyx_n_u_c, __pyx_mstate->__pyx_n_u_s};
     __pyx_mstate_global->__pyx_codeobj_tab[6] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_balltree_setaxis_balltree_pyx, __pyx_mstate->__pyx_n_u_generate_rotation_matrix, __pyx_mstate->__pyx_kp_b_iso88591_L_Q_D_t4t1HD_AQ_t3a_uG1A_S_T_S, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[6])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 32, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 669};
+    const __Pyx_PyCode_New_function_description descr = {5, 0, 0, 32, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 682};
     PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_data, __pyx_mstate->__pyx_n_u_batch_idx, __pyx_mstate->__pyx_n_u_strides, __pyx_mstate->__pyx_n_u_ball_sizes, __pyx_mstate->__pyx_n_u_angle, __pyx_mstate->__pyx_n_u_dim, __pyx_mstate->__pyx_n_u_num_layers, __pyx_mstate->__pyx_n_u_tree_idx, __pyx_mstate->__pyx_n_u_tree_mask, __pyx_mstate->__pyx_n_u_alignment_rotations, __pyx_mstate->__pyx_n_u_rot_tree_indices, __pyx_mstate->__pyx_n_u_leaves, __pyx_mstate->__pyx_n_u_current_batch_idx, __pyx_mstate->__pyx_n_u_num_batches, __pyx_mstate->__pyx_n_u_aligned_leaves, __pyx_mstate->__pyx_n_u_n, __pyx_mstate->__pyx_n_u_change_points, __pyx_mstate->__pyx_n_u_batch_offsets, __pyx_mstate->__pyx_n_u_tree_leaves_per_batch, __pyx_mstate->__pyx_n_u_b, __pyx_mstate->__pyx_n_u_batch_size, __pyx_mstate->__pyx_n_u_depth, __pyx_mstate->__pyx_n_u_num_leaves, __pyx_mstate->__pyx_n_u_tree_leaf_offsets, __pyx_mstate->__pyx_n_u_start, __pyx_mstate->__pyx_n_u_end, __pyx_mstate->__pyx_n_u_R, __pyx_mstate->__pyx_n_u_target_partitions, __pyx_mstate->__pyx_n_u_rotation_matrix, __pyx_mstate->__pyx_n_u_rotated_leaves, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_bs};
     __pyx_mstate_global->__pyx_codeobj_tab[7] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_balltree_setaxis_balltree_pyx, __pyx_mstate->__pyx_n_u_build_balltree_with_rotations, __pyx_mstate->__pyx_kp_b_iso88591_AAXXjjppwwx_3ay_3a_2S_fAQ_AQ_k, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[7])) goto bad;
   }
