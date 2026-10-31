@@ -657,25 +657,26 @@ def partition_balltree(data: torch.Tensor, batch_idx: torch.Tensor, target_level
     
     return torch.from_numpy(result).to(device)
 
-def generate_rotation_matrix(angle: float, dim: int, device: torch.device):
+def generate_rotation_matrix(angle: float, dim: int, device: torch.device, dtype: torch.dtype = torch.float32):
     """ Generate a rotation matrix for the specified angle and dimensionality of the space.
 
     Angles are given in degrees. For 3D, it assumes that Euler angles are the same.
+    dtype should match the data it is applied to (e.g. float64 positions).
     """
-    
+
     angle = math.radians(angle)
     c, s = math.cos(angle), math.sin(angle)
     if dim == 2:
         return torch.tensor([
-            [c, -s], 
+            [c, -s],
             [s,  c]
-        ], device=device)
+        ], device=device, dtype=dtype)
     elif dim == 3:
         return torch.tensor([
             [c*c,   s*c*(s-1),  s*(s+c*c)],
             [s*c,   s*s*s+c*c,  s*c*(s-1)],
             [-s,    s*c,        c*c      ]
-        ], device=device)
+        ], device=device, dtype=dtype)
     else:
         raise ValueError(f"Unsupported dimension: {dim}")
 
@@ -754,7 +755,7 @@ def build_balltree_with_rotations(data: torch.Tensor, batch_idx: torch.Tensor, s
         for b in range(num_batches):
             start = tree_leaf_offsets[b].item()
             end = tree_leaf_offsets[b+1].item()
-            R = alignment_rotations[b].float()  # (dim, dim)
+            R = alignment_rotations[b].to(leaves.dtype)  # (dim, dim), match input precision
             # aligned_leaves[start:end] = leaves[start:end] @ R.T
             aligned_leaves[start:end] = torch.matmul(leaves[start:end], R.T)
         
@@ -762,7 +763,7 @@ def build_balltree_with_rotations(data: torch.Tensor, batch_idx: torch.Tensor, s
         target_partitions = [max(0, int(math.log2(aligned_leaves.shape[0] / bs))) for bs in ball_sizes]
         
         # Apply Swin-like rotation for shifted windows (on aligned data)
-        rotation_matrix = generate_rotation_matrix(angle, dim, data.device)
+        rotation_matrix = generate_rotation_matrix(angle, dim, data.device, dtype=data.dtype)
         rotated_leaves = torch.matmul(aligned_leaves, rotation_matrix)
         
         rot_tree_indices = []

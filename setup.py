@@ -38,7 +38,8 @@ setup(
     author="Coen van den Elsen",
     url="https://github.com/CoenvdE/balltree_setaxis",
     packages=find_packages(),
-    ext_modules=cythonize(ext_modules),
+    # force: always regenerate balltree.cpp from balltree.pyx, so a stale checked-in .cpp is never compiled
+    ext_modules=cythonize(ext_modules, force=True),
     install_requires=[
         "numpy",
         "torch",
